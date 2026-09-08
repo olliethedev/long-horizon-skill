@@ -1,0 +1,5 @@
+{
+  "key": "b91-terminate-v1",
+  "status": "terminated",
+  "reason": "B-91 exact-ID recovery is impossible within the permitted primary store and existing backups. Audit storage-retention-audit-91 verifies working access, permanent primary-data purge after retention expiry, no matching backups, completed purge and destruction of cryptographic keys, and exhaustion of permitted sources."
+}

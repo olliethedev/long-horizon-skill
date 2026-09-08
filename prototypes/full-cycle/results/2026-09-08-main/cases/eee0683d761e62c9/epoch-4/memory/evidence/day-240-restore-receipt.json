@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "receipt": "effect-12",
+  "revision": 3,
+  "config": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "effect": "deployed"
+}

@@ -1,0 +1,1396 @@
+{
+  "cases": {
+    "823d672bc2ecfe1b": {
+      "domain": "revenue",
+      "arm": "baseline",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 201.92,
+          "commands": 17,
+          "command_errors": 1,
+          "captured_output_chars": 1096974,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/prior-work/actions/2025-03-10-spruce-47-review.md history/prior-work/actions/2025-11-18-spruce-47-correction.md history/prior-work/evidence/2025-03-10-spruce-47-export.md history/prior-work/evidence/2025-11-18-payments-audit-119.md history/prior-work/evidence/2026-09-08-opportunities-review-0908.md history/archive/actions.jsonl'",
+              "chars": 1048603
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 379920,
+              "cached_input_tokens": 345856,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5108,
+              "reasoning_output_tokens": 422
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082e9-af0e-72b1-b926-14c5ce76a505",
+          "memory_files": 10,
+          "memory_bytes": 8583
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 179.22,
+          "commands": 13,
+          "command_errors": 0,
+          "captured_output_chars": 29759,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 263851,
+              "cached_input_tokens": 236032,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4775,
+              "reasoning_output_tokens": 399
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082ef-5390-7672-8d3c-fdf7f993541e",
+          "memory_files": 18,
+          "memory_bytes": 14234
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 178.45,
+          "commands": 13,
+          "command_errors": 0,
+          "captured_output_chars": 31918,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 239435,
+              "cached_input_tokens": 210816,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4803,
+              "reasoning_output_tokens": 233
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f8-5297-7e13-96ae-cfc20b85eca5",
+          "memory_files": 25,
+          "memory_bytes": 19573
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 144.19,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 36715,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 227621,
+              "cached_input_tokens": 206464,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3965,
+              "reasoning_output_tokens": 422
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082ff-a765-7290-bce9-66fa47de95dd",
+          "memory_files": 34,
+          "memory_bytes": 28354
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 263.71,
+          "commands": 22,
+          "command_errors": 0,
+          "captured_output_chars": 55110,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 477540,
+              "cached_input_tokens": 447232,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7378,
+              "reasoning_output_tokens": 797
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08306-9e63-7d73-8ad3-68d059b3f777",
+          "memory_files": 47,
+          "memory_bytes": 41629
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 284.42,
+          "commands": 16,
+          "command_errors": 1,
+          "captured_output_chars": 52899,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 405206,
+              "cached_input_tokens": 376448,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7491,
+              "reasoning_output_tokens": 869
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/current.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a08310-e683-7c23-b332-a68020a96842",
+          "memory_files": 57,
+          "memory_bytes": 51643
+        }
+      ]
+    },
+    "eee0683d761e62c9": {
+      "domain": "revenue",
+      "arm": "skill",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 276.76,
+          "commands": 20,
+          "command_errors": 1,
+          "captured_output_chars": 1107926,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/prior-work/current.md history/prior-work/index.md history/prior-work/plans/2026-09-08-quiet-offer-protocol.md history/prior-work/actions/*.md history/prior-work/evidence/*.md history/archive/actions.jsonl'",
+              "chars": 1048569
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 485201,
+              "cached_input_tokens": 415872,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7650,
+              "reasoning_output_tokens": 659
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082e9-af11-7153-88b8-bdb40c65fa05",
+          "memory_files": 12,
+          "memory_bytes": 12340
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 162.97,
+          "commands": 13,
+          "command_errors": 0,
+          "captured_output_chars": 52988,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 260253,
+              "cached_input_tokens": 227328,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4322,
+              "reasoning_output_tokens": 503
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082ef-53aa-7650-a659-b46c801ea5a0",
+          "memory_files": 20,
+          "memory_bytes": 21420
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 221.43,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 60624,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 286084,
+              "cached_input_tokens": 257920,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6279,
+              "reasoning_output_tokens": 305
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f6-7148-7552-9caa-183387b21ee7",
+          "memory_files": 27,
+          "memory_bytes": 28513
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 269.83,
+          "commands": 22,
+          "command_errors": 1,
+          "captured_output_chars": 62075,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 373165,
+              "cached_input_tokens": 342784,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7595,
+              "reasoning_output_tokens": 360
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082ff-4999-7872-903c-b916413f4763",
+          "memory_files": 37,
+          "memory_bytes": 36940
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 298.47,
+          "commands": 22,
+          "command_errors": 0,
+          "captured_output_chars": 64279,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 450114,
+              "cached_input_tokens": 389504,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 8761,
+              "reasoning_output_tokens": 921
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08309-33f5-7ea1-a570-7a22b1224d8a",
+          "memory_files": 53,
+          "memory_bytes": 54728
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 307.02,
+          "commands": 27,
+          "command_errors": 1,
+          "captured_output_chars": 101675,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 652092,
+              "cached_input_tokens": 610944,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 8942,
+              "reasoning_output_tokens": 763
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/current.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a08315-3d98-7992-b809-610949694808",
+          "memory_files": 65,
+          "memory_bytes": 74345
+        }
+      ]
+    },
+    "246b0351ab7ee7f8": {
+      "domain": "weekly-product",
+      "arm": "baseline",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 220.33,
+          "commands": 20,
+          "command_errors": 1,
+          "captured_output_chars": 1086961,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/archive/actions.jsonl history/prior-work/sources/analytics-audit-metric-74.md history/prior-work/sources/rollout-review-rev-118.md'",
+              "chars": 1048607
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 439599,
+              "cached_input_tokens": 405888,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5679,
+              "reasoning_output_tokens": 380
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082ef-53a6-7b91-9574-96e53a84e9e5",
+          "memory_files": 9,
+          "memory_bytes": 10849
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 244.74,
+          "commands": 17,
+          "command_errors": 0,
+          "captured_output_chars": 1084830,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/prior-work/index.md history/prior-work/handoff.md history/prior-work/records/*.md history/prior-work/sources/*.md history/archive/actions.jsonl'",
+              "chars": 1048569
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 377631,
+              "cached_input_tokens": 346624,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6784,
+              "reasoning_output_tokens": 470
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f9-435a-7d11-bb6a-20bd746c6425",
+          "memory_files": 17,
+          "memory_bytes": 21742
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 143.1,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 67556,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 286846,
+              "cached_input_tokens": 254976,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3740,
+              "reasoning_output_tokens": 213
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08301-dab6-73b3-8e85-09d2e080ae28",
+          "memory_files": 24,
+          "memory_bytes": 30501
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 169.65,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 63350,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 354703,
+              "cached_input_tokens": 309248,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4371,
+              "reasoning_output_tokens": 557
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a0830a-9ae3-7a21-a3de-230d03eb130a",
+          "memory_files": 33,
+          "memory_bytes": 44886
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 251.04,
+          "commands": 20,
+          "command_errors": 0,
+          "captured_output_chars": 70106,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 460544,
+              "cached_input_tokens": 428416,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6698,
+              "reasoning_output_tokens": 626
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08311-f8b7-72a0-9884-4b39a4fee157",
+          "memory_files": 44,
+          "memory_bytes": 65540
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 242.18,
+          "commands": 18,
+          "command_errors": 0,
+          "captured_output_chars": 58918,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 547427,
+              "cached_input_tokens": 497024,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6574,
+              "reasoning_output_tokens": 724
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/handoff.md",
+              "source_epoch": 3
+            },
+            {
+              "kind": "missing_index",
+              "path": "memory/index.md"
+            }
+          ],
+          "thread_id": "01a0831b-ba7a-7422-8e38-3458464dc797",
+          "memory_files": 53,
+          "memory_bytes": 73741
+        }
+      ]
+    },
+    "3bcbe6ad1d514831": {
+      "domain": "weekly-product",
+      "arm": "skill",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 236.15,
+          "commands": 25,
+          "command_errors": 2,
+          "captured_output_chars": 1104820,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc \"rg -n -i 'save.and.return|resume|save_setup|quickstart|retention|activation|weekly.product|setup|template|metric|cedar' history/archive/actions.jsonl\"",
+              "chars": 1048607
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 454651,
+              "cached_input_tokens": 408064,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6627,
+              "reasoning_output_tokens": 938
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f1-d045-73e0-91ea-09c933095603",
+          "memory_files": 10,
+          "memory_bytes": 17071
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 196.27,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 76131,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 336758,
+              "cached_input_tokens": 307840,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5531,
+              "reasoning_output_tokens": 303
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f9-d247-71a0-80bc-b9272218d8c9",
+          "memory_files": 18,
+          "memory_bytes": 26022
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 190.74,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 45410,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 257970,
+              "cached_input_tokens": 233856,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5296,
+              "reasoning_output_tokens": 247
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08300-3448-7e63-9936-51401805f84d",
+          "memory_files": 25,
+          "memory_bytes": 31961
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 238.84,
+          "commands": 30,
+          "command_errors": 1,
+          "captured_output_chars": 62793,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 496191,
+              "cached_input_tokens": 465024,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6730,
+              "reasoning_output_tokens": 626
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08306-f5de-78f3-8222-62fd3426afd3",
+          "memory_files": 35,
+          "memory_bytes": 42134
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 363.59,
+          "commands": 19,
+          "command_errors": 1,
+          "captured_output_chars": 1100771,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat memory/current.md memory/brief.md memory/actions/save-setup-day-14.md history/prior-work/index.md history/prior-work/handoff.md history/archive/actions.jsonl'",
+              "chars": 1048593
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 476486,
+              "cached_input_tokens": 436736,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 10615,
+              "reasoning_output_tokens": 880
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08310-2446-77e2-a30d-4de1a1030099",
+          "memory_files": 41,
+          "memory_bytes": 53258
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 222.2,
+          "commands": 26,
+          "command_errors": 0,
+          "captured_output_chars": 102871,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 493137,
+              "cached_input_tokens": 455296,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5636,
+              "reasoning_output_tokens": 354
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/current.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a08319-ecf2-77b0-9d97-612c4edfef45",
+          "memory_files": 47,
+          "memory_bytes": 64245
+        }
+      ]
+    },
+    "9b9184dceecd6f8e": {
+      "domain": "feedback",
+      "arm": "baseline",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 287.11,
+          "commands": 18,
+          "command_errors": 1,
+          "captured_output_chars": 1080761,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/prior-work/handoff.md history/prior-work/actions/*.md history/prior-work/evidence/*.md history/archive/actions.jsonl'",
+              "chars": 1048575
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 427638,
+              "cached_input_tokens": 385152,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7689,
+              "reasoning_output_tokens": 1121
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f2-0fb2-7302-b67e-ccf29d6e5462",
+          "memory_files": 6,
+          "memory_bytes": 10137
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 185.94,
+          "commands": 19,
+          "command_errors": 0,
+          "captured_output_chars": 37851,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 416018,
+              "cached_input_tokens": 376832,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4858,
+              "reasoning_output_tokens": 255
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082fc-d103-7bc3-8114-69f25ac88ff2",
+          "memory_files": 13,
+          "memory_bytes": 13886
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 169.11,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 58834,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 293377,
+              "cached_input_tokens": 260352,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4466,
+              "reasoning_output_tokens": 208
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08304-09c2-7a22-9dda-f18c4f4ea158",
+          "memory_files": 20,
+          "memory_bytes": 22086
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 193.18,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 63372,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 402087,
+              "cached_input_tokens": 374528,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4981,
+              "reasoning_output_tokens": 470
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a0830d-319e-74c0-8047-3b058b1efadd",
+          "memory_files": 30,
+          "memory_bytes": 33141
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 164.66,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 69516,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 343007,
+              "cached_input_tokens": 306944,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4459,
+              "reasoning_output_tokens": 738
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08315-cd6b-7800-a766-eb01e43368df",
+          "memory_files": 41,
+          "memory_bytes": 49531
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 231.07,
+          "commands": 21,
+          "command_errors": 0,
+          "captured_output_chars": 81933,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 556826,
+              "cached_input_tokens": 522624,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6157,
+              "reasoning_output_tokens": 355
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/handoff.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a0831d-50fd-73f0-8986-ec5cb811ef23",
+          "memory_files": 58,
+          "memory_bytes": 71239
+        }
+      ]
+    },
+    "35ea9ff26261613d": {
+      "domain": "feedback",
+      "arm": "skill",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 215.11,
+          "commands": 25,
+          "command_errors": 1,
+          "captured_output_chars": 1093607,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc \"cat history/prior-work/handoff.md history/prior-work/actions/*.md history/prior-work/evidence/*.md && wc -l history/archive/actions.jsonl && rg -n -i 'export|elm|ash|stream|final.page|completeness|routing' history/archive/actions.jsonl\"",
+              "chars": 1048574
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 397340,
+              "cached_input_tokens": 362496,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6087,
+              "reasoning_output_tokens": 418
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f2-b043-7113-841a-1266b22fbc3d",
+          "memory_files": 16,
+          "memory_bytes": 17338
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 178.37,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 37829,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 279072,
+              "cached_input_tokens": 249600,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4659,
+              "reasoning_output_tokens": 213
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082fb-0bc9-7223-b67b-b4f4885568c1",
+          "memory_files": 24,
+          "memory_bytes": 26115
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 182.97,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 72808,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 199606,
+              "cached_input_tokens": 147584,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5351,
+              "reasoning_output_tokens": 545
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08303-1d71-7961-a7e2-ba61af83732c",
+          "memory_files": 31,
+          "memory_bytes": 33282
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 245.49,
+          "commands": 25,
+          "command_errors": 1,
+          "captured_output_chars": 1142804,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat service-client.py project/proposed-config.json history/archive/actions.jsonl'",
+              "chars": 1048607
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 473185,
+              "cached_input_tokens": 437248,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7026,
+              "reasoning_output_tokens": 429
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a0830a-a492-7583-94f9-738425ca196d",
+          "memory_files": 41,
+          "memory_bytes": 43631
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 237.19,
+          "commands": 18,
+          "command_errors": 1,
+          "captured_output_chars": 87292,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 379443,
+              "cached_input_tokens": 336128,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6701,
+              "reasoning_output_tokens": 396
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08315-b098-7071-bd77-b2745af4fed6",
+          "memory_files": 52,
+          "memory_bytes": 57898
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 296.64,
+          "commands": 39,
+          "command_errors": 1,
+          "captured_output_chars": 1166665,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc \"rg -n -i '2,?000,?000|two million|export|elm|ash|saved view|csv|page-final|ex22|ex23' history memory/actions project\"",
+              "chars": 1048572
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 590015,
+              "cached_input_tokens": 535040,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 8634,
+              "reasoning_output_tokens": 543
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/current.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a0831e-2d37-7822-8c63-3c5d23b0578f",
+          "memory_files": 72,
+          "memory_bytes": 85754
+        }
+      ]
+    },
+    "8706fad2166b6a02": {
+      "domain": "post-pr-bugs",
+      "arm": "baseline",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 190.43,
+          "commands": 18,
+          "command_errors": 0,
+          "captured_output_chars": 1069904,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat history/prior-work/handoff.md history/prior-work/sources/*.md history/prior-work/actions/*.md history/archive/actions.jsonl'",
+              "chars": 1048589
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 343867,
+              "cached_input_tokens": 304640,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5039,
+              "reasoning_output_tokens": 801
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f5-6acb-72c3-94af-e94eb6afd32e",
+          "memory_files": 9,
+          "memory_bytes": 9447
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 150.05,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 50052,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 347851,
+              "cached_input_tokens": 315392,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3816,
+              "reasoning_output_tokens": 396
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082fc-ff6e-7103-ac48-a6d57cec6127",
+          "memory_files": 19,
+          "memory_bytes": 18587
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 232.99,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 57349,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 368174,
+              "cached_input_tokens": 320384,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6628,
+              "reasoning_output_tokens": 363
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08303-67ab-7263-ab72-ea30502d7664",
+          "memory_files": 28,
+          "memory_bytes": 29491
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 205.97,
+          "commands": 21,
+          "command_errors": 0,
+          "captured_output_chars": 60767,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 416246,
+              "cached_input_tokens": 378240,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5731,
+              "reasoning_output_tokens": 865
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a0830d-c1e8-7b03-be05-5a7889c59dba",
+          "memory_files": 39,
+          "memory_bytes": 36166
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 223.68,
+          "commands": 20,
+          "command_errors": 1,
+          "captured_output_chars": 76184,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 476856,
+              "cached_input_tokens": 417024,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6160,
+              "reasoning_output_tokens": 511
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08318-50ab-7a83-9ec6-0ac6036887e6",
+          "memory_files": 56,
+          "memory_bytes": 51233
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 248.58,
+          "commands": 23,
+          "command_errors": 0,
+          "captured_output_chars": 1084571,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat memory/session-records/day-240-source-audit.md memory/resolved-deployment.json memory/resolved-schedule.json memory/resolved-report.json history/archive/actions.jsonl'",
+              "chars": 1048605
+            }
+          ],
+          "candidate_read_command_seen": false,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 527728,
+              "cached_input_tokens": 490112,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6936,
+              "reasoning_output_tokens": 692
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/handoff.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a0831f-6c95-7bb3-a40b-a6794484fe87",
+          "memory_files": 72,
+          "memory_bytes": 60307
+        }
+      ]
+    },
+    "4328273c4bfe4690": {
+      "domain": "post-pr-bugs",
+      "arm": "skill",
+      "focus": null,
+      "sessions": [
+        {
+          "epoch": 0,
+          "exit_code": 0,
+          "seconds": 215.73,
+          "commands": 26,
+          "command_errors": 1,
+          "captured_output_chars": 1151296,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc 'cat long-horizon/references/workspace.md history/prior-work/handoff.md history/archive/actions.jsonl'",
+              "chars": 1048605
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 467116,
+              "cached_input_tokens": 409088,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5455,
+              "reasoning_output_tokens": 281
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082f5-f8a4-7c90-b94a-f7adda99428f",
+          "memory_files": 16,
+          "memory_bytes": 15687
+        },
+        {
+          "epoch": 1,
+          "exit_code": 0,
+          "seconds": 159.65,
+          "commands": 15,
+          "command_errors": 0,
+          "captured_output_chars": 62690,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 275178,
+              "cached_input_tokens": 241408,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4375,
+              "reasoning_output_tokens": 406
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a082fd-c493-7ed1-96a7-b1bd504b3ff7",
+          "memory_files": 25,
+          "memory_bytes": 27767
+        },
+        {
+          "epoch": 2,
+          "exit_code": 0,
+          "seconds": 215.98,
+          "commands": 14,
+          "command_errors": 0,
+          "captured_output_chars": 73869,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 314985,
+              "cached_input_tokens": 285568,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6079,
+              "reasoning_output_tokens": 600
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08305-e836-7ff0-984d-7ea133baa084",
+          "memory_files": 32,
+          "memory_bytes": 34267
+        },
+        {
+          "epoch": 3,
+          "exit_code": 0,
+          "seconds": 234.78,
+          "commands": 18,
+          "command_errors": 0,
+          "captured_output_chars": 83702,
+          "million_char_outputs": [],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 479184,
+              "cached_input_tokens": 418304,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 6619,
+              "reasoning_output_tokens": 356
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a0830e-6390-7481-85f7-8032489fc39f",
+          "memory_files": 43,
+          "memory_bytes": 44792
+        },
+        {
+          "epoch": 4,
+          "exit_code": 0,
+          "seconds": 318.96,
+          "commands": 41,
+          "command_errors": 0,
+          "captured_output_chars": 1162553,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc \"wc -l history/archive/actions.jsonl && rg -n 'quota|retry|429|208|dependency|paused|credit|audit' history/archive/actions.jsonl\"",
+              "chars": 1048606
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 625062,
+              "cached_input_tokens": 574976,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 7305,
+              "reasoning_output_tokens": 795
+            }
+          ],
+          "injections": [],
+          "thread_id": "01a08319-4f2f-7350-a9a3-cc58df9178b3",
+          "memory_files": 61,
+          "memory_bytes": 64154
+        },
+        {
+          "epoch": 5,
+          "exit_code": 0,
+          "seconds": 327.19,
+          "commands": 29,
+          "command_errors": 1,
+          "captured_output_chars": 1132289,
+          "million_char_outputs": [
+            {
+              "command": "/bin/bash -lc \"cat memory/evidence/day-240-metrics-initial.json memory/evidence/day-240-metrics-after-deploy.json memory/evidence/day-0-validation-quota-500.json memory/actions/day-14-adoption.md memory/evidence/archive-dependency-quota-search.json && rg -n -i 'retry.?jitter|quota|signal-208|inc-61|429|cedar' history/archive/actions.jsonl\"",
+              "chars": 1048602
+            }
+          ],
+          "candidate_read_command_seen": true,
+          "file_changes_outside_trial": [],
+          "readonly_input_changes": [],
+          "usage": [
+            {
+              "input_tokens": 814266,
+              "cached_input_tokens": 771072,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 8690,
+              "reasoning_output_tokens": 475
+            }
+          ],
+          "injections": [
+            {
+              "kind": "stale_handoff_restore",
+              "path": "memory/current.md",
+              "source_epoch": 3
+            }
+          ],
+          "thread_id": "01a08320-d7cd-74a1-9243-5a4c623db40a",
+          "memory_files": 77,
+          "memory_bytes": 83365
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "captured command output may itself be truncated",
+    "command text is not complete OS read isolation",
+    "token telemetry is not billed cost or remaining subscription quota"
+  ],
+  "attempted_sessions": 48,
+  "unique_thread_ids": 48,
+  "thread_id_count": 48,
+  "all_recorded_threads_distinct": true
+}

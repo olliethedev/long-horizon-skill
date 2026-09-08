@@ -1,0 +1,10 @@
+{
+  "finding": "Both weekly arms misattributed observation_age_days=540 to the support request age. In the fixture this field is the age since first deployment, not the request timestamp. The signal provides no request creation date. The baseline repeated this in its corrected-endpoint recheck.",
+  "affected_main_cases": [
+    "246b0351ab7ee7f8",
+    "3bcbe6ad1d514831"
+  ],
+  "epoch": 5,
+  "impact": "The already-delivered capability decision has independent configuration and receipt support, but the request-age assertion is unsupported and can wrongly discount current user feedback. Count it as a semantic evidence error, not a clean pass.",
+  "review_timing": "Detected during full memory review after the first main archive export; original snapshots and earlier review preserved."
+}

@@ -1,0 +1,95 @@
+{
+  "status": "active; local decision complete, investigation remains open",
+  "selected_objective": "Diagnose and prepare a complete, reliable large-account export fix within the current implementation, treating the prior timeout issue as unresolved for exports above 10,000 rows.",
+  "next_action": {
+    "action": "Prepare a targeted reproduction and trace plan for /data/export on export-812 using 85,000- and 92,000-row accounts, with a <=10,000-row control. First confirm routing and any related ongoing work before changes; then inspect server request duration, timeout/error boundaries, and downloaded record completeness. Use those observations to prepare a fix for the current large-export path.",
+    "performed_this_run": "Reviewed supplied history and evidence and recorded this decision and investigation plan only. No product inspection beyond supplied records, reproduction, implementation, deployment, scheduling, or communication was performed.",
+    "historical_constraint": "Do not simply restore the former background-job pagination path: it omitted records for large accounts and was explicitly reverted for that cohort. A proposed fix must address completeness as well as timeouts.",
+    "next_decision_observation": "A trace showing large exports fail or time out in the current single-request server path would support fixing that path or preparing corrected pagination within the implementation. If server generation and delivery complete with all expected records while the UI hangs, investigate the frontend. Require completeness checks against expected record IDs/counts plus completion-time evidence on large datasets, and preserve small-export coverage before declaring resolution.",
+    "execution_state": "Proposed follow-up only; this case permits local read-and-decide outputs."
+  },
+  "prior_actions": [
+    {
+      "id": "877ff3ee5ccd",
+      "actual_status": "observed timeout reports",
+      "outcome": "Timeouts were reported at 5,000 and 80,000 rows on /data/export on 2025-10-07.",
+      "applicability": "The 80,000-row complaint resembles the current 85,000- and 92,000-row cohort. This establishes relevant history, not proof that today has the identical root cause."
+    },
+    {
+      "id": "57138efd4832",
+      "actual_status": "deployed with receipt export-pagination, subsequently partially rolled back by 941c195f13b0",
+      "outcome": "Background-job pagination was deployed for /data/export on 2025-10-28; this deployment alone does not establish complete or durable resolution.",
+      "applicability": "Relevant prior intervention to inspect when preparing a fix, but it is not the recorded current large-export mode and cannot be reapplied unchanged given the later omissions."
+    },
+    {
+      "id": "941c195f13b0",
+      "actual_status": "partial rollback confirmed by receipt export-partial-revert",
+      "outcome": "On 2025-11-11, pagination was retained for <=10,000 rows while single_request was restored for >10,000 rows because background jobs omitted records for large accounts.",
+      "applicability": "Both new reports exceed the cutoff; current.json also reports single_request on export-812. This explains why the original deployment cannot close the large-export issue and identifies completeness as a required fix criterion."
+    },
+    {
+      "id": "98ac9af2b316",
+      "actual_status": "validation observed, limited to small exports",
+      "outcome": "On 2025-11-25, tests at 1,000, 5,000, and 10,000 rows passed. Large-export coverage was explicitly false. The feature was renamed Download Table.",
+      "applicability": "Connects the current Download Table wording to Data Extractor. The tested sizes exclude the current complaint cohort, so passing results cannot establish large-export resolution."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "responsibility.md",
+      "claim": "The export responsibility is ongoing and active, with standing authorization to investigate and prepare fixes within the current implementation."
+    },
+    {
+      "path": "current.json",
+      "claim": "Current complaints affect 85,000 and 92,000 rows; supplied production state is export-812 with single_request mode. Its frontend suggestion is a hypothesis, not diagnostic evidence."
+    },
+    {
+      "path": "memory/subjects.json",
+      "claim": "The export index locates subject records in memory/actions.jsonl."
+    },
+    {
+      "path": "memory/actions.jsonl",
+      "claim": "Four non-routine actions describe export reports, deployment, partial rollback, and validation; no additional substantive related ongoing work is recorded in the supplied history."
+    },
+    {
+      "path": "evidence/877ff3ee5ccd.json",
+      "claim": "Original /data/export timeout reports include an 80,000-row account."
+    },
+    {
+      "path": "evidence/57138efd4832.json",
+      "claim": "Receipt records deployed background-job pagination on /data/export."
+    },
+    {
+      "path": "evidence/941c195f13b0.json",
+      "claim": "Large-account record omissions caused restoration of single_request above 10,000 rows; small-export pagination remained."
+    },
+    {
+      "path": "evidence/98ac9af2b316.json",
+      "claim": "Validation passed only for sizes up to 10,000 rows and explicitly lacked large-export coverage; Data Extractor was renamed Download Table."
+    },
+    {
+      "path": "summary.md",
+      "claim": "The blanket resolved/unrelated statement conflicts with the rollback and limited validation evidence and needs qualification."
+    }
+  ],
+  "corrections_to_memory": [
+    {
+      "target": "summary.md",
+      "original_claim": "Data Extractor timeouts were fixed. Export complaints should now be considered unrelated to that incident.",
+      "correction": "The pagination deployment was partially rolled back for exports above 10,000 rows because it omitted records. Subsequent validation covered only <=10,000 rows. Download Table is the renamed feature. Large-export timeouts were not demonstrated resolved, and current complaints may be related; current root cause remains unconfirmed.",
+      "preservation": "Keep the original summary and action records; append/link this correction rather than erase deployment history. This correction is recorded here only because writes outside outputs are prohibited.",
+      "evidence": [
+        "evidence/57138efd4832.json",
+        "evidence/941c195f13b0.json",
+        "evidence/98ac9af2b316.json",
+        "current.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "No current traces, source code, timing measurements, error classifications, or record-completeness results are supplied. A shared root cause is a leading hypothesis rather than a confirmed diagnosis.",
+    "Historical evidence predates export-812 and does not specify its full routing behavior. Current single_request mode supports relevance but does not establish every implementation detail.",
+    "No substantive related ongoing work appears in supplied records; live coordination and deployed state would need inspection before product changes. Absence from these records does not establish absence in the product workspace.",
+    "This local prototype authorizes only reading the case and writing outputs. No real fix, testing, schedule, or communication was executed."
+  ]
+}

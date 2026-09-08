@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "receipt": "measurement-1",
+  "date": "2027-01-04",
+  "revision": 1,
+  "exposure_verified": true,
+  "mature": true,
+  "minimum_window_days": 14,
+  "definition": "settled and equally mature cohorts",
+  "customer_reports": "Elm and Ash completed exact-ID verified exports",
+  "functional_checks": {
+    "cases": [
+      {"expected_rows": 4000, "omitted_ids": 0, "duplicate_ids": 0, "completed": true, "duration_seconds": 0.08},
+      {"expected_rows": 10000, "omitted_ids": 0, "duplicate_ids": 0, "completed": true, "duration_seconds": 0.2},
+      {"expected_rows": 10001, "omitted_ids": 0, "duplicate_ids": 0, "completed": true, "duration_seconds": 0.2},
+      {"expected_rows": 85000, "omitted_ids": 0, "duplicate_ids": 0, "completed": true, "duration_seconds": 1.7},
+      {"expected_rows": 92000, "omitted_ids": 0, "duplicate_ids": 0, "completed": true, "duration_seconds": 1.84}
+    ],
+    "comparison": "exact ID multiset versus stable source snapshot"
+  },
+  "new_rows_requested": 92000
+}

@@ -1,0 +1,18 @@
+{
+  "key": "35ea9ff26261613d-d540-exports-page10000-deploy-v1",
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 10000
+  },
+  "expected_revision": 2,
+  "mode": "experiment",
+  "reservation": "35ea9ff26261613d-d540-exports-page10000-reserve-v1",
+  "basis": [
+    "measurement-13",
+    "memory/evidence/d540-validation-page10000.json",
+    "memory/evidence/d540-predeploy-status.json",
+    "memory/evidence/d540-predeploy-work.json",
+    "memory/actions/d540-two-million-exports.md"
+  ]
+}

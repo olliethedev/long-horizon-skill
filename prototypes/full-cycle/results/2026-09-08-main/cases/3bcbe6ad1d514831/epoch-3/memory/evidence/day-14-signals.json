@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "date": "2027-01-18",
+  "signal": "Organization users abandon setup when interrupted. Current configuration does not save a partial draft. Investigate and improve this using current activation and retained-use measurements.",
+  "observation_age_days": 14
+}

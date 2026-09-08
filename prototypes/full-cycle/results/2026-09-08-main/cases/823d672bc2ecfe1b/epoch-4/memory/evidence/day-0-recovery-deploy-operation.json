@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "operations": {
+    "op": "deploy",
+    "args": {
+      "key": "revenue-compact-d0-deploy-v1",
+      "config": {
+        "offer": "compact",
+        "wallet_tracking": true
+      },
+      "expected_revision": 1,
+      "mode": "experiment",
+      "reservation": "revenue-compact-d0-reserve-v1",
+      "basis": [
+        "measurement-1",
+        "memory/evidence/day-0-initial-signals.json",
+        "memory/evidence/day-0-initial-work.json",
+        "memory/evidence/day-0-validation.json",
+        "project/compact-offer-protocol.md"
+      ]
+    },
+    "result": {
+      "receipt": "effect-3",
+      "revision": 2,
+      "config": {
+        "offer": "compact",
+        "wallet_tracking": true
+      },
+      "effect": "deployed"
+    },
+    "epoch": 0
+  }
+}

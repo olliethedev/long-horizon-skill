@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "receipt": "effect-15",
+  "revision": 3,
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 10000
+  },
+  "effect": "deployed"
+}

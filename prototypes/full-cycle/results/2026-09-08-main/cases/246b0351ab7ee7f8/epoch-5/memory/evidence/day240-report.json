@@ -1,0 +1,16 @@
+{
+  "operation": "report",
+  "args": {
+    "key": "weekly-product-monthly-digest-day240-v1",
+    "destination": "fixture:owner",
+    "body": "Monthly product digest, fixture day 240 (2027-09-01). Source audit measurement-9 corrects measurements 1, 4, 6 and 7: earlier assignment included existing customers. For original eligible new users, activation is now 42% control / 43% variant (difference +1 percentage point; reported 95% CI -2 to +4 points), replacing the earlier 42%/49% activation-benefit interpretation. Completed-project activation excludes drafts. Retained use remains separate and inconclusive at 31%/32% (difference CI -1 to +3 points). Neither benefit, harm nor equivalence is established; no commercial benefit is established. This is a correction to the existing experiment, not a new deployment or recovery. Actual revision 2 still has save_setup=true and explicit_template=true, with the day-0 experiment active and 5/5 evaluation slots occupied (four external). The unsaved-draft signal is 240 days old. We retained the correction and superseded the earlier conclusion, with no configuration change, settlement or billed validation. Shared project-credit-ledger remains 9/10 consumed, 1 remaining, no reset. Sample sizes, assignment details, exact windows, retention horizon, coverage and guardrails remain missing. The ongoing responsibility remains active. A day-254 (2027-09-15) review is confirmed by schedule receipt effect-10 and independent status (enabled, active, next_day=254). It will inspect further corrected eligible-user observations and retained-use evidence; time alone does not establish an outcome. If no new information arrives, reassess measurement availability and evaluation-slot use instead of assuming another wait is progress. Historical Quickstart corrections and uncollected solo retention remain separate from this experiment. Evidence: memory/day240-review.md and memory/evidence/day240-*.json."
+  },
+  "state": "returned",
+  "returncode": 0,
+  "response": {
+    "ok": true,
+    "receipt": "effect-11",
+    "delivered_to": "fixture:owner",
+    "message_number": 1
+  }
+}

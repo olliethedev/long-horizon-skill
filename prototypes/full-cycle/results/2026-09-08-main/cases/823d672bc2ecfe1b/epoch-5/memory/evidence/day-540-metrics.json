@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "receipt": "measurement-14",
+  "date": "2028-06-27",
+  "current_offer": "detailed",
+  "new_controlled_comparison": false,
+  "definition": "settled-order-ledger-v3",
+  "current_wallet_and_cancellation_checks_pass": true
+}

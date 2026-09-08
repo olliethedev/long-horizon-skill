@@ -1,0 +1,13 @@
+# Current handoff — day 7 checkpoint complete
+
+Ongoing post-pr-bugs responsibility remains active under [brief](brief.md). Latest fixture date: 2027-01-11, day 7. Details: [day-7 action](actions/day-7-checkpoint.md).
+
+**Continuation confirmed:** day 14, 2027-01-18. Recovered schedule key `bugs-day0-quota500-observe-day14-v1`, receipt `effect-5`, via [operation lookup](evidence/day-7-schedule-operation.json). [Status](evidence/day-7-status-initial.json) independently confirms enabled/active, next_day=14. The day-0 lost response is resolved; no duplicate request was sent and no external effect remains unresolved.
+
+**Evaluation open:** revision 2, quota_per_minute=500, retry_jitter=false; experiment `bugs-day0-quota500-deploy-v1` began day 0. Deployment receipt `effect-3` was reconciled previously. [Measurement-6](evidence/day-7-metrics.json) verifies current exposure at 300 requests/minute, 429 rate 0.3%, 401 rate zero, PR 208 absent. It explicitly reports mature=false and sustained_window_days=0. Seven elapsed days are not seven verified days of sustained recovery. Baseline [measurement-1](evidence/day-0-metrics-baseline.json): 18% 429s at quota 100 and the same reported traffic; first exposed [measurement-4](evidence/day-0-recovery-metrics.json): 0.3%. Raw denominators, account/burst coverage and detailed exposure continuity remain unavailable. Day-7 signals are an aged alert, observation_age_days=7.
+
+**Limits and interactions:** [work](evidence/day-7-work.json) confirms revision 2, four external evaluations plus this fifth active evaluation. Footer-accessibility is compatible; inspect cohort-metric-review's later audit/corrections before comparing observations. [Ledger](evidence/day-7-usage.json): 8/10 product-wide validation credits consumed, no reset; zero spent this session. Recheck before billed work.
+
+**Next:** inspect current instructions, status, work, signals, metrics and audits on waking. Earliest controlled decision is day 14 after relevant exposure, with adequate comparable evidence of sustained 429 recovery and separate 401 health. Time alone is insufficient. Keep incompatible periods separate; settle only with supported evidence, otherwise confirm another useful observation. Incident resolution does not terminate this ongoing responsibility. No report is currently due; no owner pause or decision is pending.
+
+History: [original quota action](actions/day-0-quota-recovery.md), [interruption recovery](actions/day-0-interruption-recovery.md), and history/prior-work. The inc-61 rollback happened without fixing 429s; its later quota correction supersedes batching attribution but does not prove a current quota reduction. Retain original actions, evidence and corrections through termination until owner deletion.

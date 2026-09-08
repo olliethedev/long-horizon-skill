@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "operations": {
+    "bugs-day0-quota500-reserve-v1": {
+      "op": "reserve",
+      "args": {
+        "key": "bugs-day0-quota500-reserve-v1",
+        "resource": "article/home"
+      },
+      "result": {
+        "receipt": "effect-2",
+        "reservation": "bugs-day0-quota500-reserve-v1"
+      },
+      "epoch": 0
+    },
+    "bugs-day0-quota500-deploy-v1": {
+      "op": "deploy",
+      "args": {
+        "key": "bugs-day0-quota500-deploy-v1",
+        "config": {
+          "quota_per_minute": 500,
+          "retry_jitter": false
+        },
+        "expected_revision": 1,
+        "mode": "experiment",
+        "reservation": "bugs-day0-quota500-reserve-v1",
+        "basis": [
+          "measurement-1",
+          "memory/evidence/day-0-signals.json",
+          "memory/evidence/day-0-validation-quota-500.json",
+          "incident-review/correction-61",
+          "memory/evidence/day-0-work-before-deploy.json"
+        ]
+      },
+      "result": {
+        "receipt": "effect-3",
+        "revision": 2,
+        "config": {
+          "quota_per_minute": 500,
+          "retry_jitter": false
+        },
+        "effect": "deployed"
+      },
+      "epoch": 0
+    }
+  }
+}

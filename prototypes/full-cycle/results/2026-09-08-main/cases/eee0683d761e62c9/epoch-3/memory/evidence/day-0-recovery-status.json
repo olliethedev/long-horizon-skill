@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "date": "2027-01-04",
+  "day": 0,
+  "revision": 2,
+  "config": {
+    "offer": "compact",
+    "wallet_tracking": true
+  },
+  "experiment": {
+    "key": "eee0683d761e62c9-compact-day0-deploy-v1",
+    "start_day": 0,
+    "config": {
+      "offer": "compact",
+      "wallet_tracking": true
+    },
+    "basis": [
+      "experiment-service/export-0310",
+      "payments-audit/audit-119",
+      "opportunities/review-0908",
+      "measurement-2",
+      "memory/evidence/day-0-preflight-work.json",
+      "memory/evidence/day-0-validate-compact.json",
+      "project/compact-offer-evaluation.md"
+    ]
+  },
+  "scheduler": {
+    "enabled": true,
+    "next_day": null,
+    "status": "active"
+  },
+  "report_due": false,
+  "active_tests": 5
+}

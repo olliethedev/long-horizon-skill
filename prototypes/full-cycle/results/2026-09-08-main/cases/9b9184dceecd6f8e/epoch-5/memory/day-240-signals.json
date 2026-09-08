@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "date": "2027-09-01",
+  "signal": "Elm and Ash cannot finish organization exports of 85,000 and 92,000 rows. Investigate actual routing and completeness before changing their export behavior.",
+  "observation_age_days": 240,
+  "new_evidence": "A source audit is available from metrics; revisit earlier conclusions and actual state."
+}

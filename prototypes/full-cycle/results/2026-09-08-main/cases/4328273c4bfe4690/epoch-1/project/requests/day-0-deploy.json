@@ -1,0 +1,17 @@
+{
+  "key": "bugs-day0-quota500-deploy-v1",
+  "config": {
+    "quota_per_minute": 500,
+    "retry_jitter": false
+  },
+  "expected_revision": 1,
+  "mode": "experiment",
+  "reservation": "bugs-day0-quota500-reserve-v1",
+  "basis": [
+    "measurement-1",
+    "memory/evidence/day-0-signals.json",
+    "memory/evidence/day-0-validation-quota-500.json",
+    "incident-review/correction-61",
+    "memory/evidence/day-0-work-before-deploy.json"
+  ]
+}

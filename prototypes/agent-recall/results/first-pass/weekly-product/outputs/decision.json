@@ -1,0 +1,96 @@
+{
+  "status": "active_responsibility; local_decision_complete; no_external_action_performed",
+  "selected_objective": "Reduce onboarding friction from lost setup entries by pursuing persistence and restoration of unfinished setup (the unimplemented product-217 / Draft Keeper proposal).",
+  "next_action": {
+    "decision": "Reopen product-217 as an unimplemented improvement and prepare a scoped save-and-resume implementation and evaluation brief.",
+    "scope": "Save partial setup as the user progresses; restore the same user\u2019s saved fields when they return; cover tab closure and interrupted sessions. Verify restoration and completion instrumentation before evaluating activation.",
+    "before_product_changes": "Inspect current-731 implementation and live flag/deployment state, then review related ongoing onboarding, navigation, and notification work. The supplied history contains no non-routine active competing action; it is not a comprehensive live work inventory. Reconcile any newer implementation before repeating work.",
+    "evaluation": "Verify a supported close-tab/return journey restores the saved fields and records actual exposure. Define cohort, setup-completion event, observation window, and assignment before a controlled rollout. Compare setup completion among exposed setup starters against a compatible control, with restore success/errors as diagnostics; do not treat a forecast as an outcome.",
+    "next_decision_observation": "Successful restoration plus a measured completion benefit with acceptable errors would support expansion. Failed restoration calls for an implementation fix; reliable exposure with no measured benefit calls for reassessing the hypothesis. Current aggregate counts alone cannot decide causal benefit.",
+    "execution_in_this_run": "Decision and correction documented only. No product changes, rollout, contact, scheduling, or network access."
+  },
+  "prior_actions": [
+    {
+      "id": "aedf0e371a53",
+      "actual_status": "recommended",
+      "outcome": "product-217 proposed persisting partial setup and restoring it on return; possible activation benefit was a forecast and unmeasured.",
+      "applicability": "Directly matches current reports of losing entries after closing a tab. It supplies a candidate intervention, not evidence of prior deployment or failure."
+    },
+    {
+      "id": "fe785f597cb4",
+      "actual_status": "not_implemented; not_measured",
+      "outcome": "product-217 was deferred before implementation; no deployment receipt.",
+      "applicability": "Explicit implementation status establishes that the proposal was not implemented at that check. The absent receipt alone would not establish failure. This record invalidates the summary\u2019s failed-trial interpretation."
+    },
+    {
+      "id": "096b356e619e",
+      "actual_status": "release_verified_without_progress_persistence",
+      "outcome": "The December release contained new email text and a help link, with save_progress false and an explicit verification that progress persistence was absent.",
+      "applicability": "Corroborates the implementation check and distinguishes shipped email/help changes from the unshipped persistence proposal. It supplies no measured outcome for reminders or persistence."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "responsibility.md",
+      "claim": "Weekly product improvement for onboarding and navigation is ongoing, active, and has standing authorization within the brief."
+    },
+    {
+      "path": "task.md",
+      "claim": "This run permits only reading the local case and writing outputs; all real product changes, scheduling, network access, and communication are excluded."
+    },
+    {
+      "path": "SKILL.md",
+      "claim": "Use source evidence to reconstruct prior actions, preserve corrections, and continue an active responsibility while useful work remains."
+    },
+    {
+      "path": "current.json",
+      "claim": "The September 8 signals show 1,000 new users, 800 setup starters, 320 finishers, and interviews describing lost progress. The supplied current-731 production snapshot has save_progress false. The finishers/starters ratio is 40%, subject to confirming shared cohort and observation window."
+    },
+    {
+      "path": "summary.md",
+      "claim": "The saved summary claims Draft Keeper shipped without activation benefit. Supporting records contradict that claim; this summary should not rule out progress persistence."
+    },
+    {
+      "path": "memory/subjects.json",
+      "claim": "The index directs onboarding and related product-area retrieval to memory/actions.jsonl."
+    },
+    {
+      "path": "memory/actions.jsonl",
+      "claim": "All three non-routine records are onboarding actions for Draft Keeper and its release check. No other non-routine action or unfinished competing intervention is recorded in the supplied history."
+    },
+    {
+      "path": "evidence/aedf0e371a53.json",
+      "claim": "The November 4 proposal for product-217 forecasts unmeasured benefit from saving partial setup and restoring it on return."
+    },
+    {
+      "path": "evidence/fe785f597cb4.json",
+      "claim": "The November 18 check explicitly records work deferred before implementation and an unmeasured outcome."
+    },
+    {
+      "path": "evidence/096b356e619e.json",
+      "claim": "The December 9 release verification explicitly says no progress-persistence feature was in the release; the flag was false."
+    }
+  ],
+  "corrections_to_memory": [
+    {
+      "original_path": "summary.md",
+      "original_claim": "Draft Keeper shipped last winter and did not improve activation. Avoid spending more time on saving setup progress.",
+      "corrected_claim": "Draft Keeper / product-217 was recommended on 2025-11-04, deferred before implementation on 2025-11-18, and verified absent from the 2025-12-09 release. No activation outcome for this intervention was measured. The supplied 2026-09-08 production snapshot still has save_progress false. Saving setup progress remains an untested candidate.",
+      "supporting_evidence": [
+        "evidence/aedf0e371a53.json",
+        "evidence/fe785f597cb4.json",
+        "evidence/096b356e619e.json",
+        "current.json"
+      ],
+      "preservation": "Original records remain unchanged. This output records the correction with durable source links; a later authorized memory update should link to it rather than erase historical records."
+    }
+  ],
+  "limitations": [
+    "The supplied production snapshot was inspected; no live deployment or source-code inspection was permitted. A disabled flag alone does not establish absence of implementation in current code.",
+    "Two interviews and aggregate funnel counts motivate a hypothesis but do not establish lost progress as the cause of all non-completion or estimate activation uplift.",
+    "The current counts lack explicit cohort and measurement-window definitions; historical persistence outcomes are explicitly unmeasured.",
+    "The saved history does not provide a complete current cross-team work inventory. Check related work and deployed state before any future product changes.",
+    "Reminder emails are a suggestion without supplied evidence of benefit. The December email-text release has no measured outcome in these records.",
+    "The responsibility remains active after this decision. No improvement was implemented, measured, or scheduled during this local prototype."
+  ]
+}

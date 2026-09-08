@@ -1,0 +1,77 @@
+{
+  "status": {
+    "ok": true,
+    "date": "2028-06-27",
+    "day": 540,
+    "revision": 2,
+    "config": {
+      "save_setup": true,
+      "explicit_template": true
+    },
+    "experiment": null,
+    "scheduler": {
+      "enabled": true,
+      "next_day": null,
+      "status": "active"
+    },
+    "report_due": true,
+    "active_tests": 4
+  },
+  "signals": {
+    "ok": true,
+    "date": "2028-06-27",
+    "signal": "Support requests Resume workspace creation. Check whether this capability is already delivered before opening another implementation. No new randomized result is supplied.",
+    "observation_age_days": 540
+  },
+  "metrics": {
+    "ok": true,
+    "receipt": "measurement-13",
+    "date": "2028-06-27",
+    "revision": 2,
+    "exposure_verified": true,
+    "mature": true,
+    "minimum_window_days": 14,
+    "definition": "first persisted completed project; draft saves excluded",
+    "control_activation": 0.42,
+    "variant_activation": 0.49,
+    "activation_difference_95ci": [
+      0.04,
+      0.1
+    ],
+    "retention_control": 0.31,
+    "retention_variant": 0.32,
+    "retention_difference_95ci": [
+      -0.01,
+      0.03
+    ]
+  },
+  "work": {
+    "ok": true,
+    "changes": [
+      {
+        "id": "footer-accessibility",
+        "owner": "developer",
+        "area": "footer",
+        "impact": "No offer, allocation, onboarding, export, or dependency changes; compatible."
+      },
+      {
+        "id": "cohort-metric-review",
+        "owner": "analytics",
+        "area": "measurement",
+        "impact": "At the later audit, check cohort and measurement corrections before pooling observations."
+      }
+    ],
+    "revision": 2,
+    "external_active_tests": 4
+  },
+  "usage": {
+    "ok": true,
+    "source": "project-credit-ledger",
+    "scope": "whole product; includes other responsibilities",
+    "allocation": 10,
+    "consumed": 9,
+    "unit": "validation credit",
+    "reset": "none; project allocation",
+    "validate_cost": 1
+  }
+}

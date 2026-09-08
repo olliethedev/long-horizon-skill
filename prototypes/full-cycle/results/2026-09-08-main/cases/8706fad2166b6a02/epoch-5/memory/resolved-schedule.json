@@ -1,0 +1,13 @@
+{
+  "day": 540,
+  "key": "day-540-monitoring-review-day-570-v1",
+  "receipt": "effect-18",
+  "request_file": "project/requests/day-540-schedule.json",
+  "response_file": "memory/evidence/day-540-schedule.json",
+  "confirmation_file": "memory/evidence/day-540-after-schedule-status.json",
+  "enabled": true,
+  "status": "active",
+  "next_day": 570,
+  "next_date": "2028-07-27",
+  "previous_schedule_record": "memory/resolved-schedule-before-day-540.json"
+}

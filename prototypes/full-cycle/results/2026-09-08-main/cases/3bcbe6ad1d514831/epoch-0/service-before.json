@@ -1,0 +1,36 @@
+{
+  "domain": "weekly-product",
+  "epoch": 0,
+  "day": 0,
+  "revision": 1,
+  "config": {
+    "save_setup": false,
+    "explicit_template": true
+  },
+  "baseline": {
+    "save_setup": false,
+    "explicit_template": true
+  },
+  "operations": {},
+  "events": [],
+  "counter": 0,
+  "experiment": null,
+  "scheduler": {
+    "enabled": true,
+    "next_day": null,
+    "status": "active"
+  },
+  "report_day": 0,
+  "messages": [],
+  "shared_credits_used": 7,
+  "shared_credits_total": 10,
+  "reservations": {},
+  "external_active_tests": 4,
+  "lost_effect": false,
+  "lost_schedule": false,
+  "closed": false,
+  "violations": [],
+  "first_effect_day": null,
+  "last_effect_day": null,
+  "metric_receipts": []
+}

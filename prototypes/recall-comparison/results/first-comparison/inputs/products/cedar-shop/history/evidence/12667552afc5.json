@@ -1,0 +1,8 @@
+{
+  "product": "cedar-shop",
+  "observed_at": "2025-07-23",
+  "experiment": "spruce-47",
+  "receipt": "restore-spruce47",
+  "live_variant": "detailed_offer",
+  "reason": "Acting on the then-current revenue comparison"
+}

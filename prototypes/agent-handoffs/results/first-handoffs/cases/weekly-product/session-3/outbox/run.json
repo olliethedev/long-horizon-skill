@@ -1,0 +1,42 @@
+{
+  "session_date": "2026-09-08",
+  "responsibility_status": "ongoing",
+  "files_read": [
+    "SKILL.md",
+    "task.md",
+    "brief.md",
+    "current-packet.md",
+    "memory/index.md",
+    "memory/handoff.md",
+    "memory/records/2025-03-10-review.md",
+    "memory/records/2025-11-18-review.md",
+    "memory/sources/analytics-audit-metric-74.md",
+    "memory/sources/rollout-review-rev-118.md"
+  ],
+  "files_written": [
+    "memory/sources/weekly-analytics-week-36-2026-09-08.md",
+    "memory/records/2026-09-08-review.md",
+    "memory/handoff.md",
+    "memory/index.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "verification_reads": [
+    "memory/sources/weekly-analytics-week-36-2026-09-08.md",
+    "memory/records/2026-09-08-review.md",
+    "memory/handoff.md",
+    "memory/index.md",
+    "outbox/decision.md",
+    "outbox/run.json",
+    "current-packet.md"
+  ],
+  "known_retrieval_output_limitations": [
+    "Read access was restricted to this trial directory; no sibling directory, network, external product, analytics system, or related-work registry was accessed.",
+    "All supplied memory records were read; no original deployment/rollback receipts, underlying analytics query, support case details, related-work registry, or retention recoverability evidence were supplied.",
+    "Current code inspection and deployed state are source-reported, not directly inspected by this session.",
+    "No tool read output was truncated. File inventory was local to the trial.",
+    "Only memory survives future sessions; the current packet was copied verbatim to memory and all substantive decisions were saved there.",
+    "Only local analysis and saved plans were authorized. No products, live schedules, experiments, messages, or report delivery were executed."
+  ],
+  "verification": "Generated files and relative Markdown links checked; retained packet checked for exact equality with current-packet.md."
+}

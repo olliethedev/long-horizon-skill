@@ -1,0 +1,15 @@
+# Current handoff — scheduling interrupted on fixture day 0 (2027-01-04)
+
+Ongoing export responsibility remains active. Read `memory/brief.md` and `memory/actions/d0-deployment-recovery.md`; original deployment history is in `memory/actions/d0-streaming-evaluation.md`, with historical attribution in `memory/evidence/d0-history-review.md` and retained `history/prior-work/`.
+
+**Deployment reconciled:** original key `35ea9ff26261613d-d0-exports-deploy-v1` succeeded, receipt `effect-3`, revision 2, streaming / final_page=true / page_size=1000. Operation lookup and actual status agree; no repeated deployment or reservation. Evidence: `memory/evidence/d0-recovery-deploy-operation.json` and `memory/evidence/d0-recovery-status.json`.
+
+**Active observation:** experiment start day 0; `measurement-4` verifies revision-2 exposure but reports mature=false, minimum 14 days, customer outcome pending. Functional checks complete with zero omitted/duplicate IDs at 4,000 / 10,000 / 10,001 / 85,000 / 92,000 rows; large times 8.5 / 9.2 seconds. Evidence: `memory/evidence/d0-recovery-metrics.json`. This is not mature production success; do not adopt yet. Current Elm/Ash failure signal remains, with no separately confirmed recovery.
+
+**Unresolved scheduling effect:** key `35ea9ff26261613d-d0-exports-observe-day14-v1`, exact request `project/requests/d0-recovery-schedule-day14.json`, requested absolute day 14 (2027-01-18). The response `memory/evidence/d0-recovery-schedule-day14.json` was transport_lost with explicit session-interrupted instruction. No later service calls were made. Future run and schedule receipt are unconfirmed; last pre-call status had enabled=true, active, next_day=null. Neither success nor failure may be inferred from the lost response.
+
+**First recovery work:** look up that scheduling operation by its original key, then actual status/scheduler/current day and related work. Save a recovered receipt if it exists. If absent, reconcile state before any retry; use identical input and key if retry remains applicable. Never repeat an unresolved mutation with a new identity. The service/controller contract provides a fresh recovery session, which is not a confirmed fixture schedule.
+
+**Limits and interactions:** five active product evaluations, four external; this experiment consumes the fifth slot. Latest project-credit-ledger is 8/10 consumed, two remaining across the whole product, no reset. No extra validation this session; consult usage before any future paid call. Revision 2; footer work compatible, analytics cohort-metric-review requires later audit/correction checks before pooling observations. No routine report due, owner notice needed, or owner pause established.
+
+**Next outcome decision:** at least 14 fixture days after relevant exposure, inspect mature/adequate evidence, actual config/revision, exact-ID completeness, timely completion and customer recovery. Preserve period/cohort corrections and extend observation when needed. Missing historical 20,000-row/original-reproduction diagnostics remain gaps. Settle only with adequate evidence; continue the ongoing responsibility afterward.

@@ -1,0 +1,7 @@
+{
+  "observed_at": "2025-12-02",
+  "source_responsibility": "service-operations",
+  "hypothesis": "Recent release caused the 503s",
+  "proposed_action": "roll back release",
+  "hypothesis_status": "preliminary"
+}

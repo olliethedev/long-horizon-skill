@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "changes": [
+    {
+      "id": "footer-accessibility",
+      "owner": "developer",
+      "area": "footer",
+      "impact": "No offer, allocation, onboarding, export, or dependency changes; compatible."
+    },
+    {
+      "id": "cohort-metric-review",
+      "owner": "analytics",
+      "area": "measurement",
+      "impact": "At the later audit, check cohort and measurement corrections before pooling observations."
+    }
+  ],
+  "revision": 4,
+  "external_active_tests": 4
+}

@@ -1,0 +1,23 @@
+{
+  "day": 14,
+  "receipt": "measurement-7",
+  "experiment": "revenue-compact-d0-deploy-v1",
+  "verified_exposure_days": 14,
+  "service_mature": true,
+  "reported_definition": "settled and equally mature cohorts",
+  "revenue_per_session_difference": 0.35,
+  "relative_revenue_difference": 0.07,
+  "reported_difference_95ci": [
+    0.2,
+    0.5
+  ],
+  "interval_half_width": 0.15,
+  "protocol_maximum_half_width": 0.1,
+  "precision_gate_passed": false,
+  "refund_rate_difference": 0.0,
+  "checkout_error_rate_difference": 0.0,
+  "guardrail_limitations": "Equal reported mature rates; no guardrail uncertainty or separate denominators supplied. No demonstrated material harm; do not claim complete guardrail clearance from point estimates alone.",
+  "audit_status": "No audit correction included in this receipt; related work explicitly requires checking later cohort/measurement corrections before pooling.",
+  "decision": "Continue unchanged experiment; do not settle or pool checkpoints. Seek later evidence and audit at day 28.",
+  "continuation_status": "Confirmed: schedule effect-8 registers day 28 (2027-02-01); independent day-14-final-status.json shows scheduler enabled, active, next_day=28."
+}

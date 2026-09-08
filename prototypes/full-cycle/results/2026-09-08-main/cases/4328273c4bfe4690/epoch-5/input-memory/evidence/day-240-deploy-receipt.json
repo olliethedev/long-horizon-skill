@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "receipt": "effect-13",
+  "revision": 4,
+  "config": {
+    "quota_per_minute": 500,
+    "retry_jitter": false
+  },
+  "effect": "deployed"
+}

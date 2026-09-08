@@ -1,0 +1,5 @@
+{
+  "key": "cedar-ledger-elm-ash-verification-completion-notice-v1",
+  "destination": "fixture:owner",
+  "body": "Cedar Ledger bounded export verification is complete as of fixture day 0 (2027-01-04). Actual deployment receipt prior-deploy-1 and current revision 1 confirm streaming exports, final_page=true, page_size=5000. Measurement-1 verifies exposure and a mature minimum 14-day observation window. Elm's 85,000 expected IDs and Ash's 92,000 expected IDs both completed with zero omitted or duplicate IDs, using exact ID multiset comparison against stable source snapshots; customer reports confirm both completed. The initial failure signal is 14 days old. Both assignment exit criteria are met. Termination receipt effect-2 and a subsequent status read confirm status=terminated, scheduler enabled=false, and next_day=null. No product change or billed validation was needed. Evidence, requests, and handoff are retained under memory/ and project/. No material verification uncertainty remains; the API reports exact-ID and maturity results rather than raw ID lists or customer event timestamps. No further run is scheduled or needed for this bounded assignment."
+}

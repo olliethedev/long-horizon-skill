@@ -1,0 +1,22 @@
+{
+  "operation": "settle",
+  "key": "day-540-quota-500-adopt-v1",
+  "receipt": "effect-17",
+  "request_file": "project/requests/day-540-settle.json",
+  "response_file": "memory/evidence/day-540-settlement.json",
+  "confirmation_file": "memory/evidence/day-540-after-settlement-status.json",
+  "basis": [
+    "measurement-10",
+    "measurement-16"
+  ],
+  "outcome": "resolved_adopted",
+  "last_confirmed_day": 540,
+  "revision": 4,
+  "config": {
+    "quota_per_minute": 500,
+    "retry_jitter": false
+  },
+  "experiment": null,
+  "active_tests": 4,
+  "previous_settlement_record": "memory/resolved-settlement-before-day-540.json"
+}

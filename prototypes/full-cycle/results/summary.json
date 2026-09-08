@@ -1,0 +1,13 @@
+{
+  "completed_fresh_sessions": 55,
+  "distinct_thread_ids": 55,
+  "exit_zero": 55,
+  "verified_archive_files": 4173,
+  "verified_raw_entries": 212,
+  "main_chains": 8,
+  "focused_sessions": 5,
+  "recheck_sessions": 2,
+  "candidate_instruction_files_unchanged": true,
+  "observed_scope_violations": 3,
+  "notes": "Observed scope violations are read-boundary checks with no file contents returned. Zero exit codes, hashes, and configuration checks do not establish semantic correctness; see NOTES.md and manual reviews."
+}

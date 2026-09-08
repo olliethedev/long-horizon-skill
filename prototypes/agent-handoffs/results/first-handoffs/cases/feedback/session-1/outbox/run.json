@@ -1,0 +1,29 @@
+{
+  "files_read": [
+    "SKILL.md",
+    "task.md",
+    "brief.md",
+    "current-packet.md",
+    "memory/evidence/2025-03-10-ticket-bundle-31.md",
+    "memory/actions/001-completeness-follow-up.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "files_written": [
+    "memory/evidence/2025-03-10-ticket-bundle-31.md",
+    "memory/actions/001-completeness-follow-up.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "known_retrieval_output_limitations": [
+    "Only this trial directory was accessed; no network, other agents, live Impulse scheduling, product modifications, or messages were used.",
+    "No memory files were discoverable at session start. This does not establish that earlier work never existed outside the supplied trial.",
+    "The supplied packet reports receipt-backed events. Original release-ex22, rollback-ex23, and support-investigation/ticket-bundle-31 records and raw reproduction data were not available for independent inspection.",
+    "Current deployed state, related ongoing work, exact failure size/page shape/version/cohort, quantified timing outcomes, and post-rollback completeness are unavailable.",
+    "Only memory persists to the next session. The temporary packet has been preserved there, along with the action plan and current handoff.",
+    "All future execution, observations, reporting, and scheduling are plans only; no external execution or delivery was confirmed."
+  ],
+  "verification": "Read back every written file; parsed run.json, checked preserved source inclusion and required output existence."
+}

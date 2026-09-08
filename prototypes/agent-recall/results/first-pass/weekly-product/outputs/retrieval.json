@@ -1,0 +1,31 @@
+{
+  "files_read": [
+    "task.md",
+    "SKILL.md",
+    "responsibility.md",
+    "current.json",
+    "summary.md",
+    "memory/subjects.json",
+    "memory/actions.jsonl",
+    "evidence/aedf0e371a53.json",
+    "evidence/fe785f597cb4.json",
+    "evidence/096b356e619e.json",
+    "outputs/decision.json",
+    "outputs/retrieval.json"
+  ],
+  "search_commands_used": [
+    "rg --files .",
+    "rg -n -i 'draft|keeper|progress|reminder|resume|correction|rollback|blocked|active|pending' memory/actions.jsonl",
+    "rg -n -v '\"phase\": \"routine_review\"' memory/actions.jsonl"
+  ],
+  "read_commands_used": [
+    "cat task.md SKILL.md",
+    "cat responsibility.md current.json summary.md memory/subjects.json memory/actions.jsonl",
+    "cat evidence/aedf0e371a53.json evidence/fe785f597cb4.json evidence/096b356e619e.json"
+  ],
+  "notes": [
+    "All reads and writes were confined to the case directory; only outputs were written.",
+    "The initial bulk history output was truncated. Targeted name/intervention searches and a complete non-routine-record filter recovered all three consequential records without truncation; their evidence files were then read fully.",
+    "Generated decision.json and retrieval.json were read back for JSON validation; retrieval.json was then updated to record these validation reads."
+  ]
+}

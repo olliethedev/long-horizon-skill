@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "receipt": "effect-10",
+  "choice": "rollback",
+  "config": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "effect": "evaluation_closed"
+}

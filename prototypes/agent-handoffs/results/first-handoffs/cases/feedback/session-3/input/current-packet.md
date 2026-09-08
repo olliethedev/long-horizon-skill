@@ -1,0 +1,2 @@
+Date: 2026-09-08. Source: support/new-cases-204.
+Customers call the feature 'Download all company records'. Tenant Elm expects 85,000 records; tenant Ash expects 92,000. Both requests timed out on the current buffered path. Neither report includes a completed artifact for record-ID comparison. Current routing still uses streaming only up to 10,000 rows. A suggestion is to enable streaming for both customers because the release note says export completeness was fixed. Decide what to do. No new large-export verification is available in this packet.

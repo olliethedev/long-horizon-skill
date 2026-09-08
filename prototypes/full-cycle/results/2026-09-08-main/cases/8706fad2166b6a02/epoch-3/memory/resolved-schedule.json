@@ -1,0 +1,22 @@
+{
+  "operation": "schedule",
+  "key": "day-14-monitoring-review-day-30-v1",
+  "request_file": "project/requests/schedule-monitoring-day-30.json",
+  "response_file": "memory/evidence/day-14-schedule.json",
+  "confirmation_file": "memory/evidence/day-14-final-status.json",
+  "outcome": "resolved_scheduled",
+  "receipt": "effect-9",
+  "next_day": 30,
+  "date": "2027-02-03",
+  "scheduler_enabled": true,
+  "lifecycle": "active",
+  "last_confirmed_day": 14,
+  "retry_performed": false,
+  "previous_schedule": {
+    "key": "day-0-quota-recovery-review-day-14-v1",
+    "receipt": "effect-5",
+    "day": 14,
+    "outcome": "checkpoint_reached",
+    "evidence_file": "memory/evidence/day-7-schedule-reconciliation.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "charged": 1,
+  "checks": {
+    "cases": [
+      {
+        "expected_rows": 4000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.4
+      },
+      {
+        "expected_rows": 10000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 1.0
+      },
+      {
+        "expected_rows": 10001,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 1.0
+      },
+      {
+        "expected_rows": 85000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 8.5
+      },
+      {
+        "expected_rows": 92000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 9.2
+      }
+    ],
+    "comparison": "exact ID multiset versus stable source snapshot"
+  }
+}

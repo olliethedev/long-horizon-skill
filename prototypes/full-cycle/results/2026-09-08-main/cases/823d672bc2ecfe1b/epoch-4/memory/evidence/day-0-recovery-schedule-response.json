@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "transport_lost",
+  "message": "Response lost; scheduling outcome unknown to caller. Session interrupted; preserve local context and end."
+}

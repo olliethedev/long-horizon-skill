@@ -1,0 +1,41 @@
+{
+  "scope": "/tmp/long-horizon-recall-8rnmjw53/revenue",
+  "files_read": [
+    "task.md",
+    "SKILL.md",
+    "responsibility.md",
+    "summary.md",
+    "current.json",
+    "memory/subjects.json",
+    "memory/actions.jsonl",
+    "evidence/dd40708e42c3.json",
+    "evidence/61d5bdd20278.json",
+    "evidence/40711d0f7153.json",
+    "outputs/decision.json",
+    "outputs/decision.md",
+    "outputs/retrieval.json"
+  ],
+  "search_commands": [
+    "rg --files .",
+    "rg -n -i 'compact|purchase panel|offer text|revenue|rollback|correction|experiment' memory/actions.jsonl",
+    "rg -n -v '\"phase\": \"routine_review\"' memory/actions.jsonl",
+    "rg -n '\"subject\": \"checkout\"|Nimbus|dd40708e42c3|61d5bdd20278|40711d0f7153' memory/actions.jsonl"
+  ],
+  "read_commands": [
+    "cat task.md",
+    "cat SKILL.md",
+    "cat responsibility.md",
+    "cat summary.md",
+    "cat current.json",
+    "cat memory/subjects.json",
+    "cat memory/actions.jsonl",
+    "cat evidence/dd40708e42c3.json",
+    "cat evidence/61d5bdd20278.json",
+    "cat evidence/40711d0f7153.json"
+  ],
+  "validation": "Read the three generated outputs to verify JSON parsing, required decision fields and a nonempty Markdown explanation.",
+  "notes": [
+    "The initial whole-history cat output was truncated; subsequent targeted searches retrieved the substantive records and complete checkout history.",
+    "All substantive evidence files referenced by the retrieved records were read. No files outside this case were read and no external tools or services were used."
+  ]
+}

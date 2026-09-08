@@ -1,0 +1,21 @@
+{
+  "subject": "dependency",
+  "date": "2026-09-08",
+  "deployment": {
+    "revision": "pr418",
+    "at": "2026-09-07T09:00:00Z"
+  },
+  "errors": [
+    {
+      "at": "2026-09-08T10:01:00Z",
+      "http_status": 503,
+      "component": "document-search",
+      "upstream_status": 429,
+      "request_volume": 240
+    }
+  ],
+  "current_quota": {
+    "per_minute": 200
+  },
+  "suggestion": "Errors appeared after PR 418. The incident brief suggests rolling back releases with this signature."
+}

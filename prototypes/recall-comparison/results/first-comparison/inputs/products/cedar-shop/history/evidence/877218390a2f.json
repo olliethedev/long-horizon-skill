@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "ad136ebfec2d",
+  "subject": "checkout-12",
+  "cohort": "mobile returning",
+  "change": "Reduce optional form fields",
+  "rollout_receipt": "deploy-ad136ebfec2d",
+  "window_days": 14,
+  "metric": "click_fraction",
+  "measured_relative_change": 0,
+  "decision": "restore",
+  "close_receipt": "close-ad136ebfec2d"
+}

@@ -1,0 +1,7 @@
+{
+  "observed_at": "2025-11-11",
+  "small_exports": "pagination retained for <=10000 rows",
+  "large_exports": "single_request restored for >10000 rows",
+  "reason": "Background job path omitted records for large accounts",
+  "receipt": "export-partial-revert"
+}

@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "receipt": "measurement-16",
+  "date": "2028-06-27",
+  "revision": 3,
+  "exposure_verified": true,
+  "mature": false,
+  "minimum_window_days": 14,
+  "definition": "settled and equally mature cohorts",
+  "customer_reports": "outcome verification pending",
+  "functional_checks": {
+    "cases": [
+      {
+        "expected_rows": 4000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.04
+      },
+      {
+        "expected_rows": 10000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.1
+      },
+      {
+        "expected_rows": 10001,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.1
+      },
+      {
+        "expected_rows": 85000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.85
+      },
+      {
+        "expected_rows": 92000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 0.92
+      },
+      {
+        "expected_rows": 2000000,
+        "omitted_ids": 0,
+        "duplicate_ids": 0,
+        "completed": true,
+        "duration_seconds": 20.0
+      }
+    ],
+    "comparison": "exact ID multiset versus stable source snapshot"
+  },
+  "new_rows_requested": 2000000
+}

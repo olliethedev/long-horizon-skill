@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "date": "2027-01-18",
+  "day": 14,
+  "revision": 2,
+  "config": {
+    "offer": "compact",
+    "wallet_tracking": true
+  },
+  "experiment": null,
+  "scheduler": {
+    "enabled": true,
+    "next_day": 28,
+    "status": "active"
+  },
+  "report_due": false,
+  "active_tests": 4
+}

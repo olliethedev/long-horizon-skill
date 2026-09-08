@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "date": "2028-06-27",
+  "day": 540,
+  "revision": 3,
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 10000
+  },
+  "experiment": {
+    "key": "exports-day-540-deploy-v1",
+    "start_day": 540,
+    "config": {
+      "export_mode": "streaming",
+      "final_page": true,
+      "page_size": 10000
+    },
+    "basis": [
+      "measurement-13",
+      "memory/day-540-validation.json",
+      "memory/day-540-validation-decision.md",
+      "effect-14"
+    ]
+  },
+  "scheduler": {
+    "enabled": true,
+    "next_day": null,
+    "status": "active"
+  },
+  "report_due": true,
+  "active_tests": 5
+}

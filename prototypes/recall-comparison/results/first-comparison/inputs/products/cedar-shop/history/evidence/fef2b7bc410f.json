@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "953f7595c89c",
+  "subject": "billing-3",
+  "cohort": "mobile first-time",
+  "change": "Move explanation beside the primary action",
+  "rollout_receipt": "deploy-953f7595c89c",
+  "window_days": 14,
+  "metric": "click_fraction",
+  "measured_relative_change": 0.02,
+  "decision": "adopt",
+  "close_receipt": "close-953f7595c89c"
+}

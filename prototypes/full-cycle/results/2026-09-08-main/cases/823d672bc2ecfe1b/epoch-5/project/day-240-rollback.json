@@ -1,0 +1,13 @@
+{
+  "key": "revenue-compact-d240-audit-rollback-v1",
+  "choice": "rollback",
+  "basis": [
+    "measurement-9",
+    "memory/evidence/day-240-metrics.json",
+    "memory/evidence/day-240-assessment.json",
+    "memory/evidence/day-240-status.json",
+    "memory/evidence/day-240-work.json",
+    "memory/evidence/day-0-initial-status.json",
+    "project/compact-offer-protocol.md"
+  ]
+}

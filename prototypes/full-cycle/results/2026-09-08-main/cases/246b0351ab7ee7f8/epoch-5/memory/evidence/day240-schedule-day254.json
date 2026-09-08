@@ -1,0 +1,15 @@
+{
+  "operation": "schedule",
+  "args": {
+    "key": "weekly-resumable-setup-review-day254-v1",
+    "day": 254
+  },
+  "state": "returned",
+  "returncode": 0,
+  "response": {
+    "ok": true,
+    "receipt": "effect-10",
+    "next_day": 254,
+    "date": "2027-09-15"
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "status": "batch_finished",
+  "kind": "focused-probes",
+  "cases": {
+    "7202704d67026be1": {
+      "domain": "revenue",
+      "arm": "skill",
+      "focus": "paused-access-restored",
+      "path": "/tmp/long-horizon-focus-wcnx4b8g/trials/7202704d67026be1",
+      "epochs": [
+        {
+          "epoch": 0,
+          "prompt": "Complete the current session in task.md for this trial. Use $long-horizon at long-horizon/SKILL.md. Follow the trial access and output restrictions. Do the authorized work and end when a later observation or service interruption requires a new session.",
+          "started_utc": "2026-09-08T22:28:21.691353+00:00",
+          "controller_sha256": "2ba7169c5afb150f91c1d48d015c14ee3021f638f4932abb4a495c5695585943",
+          "injections": [],
+          "elapsed_seconds": 82.16,
+          "exit_code": 0,
+          "input_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "23ea88df88dbbc01dd92d42755523b11dd9b4c74eddf5523cf1e8ffb8a339352",
+            "connection.json": "3175022309b25f5b7b9fce42bcb82985c6d642070f69a538bfbbaa3dbba4e0c1",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/current.md": "fc6f68c12b2392541a0b08531d67c217a6ada2e1e8324d9ef148399e3d18beb7",
+            "run-context.md": "21d7d0e19ca6a45e5bc693d968fc2010a6e7040cf4b1022ad2b6bdbe6592cef7",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "output_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "23ea88df88dbbc01dd92d42755523b11dd9b4c74eddf5523cf1e8ffb8a339352",
+            "connection.json": "3175022309b25f5b7b9fce42bcb82985c6d642070f69a538bfbbaa3dbba4e0c1",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/current.md": "e48395baaa2baceb9db4945258e96ccb71480642c71594e92fe257de68975a71",
+            "memory/day-0-paused-callback-signals.json": "ba9e801d0662ed35a7c5554b3775a0c00807f797eafa67e6706a8a632a79d0cd",
+            "memory/day-0-paused-callback-status.json": "6278afe13565edf71c3b52d37db0bca866977917046cb5264fd84c7edf473ee3",
+            "memory/day-0-paused-callback.md": "d2c44ff34d3807c438449ea610b2489569d9169d80a646601add8e8455eaef83",
+            "outbox/final.md": "1ade424f51029577e30fd59e16026c2529238bba427dfd989bfb6cb4e56775b1",
+            "outbox/summary.md": "ab7043c0900321dca521293c83936d91ade2dc24f1b2b9d240a7d0c2346af88b",
+            "run-context.md": "21d7d0e19ca6a45e5bc693d968fc2010a6e7040cf4b1022ad2b6bdbe6592cef7",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "usage_events": [
+            {
+              "input_tokens": 173965,
+              "cached_input_tokens": 148992,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1983,
+              "reasoning_output_tokens": 269
+            }
+          ],
+          "harness_trace": "/tmp/long-horizon-focus-wcnx4b8g/harness/7202704d67026be1-0.jsonl"
+        },
+        {
+          "epoch": 1,
+          "prompt": "Complete the current session in task.md for this trial. Use $long-horizon at long-horizon/SKILL.md. Follow the trial access and output restrictions. Do the authorized work and end when a later observation or service interruption requires a new session.",
+          "started_utc": "2026-09-08T22:36:48.390244+00:00",
+          "controller_sha256": "a39bb533163290493323b1f6eb3cb53c7c106de1b2ad07f6f7a326a16c7f3961",
+          "injections": [],
+          "elapsed_seconds": 205.12,
+          "exit_code": 0,
+          "input_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "1f5b4c88f0175c28be56e76479f666b710942c96a49071b55aaa595ed2a5fbe1",
+            "connection.json": "3175022309b25f5b7b9fce42bcb82985c6d642070f69a538bfbbaa3dbba4e0c1",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/current.md": "e48395baaa2baceb9db4945258e96ccb71480642c71594e92fe257de68975a71",
+            "memory/day-0-paused-callback-signals.json": "ba9e801d0662ed35a7c5554b3775a0c00807f797eafa67e6706a8a632a79d0cd",
+            "memory/day-0-paused-callback-status.json": "6278afe13565edf71c3b52d37db0bca866977917046cb5264fd84c7edf473ee3",
+            "memory/day-0-paused-callback.md": "d2c44ff34d3807c438449ea610b2489569d9169d80a646601add8e8455eaef83",
+            "run-context.md": "2af1c9400f740810124c59771d81d0d9f40f2b8d7c7d4e292def0c08c3d4edff",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "output_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "1f5b4c88f0175c28be56e76479f666b710942c96a49071b55aaa595ed2a5fbe1",
+            "connection.json": "3175022309b25f5b7b9fce42bcb82985c6d642070f69a538bfbbaa3dbba4e0c1",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/current.md": "f1f424626743641c16a2259436accb4f854eb8cd0ab8bb98f2826587bfc63b8a",
+            "memory/day-0-compact-deploy-receipt.json": "173a299573b78d003d02814443e7aa80f80f262249bec060afc0431878d409e2",
+            "memory/day-0-compact-reserve-receipt.json": "240ee736af5e41da4f256df4c729e85aef51cb45c4336bcae474de87cbac67d5",
+            "memory/day-0-compact-validation-result.json": "ab59eb7d1e28b271788782642d206787bf6a221c51eba6257918938b11d6e569",
+            "memory/day-0-observe-day14-receipt.json": "608b491d2b5d68a4bc448396e1f866859d351ebd65263480bf6bfc22e1ac5295",
+            "memory/day-0-paused-callback-signals.json": "ba9e801d0662ed35a7c5554b3775a0c00807f797eafa67e6706a8a632a79d0cd",
+            "memory/day-0-paused-callback-status.json": "6278afe13565edf71c3b52d37db0bca866977917046cb5264fd84c7edf473ee3",
+            "memory/day-0-paused-callback.md": "d2c44ff34d3807c438449ea610b2489569d9169d80a646601add8e8455eaef83",
+            "memory/day-0-postdeploy-metrics.json": "6f9a95f05c01fada112974c5c6ef832f9de4566d8845f918e20850da77c0aee6",
+            "memory/day-0-postdeploy-status.json": "b10fe4bfeb48606a891020e63737a3c7299ba16cafe42a13d2d542fd9db0561f",
+            "memory/day-0-predeploy-status.json": "41e4692953241a5536c7dccfd0b384fd70b0ee030205f13a90e89e1e2a82b474",
+            "memory/day-0-predeploy-usage.json": "2767919de0e046996ad364bae183aa5fa51d66b559d3a376b31117f813d7cd3c",
+            "memory/day-0-predeploy-work.json": "53d245a45b0dbb514943c663418d9abf3199d5a7bb930c8d2c68429d154a7958",
+            "memory/day-0-resume-active-receipt.json": "7eea6a474232d1afed5395d919664f11375a67c91b29f3d6f3525751b9c18a62",
+            "memory/day-0-resume-final-status.json": "8c14c22107da496bd04608c94aef56e3326e5af7864a9486d37d2298fbda2be3",
+            "memory/day-0-resume-metrics.json": "cbffdc72ec0d1ee815bdda2b750e3b8c8648966a61998aa579f428aa13a79170",
+            "memory/day-0-resume-operations.json": "a468e85644aa98e6eb3207f60ee0cc2addc7903e3a86c21f2603088fc4c2d898",
+            "memory/day-0-resume-signals.json": "ba9e801d0662ed35a7c5554b3775a0c00807f797eafa67e6706a8a632a79d0cd",
+            "memory/day-0-resume-status.json": "6278afe13565edf71c3b52d37db0bca866977917046cb5264fd84c7edf473ee3",
+            "memory/day-0-resume-usage.json": "30cf8fafe715b70f2524ad1d5c3b1578e96d08f694fec75a2eead00f1c4100fb",
+            "memory/day-0-resume-work.json": "53d245a45b0dbb514943c663418d9abf3199d5a7bb930c8d2c68429d154a7958",
+            "memory/day-0-resume.md": "9d5056d18d6d231864730dea0dcc3b866250a75cd63c44f17bb2b8be3e28fe64",
+            "outbox/final.md": "3b0e7231158a6128880b5385bc1bba8e6c290a5fed3af5bb8c20ff8ae263b270",
+            "outbox/summary.md": "b85b29a56bfd7e925c9727025069ccca0444efb83a05fa4a8bb4a6b2027f3aad",
+            "project/day-0-compact-deploy.json": "268da40d09cb6e99c4b71d3e7c75c2210581224c7fbdd11f397319e2e9022fb3",
+            "project/day-0-compact-reserve.json": "6533dd4e48ea95bfee909879723fac0023b4b3136546101c82a2fa67444ab1d4",
+            "project/day-0-compact-validation.json": "643556b19d19ddd5e6d6964e41626f8970dea43610b3bef5cc96a212119f03c0",
+            "project/day-0-observe-day14.json": "33ce42594d50a5979ea2cd4af384e644306bc1fd189a8016be468f538339f46c",
+            "project/day-0-resume-active.json": "36d143ef7d565c1d2f8f0684b14f0c2484aef38294fe19cdb5c5d18a22137950",
+            "run-context.md": "2af1c9400f740810124c59771d81d0d9f40f2b8d7c7d4e292def0c08c3d4edff",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "usage_events": [
+            {
+              "input_tokens": 403576,
+              "cached_input_tokens": 359552,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5593,
+              "reasoning_output_tokens": 228
+            }
+          ],
+          "harness_trace": "/tmp/long-horizon-focus-wcnx4b8g/harness/7202704d67026be1-1.jsonl"
+        }
+      ],
+      "common_input_sha256": {
+        "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+        "brief.md": "23ea88df88dbbc01dd92d42755523b11dd9b4c74eddf5523cf1e8ffb8a339352",
+        "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+        "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+        "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+        "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+        "memory/current.md": "fc6f68c12b2392541a0b08531d67c217a6ada2e1e8324d9ef148399e3d18beb7",
+        "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+        "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+      },
+      "run_reasons": {
+        "0": "old runner callback after owner pause; not an owner resume",
+        "1": "Explicit owner resumption after restored analytics access"
+      },
+      "owner_resume_supplied": true
+    },
+    "ba8ef90c1ad52c8e": {
+      "domain": "feedback",
+      "arm": "skill",
+      "focus": "bounded-success",
+      "path": "/tmp/long-horizon-focus-wcnx4b8g/trials/ba8ef90c1ad52c8e",
+      "epochs": [
+        {
+          "epoch": 0,
+          "prompt": "Complete the current session in task.md for this trial. Use $long-horizon at long-horizon/SKILL.md. Follow the trial access and output restrictions. Do the authorized work and end when a later observation or service interruption requires a new session.",
+          "started_utc": "2026-09-08T22:29:43.855087+00:00",
+          "controller_sha256": "2ba7169c5afb150f91c1d48d015c14ee3021f638f4932abb4a495c5695585943",
+          "injections": [],
+          "elapsed_seconds": 192.73,
+          "exit_code": 0,
+          "input_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "51ce566e8c3f5ab7dd8248df7bf7f07be5c528f6f5e484b377cfb3e6fdf51c1a",
+            "connection.json": "aca67e6cb2aefbde6c66183d89d82c3c33c4b284b3d2dfb6c0b50b79df2f512f",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "output_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "51ce566e8c3f5ab7dd8248df7bf7f07be5c528f6f5e484b377cfb3e6fdf51c1a",
+            "connection.json": "aca67e6cb2aefbde6c66183d89d82c3c33c4b284b3d2dfb6c0b50b79df2f512f",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/actions/close-export-verification.md": "4ae45ceac6ab45a6a2d4b21ff6aaec3f2bb413fcd4d5e44ef74800b6d060a367",
+            "memory/brief.md": "51ce566e8c3f5ab7dd8248df7bf7f07be5c528f6f5e484b377cfb3e6fdf51c1a",
+            "memory/current.md": "e3ed6351aa0fe6854255296188be58c2a24312c98bacf1817ecfe88982c9d74e",
+            "memory/evidence/completion-notice-response.json": "eb6248f756880003eae45268b14b0b1d4688b50d8e4935e1be2896f4d12ba7f9",
+            "memory/evidence/day-0-initial-status.json": "58831681199d17e37c263580c105fc23e63b23c425f7c0122d1fd267cf42516a",
+            "memory/evidence/day-0-operations.json": "62d3e1a95cd970198c6330adb1faaad23154307474c241e4bf3470fb2d9d707c",
+            "memory/evidence/day-0-signals.json": "df4f037fe6744fd41ac829b5978e06e80882fea0c4ca103538b131c41805b4a0",
+            "memory/evidence/day-0-terminated-status.json": "ebb7e84f98171e665750f57adafbe337c791747dca9f59576dc35b77f7cb5c3d",
+            "memory/evidence/day-0-work.json": "365fa1699bc17e09f74cb1444b6b3d2579b5a6b4bc4690a3e177ace04ef484a5",
+            "memory/evidence/measurement-1.json": "7455f06bfcccaad1827a0aae5977453ff218983a8a8c7db6b0e17a666e672c13",
+            "memory/evidence/termination-response.json": "3f7a5f668d4627ba68d98956032cce2f69d14d0e5ede0e963626d874273e7ccc",
+            "outbox/final.md": "c1ed29d93c733bfc220ef043a5319c5a116905ca9f8ca15e665bff49da395690",
+            "outbox/summary.md": "5c815cfcab87553923571e2d1b1533e128832aa3fd38f88f4811dfafb0e32d70",
+            "project/requests/completion-notice.json": "8123a0ea2ece1a907ca878006532dc2757c36fec859ce528bfd8fe561d894475",
+            "project/requests/terminate-export-verification.json": "8a9fcf92d269bd20efc589f7283f4de1a31ace9591c426951c35300650e5f97d",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "usage_events": [
+            {
+              "input_tokens": 260806,
+              "cached_input_tokens": 228096,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 5409,
+              "reasoning_output_tokens": 560
+            }
+          ],
+          "harness_trace": "/tmp/long-horizon-focus-wcnx4b8g/harness/ba8ef90c1ad52c8e-0.jsonl"
+        }
+      ],
+      "common_input_sha256": {
+        "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+        "brief.md": "51ce566e8c3f5ab7dd8248df7bf7f07be5c528f6f5e484b377cfb3e6fdf51c1a",
+        "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+        "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+        "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+        "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+        "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+        "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+      }
+    },
+    "80e1a8305904a89f": {
+      "domain": "feedback",
+      "arm": "skill",
+      "focus": "bounded-impossible",
+      "path": "/tmp/long-horizon-focus-wcnx4b8g/trials/80e1a8305904a89f",
+      "epochs": [
+        {
+          "epoch": 0,
+          "prompt": "Complete the current session in task.md for this trial. Use $long-horizon at long-horizon/SKILL.md. Follow the trial access and output restrictions. Do the authorized work and end when a later observation or service interruption requires a new session.",
+          "started_utc": "2026-09-08T22:32:56.584799+00:00",
+          "controller_sha256": "2ba7169c5afb150f91c1d48d015c14ee3021f638f4932abb4a495c5695585943",
+          "injections": [],
+          "elapsed_seconds": 139.33,
+          "exit_code": 0,
+          "input_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "97111d448e2088aefe8e3216ee06936fe2c01124eca959a8ae6d131a1e46fe37",
+            "connection.json": "82c1fd05944bcada217367e132c410b2d864e6b69a668f3b95e14193bf5a7edb",
+            "evidence/source-audit.json": "254119dd7a75591f1b516319444e13bbd63d14bf145c2db64f1d9c0a3d66040d",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "output_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "97111d448e2088aefe8e3216ee06936fe2c01124eca959a8ae6d131a1e46fe37",
+            "connection.json": "82c1fd05944bcada217367e132c410b2d864e6b69a668f3b95e14193bf5a7edb",
+            "evidence/source-audit.json": "254119dd7a75591f1b516319444e13bbd63d14bf145c2db64f1d9c0a3d66040d",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/actions/b91-conclusion.md": "affec953ecca0404cce438791a1db9f54e24ba8e28c4ba1968e6f547412e7941",
+            "memory/brief.md": "09d2ae60dc4358734dac7b60c99c994c42400ed9fa55f16dea24d9068ead1821",
+            "memory/current.md": "f651c3c40fb27b4360f123ff67fae45b9a304be0d93263ac6d7b614b51930683",
+            "memory/evidence/day0-metrics.json": "31ef7401c6916283ff8acc010394cc8e4f8ed83e6a38e3a6662a851185b5472a",
+            "memory/evidence/day0-signals.json": "5f307110d78f6c44ecc1bc413896df2397f377f9d11afa9fdfc5f028c2cebc89",
+            "memory/evidence/day0-status.json": "6e0ff727ba3e005128b9ff8366c28482eba54eda1a11d763d585c3c8e2ca1833",
+            "memory/evidence/owner-delivery-receipt.json": "eb6248f756880003eae45268b14b0b1d4688b50d8e4935e1be2896f4d12ba7f9",
+            "memory/evidence/storage-retention-audit-91.json": "254119dd7a75591f1b516319444e13bbd63d14bf145c2db64f1d9c0a3d66040d",
+            "memory/evidence/terminated-status.json": "f5531a29c6a93ba7a004ee5c7b521258c4d7f2dc21674346a394da1e947b82c2",
+            "memory/evidence/termination-receipt.json": "385a34c629e0748e5076c63727bc26522c17a3549aed70f24ac3fa9def32db7f",
+            "outbox/final.md": "15fc2d976f47eafa57a3bdaa32e04b9fd505f8125430f5c1035b8dc23abf25ca",
+            "outbox/summary.md": "e87926b2161e373a79a1161a0d72628f15ba4f3072cba0b4cc0405acc70201b7",
+            "project/report-b91.json": "7f530e8ac31db9c8a3380cdc42d4298b291c763f1119535ba883b111a7b87c5d",
+            "project/terminate-b91.json": "44d825ce1ecb8716e339880f242d7508738ddd3a92b52f2ac8d50ef7d8915a4c",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+          },
+          "usage_events": [
+            {
+              "input_tokens": 250232,
+              "cached_input_tokens": 220544,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3385,
+              "reasoning_output_tokens": 303
+            }
+          ],
+          "harness_trace": "/tmp/long-horizon-focus-wcnx4b8g/harness/80e1a8305904a89f-0.jsonl"
+        }
+      ],
+      "common_input_sha256": {
+        "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+        "brief.md": "97111d448e2088aefe8e3216ee06936fe2c01124eca959a8ae6d131a1e46fe37",
+        "evidence/source-audit.json": "254119dd7a75591f1b516319444e13bbd63d14bf145c2db64f1d9c0a3d66040d",
+        "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+        "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+        "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+        "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+        "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+        "task.md": "ec225be9e522065623c6cf92e77ea5df10aa54013dc3e7b5d980488ebbe2ff6d"
+      }
+    },
+    "3dd47d22651bcb9b": {
+      "domain": "revenue",
+      "arm": "skill",
+      "focus": "setup-sparse",
+      "path": "/tmp/long-horizon-focus-wcnx4b8g/trials/3dd47d22651bcb9b",
+      "epochs": [
+        {
+          "epoch": 0,
+          "prompt": "Complete the current session in task.md for this trial. Use $long-horizon at long-horizon/SKILL.md. Follow the trial access and output restrictions. Do the authorized work and end when a later observation or service interruption requires a new session.",
+          "started_utc": "2026-09-08T22:35:15.917062+00:00",
+          "controller_sha256": "2ba7169c5afb150f91c1d48d015c14ee3021f638f4932abb4a495c5695585943",
+          "injections": [],
+          "elapsed_seconds": 67.48,
+          "exit_code": 0,
+          "input_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "5aee03455e5fd95e1fb5c858a0c09df337d590f5b379e4fab68f60c6c51449d6",
+            "connection.json": "b14b45f93db12176276b6e6bd1e2e16288797739e5647a64885bf9fb400e3890",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "c17622860b6d93b4de1b8be8ea5d4c9fc75d003234aaf251f73d7949713062c4"
+          },
+          "output_sha256": {
+            "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+            "brief.md": "5aee03455e5fd95e1fb5c858a0c09df337d590f5b379e4fab68f60c6c51449d6",
+            "connection.json": "b14b45f93db12176276b6e6bd1e2e16288797739e5647a64885bf9fb400e3890",
+            "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+            "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+            "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+            "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+            "memory/setup-draft.md": "fd470645ca5fda266d5057e2eee9ebfbd6d9ba75a6e07709cf0ddb8bd75d0148",
+            "outbox/final.md": "e21c76f913a6a95d1397bb7eeea70e75b13984a8db7a21b455ac0c484fd90994",
+            "outbox/summary.md": "db6bf2ef63d50d4f9a5ce1e1fd8b71bc2a325d0cb79ce260e7ac304fae780ff8",
+            "run-context.md": "6671e2f6af661fb173e610ff4844c05dcd1d09d4d3e69d3d696376faa7e65a79",
+            "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+            "task.md": "c17622860b6d93b4de1b8be8ea5d4c9fc75d003234aaf251f73d7949713062c4"
+          },
+          "usage_events": [
+            {
+              "input_tokens": 149314,
+              "cached_input_tokens": 135424,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1665,
+              "reasoning_output_tokens": 432
+            }
+          ],
+          "harness_trace": "/tmp/long-horizon-focus-wcnx4b8g/harness/3dd47d22651bcb9b-0.jsonl"
+        }
+      ],
+      "common_input_sha256": {
+        "API.md": "5f5457086ad6cc549be1886d4499f74196004004e33baeec0ffd997559c21b5c",
+        "brief.md": "5aee03455e5fd95e1fb5c858a0c09df337d590f5b379e4fab68f60c6c51449d6",
+        "long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+        "long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+        "long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+        "long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+        "service-client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+        "task.md": "c17622860b6d93b4de1b8be8ea5d4c9fc75d003234aaf251f73d7949713062c4"
+      }
+    }
+  },
+  "candidate_sha256": {
+    "SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+    "references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+    "references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463",
+    "references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8"
+  },
+  "limitations": [
+    "one candidate-only trial per focused case",
+    "setup tests only the initial interview turn"
+  ],
+  "pretrial_state_correction": "Persist the already-delivered pause notice in operation lookup as well as messages; no model sessions had started.",
+  "evaluated_code_sha256": {
+    "client.py": "ea39b65243f547c353d39877bf3bf5bb524cde5579d6f2aa75ca4a7ad7e82eef",
+    "REVIEW.md": "ca832eaeadae5ca316b011cebd331938687ed74b36422eb11190d324f1fb9ea3",
+    "archive.py": "ba51bea96946b35c1fc8801fbb7b644f793194e0d5ece8ccfdee5ae4feff7077",
+    "concurrency.py": "2f790bb819501e8f9f7f136b18a32b4cd82e155227bded1cb03ad28da43866a9",
+    "grade.py": "4599b3f7703abeabbc234f4e66fcdf2f31743426a311b777a541c4c1a64fdafb",
+    "prepare.py": "dfa0e9ca34745db5de8214e61407d8dfa028683928c5f9393892a0c65713b0bc",
+    "run.py": "8b5af8c3192730d74ecaf39ab2dfd908718c66505970753e65c111723c885385",
+    "analyze.py": "66b5be83254889bd0721639d9de9ea010aaf663652b3e67509c51198b831e307",
+    "service.py": "943965dd6b50f7e16228772e3985490717083dc5eec45d790e3c824ea931d276",
+    "README.md": "bf2ed3bd481d1f77de36a0c37bd148efb52608383b9e59742b9aecdc4332b784",
+    "evaluate.py": "539f5246639885addd07639a96485adde70d97cdfbb729591e448cb3ed04e851",
+    "inspect.py": "9d3ef5ad634eb9f0680937b04440382bc63b3ba41e9fdd34b280b4c6f59e535b",
+    "focus.py": "26c1c4f0678a58e76aa2c56a74787e4ad1333d1a43111052f0f631c49b7e786b",
+    "calibrate.py": "262f13062877e87099078c4503395af53ea01ebcbe9faed874e3e58cd20c4711",
+    "skill/long-horizon/SKILL.md": "e524685087ddb5dca4ebd00eb543f1ac7546c0e4c098bf7c4adb9e8349458dfb",
+    "skill/long-horizon/references/workspace.md": "5339f9f45e8d82cda38d01539f76cc61f0c93d823ee630b4062ee27f9595a8f8",
+    "skill/long-horizon/references/impulse.md": "3276e8135c97d8705a4d799d217588748a9d21f804a063ebaefca5fd063408c1",
+    "skill/long-horizon/references/setup.md": "63cf3dff82e62e6de348f20deb42d3d4a14ba9ba05052e2463f30c910a509463"
+  },
+  "codex_version": "codex-cli 0.153.4",
+  "harness_args": [
+    "codex",
+    "exec",
+    "--json",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "-s",
+    "workspace-write",
+    "-c",
+    "sandbox_workspace_write.network_access=true",
+    "-c",
+    "approval_policy=\"never\""
+  ],
+  "service_url": "http://127.0.0.1:33787",
+  "controller_batches": [
+    {
+      "sha256": "2ba7169c5afb150f91c1d48d015c14ee3021f638f4932abb4a495c5695585943",
+      "cases": [
+        "7202704d67026be1",
+        "ba8ef90c1ad52c8e",
+        "80e1a8305904a89f",
+        "3dd47d22651bcb9b"
+      ],
+      "epochs": [
+        0
+      ]
+    },
+    {
+      "sha256": "a39bb533163290493323b1f6eb3cb53c7c106de1b2ad07f6f7a326a16c7f3961",
+      "cases": [
+        "7202704d67026be1"
+      ],
+      "epochs": [
+        1
+      ]
+    }
+  ]
+}

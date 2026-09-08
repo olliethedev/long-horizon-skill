@@ -1,0 +1,101 @@
+{
+  "day": 540,
+  "date": "2028-06-27",
+  "decision": "Keep detailed offer; do not reopen the compact experiment on the repeated Quiet Offer suggestion.",
+  "basis": [
+    "measurement-14",
+    "measurement-11",
+    "measurement-9",
+    "effect-10",
+    "memory/evidence/day-540-status.json",
+    "memory/evidence/day-540-signals.json",
+    "memory/evidence/day-540-work.json"
+  ],
+  "current_state": {
+    "revision": 3,
+    "config": {
+      "offer": "detailed",
+      "wallet_tracking": true
+    },
+    "experiment": null,
+    "active_tests": 4
+  },
+  "latest_observation": {
+    "receipt": "measurement-14",
+    "new_controlled_comparison": false,
+    "definition": "settled-order-ledger-v3",
+    "current_wallet_and_cancellation_checks_pass": true,
+    "signal_observation_age_days": 540,
+    "scope_change_reported": false
+  },
+  "retained_current_trial_outcome": {
+    "receipts_in_one_correction_chain": [
+      "measurement-1",
+      "measurement-4",
+      "measurement-6",
+      "measurement-7",
+      "measurement-9",
+      "measurement-11"
+    ],
+    "sessions_per_arm": 10000,
+    "control_revenue_per_session": 5.0,
+    "compact_revenue_per_session": 4.8,
+    "difference_per_session": -0.2,
+    "relative_difference_percent": -4,
+    "reported_difference_95ci": [
+      -0.3,
+      -0.1
+    ],
+    "mature_refund_rates_control_compact": [
+      0.02,
+      0.02
+    ],
+    "checkout_error_rates_control_compact": [
+      0.002,
+      0.002
+    ],
+    "rollback_receipt": "effect-10"
+  },
+  "separate_historical_outcome": "Spruce-47 original -40% was corrected by audit-119 to inconclusive +2% on the same old sessions; rb-733 remains completed. This is separate from the day-240 trial correction and rollback.",
+  "limitations": [
+    "Current passing reconciliation checks do not revise the earlier corrected outcome or supply a new outcome.",
+    "No new revenue/refund/error comparison or post-restoration recovery window is supplied.",
+    "Same-session corrections and cumulative observations must not be pooled as independent cohorts.",
+    "Guardrail uncertainty and separate denominators remain unavailable in the corrected trial evidence.",
+    "Complete explanatory-block removal has not been verified equivalent to compact; the API exposes only detailed/compact.",
+    "The supplied records do not establish an intervening day-254 review occurred."
+  ],
+  "shared_validation_budget": {
+    "source": "project-credit-ledger",
+    "allocation": 10,
+    "consumed": 9,
+    "remaining": 1,
+    "reset": "none",
+    "session_credits_spent": 0
+  },
+  "related_work": "footer-accessibility is explicitly compatible; inspect later cohort-metric-review corrections before any decision or pooling.",
+  "next_observation": {
+    "confirmed_day": 570,
+    "confirmed_date": "2028-07-27",
+    "purpose": "Review fresh revenue signals, measurement corrections and any genuinely distinct feasible offer candidate; report if due.",
+    "schedule_key": "revenue-detailed-d540-review-d570-v1",
+    "receipt": "effect-15",
+    "independent_confirmation": "memory/evidence/day-540-final-status.json"
+  },
+  "lifecycle": "Keep active: ongoing revenue monitoring remains useful; no owner-resolvable prerequisite or end of responsibility is established.",
+  "confirmed_session_mutations": [
+    {
+      "op": "schedule",
+      "key": "revenue-detailed-d540-review-d570-v1",
+      "receipt": "effect-15"
+    },
+    {
+      "op": "report",
+      "key": "revenue-d540-monthly-quiet-offer-digest-v1",
+      "receipt": "effect-16",
+      "destination": "fixture:owner",
+      "message_number": 2
+    }
+  ],
+  "unresolved_mutations": []
+}

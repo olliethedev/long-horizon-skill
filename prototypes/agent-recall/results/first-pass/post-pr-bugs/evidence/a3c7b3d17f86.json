@@ -1,0 +1,9 @@
+{
+  "observed_at": "2025-12-09",
+  "source_responsibility": "service-operations",
+  "rollback_receipt": "ops-rollback-14",
+  "errors_after_rollback": true,
+  "upstream_status": 429,
+  "requests_per_minute": 260,
+  "quota_per_minute": 200
+}

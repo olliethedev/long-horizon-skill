@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "220b78a4a64d",
+  "subject": "billing-7",
+  "cohort": "desktop returning",
+  "change": "Change heading wording",
+  "rollout_receipt": "deploy-220b78a4a64d",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": 0.07,
+  "decision": "adopt",
+  "close_receipt": "close-220b78a4a64d"
+}

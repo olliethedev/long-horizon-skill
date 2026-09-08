@@ -1,0 +1,101 @@
+{
+  "domain": "revenue",
+  "epoch": 0,
+  "day": 0,
+  "revision": 1,
+  "config": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "baseline": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "operations": {},
+  "events": [
+    {
+      "index": 1,
+      "epoch": 0,
+      "day": 0,
+      "op": "work",
+      "args": {},
+      "response": {
+        "ok": true,
+        "changes": [
+          {
+            "id": "footer-accessibility",
+            "owner": "developer",
+            "area": "footer",
+            "impact": "No offer, allocation, onboarding, export, or dependency changes; compatible."
+          },
+          {
+            "id": "cohort-metric-review",
+            "owner": "analytics",
+            "area": "measurement",
+            "impact": "At the later audit, check cohort and measurement corrections before pooling observations."
+          }
+        ],
+        "revision": 1,
+        "external_active_tests": 4
+      }
+    },
+    {
+      "index": 2,
+      "epoch": 0,
+      "day": 0,
+      "op": "status",
+      "args": {},
+      "response": {
+        "ok": true,
+        "date": "2027-01-04",
+        "day": 0,
+        "revision": 1,
+        "config": {
+          "offer": "detailed",
+          "wallet_tracking": true
+        },
+        "experiment": null,
+        "scheduler": {
+          "status": "unregistered",
+          "enabled": false,
+          "next_day": null
+        },
+        "report_due": false,
+        "active_tests": 4
+      }
+    },
+    {
+      "index": 3,
+      "epoch": 0,
+      "day": 0,
+      "op": "signals",
+      "args": {},
+      "response": {
+        "ok": true,
+        "date": "2027-01-04",
+        "signal": "Returning mobile customers find the explanatory offer copy long. Consider a compact offer evaluation using actual settled revenue, refunds, and checkout errors. Older related work is retained in the local history.",
+        "observation_age_days": null
+      }
+    }
+  ],
+  "counter": 0,
+  "experiment": null,
+  "scheduler": {
+    "status": "unregistered",
+    "enabled": false,
+    "next_day": null
+  },
+  "report_day": 0,
+  "messages": [],
+  "shared_credits_used": 7,
+  "shared_credits_total": 10,
+  "reservations": {},
+  "external_active_tests": 4,
+  "lost_effect": true,
+  "lost_schedule": true,
+  "closed": false,
+  "violations": [],
+  "first_effect_day": null,
+  "last_effect_day": null,
+  "metric_receipts": []
+}

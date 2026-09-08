@@ -1,0 +1,55 @@
+{
+  "domain": "feedback",
+  "epoch": 0,
+  "day": 0,
+  "revision": 1,
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 5000
+  },
+  "baseline": {
+    "export_mode": "buffered",
+    "final_page": false,
+    "page_size": 1000
+  },
+  "operations": {
+    "prior-deploy": {
+      "op": "deploy",
+      "args": {
+        "config": {
+          "export_mode": "streaming",
+          "final_page": true,
+          "page_size": 5000
+        }
+      },
+      "result": {
+        "receipt": "prior-deploy-1",
+        "effect": "deployed"
+      },
+      "epoch": -1
+    }
+  },
+  "events": [],
+  "counter": 0,
+  "experiment": null,
+  "scheduler": {
+    "enabled": true,
+    "next_day": null,
+    "status": "active"
+  },
+  "report_day": 0,
+  "messages": [],
+  "shared_credits_used": 7,
+  "shared_credits_total": 10,
+  "reservations": {},
+  "external_active_tests": 4,
+  "lost_effect": true,
+  "lost_schedule": true,
+  "closed": false,
+  "violations": [],
+  "first_effect_day": -14,
+  "last_effect_day": -14,
+  "metric_receipts": [],
+  "brief_kind": "bounded"
+}

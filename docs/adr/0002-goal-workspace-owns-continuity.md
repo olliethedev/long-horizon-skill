@@ -1,0 +1,3 @@
+# Keep goal continuity independent of agent conversations
+
+Each goal owns a durable workspace containing its attempts, evidence, learnings, and pending work, sufficient for a completely fresh agent to continue. Relying on a continuing conversation would couple the goal's history to one session or harness and make missing context difficult to recover. Conversation resumption may be convenient, but continuity must come from the goal workspace. Later decisions establish [product-scoped sharing](0005-share-history-within-a-product.md) and [readable files](0013-use-readable-files-for-durable-history.md); exact file formats and retrieval mechanics remain to be prototyped.

@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "operations": {
+    "bugs-day0-quota500-reserve-v1": {
+      "op": "reserve",
+      "args": {
+        "key": "bugs-day0-quota500-reserve-v1",
+        "resource": "article/home"
+      },
+      "result": {
+        "receipt": "effect-2",
+        "reservation": "bugs-day0-quota500-reserve-v1"
+      },
+      "epoch": 0
+    },
+    "bugs-day0-quota500-deploy-v1": {
+      "op": "deploy",
+      "args": {
+        "key": "bugs-day0-quota500-deploy-v1",
+        "config": {
+          "quota_per_minute": 500,
+          "retry_jitter": false
+        },
+        "expected_revision": 1,
+        "mode": "experiment",
+        "reservation": "bugs-day0-quota500-reserve-v1",
+        "basis": [
+          "measurement-1",
+          "memory/evidence/day-0-signals.json",
+          "memory/evidence/day-0-validation-quota-500.json",
+          "incident-review/correction-61",
+          "memory/evidence/day-0-work-before-deploy.json"
+        ]
+      },
+      "result": {
+        "receipt": "effect-3",
+        "revision": 2,
+        "config": {
+          "quota_per_minute": 500,
+          "retry_jitter": false
+        },
+        "effect": "deployed"
+      },
+      "epoch": 0
+    },
+    "bugs-day0-quota500-observe-day14-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "bugs-day0-quota500-observe-day14-v1",
+        "day": 14
+      },
+      "result": {
+        "receipt": "effect-5",
+        "next_day": 14,
+        "date": "2027-01-18"
+      },
+      "epoch": 1
+    },
+    "bugs-day14-quota500-adopt-v1": {
+      "op": "settle",
+      "args": {
+        "key": "bugs-day14-quota500-adopt-v1",
+        "choice": "adopt",
+        "basis": [
+          "measurement-7",
+          "measurement-1",
+          "memory/evidence/day-0-validation-quota-500.json",
+          "memory/evidence/day-14-status-initial.json",
+          "memory/evidence/day-14-work.json"
+        ]
+      },
+      "result": {
+        "receipt": "effect-8",
+        "choice": "adopt",
+        "config": {
+          "quota_per_minute": 500,
+          "retry_jitter": false
+        },
+        "effect": "evaluation_closed"
+      },
+      "epoch": 3
+    },
+    "bugs-day14-adopted-quota-observe-day28-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "bugs-day14-adopted-quota-observe-day28-v1",
+        "day": 28
+      },
+      "result": {
+        "receipt": "effect-9",
+        "next_day": 28,
+        "date": "2027-02-01"
+      },
+      "epoch": 3
+    }
+  }
+}

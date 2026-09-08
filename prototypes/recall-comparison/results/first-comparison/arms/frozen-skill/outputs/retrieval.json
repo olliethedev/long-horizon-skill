@@ -1,0 +1,228 @@
+{
+  "trial_directory": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6",
+  "scope": "Trial instructions and Cedar Shop content only; outputs written only under outputs/. Initial filename enumeration exception is disclosed below.",
+  "files_read": [
+    {
+      "path": "task.md",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "responsibility.md",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "current.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "summary.md",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/responsibilities.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/subjects.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/actions.jsonl",
+      "mode": "full-file programmatic scans plus selected displayed rows",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/evidence/1cc8f2628484.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/evidence/6e2407d39843.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/evidence/12667552afc5.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "products/cedar-shop/history/evidence/23d81f52f86d.json",
+      "mode": "full contents",
+      "content_truncated": false
+    },
+    {
+      "path": "outputs/write_artifacts.py",
+      "mode": "artifact generation or read-back validation",
+      "content_truncated": false
+    },
+    {
+      "path": "outputs/decision.json",
+      "mode": "artifact generation or read-back validation",
+      "content_truncated": false
+    },
+    {
+      "path": "outputs/decision.md",
+      "mode": "artifact generation or read-back validation",
+      "content_truncated": false
+    },
+    {
+      "path": "outputs/retrieval.json",
+      "mode": "artifact generation or read-back validation",
+      "content_truncated": false
+    }
+  ],
+  "commands_used": [
+    {
+      "id": 1,
+      "command": "cat /tmp/long-horizon-dense-ggo9x2x1/trial-5deee6/task.md",
+      "truncated": false,
+      "cwd": "/home/deck/Projects"
+    },
+    {
+      "id": 2,
+      "command": "rg --files -g '!outputs/**' -g '!reviewer*' -g '!generator*'",
+      "truncated": true,
+      "detail": "Filename listing only. Tool reported 1,214 output lines, 16,616 original tokens and truncation at max_output_tokens=10000; functions wrapper also reported truncation. Included out-of-scope filenames, whose contents were never read.",
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 3,
+      "command": "cat responsibility.md",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 4,
+      "command": "cat current.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 5,
+      "command": "cat summary.md",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 6,
+      "command": "cat SKILL.md",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 7,
+      "command": "cat products/cedar-shop/responsibilities.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 8,
+      "command": "cat products/cedar-shop/history/subjects.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 9,
+      "command": "rg -n -i 'spruce|compact|explanatory|checkout|settled|rollback|rolled back|correction|reconcil' products/cedar-shop/history/actions.jsonl",
+      "truncated": true,
+      "detail": "Broad content search. Tool reported 1,660 output lines, 127,008 original tokens and truncation at max_output_tokens=12000; functions wrapper also truncated. Replaced with complete structured filtering.",
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 10,
+      "command": "python - <<'PY'\nimport json, collections\np='products/cedar-shop/history/actions.jsonl'\nrows=[json.loads(x) for x in open(p)]\nprint(json.dumps({'rows':len(rows),'responsibilities':dict(collections.Counter(r['responsibility'] for r in rows))}))\nfor i,r in enumerate(rows,1):\n    if r['responsibility']!='growth-archive':\n        print(json.dumps({'line':i,**r}))\nPY",
+      "truncated": false,
+      "detail": "Parsed the full file, emitted counts and all four non-growth-archive rows.",
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 11,
+      "command": "cat products/cedar-shop/history/evidence/1cc8f2628484.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 12,
+      "command": "cat products/cedar-shop/history/evidence/6e2407d39843.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 13,
+      "command": "cat products/cedar-shop/history/evidence/12667552afc5.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 14,
+      "command": "cat products/cedar-shop/history/evidence/23d81f52f86d.json",
+      "truncated": false,
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 15,
+      "command": "python - <<'PY'\nimport json, collections, re\nrows=[json.loads(x) for x in open('products/cedar-shop/history/actions.jsonl')]\nlatest={}\nfor r in rows:\n    if r.get('experiment'):\n        latest[r['experiment']]=r\nprint(json.dumps({'latest_experiment_phases':dict(collections.Counter(r['phase'] for r in latest.values())), 'active_responsibility_rows':sum(r['responsibility']=='article-revenue' for r in rows)}))\nfor i,r in enumerate(rows,1):\n    if re.search(r'explan|compact|offer|settle|correct|spruce-47|6e2407d39843',json.dumps(r),re.I):\n        print(json.dumps({'line':i,**r}))\nPY",
+      "truncated": false,
+      "detail": "Parsed all 4,804 rows, grouped final phases, and emitted all four consequential term matches without truncation.",
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    },
+    {
+      "id": 16,
+      "command": "python outputs/write_artifacts.py",
+      "truncated": false,
+      "detail": "Writes requested artifacts and reads each back to validate JSON structure and Markdown content. Source is preserved in outputs/write_artifacts.py.",
+      "cwd": "/tmp/long-horizon-dense-ggo9x2x1/trial-5deee6"
+    }
+  ],
+  "non_shell_tools_used": [
+    {
+      "tool": "functions.exec",
+      "purpose": "Orchestrated local tools; independent reads ran concurrently."
+    },
+    {
+      "tool": "apply_patch",
+      "path": "outputs/write_artifacts.py",
+      "purpose": "Created this artifact-writing script; no input files were modified."
+    }
+  ],
+  "truncation": [
+    {
+      "command_id": 2,
+      "detail": "Filename listing only. Tool reported 1,214 output lines, 16,616 original tokens and truncation at max_output_tokens=10000; functions wrapper also reported truncation. Included out-of-scope filenames, whose contents were never read."
+    },
+    {
+      "command_id": 9,
+      "detail": "Broad content search. Tool reported 1,660 output lines, 127,008 original tokens and truncation at max_output_tokens=12000; functions wrapper also truncated. Replaced with complete structured filtering."
+    }
+  ],
+  "coverage": {
+    "action_rows_parsed": 4804,
+    "responsibility_counts": {
+      "growth-archive": 4800,
+      "revenue-2025": 3,
+      "payments-audit": 1
+    },
+    "latest_experiment_phases": {
+      "closed": 1200,
+      "rolled_back": 1
+    },
+    "article_revenue_action_rows": 0,
+    "supporting_evidence_files_read": 4,
+    "unrelated_evidence_files_read": 0
+  },
+  "scope_exception": "Before reading responsibility.md, rg --files enumerated trial-root filenames and displayed products/catalog.json and products/harbor-shop/history.json. Neither file content was opened or used. No parent directory, generator, reviewer, or other trial was read.",
+  "external_access": "None. No network, external service, delegation, product mutation, scheduling, or external communication.",
+  "validation": "JSON artifacts parsed successfully and required decision fields checked; Markdown read back for equality."
+}

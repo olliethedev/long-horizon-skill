@@ -1,0 +1,13 @@
+{
+  "key": "bugs-day540-quota500-adopt-v1",
+  "choice": "adopt",
+  "basis": [
+    "measurement-17",
+    "measurement-11",
+    "measurement-14",
+    "memory/evidence/day-0-validation-quota-500.json",
+    "memory/evidence/day-540-status-before-adopt.json",
+    "memory/evidence/day-540-work-before-adopt.json",
+    "memory/actions/day-540-adoption.md"
+  ]
+}

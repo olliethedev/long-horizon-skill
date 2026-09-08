@@ -1,0 +1,1 @@
+Access deviation: the initial discovery command mistakenly searched filenames under /tmp outside the trial and returned an unrelated AGENTS.md path. That file was not opened. Subsequent reads stayed within this trial and its service responses; do not repeat the broad search.

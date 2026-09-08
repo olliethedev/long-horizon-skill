@@ -1,0 +1,37 @@
+{
+  "files_read": [
+    "SKILL.md",
+    "task.md",
+    "brief.md",
+    "current-packet.md",
+    "memory/handoff.md",
+    "memory/actions/2025-03-10-inc-61-review.md",
+    "memory/sources/2025-03-10-inc-61-packet.md",
+    "memory/sources/2025-11-18-correction-61-packet.md",
+    "memory/actions/2025-11-18-inc-61-correction.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "files_written": [
+    "memory/sources/2025-11-18-correction-61-packet.md",
+    "memory/actions/2025-11-18-inc-61-correction.md",
+    "memory/actions/2025-03-10-inc-61-review.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "retrieval_methods": [
+    "Listed allowed trial root files and memory files with rg --files.",
+    "Read all preexisting memory files and the session instructions/brief/packet; no catalog was present."
+  ],
+  "retrieval_limitations": [
+    "Only this trial directory was accessed. Original incident archive, deployment/rollback receipts, dependency logs, quota receipts, replay artifacts and inc-77 record were not supplied; conclusions use the attributed packet summaries.",
+    "No live current deployment, quota, monitoring or related-work state was available."
+  ],
+  "output_limitations": [
+    "This exercise permits local analysis and saved plans only. No network, agents, live schedule, product modification or messages were used.",
+    "Only memory survives the session; the current packet was copied there and the decision evidence and next work are preserved in action/handoff files. Outbox is reviewer output only.",
+    "No external incident closure, remediation, schedule, report delivery or current-health verification is claimed."
+  ],
+  "validation": "Confirmed written files are nonempty, local Markdown links resolve within the trial, and the preserved November source exactly matches current-packet.md."
+}

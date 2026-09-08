@@ -1,0 +1,37 @@
+# Action 003: verify reliability at Elm and Ash's export sizes
+
+Date: 2026-09-08. Status: local analysis and saved plan completed; proposed external investigation and execution remain unperformed. Responsibility ongoing, no owner pause or decision required now.
+
+## Current decision
+
+Do not recommend enabling production streaming for Elm or Ash solely on the release summary. Prioritize a paired completeness and completion-time investigation at their actual 85,000- and 92,000-record workloads. Carry forward the larger-export verification objective from [Action 002](002-verify-larger-patched-exports.md), expanding its scope to the newly affected sizes. The proposed investigation should also diagnose the buffered timeouts; preserving the routing recommendation is not an adequate long-term remedy for those failures.
+
+Evidence: [September support report](../evidence/2026-09-08-new-cases-204.md), [November scoped patch verification](../evidence/2025-11-18-ex-verify-81.md), and [March deployment, defect, and rollback](../evidence/2025-03-10-ticket-bundle-31.md). All supplied memory files were inspected, including earlier action details; there is no catalog or additional related-work evidence in this trial archive.
+
+The current reported route sends both tenants to buffering, and both attempts timed out. No completed artifact establishes their record completeness. Patch release is distinct from verified recovery: only the 4,000/10,000-row streaming fixtures passed. Missing large-export evidence is neither a passing result nor a reproduced patched defect. Changed code supports reevaluation despite the earlier failure; historical reduced timeouts at 20,000 rows cannot prove reliable completion at today's sizes.
+
+## Intended next action in a future authorized execution environment
+
+1. Inspect actual deployed version, patch presence, route selection and timeout configuration, plus related ongoing export work and experiments before any product change. Retrieve relevant catalog/history records using Download all company records, Workspace data export, Bulk archive download, organization exports, Elm, Ash, streaming, final-page, `page-final-81`, `ex-verify-81`, `release-ex22`, `rollback-ex23`, and `new-cases-204`. Follow source receipts, corrections and linked findings. Reconcile any uncertain release, test or routing action before repeating it; the saved earlier actions are plans, not execution receipts.
+2. Obtain Elm/Ash attempt logs and timing, the original missing-final-page reproduction, raw November fixture outputs, pagination size and snapshot semantics. Confirm expected source membership and counts on stable snapshots. Establish representative record sizes, filters/scope, joins and concurrency without inventing those workload details. Identify where buffering stalls or times out (generation, query, resource limits or transfer), using observed traces.
+3. In an authorized isolated environment, compare current buffering and patched streaming on matched representative fixtures at **85,000 and 92,000 records**. Also cover 10,001 rows, the historical 20,000-row workload, the original failure once retrieved, and full/partial final pages around actual pagination boundaries. Retain the 4,000/10,000-row passes as scoped baseline evidence. Additional cases address relevant page shapes; a passing 20,000-row test alone does not qualify the two current workloads. Do not route the customers to unverified streaming to conduct this check.
+4. For each completed artifact, compare source and exported ID multisets (including omissions, unexpected IDs, duplicates and multiplicities), reconcile counts and final-page coverage, and record snapshot identity, fixture/tenant, deployed/test version, selected path, page shape, timestamps, workload conditions and raw result references. A count match or successful download alone cannot establish completeness. On timed-out attempts, record failure stage and elapsed time; absence of an artifact leaves completeness unassessed.
+5. Measure elapsed time through completed artifact availability/download and timeout outcomes on the same workloads. Establish a relevant completion target from existing requirements or customer context before setting a release gate; the supplied evidence specifies no time target. Record run counts and conditions, resource diagnostics and overlapping changes that could alter interpretation. Repeat comparisons only as needed to address variability or changed conditions.
+
+## Next observation and decision gates
+
+The next requested observation is current deployment/routing and related-work evidence plus a recorded paired evaluation at 85,000 and 92,000 records, with exact-ID completeness, completion timing, timeout diagnostics and raw evidence. Include threshold/final-page regressions before any rollout proposal.
+
+- If patched streaming misses or duplicates records, preserve the containment recommendation and prepare a scoped reproduction/fix proposal; investigate the buffered completion problem in parallel within future authorization.
+- If streaming passes the workload and boundary completeness cases and meets an established completion target, consider a separately authorized staged routing proposal. Define cohort/version selection, production completeness observations, completion monitoring and regression/rollback criteria first. Fixture passes do not establish production reliability. Buffering already timed out for these cases, so a rollback plan must describe that limitation and an operational recovery path rather than assume buffering is an adequate fallback.
+- If streaming completes but loses records, it is not a successful export. If it is complete but still times out or takes unacceptable time, continue the completion investigation.
+- If buffering completes with exact IDs after a diagnosed remedy, evaluate that evidence as another viable fix. A routing change is not predetermined.
+- If evidence is unavailable, retain the precise gap and continue feasible analysis. Do not infer failure, pause the responsibility, or declare it complete from an unavailable observation.
+
+## Actual actions, remaining uncertainty and reporting
+
+This session read the supplied brief, packet and full saved archive; preserved the new source; wrote this plan and updated the handoff and historical continuation links. No logs or external receipts were retrieved, no live state inspected, no tests run, no product changed, no message/report delivered, and no Impulse task scheduled. No intended action here has execution status.
+
+Unresolved: deployed patch/version, larger streaming completeness and performance, buffered completeness for these attempts, timeout cause/duration, canonical tenant snapshots, page boundaries, original reproduction details, production observations, concurrent work and later corrections absent from the archive. Earlier separate Saved view CSV column-order work remains reported fixed and was not this responsibility's implementation.
+
+The responsibility remains active and ongoing; this local exercise is complete, but the customer problem is not resolved. No owner notice or decision is needed now. No report is due; the agreed monthly digest destination is the owner's local report folder, with exact path unspecified. Reporting and future execution are intended only. Retain action and evidence records through termination until explicit owner deletion.

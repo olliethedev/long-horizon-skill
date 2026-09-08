@@ -1,0 +1,3 @@
+# Build thorough setup into the skill
+
+The long-horizon skill conducts a thorough, task-specific setup interview before autonomous operation, resolving the details that determine what the agent should pursue, what it may do, and how it should evaluate and coordinate its work. The owner explicitly prefers this depth because responsibilities can operate autonomously for months; a minimal intake that leaves important choices implicit is insufficient. Use the one-question-at-a-time grilling approach within the skill, preserve answers in the durable brief, and reuse decisions already established through project context or a prior interview, so a separate `grill-me` invocation is optional.

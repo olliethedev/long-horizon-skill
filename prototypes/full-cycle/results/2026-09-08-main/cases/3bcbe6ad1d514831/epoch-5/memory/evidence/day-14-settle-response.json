@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "receipt": "effect-8",
+  "choice": "adopt",
+  "config": {
+    "save_setup": true,
+    "explicit_template": true
+  },
+  "effect": "evaluation_closed"
+}

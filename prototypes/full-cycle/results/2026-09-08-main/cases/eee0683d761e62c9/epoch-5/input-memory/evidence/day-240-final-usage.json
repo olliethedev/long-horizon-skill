@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "source": "project-credit-ledger",
+  "scope": "whole product; includes other responsibilities",
+  "allocation": 10,
+  "consumed": 9,
+  "unit": "validation credit",
+  "reset": "none; project allocation",
+  "validate_cost": 1
+}

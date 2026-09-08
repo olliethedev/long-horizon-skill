@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "e95a2554f929",
+  "subject": "export-10",
+  "cohort": "mobile first-time",
+  "change": "Change heading wording",
+  "rollout_receipt": "deploy-e95a2554f929",
+  "window_days": 14,
+  "metric": "completion_fraction",
+  "measured_relative_change": -0.03,
+  "decision": "restore",
+  "close_receipt": "close-e95a2554f929"
+}

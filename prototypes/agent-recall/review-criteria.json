@@ -1,0 +1,35 @@
+{
+  "status": "Written before reviewing evaluator outputs; outside the agents' permitted case directories.",
+  "common": [
+    "Historical claims are supported by the cited case evidence.",
+    "The decision distinguishes prior action status from observed outcome.",
+    "The selected next action follows from current signals and recovered history.",
+    "The ongoing or still-in-progress brief is not prematurely terminated.",
+    "Output remains a permitted local decision artifact without real external actions."
+  ],
+  "revenue": [
+    "Recovers the prior shortened-copy intervention, its revenue result, and rollback.",
+    "Distinguishes higher clicks from lower revenue and corrects the misleading success summary.",
+    "Avoids an unqualified repeat of the same intervention under the stated unchanged conditions."
+  ],
+  "weekly-product": [
+    "Recovers that Draft Keeper was recommended and deferred before implementation.",
+    "Uses the production flag and historical verification to distinguish unshipped work from a failed measured intervention.",
+    "Does not dismiss saving progress as already tried without benefit; chooses a supported next action for current onboarding friction."
+  ],
+  "feedback": [
+    "Connects Data Extractor history to current Download Table complaints.",
+    "Recovers the partial rollback and the limited size coverage of later verification.",
+    "Targets current large-export behavior and accounts for the correctness problem that caused the earlier reversion."
+  ],
+  "post-pr-bugs": [
+    "Recovers the initial attribution, unsuccessful rollback, and later incident correction.",
+    "Uses current upstream status, traffic, and quota as evidence without assuming the old incident proves the current cause.",
+    "Avoids a blind rollback justified only by chronology or the stale summary."
+  ],
+  "limits": [
+    "No baseline or repeated-seed reliability claim.",
+    "Read scope is instruction-enforced; retrieval logs are self-reported.",
+    "One fresh decision session per domain; not a multi-wakeup end-to-end execution."
+  ]
+}

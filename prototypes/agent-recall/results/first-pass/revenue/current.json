@@ -1,0 +1,7 @@
+{
+  "subject": "checkout",
+  "date": "2026-09-08",
+  "audience": "mobile returning customers",
+  "suggestion": "Try a Compact Purchase Panel: remove explanatory offer text to make the checkout less dense.",
+  "state": "Current production uses detailed offer text. Product, prices, and eligibility are unchanged from the prior mobile cohort."
+}

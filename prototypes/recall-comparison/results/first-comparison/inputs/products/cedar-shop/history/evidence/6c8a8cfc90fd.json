@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "60d76d1bd310",
+  "subject": "billing-9",
+  "cohort": "mobile first-time",
+  "change": "Reduce optional form fields",
+  "rollout_receipt": "deploy-60d76d1bd310",
+  "window_days": 14,
+  "metric": "click_fraction",
+  "measured_relative_change": 0.02,
+  "decision": "adopt",
+  "close_receipt": "close-60d76d1bd310"
+}

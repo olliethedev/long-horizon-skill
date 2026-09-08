@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "operations": {
+    "pause-notice-1": {
+      "op": "report",
+      "args": {
+        "key": "pause-notice-1",
+        "destination": "fixture:owner",
+        "body": "Analytics access is missing. Restore access and explicitly resume."
+      },
+      "result": {
+        "receipt": "pause-notice-1",
+        "delivered_to": "fixture:owner",
+        "message_number": 1
+      },
+      "epoch": -1
+    }
+  }
+}

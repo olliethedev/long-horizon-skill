@@ -1,0 +1,18 @@
+{
+  "day": 240,
+  "operation": "deploy",
+  "key": "day-240-quota-500-restore-v1",
+  "request_file": "project/requests/day-240-deploy.json",
+  "response_file": "memory/evidence/day-240-deployment.json",
+  "receipt": "effect-12",
+  "confirmed_revision": 4,
+  "confirmation_file": "memory/evidence/day-240-after-deploy-status.json",
+  "measurement_file": "memory/evidence/day-240-after-deploy-metrics.json",
+  "first_exposure_day": 240,
+  "evaluation_status": "adopted on day 540; no new deployment",
+  "prior_deployment_evidence": "memory/evidence/day-0-deployment.json",
+  "settlement_resolution_file": "memory/resolved-settlement.json",
+  "latest_confirmation_file": "memory/evidence/day-540-final-status.json",
+  "latest_measurement_file": "memory/evidence/day-540-metrics.json",
+  "previous_deployment_record": "memory/resolved-deployment-before-day-540.json"
+}

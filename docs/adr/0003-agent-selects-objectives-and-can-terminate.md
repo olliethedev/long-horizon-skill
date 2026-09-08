@@ -1,0 +1,3 @@
+# Let agents select objectives and terminate work
+
+Within the owner's broad responsibility and agreed limits, the agent may choose its own concrete objectives. A bounded assignment can terminate when its requested outcome is reached or cannot be achieved within its constraints. An ongoing responsibility continues across individual objectives while useful work remains within scope; completing one improvement does not by itself end it. This gives the agent responsibility for useful progress and closure, rather than requiring the owner to supply every next objective. Resolvable blockers follow [the pause and manual-resume policy](0009-pause-for-resolvable-blockers.md).

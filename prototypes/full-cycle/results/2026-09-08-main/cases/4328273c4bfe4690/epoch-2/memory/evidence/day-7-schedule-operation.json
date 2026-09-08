@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "operations": {
+    "op": "schedule",
+    "args": {
+      "key": "bugs-day0-quota500-observe-day14-v1",
+      "day": 14
+    },
+    "result": {
+      "receipt": "effect-5",
+      "next_day": 14,
+      "date": "2027-01-18"
+    },
+    "epoch": 1
+  }
+}

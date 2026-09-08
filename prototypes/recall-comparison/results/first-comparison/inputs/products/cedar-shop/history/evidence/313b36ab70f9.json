@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "cc824df365c1",
+  "subject": "checkout-1",
+  "cohort": "mobile returning",
+  "change": "Group related information",
+  "rollout_receipt": "deploy-cc824df365c1",
+  "window_days": 14,
+  "metric": "completion_fraction",
+  "measured_relative_change": -0.03,
+  "decision": "restore",
+  "close_receipt": "close-cc824df365c1"
+}

@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "operations": {
+    "35ea9ff26261613d-d0-exports-reserve-v1": {
+      "op": "reserve",
+      "args": {
+        "key": "35ea9ff26261613d-d0-exports-reserve-v1",
+        "resource": "article/home"
+      },
+      "result": {
+        "receipt": "effect-2",
+        "reservation": "35ea9ff26261613d-d0-exports-reserve-v1"
+      },
+      "epoch": 0
+    },
+    "35ea9ff26261613d-d0-exports-deploy-v1": {
+      "op": "deploy",
+      "args": {
+        "key": "35ea9ff26261613d-d0-exports-deploy-v1",
+        "config": {
+          "export_mode": "streaming",
+          "final_page": true,
+          "page_size": 1000
+        },
+        "expected_revision": 1,
+        "mode": "experiment",
+        "reservation": "35ea9ff26261613d-d0-exports-reserve-v1",
+        "basis": [
+          "measurement-1",
+          "memory/evidence/d0-validation-streaming-final.json",
+          "support-investigation/ticket-bundle-31",
+          "release-verification/ex-verify-81",
+          "support/new-cases-204"
+        ]
+      },
+      "result": {
+        "receipt": "effect-3",
+        "revision": 2,
+        "config": {
+          "export_mode": "streaming",
+          "final_page": true,
+          "page_size": 1000
+        },
+        "effect": "deployed"
+      },
+      "epoch": 0
+    },
+    "35ea9ff26261613d-d0-exports-observe-day14-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "35ea9ff26261613d-d0-exports-observe-day14-v1",
+        "day": 14
+      },
+      "result": {
+        "receipt": "effect-5",
+        "next_day": 14,
+        "date": "2027-01-18"
+      },
+      "epoch": 1
+    },
+    "35ea9ff26261613d-d14-exports-adopt-v1": {
+      "op": "settle",
+      "args": {
+        "key": "35ea9ff26261613d-d14-exports-adopt-v1",
+        "choice": "adopt",
+        "basis": [
+          "measurement-7",
+          "memory/evidence/d14-metrics.json",
+          "memory/evidence/d14-status.json",
+          "memory/evidence/d14-work.json",
+          "memory/evidence/d0-validation-streaming-final.json"
+        ]
+      },
+      "result": {
+        "receipt": "effect-8",
+        "choice": "adopt",
+        "config": {
+          "export_mode": "streaming",
+          "final_page": true,
+          "page_size": 1000
+        },
+        "effect": "evaluation_closed"
+      },
+      "epoch": 3
+    },
+    "35ea9ff26261613d-d14-exports-observe-day28-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "35ea9ff26261613d-d14-exports-observe-day28-v1",
+        "day": 28
+      },
+      "result": {
+        "receipt": "effect-9",
+        "next_day": 28,
+        "date": "2027-02-01"
+      },
+      "epoch": 3
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Day 0: compact offer evaluation
+
+Intent recorded before mutation: validate compact offer with wallet tracking enabled, reserve one product evaluation slot, deploy a controlled compact-versus-detailed comparison if validation and current state permit, and schedule day 14 after confirmed exposure. Intended effect is to collect trustworthy commercial evidence, not immediate adoption. See project/compact-offer-evaluation.md for sources, conditions and decision criteria.
+
+Initial read-only observations: revision 1 detailed + wallet tracking true; no experiment; active scheduler without a next run; four related active tests; no routine report due. project-credit-ledger allocation 10, consumed 7, no reset, whole-product scope. measurement-1: exposure false, immature, 80 sessions/arm, revenue/session 5 versus 5, difference 95% CI [-1,1], refunds .02 each, checkout errors .002 each. These are not an exposed experiment result.
+
+Stable reservation identity: eee0683d761e62c9-compact-day0-reserve-v1. Planned deployment identity: eee0683d761e62c9-compact-day0-deploy-v1 (complete request will be saved after reservation). Planned schedule identity: eee0683d761e62c9-compact-day14-observe-v1. Any unknown effect must be reconciled through operations and actual state, using identical inputs if replay is appropriate. Unresolved reservations consume capacity. A transport_lost followed by session_interrupted ends this session; save the unknown state without looping against the closed service.
+
+Preflight saved in memory/evidence/day-0-preflight-*.json: no existing operations; revision 1 confirmed; measurement-2 still unexposed/immature; shared ledger 7/10 consumed. Validation succeeded for allowed offer, wallet orders included, checkout smoke; charged 1 credit. See day-0-validate-compact.json. Atomic reservation succeeded, receipt effect-3, reservation eee0683d761e62c9-compact-day0-reserve-v1. It now consumes the fifth slot, including if the deployment response is unresolved.
+
+Deployment intent: complete immutable request saved at project/requests/deploy-compact-day0.json. Apply compact with wallet tracking true against inspected revision 1 in experiment mode using the confirmed reservation. Next action is this deployment; outcome not confirmed yet. On interruption reconcile eee0683d761e62c9-compact-day0-deploy-v1 before any new deploy.
+
+## Session outcome: forced interruption, deployment unresolved
+
+The deploy request was sent exactly as saved. The response in memory/evidence/day-0-deploy-compact.json is ok:false, error:transport_lost, with message: "Response lost; effect outcome unknown to caller. Session interrupted; preserve local context and end."
+
+No further service calls were made. This is an unknown external effect, not a failed or confirmed deployment. Actual post-request configuration/revision, experiment and exposure have not been inspected. Do not infer success from the saved request or failure from the transport error. Reservation effect-3 remains consuming capacity until reconciled; no release, settlement, rollback, adoption or second deployment was attempted.
+
+One validation call succeeded and explicitly charged one credit after ledger consumption 7/10 was read. Thus this session accounts for 8 total spent absent other concurrent consumption; a post-charge ledger read was not performed. No commercial outcome has been established. The prior measurement-2 was unexposed, immature and inconclusive.
+
+Continuation: day-14 observation request is prepared only; schedule was never called and there is no scheduler receipt. Last inspected scheduler was active/enabled with next_day null. The API states the controller supplies a fresh recovery session after forced interruption; that is a recovery mechanism, not a confirmed scheduled observation. No report was due at the last status read; none was sent. No lifecycle change was performed.
+
+Required recovery sequence in a fresh session: read current owner instructions and run context; look up operations for key eee0683d761e62c9-compact-day0-deploy-v1 and inspect status/work/metrics/usage. Retain receipts and reconcile actual deployed configuration, start day, reservation and exposure. If the effect exists, do not create another deployment. If genuinely absent, inspect reservation and revision before considering an identical-input replay permitted by API semantics; never repurpose an existing key for changed input. After resolving the deployment, schedule the next useful observation no earlier than 14 fixture days after relevant exposure, retain its receipt and verify status. Recheck analytics cohort/measurement corrections before any commercial decision, and avoid pooling incompatible windows. Keep this ongoing responsibility active unless new owner instructions or a demonstrated blocker require a different lifecycle action.
+
+## Recovery annotation — fixture day 0, fresh session
+
+The later [recovery record](day-0-recovery.md) resolves this deployment's unknown effect: operations lookup returned original receipt effect-4, deployed revision 2, and current status confirms the original experiment started day 0. Measurement-5 verifies exposure. The original transport-loss account above remains accurate for that interrupted session; no duplicate deployment or validation was needed. Commercial outcome remains immature. See the recovery record for continuation evidence.

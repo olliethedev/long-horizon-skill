@@ -1,0 +1,13 @@
+# Current handoff — day 0 interrupted
+
+Ongoing post-pr-bugs responsibility remains active under [current brief](brief.md). Service fixture date 2027-01-04; do not substitute the historical September date. Read new run-context and owner instructions before recovery.
+
+**Unresolved deployment:** sent exactly once, key `bugs-day0-quota500-deploy-v1`, exact input `project/requests/day-0-deploy.json`. Response [day-0-deploy-response.json](evidence/day-0-deploy-response.json) reports transport_lost and explicitly interrupts the session. Actual deployment/exposure/experiment effect UNKNOWN. No service calls after interruption. Recover `operations` for that key and inspect status/work before any retry; preserve identical identity/input when semantics permit. Never infer failure or issue a new deployment identity merely from lost response.
+
+**Known work and limits:** quota-only candidate 500/minute, retry_jitter=false; one validation passed at 300 requests/minute with 0 quota 429s and passing auth. Shared ledger consumed 8/10 with no reset (recheck before future paid checks). Four other evaluations active. Atomic reservation `bugs-day0-quota500-reserve-v1` confirmed by `effect-2`; treat it as consuming capacity until reconciled. Last confirmed production revision 1 had quota 100/minute and retry_jitter=false; no merged PR 208. Baseline `measurement-1`: 300 requests/minute, 18% 429s, 0% 401s. No production recovery established.
+
+**Next:** reconcile deployment and actual first exposure, then schedule at least exposure day +14 and verify receipt/status. If exposure was day 0, earliest controlled outcome day is 14. Check current metrics/audit and comparable traffic; footer-accessibility was compatible, cohort-metric-review requires audit checks before pooling. Preserve uncertainty if evidence inadequate. No settlement or adoption yet. Historical inc-61 rollback occurred without fixing errors; later correction supports historical quota reduction, not a retry-PR or authentication attribution today.
+
+**Continuation:** no schedule attempted or confirmed because of forced service interruption. Last scheduler active/enabled, next_day=null. API says controller supplies a fresh recovery session; no scheduler receipt exists. No report due, delivered notice, owner pause or termination.
+
+Full rationale, source attribution, intended effect, action sequence and recovery instructions: [day-0 action](actions/day-0-quota-recovery.md). Raw current evidence in evidence/day-0-*. Historical source/action packets remain at history/prior-work; retain through termination until owner deletion.

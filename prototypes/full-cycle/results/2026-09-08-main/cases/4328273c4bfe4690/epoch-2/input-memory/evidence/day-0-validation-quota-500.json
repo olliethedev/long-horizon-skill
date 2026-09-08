@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "charged": 1,
+  "checks": {
+    "replay_requests_per_minute": 300,
+    "quota_429_rate": 0,
+    "production_contains_pr_208": false,
+    "auth_checks_pass": true
+  }
+}

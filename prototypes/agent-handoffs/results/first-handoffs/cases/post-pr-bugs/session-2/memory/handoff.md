@@ -1,0 +1,15 @@
+# Cedar Sync current handoff
+
+Responsibility: ongoing deployment monitoring and production-error investigation. Active, no owner pause. Scope: local analysis and saved plans only. Latest supplied observation: 2025-11-18. No external action, message or schedule was executed.
+
+Start with [the November correction/action record](actions/2025-11-18-inc-61-correction.md) and [its preserved source](sources/2025-11-18-correction-61-packet.md), source `incident-review/correction-61`. The [March review](actions/2025-03-10-inc-61-review.md) and [original packet](sources/2025-03-10-inc-61-packet.md) remain retained, with the original review linked forward by an addendum. All preexisting memory files were inspected this session; no separate catalog was present.
+
+inc-61's causal question is resolved on the supplied correction: an account quota reduction effective March 3 at 09:00 UTC independently of r18 caused dependency 429s. Reported logs and replay show failures with both r17 and r18 at 100 requests/minute and below 0.5% at 500 under incident traffic. The r18 rollback occurred but did not resolve the errors. Later releases include batching without this incident recurring. Preserve the initial batching attribution as superseded history, never as an established cause or successful rollback. The earlier 0.3% after quota relief is a distinct historical measurement, not a current health reading. Raw logs/replays/receipts were not independently inspected; external administrative closure is unknown.
+
+June inc-77's reported 401s came from an omitted authentication header and were fixed by restoring it. Keep this mechanism separate from quota 429s; do not repeat either past intervention based only on these historical records.
+
+Next planned action: in a future permitted environment, reconcile current deployed versions/exposure, account quotas/changes and related ongoing work; inspect comparable per-account request rates, saturation, 429s, retries/backlog and sync health around recent deployments/quota changes. Inspect 401s separately and authentication configuration if they recur. Current version, cohorts, quotas and health are unknown. Link original correction evidence and verify incident disposition when available, without reopening the resolved causal question merely because receipts are unavailable here.
+
+Next intended observation: dated deployment/quota timeline plus consistently defined 429/401 and workload metrics. Quota saturation supports capacity investigation; changed demand under stable quotas supports release-path investigation; 401 recurrence supports separate authentication investigation. Stable results support routine monitoring. No product change or new rollback is currently justified; assess existing prevention/alerts and related work before any future proposal.
+
+Reporting: monthly digest to the owner's local report folder; none due this session, no delivery authorized or performed. No owner decision needed. Ongoing monitoring continues even if inc-61 is administratively closed. Retain source/action records and correction links until explicit owner deletion, including after termination.

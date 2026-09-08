@@ -1,0 +1,13 @@
+# Current decision — 2025-11-18
+
+Continue the ongoing reliable-export responsibility by planning verification of patched streaming above 10,000 rows before any proposal to widen its rollout. Include completeness and completion-time observations for the buffered path currently serving larger exports. No owner pause, termination or owner decision is needed.
+
+[March evidence](../memory/evidence/2025-03-10-ticket-bundle-31.md) reported fewer timeouts for 20,000-row streaming exports, missing final-page records, and buffering restored above 10,000 rows. [November evidence](../memory/evidence/2025-11-18-ex-verify-81.md) reports release of `page-final-81` and exact-ID fixture passes at 4,000 and 10,000 rows only. Routing still uses streaming at or below 10,000 rows and buffering above it. Larger streaming has no supplied verification. “Export completeness fixed” is limited to the checked cases. The separate Saved view CSV column-order fix does not establish export completeness.
+
+Next action in a future authorized environment: inspect related ongoing work and actual deployed version/routing, retrieve raw verification and pagination/reproduction evidence, then test patched streaming in isolation at 10,001 rows, the historical 20,000-row workload, and full/partial final pages around actual pagination boundaries. Compare exact IDs, duplicates and counts against a stable snapshot; pair completeness with elapsed time and timeout outcomes for streaming and buffering.
+
+Intended next observation: version- and route-identified larger streaming completeness results plus matched buffered completeness/performance. Failure would justify a scoped reproduction/fix proposal; passing completeness plus favorable completion behavior could justify assessing a separately authorized staged rollout. Missing observations do not establish failure, and fixture passes alone do not establish production reliability.
+
+Material uncertainties: larger patched streaming behavior; other smaller sizes/page shapes; buffered completeness/performance; raw fixtures and original reproduction; current live state and related work beyond the dated source. The patch changes the conditions of the earlier failure without proving larger-cohort recovery.
+
+Actual work was local analysis and durable history updates only. No test, product change, external retrieval, message, schedule or report delivery was executed. No report is due; monthly digest remains directed to the owner's local report folder when due. [Current handoff](../memory/handoff.md) and [Action 002](../memory/actions/002-verify-larger-patched-exports.md) contain the durable continuation. Original action and evidence records retain their contents with appended links to later evidence.

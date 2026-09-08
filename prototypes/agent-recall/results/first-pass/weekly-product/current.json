@@ -1,0 +1,18 @@
+{
+  "subject": "onboarding",
+  "date": "2026-09-08",
+  "new_users": 1000,
+  "started_setup": 800,
+  "finished_setup": 320,
+  "suggestion": "Maybe try more reminder emails; the team brief says preserving setup progress was already tried without benefit.",
+  "production": {
+    "revision": "current-731",
+    "flags": {
+      "save_progress": false
+    }
+  },
+  "interviews": [
+    "I closed the tab and had to enter everything again.",
+    "I could not pick up where I left off."
+  ]
+}

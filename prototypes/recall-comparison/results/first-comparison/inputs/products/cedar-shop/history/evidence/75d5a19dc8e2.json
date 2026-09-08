@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "0b47fd8ca465",
+  "subject": "export-9",
+  "cohort": "desktop returning",
+  "change": "Group related information",
+  "rollout_receipt": "deploy-0b47fd8ca465",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": -0.03,
+  "decision": "restore",
+  "close_receipt": "close-0b47fd8ca465"
+}

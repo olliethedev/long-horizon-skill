@@ -1,0 +1,11 @@
+{
+  "operation": null,
+  "unresolved_operations": [],
+  "last_reconciled_key": "day-0-quota-recovery-review-day-14-v1",
+  "outcome": "resolved_scheduled",
+  "resolution_file": "memory/resolved-schedule.json",
+  "schedule_confirmed": true,
+  "next_day": 14,
+  "last_confirmed_day": 7,
+  "last_confirmed_revision": 2
+}

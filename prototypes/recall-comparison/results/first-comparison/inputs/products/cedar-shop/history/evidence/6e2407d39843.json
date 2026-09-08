@@ -1,0 +1,17 @@
+{
+  "product": "cedar-shop",
+  "observed_at": "2025-07-22",
+  "experiment": "spruce-47",
+  "cohort": "mobile returning",
+  "source": "purchase-stream-v1",
+  "control": {
+    "sessions": 10000,
+    "revenue_usd": 50000
+  },
+  "variant": {
+    "sessions": 10000,
+    "revenue_usd": 30000
+  },
+  "recorded_conclusion": "Revenue fell; restore detailed copy",
+  "window_complete": true
+}

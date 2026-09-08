@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "da917203d0c7",
+  "subject": "setup-3",
+  "cohort": "mobile first-time",
+  "change": "Group related information",
+  "rollout_receipt": "deploy-da917203d0c7",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": -0.08,
+  "decision": "restore",
+  "close_receipt": "close-da917203d0c7"
+}

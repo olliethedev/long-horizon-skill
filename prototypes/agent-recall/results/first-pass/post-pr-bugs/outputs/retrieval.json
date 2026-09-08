@@ -1,0 +1,37 @@
+{
+  "files_read": [
+    "task.md",
+    "SKILL.md",
+    "responsibility.md",
+    "current.json",
+    "summary.md",
+    "memory/subjects.json",
+    "memory/actions.jsonl",
+    "evidence/cb4bb7ba509b.json",
+    "evidence/a3c7b3d17f86.json",
+    "evidence/6e8af284d862.json",
+    "outputs/decision.json",
+    "outputs/retrieval.json"
+  ],
+  "search_commands": [
+    "rg --files -g '!outputs/**'",
+    "rg -n -i 'document-search|rollback|rolling back|quota|429|503|pr.?418|correction|incident' memory/actions.jsonl",
+    "rg -n -v '\"phase\": \"routine_review\"' memory/actions.jsonl"
+  ],
+  "read_commands": [
+    "cat task.md SKILL.md",
+    "cat responsibility.md",
+    "cat current.json",
+    "cat summary.md",
+    "cat memory/subjects.json",
+    "cat memory/actions.jsonl",
+    "cat evidence/cb4bb7ba509b.json",
+    "cat evidence/a3c7b3d17f86.json",
+    "cat evidence/6e8af284d862.json",
+    "Python json.loads(path.read_text()) for outputs/decision.json and outputs/retrieval.json validation; subsequent retrieval record update read outputs/retrieval.json."
+  ],
+  "notes": [
+    "The initial full actions.jsonl read was truncated in tool output; targeted searches subsequently retrieved all three substantive records without truncation.",
+    "All reads and searches were confined to the supplied case directory. Only outputs/ was written."
+  ]
+}

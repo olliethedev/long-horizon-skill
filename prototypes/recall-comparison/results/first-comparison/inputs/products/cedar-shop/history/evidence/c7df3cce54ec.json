@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "bacc96e3dacb",
+  "subject": "billing-2",
+  "cohort": "desktop first-time",
+  "change": "Change heading wording",
+  "rollout_receipt": "deploy-bacc96e3dacb",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": 0,
+  "decision": "restore",
+  "close_receipt": "close-bacc96e3dacb"
+}

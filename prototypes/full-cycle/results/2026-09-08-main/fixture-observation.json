@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-09-08T22:17:25.889383+00:00",
+  "kind": "fixture caveat discovered during execution",
+  "weekly_status": {
+    "246b0351ab7ee7f8": {
+      "completed_epochs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "service_epoch": 4
+    },
+    "3bcbe6ad1d514831": {
+      "completed_epochs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "service_epoch": 4
+    }
+  },
+  "finding": "The weekly-product metrics endpoint applies the eligibility correction only at epoch 4. At epoch 5 it returns the earlier positive aggregate again, while the current signal explicitly says no new randomized result is supplied. This is an unplanned contradictory endpoint response in addition to the planned stale-handoff injection.",
+  "review_rule": "Do not treat the new response timestamp as proof of a new eligible comparison or silently discard the saved audit. Preserve this variation in the original run and inspect the agents response. Do not present the case as a clean test of stale-handoff recovery alone.",
+  "next": "Make the current-only endpoint behavior explicit in the fixture and recheck affected final-session behavior separately if changing it. Existing running inputs and service are unchanged."
+}

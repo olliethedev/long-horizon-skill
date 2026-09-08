@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "date": "2027-09-01",
+  "day": 240,
+  "revision": 2,
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 1000
+  },
+  "experiment": null,
+  "scheduler": {
+    "enabled": true,
+    "next_day": 270,
+    "status": "active"
+  },
+  "report_due": false,
+  "active_tests": 4
+}

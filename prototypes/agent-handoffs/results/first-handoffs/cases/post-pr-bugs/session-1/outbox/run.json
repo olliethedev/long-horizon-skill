@@ -1,0 +1,37 @@
+{
+  "files_read": [
+    "SKILL.md",
+    "task.md",
+    "brief.md",
+    "current-packet.md",
+    "memory/sources/2025-03-10-inc-61-packet.md",
+    "memory/actions/2025-03-10-inc-61-review.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "files_written": [
+    "memory/sources/2025-03-10-inc-61-packet.md",
+    "memory/actions/2025-03-10-inc-61-review.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "retrieval_limitations": [
+    "Read and wrote only within this trial directory; no network or sibling-directory access.",
+    "Trial file listings showed no prior memory files or additional incident evidence.",
+    "incident-archive/inc-61, deploy-r18 and rollback-r17 are source identities cited by the supplied packet, not independently retrieved records.",
+    "No raw metrics, later corrections, live deployment state or related-work records were supplied."
+  ],
+  "output_limitations": [
+    "Only local analysis and saved plans are authorized; no products modified, agents invoked, live Impulse tasks scheduled, or messages sent.",
+    "All future operational steps and observations remain planned and unexecuted.",
+    "Current packet preserved under memory because only memory survives beyond this session alongside static instructions; outbox is not needed for future recall.",
+    "No report due or external delivery authorized; no confirmed notice or schedule."
+  ],
+  "validation": [
+    "All declared output files exist and are nonempty.",
+    "Preserved source is identical to the supplied packet.",
+    "run.json parses successfully."
+  ]
+}

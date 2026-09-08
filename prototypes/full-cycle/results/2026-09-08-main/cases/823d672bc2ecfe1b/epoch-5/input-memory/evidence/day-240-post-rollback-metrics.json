@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "receipt": "measurement-11",
+  "date": "2027-09-01",
+  "revision": 3,
+  "exposure_verified": true,
+  "mature": true,
+  "minimum_window_days": 14,
+  "definition": "settled-order-ledger-v3 with mature cancellations",
+  "control_sessions": 10000,
+  "variant_sessions": 10000,
+  "control_revenue_per_session": 5,
+  "variant_revenue_per_session": 4.8,
+  "difference_95ci": [
+    -0.3,
+    -0.1
+  ],
+  "refund_rate_control": 0.02,
+  "refund_rate_variant": 0.02,
+  "checkout_error_control": 0.002,
+  "checkout_error_variant": 0.002,
+  "audit": "Cancel/refund reconciliation changes the earlier compact-arm result for the same original sessions.",
+  "corrects": [
+    "measurement-1",
+    "measurement-4",
+    "measurement-6",
+    "measurement-7",
+    "measurement-9"
+  ]
+}

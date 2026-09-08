@@ -1,0 +1,18 @@
+{
+  "operation": "metrics",
+  "args": {},
+  "state": "returned",
+  "returncode": 0,
+  "response": {
+    "ok": true,
+    "receipt": "measurement-12",
+    "date": "2028-06-27",
+    "current_config": {
+      "save_setup": true,
+      "explicit_template": true
+    },
+    "new_controlled_comparison": false,
+    "definition": "first persisted completed project; draft saves excluded",
+    "note": "No new eligible-cohort comparison or retained-use result is supplied by this snapshot."
+  }
+}

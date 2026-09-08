@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "1305aea3e1a1",
+  "subject": "setup-4",
+  "cohort": "mobile returning",
+  "change": "Change heading wording",
+  "rollout_receipt": "deploy-1305aea3e1a1",
+  "window_days": 14,
+  "metric": "completion_fraction",
+  "measured_relative_change": -0.03,
+  "decision": "restore",
+  "close_receipt": "close-1305aea3e1a1"
+}

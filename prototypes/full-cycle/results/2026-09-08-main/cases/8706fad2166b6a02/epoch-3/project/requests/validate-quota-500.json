@@ -1,0 +1,6 @@
+{
+  "config": {
+    "quota_per_minute": 500,
+    "retry_jitter": false
+  }
+}

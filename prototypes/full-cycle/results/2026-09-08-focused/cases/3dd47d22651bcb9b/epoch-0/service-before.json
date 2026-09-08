@@ -1,0 +1,36 @@
+{
+  "domain": "revenue",
+  "epoch": 0,
+  "day": 0,
+  "revision": 1,
+  "config": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "baseline": {
+    "offer": "detailed",
+    "wallet_tracking": true
+  },
+  "operations": {},
+  "events": [],
+  "counter": 0,
+  "experiment": null,
+  "scheduler": {
+    "status": "unregistered",
+    "enabled": false,
+    "next_day": null
+  },
+  "report_day": 0,
+  "messages": [],
+  "shared_credits_used": 7,
+  "shared_credits_total": 10,
+  "reservations": {},
+  "external_active_tests": 4,
+  "lost_effect": true,
+  "lost_schedule": true,
+  "closed": false,
+  "violations": [],
+  "first_effect_day": null,
+  "last_effect_day": null,
+  "metric_receipts": []
+}

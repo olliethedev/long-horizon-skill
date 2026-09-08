@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "4ab8ac36bf8c",
+  "subject": "export-9",
+  "cohort": "mobile returning",
+  "change": "Move explanation beside the primary action",
+  "rollout_receipt": "deploy-4ab8ac36bf8c",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": -0.08,
+  "decision": "restore",
+  "close_receipt": "close-4ab8ac36bf8c"
+}

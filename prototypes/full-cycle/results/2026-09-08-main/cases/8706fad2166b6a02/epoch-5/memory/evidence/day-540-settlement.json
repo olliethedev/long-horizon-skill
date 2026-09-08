@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "receipt": "effect-17",
+  "choice": "adopt",
+  "config": {
+    "quota_per_minute": 500,
+    "retry_jitter": false
+  },
+  "effect": "evaluation_closed"
+}

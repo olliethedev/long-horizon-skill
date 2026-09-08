@@ -1,0 +1,13 @@
+{
+  "product": "cedar-shop",
+  "experiment": "e84ab8b62be8",
+  "subject": "export-12",
+  "cohort": "desktop first-time",
+  "change": "Reorder navigation",
+  "rollout_receipt": "deploy-e84ab8b62be8",
+  "window_days": 14,
+  "metric": "purchase_revenue_per_session",
+  "measured_relative_change": 0.07,
+  "decision": "adopt",
+  "close_receipt": "close-e84ab8b62be8"
+}

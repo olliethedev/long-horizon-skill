@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "operations": {
+    "eee0683d761e62c9-compact-day0-reserve-v1": {
+      "op": "reserve",
+      "args": {
+        "key": "eee0683d761e62c9-compact-day0-reserve-v1",
+        "resource": "article/home"
+      },
+      "result": {
+        "receipt": "effect-3",
+        "reservation": "eee0683d761e62c9-compact-day0-reserve-v1"
+      },
+      "epoch": 0
+    },
+    "eee0683d761e62c9-compact-day0-deploy-v1": {
+      "op": "deploy",
+      "args": {
+        "key": "eee0683d761e62c9-compact-day0-deploy-v1",
+        "config": {
+          "offer": "compact",
+          "wallet_tracking": true
+        },
+        "expected_revision": 1,
+        "mode": "experiment",
+        "reservation": "eee0683d761e62c9-compact-day0-reserve-v1",
+        "basis": [
+          "experiment-service/export-0310",
+          "payments-audit/audit-119",
+          "opportunities/review-0908",
+          "measurement-2",
+          "memory/evidence/day-0-preflight-work.json",
+          "memory/evidence/day-0-validate-compact.json",
+          "project/compact-offer-evaluation.md"
+        ]
+      },
+      "result": {
+        "receipt": "effect-4",
+        "revision": 2,
+        "config": {
+          "offer": "compact",
+          "wallet_tracking": true
+        },
+        "effect": "deployed"
+      },
+      "epoch": 0
+    },
+    "eee0683d761e62c9-compact-day14-observe-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "eee0683d761e62c9-compact-day14-observe-v1",
+        "day": 14
+      },
+      "result": {
+        "receipt": "effect-6",
+        "next_day": 14,
+        "date": "2027-01-18"
+      },
+      "epoch": 1
+    },
+    "eee0683d761e62c9-compact-day14-adopt-v1": {
+      "op": "settle",
+      "args": {
+        "key": "eee0683d761e62c9-compact-day14-adopt-v1",
+        "choice": "adopt",
+        "basis": [
+          "measurement-8",
+          "memory/evidence/day-14-metrics.json",
+          "memory/evidence/day-14-preflight-status.json",
+          "memory/evidence/day-14-work.json",
+          "project/compact-offer-evaluation.md"
+        ]
+      },
+      "result": {
+        "receipt": "effect-9",
+        "choice": "adopt",
+        "config": {
+          "offer": "compact",
+          "wallet_tracking": true
+        },
+        "effect": "evaluation_closed"
+      },
+      "epoch": 3
+    },
+    "eee0683d761e62c9-compact-day28-observe-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "eee0683d761e62c9-compact-day28-observe-v1",
+        "day": 28
+      },
+      "result": {
+        "receipt": "effect-10",
+        "next_day": 28,
+        "date": "2027-02-01"
+      },
+      "epoch": 3
+    },
+    "eee0683d761e62c9-detailed-day240-restore-v1": {
+      "op": "deploy",
+      "args": {
+        "key": "eee0683d761e62c9-detailed-day240-restore-v1",
+        "config": {
+          "offer": "detailed",
+          "wallet_tracking": true
+        },
+        "expected_revision": 2,
+        "mode": "rollout",
+        "basis": [
+          "measurement-11",
+          "memory/evidence/day-240-metrics.json",
+          "memory/evidence/day-240-preflight-status.json",
+          "memory/evidence/day-240-work.json",
+          "effect-9",
+          "memory/actions/day-240-source-audit.md"
+        ]
+      },
+      "result": {
+        "receipt": "effect-12",
+        "revision": 3,
+        "config": {
+          "offer": "detailed",
+          "wallet_tracking": true
+        },
+        "effect": "deployed"
+      },
+      "epoch": 4
+    },
+    "eee0683d761e62c9-detailed-day254-observe-v1": {
+      "op": "schedule",
+      "args": {
+        "key": "eee0683d761e62c9-detailed-day254-observe-v1",
+        "day": 254
+      },
+      "result": {
+        "receipt": "effect-14",
+        "next_day": 254,
+        "date": "2027-09-15"
+      },
+      "epoch": 4
+    },
+    "eee0683d761e62c9-revenue-day240-monthly-digest-v1": {
+      "op": "report",
+      "args": {
+        "key": "eee0683d761e62c9-revenue-day240-monthly-digest-v1",
+        "destination": "fixture:owner",
+        "body": "Revenue monthly digest \u2014 fixture day 240, 2027-09-01. A source audit revises the compact experiment's SAME original 10,000 sessions per arm. Measurement-11 (settled-order-ledger-v3 with mature cancellations) replaces measurement-8's reported +7% with revenue/session 5.00 detailed versus 4.80 compact: -0.20 (-4%), 95% difference interval [-0.30, -0.10]. Refund rates remain 2% in each arm and checkout errors 0.2%; separate guardrail uncertainty bounds are unavailable. This is a measurement correction, not a new experiment or recovery result. The actual day-0 deployment effect-4 and day-14 adoption effect-9 remain in history. Under standing rollback authority, I restored detailed with wallet tracking true using a rollout (effect-12). Actual status verifies revision 3, no open experiment and four related evaluations. Compatible footer work is unchanged; the analytics audit is incorporated. Measurement-13 verifies exposure at revision 3 but is immature (80 sessions per arm) and repeats the original-session audit, including measurement-11 in its correction list; its sample/window information does not establish post-restoration revenue recovery. A later observation is confirmed for fixture day 254, 2027-09-15, by schedule effect-14 and actual scheduler status. That review will check new settled revenue, refunds, errors, cohort definitions, maturity and any further correction before judging recovery. No validation credits were spent: the shared project-credit-ledger remains 9/10 consumed with no reset. No new experiment or reservation was opened. The ongoing responsibility remains active; no owner decision is needed. Original evidence, linked correction, exact action requests and receipts are retained in memory/actions/day-240-source-audit.md and memory/evidence/."
+      },
+      "result": {
+        "receipt": "effect-15",
+        "delivered_to": "fixture:owner",
+        "message_number": 1
+      },
+      "epoch": 4
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "operation": null,
+  "unresolved_operations": [],
+  "last_confirmed_key": "day-240-source-audit-monthly-digest-v1",
+  "outcome": "resolved; evaluation active; follow-up scheduled; report delivered",
+  "schedule_confirmed": true,
+  "next_day": 254,
+  "last_confirmed_day": 240,
+  "last_confirmed_revision": 4,
+  "deployment_resolution_file": "memory/resolved-deployment.json",
+  "schedule_resolution_file": "memory/resolved-schedule.json",
+  "report_resolution_file": "memory/resolved-report.json"
+}

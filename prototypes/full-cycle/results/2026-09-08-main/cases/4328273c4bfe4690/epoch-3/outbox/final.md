@@ -1,0 +1,3 @@
+Completed the session. Adopted the quota change after verified 14-day recovery: 429 errors fell from 18% to 0.3%, with no 401 errors. Released the evaluation slot and confirmed continuation for fixture day 28.
+
+Evidence, remaining uncertainty and handoff are saved in [outbox/summary.md](/tmp/long-horizon-cycles-zl1e4h62/trials/4328273c4bfe4690/outbox/summary.md). Ending until the later observation.

@@ -1,0 +1,34 @@
+{
+  "session_date": "2026-09-08",
+  "source": "deployment-monitor/signal-208",
+  "files_read": [
+    "SKILL.md",
+    "task.md",
+    "brief.md",
+    "current-packet.md",
+    "memory/handoff.md",
+    "memory/actions/2025-03-10-inc-61-review.md",
+    "memory/actions/2025-11-18-inc-61-correction.md",
+    "memory/sources/2025-03-10-inc-61-packet.md",
+    "memory/sources/2025-11-18-correction-61-packet.md",
+    "memory/sources/2026-09-08-signal-208-packet.md",
+    "memory/actions/2026-09-08-signal-208-review.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "files_written": [
+    "memory/sources/2026-09-08-signal-208-packet.md",
+    "memory/actions/2026-09-08-signal-208-review.md",
+    "memory/handoff.md",
+    "outbox/decision.md",
+    "outbox/run.json"
+  ],
+  "read_scope_note": "Includes artifact verification reads; directory discovery was limited to this trial. All five preexisting memory files were read.",
+  "known_retrieval_output_limitations": [
+    "Only supplied trial files were accessible under the assignment; no network, live logs, deployment receipts, quota settings, related-work systems or raw historical replay outputs were retrieved.",
+    "No separate catalog was present; the small archive was fully inspected rather than relying on absence from an index.",
+    "Current packet will be replaced and outbox will not survive to the next session; current evidence and the complete decision/plan were preserved under memory/.",
+    "All external follow-up, interventions, reporting and observation are plans only. No product was modified, message sent, live Impulse task scheduled or subagent invoked.",
+    "No retrieval output was truncated in the inspected tool results."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "fixture_day": 240,
+  "date": "2027-09-01",
+  "source_receipt": "measurement-9",
+  "definition": "settled-order-ledger-v3 with mature cancellations",
+  "corrects": [
+    "measurement-1",
+    "measurement-4",
+    "measurement-6",
+    "measurement-7"
+  ],
+  "interpretation": "Same original sessions corrected for cancel/refund reconciliation; not independent new cohorts or post-rollback recovery.",
+  "control_sessions": 10000,
+  "variant_sessions": 10000,
+  "control_revenue_per_session": 5.0,
+  "variant_revenue_per_session": 4.8,
+  "difference_per_session": -0.2,
+  "relative_difference": -0.04,
+  "difference_95ci": [
+    -0.3,
+    -0.1
+  ],
+  "interval_half_width": 0.1,
+  "exposure_verified": true,
+  "mature": true,
+  "experiment_start_day": 0,
+  "minimum_window_days": 14,
+  "days_since_start": 240,
+  "refund_rates": {
+    "control": 0.02,
+    "variant": 0.02
+  },
+  "checkout_error_rates": {
+    "control": 0.002,
+    "variant": 0.002
+  },
+  "guardrail_limits": "No increase in mature point estimates; separate denominators and uncertainty unavailable. This is not full guardrail clearance.",
+  "decision": "Settle current compact experiment with rollback to original detailed offer, wallet_tracking=true, because the corrected mature revenue estimate is harmful and its reported interval excludes zero.",
+  "precision_note": "Reported interval meets the saved $0.10 half-width gate. No pooling of superseded receipts, repeated looks, or historical Spruce-47.",
+  "actual_pre_action_revision": 2,
+  "active_tests_before": 5,
+  "shared_credits_consumed": 9,
+  "shared_credit_allocation": 10,
+  "remaining_uncertainty": [
+    "Raw assignment, variance and ledger rows are unavailable.",
+    "The audit is not a fresh 240-day independent outcome or evidence of restoration recovery.",
+    "A future observation must have exposure/window evidence after the rollback before claiming recovery."
+  ],
+  "historical_scope": "Historical Spruce-47 audit-119 and rb-733 remain separate records; do not repeat historical rollback or treat this audit as a new historical deployment."
+}

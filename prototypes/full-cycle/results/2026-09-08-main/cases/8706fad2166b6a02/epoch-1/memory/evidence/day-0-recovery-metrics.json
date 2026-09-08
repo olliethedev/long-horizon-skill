@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "receipt": "measurement-4",
+  "date": "2027-01-04",
+  "revision": 2,
+  "exposure_verified": true,
+  "mature": false,
+  "minimum_window_days": 14,
+  "definition": "settled and equally mature cohorts",
+  "request_rate_per_minute": 300,
+  "effective_quota": 500,
+  "http_429_rate": 0.003,
+  "http_401_rate": 0,
+  "production_contains_merged_pr": false,
+  "sustained_window_days": 0
+}

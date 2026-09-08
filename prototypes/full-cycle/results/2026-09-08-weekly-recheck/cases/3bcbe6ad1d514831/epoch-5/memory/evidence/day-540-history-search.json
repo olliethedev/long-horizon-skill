@@ -1,0 +1,17 @@
+{
+  "source": "history/archive/actions.jsonl",
+  "query": "resumable|save[- ]and[- ]return|resume workspace|save_setup|explicit_template|measurement-(?:1|4|6|7|10|13)\\b|eligible.new|Cedar|Quickstart|metric-74|rev-118",
+  "total_records": 18000,
+  "subject_counts": {
+    "offer text": 2250,
+    "draft setup": 2250,
+    "company export": 2250,
+    "dependency quota": 2250,
+    "billing reconciliation": 2250,
+    "retention cohorts": 2250,
+    "wallet orders": 2250,
+    "template choice": 2250
+  },
+  "match_count": 0,
+  "matches": []
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "receipt": "effect-8",
+  "choice": "adopt",
+  "config": {
+    "export_mode": "streaming",
+    "final_page": true,
+    "page_size": 1000
+  },
+  "effect": "evaluation_closed"
+}

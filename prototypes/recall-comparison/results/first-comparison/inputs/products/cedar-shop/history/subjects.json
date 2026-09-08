@@ -1,0 +1,32 @@
+{
+  "checkout": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "checkout"
+  },
+  "setup": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "setup"
+  },
+  "catalog": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "catalog"
+  },
+  "billing": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "billing"
+  },
+  "search": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "search"
+  },
+  "export": {
+    "history": "actions.jsonl",
+    "field": "subject",
+    "value": "export"
+  }
+}
