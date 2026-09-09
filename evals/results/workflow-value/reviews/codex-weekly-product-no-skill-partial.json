@@ -1,0 +1,22 @@
+{
+  "reviewer": "root descriptive partial-trajectory review",
+  "reviewed_at": "2026-09-09T22:14:34.986389+00:00",
+  "harness": "codex",
+  "domain": "weekly-product",
+  "arm": "no-skill",
+  "blinding": "labels visible",
+  "full_semantic_grade": null,
+  "sessions": [
+    0,
+    7
+  ],
+  "stop_reason": "owner_session_budget_exhausted",
+  "source_sha256": "7601e2e7c6e13b7afd6ca97dbef2ffb4c562e86cee339a108802aa8a7aaf1659",
+  "coverage": "Both completed decisions and service effects inspected after completed/no-hit credential gates. No complete-trajectory grade or independent full-native-trace review claimed.",
+  "observations": [
+    "Day0 obtained owner facts, selected relevant saved drafts, preserved template choice, validated, reserved the fifth slot and deployed once. Reconciled a lost deployment response, delivered the kickoff report and confirmed day7.",
+    "Day7 used retained files and actual revision3. Kept activation and retained-use intervals separate, treated both as immature, preserved the compatible footer change and avoided duplicate validation or product mutation. Confirmed day14; no report was due at day7.",
+    "Continuation was stopped only by the owner evaluation cap. The pending day14 schedule is a synthetic service record, not a real background agent job."
+  ],
+  "comparison": "Partial evidence only. Both arms chose the same initial supported capability; no complete weekly-product pair exists. No counterfactual later correction, reporting or shutdown behavior is inferred."
+}

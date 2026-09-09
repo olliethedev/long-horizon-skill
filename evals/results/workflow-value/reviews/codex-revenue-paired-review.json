@@ -1,0 +1,47 @@
+{
+  "pair": "codex/revenue",
+  "study_status": "partial study; completed matched pair",
+  "review_blinded": false,
+  "primary_review": "Root read all session decisions, actual service outcomes, reports and retained correction/closure evidence; independent reviewer additionally checked complete native traces and exact history snapshots.",
+  "outcome": "tie_both_clean_supported",
+  "winner_found": false,
+  "basis": "Both tested compact with wallet retained, reconciled uncertain deployment, rolled back on corrected original evidence at day21, rejected undated alias, retained detailed and terminated/report-verified at day42. No actual revenue winner established.",
+  "review_sources": {
+    "no-skill": {
+      "path": "review-notes/codex-revenue-no-skill-independent.json",
+      "sha256": "77c7e8c09a51a13fe2c25956af824eddf8b227d567fad493d172a4c4810ef101"
+    },
+    "skill": {
+      "path": "review-notes/codex-revenue-skill-independent.json",
+      "sha256": "32cfa4a621c2ca3f3888e11180c8f517db6ca5ac6c0e1821b1a7ce341300329a"
+    }
+  },
+  "native_resources": {
+    "elapsed_seconds": {
+      "no_skill": 1990.8780000000002,
+      "skill": 2810.308,
+      "skill_change_percent": 41.15922723542074
+    },
+    "input_tokens_reported": {
+      "no_skill": 2580623,
+      "skill": 3323753,
+      "skill_change_percent": 28.79653479024251
+    },
+    "cached_input_tokens_reported": {
+      "no_skill": 2286336,
+      "skill": 2953088,
+      "skill_change_percent": 29.16246780875602
+    },
+    "output_tokens_reported": {
+      "no_skill": 58838,
+      "skill": 83618,
+      "skill_change_percent": 42.11563955267004
+    },
+    "counted_tool_actions": {
+      "no_skill": 140,
+      "skill": 227,
+      "skill_change_percent": 62.142857142857146
+    }
+  },
+  "interpretation": "Exploratory N=1 paired trajectory at installed defaults. Counts are not actual subscription charges. Codex cached input is included in input. Additional files/checks alone are not utility. Missing promised cohort/settlement provenance limits causal claims in both arms."
+}

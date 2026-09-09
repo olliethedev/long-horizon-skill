@@ -1,6 +1,6 @@
 # Complete-workflow value study
 
-Status: experiment prepared and full three-harness scope authorized, September 9, 2026. No new model trial has run. The owner asked to establish whether the complete workflow adds value over a capable agent without the skill. A positive finding is not presumed.
+Status: model evaluation capped at 50 native attempts by the owner on September 9, 2026, to conserve subscription allowance. See the [results and preserved coverage limits](../evals/results/workflow-value/REPORT.md). Revenue has three complete matched harness comparisons with no demonstrated skill advantage. Weekly-product coverage is incomplete; feedback and post-PR model cases were not started. The original pretrial protocol is preserved unchanged in the study archive. The design below records the initially planned larger scope, not a claim that every planned case was run.
 
 ## Existing evidence and the gap
 
@@ -55,11 +55,11 @@ This study can establish or fail to establish an advantage within its tested sim
 
 The owner additionally requested that, after evaluation and any evidence-supported improvements, the final validated skill be installed locally for Codex, Claude Code and Antigravity. Verify each installed harness's actual discovery locations and verify identical final bundle contents. Preserve unrelated skills and existing customizations. This authorizes local skill installation, not creation of a live content task in better-stack-web. The owner asked how to start such a task; its analytics, publishing authority and schedule belong to that later setup conversation.
 
-The current published bundle is now installed for all three harnesses, with matching contents and verified discovery locations; see [the local installation record and usage example](local-installation.md). Codex's local skill listing confirms activation availability in better-stack-web. Refresh all three if this study later produces an evaluated runtime change.
+The current published bundle is installed for all three harnesses, with matching contents; see [the local installation record, discovery evidence and usage example](local-installation.md). Codex's local skill listing confirms activation availability in better-stack-web. Claude and Antigravity verification covers installed contents and documented/installer discovery paths, without an additional model activation test. This study made no runtime change.
 
 ## Preparation status
 
-The evaluation clock, private product service, native-session runner, source-backed semantic rubric and no-model calibration are implemented under `evals/workflow_*`. The runtime skill has not changed. The owner authorized the full three-harness comparison after the README improvement is pushed: up to 192 native launch attempts, with at most two native model processes concurrently. No new model evaluation has run yet.
+The evaluation clock, private product service, native-session runner, source-backed semantic rubric and no-model calibration are implemented under `evals/workflow_*`. The runtime skill has not changed. The owner initially authorized the full three-harness comparison after the README improvement was pushed: up to 192 native launch attempts, with at most two native model processes concurrently. That allowance was subsequently reduced to 50 attempts. The following paragraphs describe the preparation completed before the original model freeze; final outcomes and the interruption record are in the results report.
 
 Scripted calibration reaches justified endings in seven revenue, seven weekly-product, five feedback and four post-PR sessions. These are private executable controls, not agent results. Negative controls cover premature termination, resumption without a current owner instruction, shared budget/pending-consumption overruns, duplicate effects, unauthorized reactivation and rollback after an owner stop. The rubric additionally requires source-based review of complete trajectories; mechanical state checks cannot establish faithful reasoning or useful persisted learning.
 

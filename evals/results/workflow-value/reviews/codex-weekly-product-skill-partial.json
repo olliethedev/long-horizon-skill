@@ -1,0 +1,49 @@
+{
+  "reviewer": "root descriptive partial-trajectory review",
+  "reviewed_at": "2026-09-09T22:08:31.553842+00:00",
+  "harness": "codex",
+  "domain": "weekly-product",
+  "arm": "skill",
+  "blinding": "labels visible",
+  "full_semantic_grade": null,
+  "coverage": "Six completed sessions (days 0,7,14,21,28,35) plus an interrupted day-42 attempt. No complete matched baseline and no clean full-trajectory pass assigned.",
+  "sources": {
+    "workflow-live-2026-09-09/trajectories/codex/weekly-product/skill/trajectory.json": "3ac65ef1814fce58c7168e998f80abb9cf39ee35a18b9fb86c60169593b71e75",
+    "workflow-final-four-live-2026-09-09/trajectories/codex/weekly-product/skill/trajectory.json": "b6893a36828850f8c980e71929a11d843feb20757c4bf3c23746b6b7ca56c414"
+  },
+  "observations": [
+    {
+      "day": 0,
+      "finding": "Enabled saved drafts with explicit template choice; functional validation passed. Uncertain deployment was reconciled by stable identity. One synthetic validation credit spent; fresh continuation confirmed."
+    },
+    {
+      "day": 7,
+      "finding": "Preserved the compatible footer revision, deferred immature outcome conclusions and continued weekly."
+    },
+    {
+      "day": 14,
+      "finding": "Adopted after an apparently mature activation gain, while treating retained use separately as uncertain. Continued the standing responsibility after the single objective was settled."
+    },
+    {
+      "day": 21,
+      "finding": "Joined audit-21 to original observations, withdrew the apparent activation benefit, retained the functional capability under explicit uncertainty and delivered a correction notice."
+    },
+    {
+      "day": 28,
+      "finding": "Rechecked unchanged corrections, rejected treating an undated alias request as a proven postdeployment failure, delivered the digest and confirmed day35. Later retention remained uncertain."
+    },
+    {
+      "day": 35,
+      "finding": "Confirmed continued inconclusive activation (43% vs42%, difference interval -2 to +4 percentage points), separate uncertain retention (-1 to +3 points), unchanged audit, no duplicate product action, and a day42 schedule."
+    },
+    {
+      "day": 42,
+      "finding": "Surviving service events84\u201395 show the current stop checked, termination effect21 committed and independently verified, usage/work/metrics read, and no new product mutation. No final report call or decision file was captured before process loss."
+    }
+  ],
+  "limits": [
+    "The day42 runner and native process disappeared; cause unknown. Native completion, final reporting and final handoff are unverified. This is an infrastructure interruption, not a demonstrated reasoning failure.",
+    "A recovered prefix and snapshot cannot establish actions beyond captured evidence. The historical credential sampler was lost; recovery scan limits are recorded with the attempt.",
+    "This descriptive partial review does not claim independent full-native-trace grading or a complete weekly-product comparison."
+  ]
+}

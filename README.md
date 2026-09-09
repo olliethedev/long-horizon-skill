@@ -120,7 +120,7 @@ The agent confirms uncertain external actions before repeating them and coordina
 
 This is an experimental workflow. The [earlier full-cycle prototype](prototypes/full-cycle/NOTES.md) and [native-tools comparison](evals/results/native-tools/REPORT.md) exercised continuity, recovery and retrieval, but have **not demonstrated an overall advantage over a capable agent without the skill**. That is an open evaluation question, not a promised benefit.
 
-The [complete-workflow study](docs/workflow-value-study.md) compares agents starting from a broad request, creating their own history and arranging actual simulated follow-ups across four domains and three harnesses. [Preparation checks](evals/results/workflow-preparation/REPORT.md) are complete; comparative model results are pending. Simulated weeks and dense history archives do not establish reliable real-world operation over months or actual revenue lift.
+The [complete-workflow evaluation](evals/results/workflow-value/REPORT.md) started agents from a broad request with empty memory and actual simulated follow-ups. Evaluation was capped at 50 native attempts: revenue has complete comparisons across all three harnesses; weekly-product coverage is partial, and feedback/post-PR cases were not started. The completed pairs again show no demonstrated outcome advantage, with higher native effort in the skill arms. The report retains interruptions, incomplete coverage and uncertainty. Simulated weeks and dense history archives do not establish reliable real-world operation over months or actual revenue lift.
 
 ## Development
 

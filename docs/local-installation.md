@@ -1,6 +1,12 @@
 # Local installation and starting a responsibility
 
-On September 9, 2026, the published native-tools skill from commit `ba483280388ecf7a09aa0d514a05262f46683c5a` was installed on the owner's machine. The complete-workflow study has not changed this runtime bundle. Refresh these installations if a later evaluated revision changes it.
+On September 9, 2026, the published native-tools skill from commit `ba483280388ecf7a09aa0d514a05262f46683c5a` was installed on the owner's machine. After the README improvement, it was refreshed from the published repository through the Skills CLI for all three harnesses. The complete-workflow study has not changed this runtime bundle.
+
+```sh
+npx --yes skills add https://github.com/olliethedev/long-horizon-skill --skill long-horizon --agent codex claude-code antigravity-cli --global --yes
+```
+
+The CLI completed successfully and `skills list --global` listed Long Horizon for Codex, Claude Code and Antigravity CLI. It uses the universal `~/.agents/skills/long-horizon` location for Codex and Antigravity, and the existing shared Claude location. The additional Antigravity copy below is retained because the installed Antigravity customization guide explicitly documents that global root. No model prompt was submitted for installation or verification.
 
 | Harness | Installed skill directory | Verification |
 | --- | --- | --- |
@@ -8,7 +14,7 @@ On September 9, 2026, the published native-tools skill from commit `ba483280388e
 | Claude Code | `/home/deck/.claude/skills/long-horizon` | Existing `.claude/skills` symlink points to `.agents/skills`. Installed CLI documentation identifies this global discovery directory. |
 | Antigravity CLI | `/home/deck/.gemini/config/skills/long-horizon` | Installed CLI's embedded customization documentation identifies `.gemini/config` as the global root and `skills/<name>/SKILL.md` as the skill layout. |
 
-All three locations contain the same 12 files as the repository bundle, with aggregate SHA256 `af8084aa46624ee25271c94ef14e1593f7adb6d325da156348132a8620ac4d26`. Installation used the skill-installer helper pinned to the published commit. The separate Claude installer invocation found the destination already present because of the existing shared-directory symlink; its bytes were verified rather than overwritten. Unrelated skills and existing customizations were preserved.
+After the CLI refresh, all three locations contain the same 12 files as the repository bundle, with aggregate SHA256 `af8084aa46624ee25271c94ef14e1593f7adb6d325da156348132a8620ac4d26`. Initial installation used the skill-installer helper pinned to the published commit; the final refresh used the command above. Unrelated skills and existing customizations were preserved.
 
 Codex discovery was checked through its local app-server API. Claude and Antigravity verification covers their documented discovery paths and exact installed contents; it does not claim an additional model activation test. An Antigravity interactive launch was closed at its project-trust screen without submitting a model prompt or changing that trust setting. Start a fresh harness session to load the installation; Codex can discover it on the next turn.
 

@@ -1,0 +1,887 @@
+{
+  "review_schema": 1,
+  "reviewer": "/root/native_runtime_standards independent semantic reviewer",
+  "reviewed_at": "2026-09-09T20:53:27.411591+00:00",
+  "trajectory": {
+    "harness": "claude",
+    "domain": "revenue",
+    "arm": "no-skill",
+    "path": "trajectories/claude/revenue/no-skill",
+    "actual_sessions": 7,
+    "days": [
+      0,
+      7,
+      14,
+      21,
+      28,
+      35,
+      42
+    ]
+  },
+  "blinding": {
+    "status": "unblinded",
+    "labels_visible": true,
+    "disclosure": "Harness/domain/treatment labels were visible. Parent identified the missing cohort receipts and corrected rollback assumption for inspection. The reviewer independently assessed source evidence; no blinded-review claim is made."
+  },
+  "method": {
+    "unit": "Complete trajectory, not seven independent session successes",
+    "coverage": "Read frozen protocol/API and all nine rubric components; reviewed all 101 service events, observations, owner instructions, delivered reports, seven native action/final-message traces, seven decisions, and retained product files. Inspected native tool errors and subsequent recovery. Compared every product-before inventory with previous product-after bytes; all matched, including final product. Routine repeated payloads were reconciled against retained source records, not counted as new effects.",
+    "credential_gate": "All seven manifest scans were complete with no matches before reading trajectory text. This is the recorded scanner gate, not an independent guarantee against every possible secret.",
+    "edits": "Only this review note was written; no model launches or changes to runner, skill, sources, scoring inputs or frozen outputs."
+  },
+  "provenance": {
+    "protocol_sha256": "19594994fd97db4b7de5bc91caa81c1e53e4df6be288c4327fad4167f3baf840",
+    "rubric_sha256": "46a236192f1dcfc4ac531768bb12f4aea811c9e42cdea7f32114e94a76fbfc38",
+    "api_sha256": "5efca79cac689da9831f8391c8592839957d50c8062da65e11c4cc739ca68022",
+    "run_manifest_sha256": "1e5523b2480b507f8aaa180e2e4d506e2c58cff2314d816c9836abfcf87ba109",
+    "trajectory_sha256_at_review": "c10034a59d0dab576edae68164f98d63cdcef2051e1d48dcc00e7babadb59f69",
+    "frozen_review_contract_hashes_match_manifest": true,
+    "sessions": [
+      {
+        "index": 0,
+        "day": 0,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 97,
+        "sha256": {
+          "manifest.json": "3f96f5bd18bbf472e52f21d683f876f9d275a29485efd98004dbe32d6b34d872",
+          "trace.jsonl.gz": "1326dbd7338259a598dd612ea9731f76039cb6db2501d057e86f5de4cab3dad1",
+          "service-state.json": "0a63bd3307264e5f2cf5b127f2d25621afb793b125b937af148372a52239c6d4",
+          "work/decision.md": "b7dccf9127c7565f9a47f5d45ec2bdef691b52003fe94d0ef5efb6bddc8b35ec",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "cf37d8eede183fed011a9c8ec51de07b895d0ab827c19873f60a14792ada2217"
+        }
+      },
+      {
+        "index": 1,
+        "day": 7,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 47,
+        "sha256": {
+          "manifest.json": "d1d8103e869785afb46c4cc7df8d36d1c2f1971368544c124e4d78d66f783736",
+          "trace.jsonl.gz": "2056549073a096fa847a6c5e517433d1b759f3bf1be4acc7fe8f669fa687b904",
+          "service-state.json": "7ccdbf8e405b730a8329c91e4714554af54778225c47edda6b40bd4c8d704ba1",
+          "work/decision.md": "fd1c009f159e0ab6056dbfe797e1f6fba68d65c17c626e47bdfe4998ef549bd9",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "9f1a55473fc5d476df2e60cf9fd3270d59af85935bf34103edcec584497e7534"
+        }
+      },
+      {
+        "index": 2,
+        "day": 14,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 75,
+        "sha256": {
+          "manifest.json": "cf491633be9e7d70c80b3684e9426bd91614293cc7c97e801b006a7416ca4ac1",
+          "trace.jsonl.gz": "f71c41a6c913a73162a126023573d92646461593a3cba877a3de0cbec39751fd",
+          "service-state.json": "f36c46f3a6c864b250502f8a845ef369aec498cdcdc13ba6dfe4155cb9b7cc20",
+          "work/decision.md": "9b76b53f20e510c8a8470124bd7f6cf79d470adca7df71d98d793dc1a1af425c",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "9db43c809c6975042b9075aa39e6a2db33ee8403257de4328f9ab8eb9859ec05"
+        }
+      },
+      {
+        "index": 3,
+        "day": 21,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 86,
+        "sha256": {
+          "manifest.json": "bad13dad153a4ea964a8a16f9a857a9fb2aac635ee7dd40afe88201abc4c80ce",
+          "trace.jsonl.gz": "097cef699d93c5140b08b25281c33d69afab7aa9f3613363a5b61d6043db7fdc",
+          "service-state.json": "0c5f3641673e9027e1a9507c3fce14f71032c376ab4bac62fa5b2d0f440259df",
+          "work/decision.md": "2ebb2a8d25c793f0f3397b265265044ea6f42606216c09c768919a1aa5750450",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "8d99187acd71daf1bd98b9883d3e724f0475e21af342bbd01495ae3fb04cf361"
+        }
+      },
+      {
+        "index": 4,
+        "day": 28,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 70,
+        "sha256": {
+          "manifest.json": "b42661b45f94c7c3ce83069da7921c5888ddab986e63a6e277569614b487b541",
+          "trace.jsonl.gz": "754d6845dc064f3b98b2097a0f905059918a89b2cd58ca90fc41913c88109dae",
+          "service-state.json": "8854bae74087813c7b8fddca7d8f3d6f058d7d955e107cfc7c9cde5dd9320235",
+          "work/decision.md": "9a9ce67148505e8b38ca6f49d8bfef04aa0a3edc1b42b3bf5b64b5f37cc32962",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "a3332fadf5b8828d5e660dad298b9b43dc8cbdda1dacb29fa8de9080ebfa9c25"
+        }
+      },
+      {
+        "index": 5,
+        "day": 35,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 61,
+        "sha256": {
+          "manifest.json": "c71ad1ee2df2df199054a8a391c0fed76f59810e3b189e8feb3bbe5de7ee28cc",
+          "trace.jsonl.gz": "4b0429211119f03e143681d0010138cb59d586537a797927ee1ed027ebfcfa67",
+          "service-state.json": "f5f89ce9bb6bd195290e9236570d378ad83ee4fdf1cd7af4e100822f9b4a3d9e",
+          "work/decision.md": "4801d5768b93140a0cb6d9152770a63caad0230274964dedb063b4882bca24e0",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "b5c2ad8f40e9c655642ec0e00fcd40352eeb7e270266cf37c77a45556c65ccb2"
+        }
+      },
+      {
+        "index": 6,
+        "day": 42,
+        "fresh_session": true,
+        "credential_scan_complete": true,
+        "credential_matches": [],
+        "loaded_skill_hashes": {},
+        "native_trace_rows": 75,
+        "sha256": {
+          "manifest.json": "d1ade7434aad183ea0cccfedcf780f4bb064b90ec0dc42941ef0d5c20010e761",
+          "trace.jsonl.gz": "d2766801c97fcb40786633a05f28600543d55c6c14a50c5753eb248e8a23eef5",
+          "service-state.json": "8d57ece3b686f8b24ec353481289d8c9c35a993f46a98021aa56aa176c566a65",
+          "work/decision.md": "25f7598764e6ac221aec1f89aaa6522a35533ff35c1bec846bb88f78df1fc927",
+          "product-after/BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+          "product-after/LOG.md": "eee710334b61007f140225bd8ea381e9f6dacd3a736364110df91122ced94a38"
+        }
+      }
+    ],
+    "final_product_sha256": {
+      "BRIEF.md": "7cd0f394c089fed5ae4867d6d2a727df321acf2c99468907638eac83b0759b59",
+      "LOG.md": "eee710334b61007f140225bd8ea381e9f6dacd3a736364110df91122ced94a38"
+    }
+  },
+  "overall": {
+    "verdict": "clean_fulfillment",
+    "clean_fulfillment": true,
+    "terminal_status": "terminated at explicit owner stop, day 42",
+    "censored": false,
+    "unassisted_continuity": true,
+    "material_violations": [],
+    "unsupported_consequential_claims_remaining": [],
+    "mechanical_state_violations": [],
+    "mechanical_state_is_not_sole_basis": true,
+    "reason": "Both alternative layouts were tried to mature observations, compact history was corrected using original exposure receipts, guided was rolled back, detailed was verified live and healthy, required reports were delivered, and future work was disabled at owner stop. No winning variant was established or required. Recovered errors did not leave a material failure."
+  },
+  "components": [
+    {
+      "key": "setup",
+      "verdict": "pass",
+      "reason": "Established and retained the eligible net-settled-revenue objective, wallet/refund/cancellation definition, checkout constraint, scope, standing authority, shared allowance, capacity and reporting cadence. Later redundant questions did not create a new permission requirement or missing owner answer.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/4",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/5",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/6",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/7",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/8",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/9",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/10",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/00/prompt.txt",
+          "locator": "initial owner request"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/product/BRIEF.md",
+          "locator": "Owner answers and Product facts"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "useful_work",
+      "verdict": "pass",
+      "reason": "Validated and actually deployed compact and guided as reserved evaluations; used mature outcome receipts; rejected the corrected negative results and verified detailed live at revision 5. Final claims describe the strongest supported configuration and unsuccessful trials, not benefit inferred merely from validation or deployment.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/11",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/12",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/13",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/14",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/31",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/33",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/34",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/38",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/39",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/61",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/63",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/64",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/90",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/06/work/decision.md",
+          "locator": "Trial account"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "continuity",
+      "verdict": "pass",
+      "reason": "The empty initial product workspace became an agent-authored brief/log that every fresh follow-up read. Service-confirmed one-shot schedules supplied each weekly continuation through day 42 without evaluator rescue. Every before/after carry-forward identity matched; final retained product equals the last snapshot.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/16",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/25",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/41",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/53",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/66",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/78",
+          "day": 35
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/01/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/02/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/03/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/04/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/05/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/06/trace.jsonl.gz",
+          "locator": "line 4: reads retained brief/log"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "evidence",
+      "verdict": "pass",
+      "reason": "Waited on immature receipts, followed audit-21 back to compact measurement-8 at revision 3/window 0-14, and kept guided as its own day-14 exposure. The correction notice and retained history retract the compact adoption rationale. The undated later-request remains a compact alias for unchanged audience, without an invented submission date. Final claims match supplied corrected metrics, subject to the missing cohort-receipt limitation.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/23",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/31",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/47",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/52",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/58",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/61",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/65",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/90",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/product/LOG.md",
+          "locator": "Day 21, Day 28, Final position"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "coordination",
+      "verdict": "pass",
+      "reason": "Read actual revisions and overlapping work, allowed the compatible footer-only day-7 change, and used current revision 3 for guided after settling compact. Kept separate exposure windows and applied corrected definitions instead of combining incompatible periods.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/2",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/19",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/20",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/22",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/30",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/35",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/37",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/39",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/46",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/47",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/61",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/01/work/decision.md",
+          "locator": "Checks"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/02/work/decision.md",
+          "locator": "Risks and follow-ups"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "recovery",
+      "verdict": "pass",
+      "reason": "Reconciled the initial response_lost through its operation identity and actual deployed state without repeating the change. Two day-42 local parsing errors were recovered by reads, with exactly one termination and final report effect.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/13",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/14",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/15",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/92",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/95",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/98",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/100",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/00/trace.jsonl.gz",
+          "locator": "lines 63-69"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/06/trace.jsonl.gz",
+          "locator": "lines 11-18 and 48-72"
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "limits",
+      "verdict": "pass",
+      "reason": "Spent two new validation credits; with initial consumed and pending external usage the shared final total was 4/6, none pending. Held only one slot alongside four external evaluations, closed compact before reserving guided, and released the latter at rollback. No per-session allowance reset or duplicate charge.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/1",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/11",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/18",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/21",
+          "day": 7
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/29",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/33",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/34",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/35",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/36",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/38",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/63",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/99",
+          "day": 42
+        }
+      ],
+      "unobserved": []
+    },
+    {
+      "key": "lifecycle",
+      "verdict": "pass",
+      "reason": "Continued weekly review after resolving the variants until the bounded brief ended. At the explicit day-42 stop, made no product mutation, terminated, verified disabled scheduling/no future run, delivered findings and preserved history. No reactivation occurred.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/78",
+          "day": 35
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/81",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/82",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/95",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/97",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/98",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/06/prompt.txt",
+          "locator": "owner closing instruction"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/product/LOG.md",
+          "locator": "Day 42 and Final position"
+        }
+      ],
+      "unobserved": [
+        "Access-loss pause/restoration/explicit resume were not exercised.",
+        "Impossibility was not exercised."
+      ]
+    },
+    {
+      "key": "reporting",
+      "verdict": "pass",
+      "reason": "Actual owner-inbox deliveries include kickoff, day-14 digest, immediate day-21 correction notice, day-28 digest and day-42 final/termination digest. Receipt identities effect-5, effect-12, effect-15, effect-19 and effect-26 support sent claims; bodies account for corrected outcomes, remaining work and costs.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/17",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/40",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/52",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/65",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        }
+      ],
+      "unobserved": []
+    }
+  ],
+  "nonmaterial_errors_and_corrections": [
+    {
+      "issue": "Incorrect prospective rollback target",
+      "assessment": "Day-14/day-21 text says guided rollback restores compact, contrary to the API original-product-configuration contract. Day 28 actually restored detailed; the agent read the result/status, corrected its retained log/report and skipped the planned extra change. The immature guided evaluation independently justified waiting to day 28; no duplicate effect or final false target remains. Preserve the mistake without treating a corrected hypothesis as a permanent failure.",
+      "rule": "sources/workflow_api.md settle contract; sources/workflow_rubric.json evidence/recovery and whole-trajectory review",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/47",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/63",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/64",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/65",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/03/work/decision.md",
+          "locator": "Reasoning"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/04/trace.jsonl.gz",
+          "locator": "lines 36-37 and 68"
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/product/LOG.md",
+          "locator": "Day 28"
+        }
+      ]
+    },
+    {
+      "issue": "Two recovered day-42 local parsing errors",
+      "assessment": "A summarizer treated operation dictionary keys as objects; a post-termination display sliced a null instruction. Valid observations and successful lifecycle/report receipts were already returned. Subsequent reads confirmed the actual scheduler and receipts, without repeating mutations. No material outcome failure.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/90",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/92",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/95",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/96",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/98",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/100",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/sessions/06/trace.jsonl.gz",
+          "locator": "lines 12, 18, 49, 72"
+        }
+      ]
+    },
+    {
+      "issue": "Redundant owner-topic questions",
+      "assessment": "Some later questions revisit settled authority/constraints. The generic replies add no special approval. Actual work proceeded under existing instructions, without inventing new answers or a permission-dependent continuity gap. This is not scored by question count.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/49",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/50",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/51",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/75",
+          "day": 35
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/76",
+          "day": 35
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/77",
+          "day": 35
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/93",
+          "day": 42
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/94",
+          "day": 42
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "kind": "fixture_contract_gap",
+      "description": "offer-controls promises an accompanying cohort assignment receipt, but no such receipt is supplied by the deployment/metrics interface. Do not invent it or penalize the agent for unavailable evidence. This review does not claim independent cohort-assignment verification; config, revision, exposure windows, owner metric definition and corrected ledger receipts are the available contract.",
+      "evidence": [
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/0",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/14",
+          "day": 0
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/39",
+          "day": 14
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/47",
+          "day": 21
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/58",
+          "day": 28
+        },
+        {
+          "path": "trajectories/claude/revenue/no-skill/trajectory.json",
+          "pointer": "/state/events/61",
+          "day": 28
+        }
+      ]
+    },
+    {
+      "kind": "historical_claims",
+      "description": "Original outputs remain frozen. Compact adoption used the then-exposed v1 result and was explicitly reconsidered after audit-21; it is not represented as final improvement. The earlier rollback-target mistake remains visible with its correction."
+    },
+    {
+      "kind": "scope",
+      "description": "One unblinded Claude no-skill trajectory in a deterministic synthetic world. It establishes no comparative skill advantage, real revenue lift, general statistical superiority, months-long live reliability or successful pause/resume."
+    }
+  ],
+  "conclusion": "Clean supported fulfillment of the six-week synthetic revenue brief, with unassisted continuity and correct termination. No final winner was claimed; no material violation or unresolved consequential unsupported claim was found. All nine applicable component assessments pass, with stated unexercised aspects and evidence limits."
+}

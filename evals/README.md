@@ -4,7 +4,9 @@ Ordinary CI runs bundle installation and exported-evidence checks, plus strict m
 
 ## Complete-workflow value study
 
-The [study protocol](../docs/workflow-value-study.md) declares a comparison beginning with an ordinary owner request, empty agent-authored memory, actual service effects and confirmed scheduling across fresh native sessions. The runtime skill remains unchanged; the new comparison has no model results yet. Both the earlier full-cycle prototype and native-tools comparison remain separate evidence with no demonstrated overall advantage.
+The [study protocol](../docs/workflow-value-study.md) declares a comparison beginning with an ordinary owner request, empty agent-authored memory, actual service effects and confirmed scheduling across fresh native sessions. The [capped study report](results/workflow-value/REPORT.md) retains the 50-attempt allowance, completed revenue pairs, partial weekly-product coverage and interruption evidence. No outcome advantage is demonstrated in the complete pairs. The runtime skill remains unchanged; earlier studies remain separate evidence.
+
+`workflow_continue.py` is the one-time four-slot continuation of the interrupted 46-attempt campaign, not a general scheduler or runtime dependency. Its recorded recovery consumes only unspent slots and never repeats the interrupted decision. `workflow_summary.py` derives session counts and native effort from the linked archives; `workflow_publish.py` scans and verifies the published evidence. None assigns semantic grades automatically. Do not rerun archived generated decisions or treat the original 192-attempt plan below as the final allowance.
 
 ```sh
 # Mechanical fixture calibration only; no models, credentials or live services.
