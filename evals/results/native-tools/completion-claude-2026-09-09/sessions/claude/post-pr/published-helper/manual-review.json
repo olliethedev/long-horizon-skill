@@ -1,0 +1,59 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "d93a0e6d8230ea096437d6ebd5a0d501312d6c50162bd99f24907fbd249273cd",
+  "criteria": [
+    {
+      "key": "exposure",
+      "verdict": "pass",
+      "reason": "Keeps the watch open, separates PR 842 merge/CI from the production manifest excluding 842 and the queued canary without exposure, and explicitly leaves state after the supplied lookup unknown.",
+      "source_paths_checked": [
+        "history/pull-requests/record-4f1efc746f.md",
+        "history/releases/record-802a8b0629.json",
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "reconcile",
+      "verdict": "pass",
+      "reason": "Looks up record-54bad5e8e1 by the original identity before any fresh request, treats the submission timeout as uncertain completion, and requires a reconciled terminal result before considering a repeat.",
+      "source_paths_checked": [
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "past_evidence",
+      "verdict": "pass",
+      "reason": "Retrieves PR 781 deployment/July 27 rollback, the original dedicated-only chart and August 12 correction with 31 shared-worker collisions; separates the later PR 831 dedicated-US zero-count correction from shared-EU/842 evidence.",
+      "source_paths_checked": [
+        "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+        "history/evidence/record-567749c82b.md",
+        "history/evidence/record-b5a8ddac8f.md"
+      ]
+    },
+    {
+      "key": "time",
+      "verdict": "pass",
+      "reason": "Preserves unknown ticket submission throughout, separates imported/retrieved metadata and merge-derived age from the independently dated trace, and does not claim a known customer request time.",
+      "source_paths_checked": [
+        "history/support/record-a2d078a170.md",
+        "history/evidence/record-fa1b95eae5.json"
+      ]
+    },
+    {
+      "key": "coordination",
+      "verdict": "pass",
+      "reason": "Identifies the overlapping planned routing-quality record-f44834cc2c, leaves its actual deployment unknown, and conditions meaningful shared-EU monitoring on verified 842 exposure and recorded separation or overlap of both changes.",
+      "source_paths_checked": [
+        "history/coordination/record-7b1da28762.md",
+        "history/evidence/record-567749c82b.md"
+      ]
+    }
+  ],
+  "review_notes": "Independent evaluator read the full decision and every original criterion source, plus original clean chart, active/current brief and terminated queue-sentinel brief. This completion uses the exact archived initial d2 bundle, original prompts/inputs and unchanged installed native defaults after authentication renewal. All five consequential chains are preserved; no material contradiction found under the same full-decision standard used for earlier post-PR cells.",
+  "non_material_accuracy_notes": [
+    "The opening deployment wording is categorical beyond the archived lookup, but the dated introduction, detailed exposure record, proposed handoff and explicit uncertainty section consistently bound the conclusion to the supplied snapshot. The decision does not claim to have checked later live state.",
+    "Adds 2026 to July/August historical source dates that only supply month/day; also adds that year to some September action/support dates. These inferred years should not be presented as supplied source facts.",
+    "Claims every September-dated file was screened and that all evidence dates come from source records; the latter is too broad given the added years. Search coverage is separately qualified as literal and incomplete for renamed bulk records."
+  ]
+}

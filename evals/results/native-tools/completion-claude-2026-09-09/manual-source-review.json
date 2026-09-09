@@ -1,0 +1,20 @@
+{
+  "reviewed_at": "2026-09-09T16:14:40.702449+00:00",
+  "case": "post-pr",
+  "scope": "Full decisions plus all original criterion sources and additional active/terminated/current/initial-chart context; grading remained outside evaluated workspaces.",
+  "source_sha256": {
+    "brief.md": "729df87bb72f49f9bc7c14c20481f3657cab4b9587e3da71474f12dde5f8a0a0",
+    "current.md": "61b3a04cf965594e14ab565ae8c19dd035d66aa432ff58c9c48b3ed35173a422",
+    "history/actions/record-54bad5e8e1.md": "31eb4131f9db70721d5e47f6c910dd162ac3b9674c1bc82637deac768fec1356",
+    "history/coordination/record-7b1da28762.md": "f168756ce843133817b31196f08d38785fe9e8f13a9819701f5ab4b72320ffa8",
+    "history/evidence/record-1555a62ab3.md": "97b7139b3b348b77c0ea1e7755585165bcd81068768f7c1c4fc73f63a978face",
+    "history/evidence/record-567749c82b.md": "c6dfce09f26391bfbdca6dd75aa9d3e752364f1e773698ce7234e49bbc50c42f",
+    "history/evidence/record-b5a8ddac8f.md": "3197e1bc804d13e85a9b9b7cd576445ef5bad403ae699033bd7fa00058ee64a5",
+    "history/evidence/record-fa1b95eae5.json": "098659edefb2f5b2f824954b2881bc2c0de89186601e2465d2caa31f15081c94",
+    "history/pull-requests/record-4f1efc746f.md": "ebe7ab40204116e9c9c29b3c15a35fac0923615f6d0f5d2085fd5d018987f41b",
+    "history/releases/record-802a8b0629.json": "1faccbcf86c2263811c298aeae5638f2aa0f1397b81f392ed89499629febf870",
+    "history/retired/queue-sentinel/actions/record-f09cf4270b.md": "e7a683ae452b59b651d1eacb11b698350269a019d9dd096f4c0dd0f4b6e8a392",
+    "history/retired/queue-sentinel/brief.md": "7c348d1489c49b4331b96756182674bf802284b29e1067c45c6c3be74dc46ea2",
+    "history/support/record-a2d078a170.md": "7102d9329526840240efe5d36b1fba7a8dd162f112172aee035471aa483fe241"
+  }
+}

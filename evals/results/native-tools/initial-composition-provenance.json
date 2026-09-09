@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-09-09T16:19:47.160136+00:00",
+  "command": "python3 evals/native_report.py evals/results/native-tools/matrix-2026-09-09 --completion evals/results/native-tools/completion-antigravity-2026-09-09 --completion evals/results/native-tools/completion-claude-2026-09-09",
+  "source_sha256": "94129e621ed77ef5e002364e820d09c42fe78710b1aab363e10510ded6527f12",
+  "preserved_source": "completion-claude-2026-09-09/postprocessing-sources/native_report.py",
+  "result_sha256": "36206bfe40cf76fa2b144ecfb1e52caa10af928400a0489859c90e2218963533",
+  "previous_postprocessing_provenance_preserved": true
+}

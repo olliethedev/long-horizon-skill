@@ -1,0 +1,62 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "Repeatedly requires an owner decision before related digest migration work because its origin responsibility terminated. It narrows the active recurring-onboarding brief to new users, declares archive review the limit of standing authority, and asks whether the active brief must absorb that work. The active brief already authorizes ordinary investigation and reversible changes concerning the requested product concern; termination of the origin responsibility does not create that additional restriction."
+  ],
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "pass",
+      "reason": "Retrieves the desktop deployment and latency rollback, original 28% human-usage correction, separate later 21% cohort, and desktop-only rerelease. Mobile remains unserved, and large-workspace performance is explicitly unverified.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "pass",
+      "reason": "Retrieves delivered administrator controls, unmigrated legacy contributors, the 63-contributor audit, and the later five-administrator audit without treating the latter as a correction to contributor evidence.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Keeps the digest submission time unknown and explicitly preserves unknown ordering relative to deployment and the later finding; release age is not request age.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Uses retained notification-reset records without reactivating the ended responsibility. Its invented restriction on current authorized work is graded separately.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Selects a concrete mobile-filter preparation and reversible pilot with meaningful verification, avoiding repeated desktop work. The unsupported exclusion of digest work is graded separately.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "decision_sha256": "cd72d519b817836146f4ee9fed14f0f3d28e29ad511ee8c860edee45e3f5e81e",
+  "non_material_accuracy_notes": [
+    "Treats the current contributor complaint as confirmed to follow the known legacy-preference path without inspecting that reporter's subscription; the source supports a hypothesis.",
+    "The proposed below-50,000-task pilot boundary is a planning choice, not an empirically established safe threshold. A 34-task report and small-workspace smoke check do not validate all sizes below that boundary.",
+    "The proposed minimum two-full-week observation window is unsupported as an empirical requirement and should be presented as a planning choice.",
+    "The decision labels itself written September 8, matching the brief date, although this review session ran September 9; it should distinguish the snapshot date from the review date.",
+    "The later uncertainty section explicitly preserves unverified performance above 50,000 tasks, so the shipped-mitigation language is not graded as the material solved-performance assertion present in the Antigravity follow-up."
+  ],
+  "review_notes": "Root read the complete final decision and compared it with the unchanged source chains and active brief. The independent evaluation agent also read the complete decision and agreed with the authority finding. All five explicit criteria pass, but the unchanged material-contradiction standard makes this a semantic failure. The refined entrypoint and history/evidence/workspace text were available in captured tool output. This preselected follow-up will not be repeated for a favorable result."
+}

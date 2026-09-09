@@ -1,0 +1,248 @@
+{
+  "harness": "claude",
+  "case": "weekly-product",
+  "arm": "native-tools",
+  "tool_count": 12,
+  "tools": [
+    {
+      "id": "toolu_01Q3uuNZxTbN9uJAUSaXCqY3",
+      "name": "Bash",
+      "input": {
+        "command": "cat /workspace/skill/SKILL.md; echo ----; ls -R /workspace/skill /workspace/product /workspace/work 2>/dev/null | head -100",
+        "description": "Read skill file and list workspace"
+      },
+      "failed": false,
+      "captured_output_bytes": 9377,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace; ls skill/references 2>/dev/null; cat skill/references/history.md skill/references/evidence.md skill/references/workspace.md 2>/dev/null; echo ====; cat product/brief.md; echo ====; cat product/current.md; echo ====; for d in product/history/*; do echo \"$d: $(ls $d | wc -l)\"; done; ls product/history/operations product/history/releases product/history/retired product/history/support | head -60; wc -c product/history/index.md; head -60 product/history/index.md",
+        "description": "Read skill references, brief, current handoff, and archive layout"
+      },
+      "failed": false,
+      "captured_output_bytes": 9314,
+      "truncation_marker": true,
+      "source_path_mentions": [
+        "history/index.md"
+      ],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01H16W5zkfNDHJGi6egEiYVt",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== support ==\"; for f in support/*; do echo \"--- $f\"; cat \"$f\"; echo; done",
+        "description": "Read all support records"
+      },
+      "failed": false,
+      "captured_output_bytes": 18218,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_017zjLNyEFYYBsMnVtYJphSr",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== releases ==\"; cat releases/*; echo; echo \"== retired ==\"; ls -R retired; for f in $(find retired -type f); do echo \"--- $f\"; cat \"$f\"; echo; done; echo \"== operations ==\"; for f in operations/*; do echo \"--- $f\"; cat \"$f\"; echo; done",
+        "description": "Read releases, retired, and operations records"
+      },
+      "failed": false,
+      "captured_output_bytes": 2199,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01JT85pPrWp2fVxuLXQfe8Zc",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; cat retired/notification-reset/brief.md; echo; ls retired/notification-reset/actions | wc -l; echo \"== ops sizes ==\"; wc -c operations/* | tail -1; head -c 1500 operations/record-217a0b20cc.md; echo; echo \"== grep key terms in actions (counts) ==\"; for t in \"Focus Shelf\" \"Sunday Room\" \"status filter\" \"quiet digest\" \"weekly note\" \"triage facet\" \"task drawer\" \"team notification\" \"mobile\" \"record-40440b02ae\" \"record-3984af46e2\" \"record-764afbf446\" \"record-e36f0fe1aa\" \"record-5f1a34c149\"; do printf \"%-22s actions=%s evidence=%s ops=%s retired=%s\\n\" \"$t\" \"$(grep -ril \"$t\" actions | wc -l)\" \"$(grep -ril \"$t\" evidence | wc -l)\" \"$(grep -ril \"$t\" operations | wc -l)\" \"$(grep -ril \"$t\" retired | wc -l)\"; done",
+        "description": "Read retired brief and count term matches across archive folders"
+      },
+      "failed": false,
+      "captured_output_bytes": 2646,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_012JHm9Xet3aKpitMzU2vgcN",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== mobile / release IDs in evidence ==\"; grep -ril -e \"mobile\" -e \"record-40440b02ae\" -e \"record-3984af46e2\" evidence actions operations | sort -u | while read f; do echo \"--- $f\"; cat \"$f\"; echo; done; echo; echo \"== distinctive terms counts ==\"; for t in \"alias\" \"renamed\" \"rename\" \"shelved\" \"low use\" \"correction\" \"Android\" \"phone\" \"evening\" \"6.8\" \"web 6\" \"preference migration\" \"draft\" \"rollback\" \"rolled back\" \"superseded\" \"Retracted\" \"formerly\" \"also called\" \"known as\"; do printf \"%-22s actions=%s evidence=%s ops=%s retired=%s releases=%s\\n\" \"$t\" \"$(grep -ril -- \"$t\" actions | wc -l)\" \"$(grep -ril -- \"$t\" evidence | wc -l)\" \"$(grep -ril -- \"$t\" operations | wc -l)\" \"$(grep -ril -- \"$t\" retired | wc -l)\" \"$(grep -ril -- \"$t\" releases | wc -l)\"; done",
+        "description": "Find files mentioning mobile or release action IDs, and count distinctive terms"
+      },
+      "failed": false,
+      "captured_output_bytes": 2167,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01MDLdAWK92JLwzDYvBgJEgA",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== follow IDs ==\"; for id in record-8a2203deaa record-ecc0d14c71 record-e9d336d487 record-40440b02ae record-3984af46e2 record-764afbf446 record-fce040907f record-8fb30670c2 record-62c61eb7a6; do echo \"### $id\"; ls actions/$id.md evidence/$id.md operations/$id.md retired/notification-reset/actions/$id.md 2>/dev/null; grep -rl \"$id\" . | grep -v \"/$id.md\" ; done; echo; echo \"== sample action ==\"; cat actions/record-000c2a97d4.md; echo; echo \"== sample evidence ==\"; cat evidence/$(ls evidence | head -1); echo; echo \"== sample retired action ==\"; cat retired/notification-reset/actions/record-00940f94a8.md; echo; echo \"== evidence file size distribution ==\"; wc -c evidence/* | sort -n | awk '{print $1}' | uniq -c | sort -rn | head; echo \"== action size dist ==\"; wc -c actions/* | sort -n | awk '{print $1}' | uniq -c | sort -rn | head",
+        "description": "Follow referenced IDs and sample record templates"
+      },
+      "failed": false,
+      "captured_output_bytes": 4103,
+      "truncation_marker": false,
+      "source_path_mentions": [
+        "history/evidence/record-bf4682f6d3.md",
+        "history/evidence/record-c7cba8ab6f.md",
+        "history/evidence/record-deee23ecaf.md",
+        "history/evidence/record-f9d711cf6e.md"
+      ],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01KbZm8nFA7wnqSiKNgDSUgj",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== key files ==\"; for f in evidence/record-8a2203deaa.md actions/record-ecc0d14c71.md; do echo \"--- $f\"; cat $f; echo; done; echo; echo \"== size outliers: actions (<900 or >1200) ==\"; wc -c actions/* | awk '$1<900 || ($1>1200 && $2!=\"total\")' ; echo \"== size outliers: evidence (<1200 or >1500) ==\"; wc -c evidence/* | awk '$1<1200 || ($1>1500 && $2!=\"total\")'; echo \"== retired outliers ==\"; wc -c retired/notification-reset/actions/* | awk '$1<900 || ($1>1200 && $2!=\"total\")'",
+        "description": "Read key records and list size outliers"
+      },
+      "failed": false,
+      "captured_output_bytes": 2191,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_011GvGDhPoTA87Th1pkbRCgc",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== evidence <700 bytes ==\"; wc -c evidence/* | awk '$1<700 && $2!=\"total\"{print $2}' | while read f; do echo \"--- $f\"; cat $f; echo; done; echo \"== retired outliers ==\"; wc -c retired/notification-reset/actions/* | awk '($1<900 || $1>1200) && $2!=\"total\"{print $2}' | while read f; do echo \"--- $f\"; cat $f; echo; done; echo \"== evidence files not starting with templated header ==\"; grep -L -e \"^Recorded \" -e \"^Observed \" evidence/* | head -40",
+        "description": "Read short evidence outliers and retired outliers"
+      },
+      "failed": false,
+      "captured_output_bytes": 3299,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01XStCKyEbFwWWV7HdVjd9aH",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"== refs to digest IDs ==\"; grep -rl -e record-8f6b82ec51 -e record-f233630dab -e record-63ae4f2f22 -e record-d4f34a4dc1 -e record-226210156c -e record-929bef0cdc . ; echo \"== distinctive phrases ==\"; grep -ril -e \"legacy\" -e \"50,000\" -e \"asynchronous\" -e \"bot-account\" -e \"automation-only\" -e \"migration path\" . | sort -u; echo \"== evidence 700-895 bytes ==\"; wc -c evidence/* | awk '$1>=700 && $1<895 && $2!=\"total\"{print $2}'; echo \"== evidence second-line variants ==\"; for f in evidence/*; do sed -n 2p \"$f\" | cut -c1-9; done | sort | uniq -c | sort -rn | head; echo \"== ops: non-template lines ==\"; grep -h -v -e \"^## \" -e \"^Recorded:\" -e \"^Reference:\" -e \"^Follow-up:\" -e \"^$\" -e \"^# weekly-product\" -e \"^Maintained by\" operations/* | sort | uniq -c | sort -rn | head -20",
+        "description": "Check remaining references and scan for other non-templated records"
+      },
+      "failed": false,
+      "captured_output_bytes": 8361,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01Wb9ybzZSJQNmrsHM2q1Bxe",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; grep -h -o -i -e \"[^.]*legacy[^.]*\\.\" -e \"[^.]*50,000[^.]*\\.\" -e \"[^.]*asynchronous[^.]*\\.\" actions/record-00a9cf217b.md retired/notification-reset/actions/record-03a2b12caa.md actions/record-0121c8b91a.md | sort | uniq -c; echo; grep -h -o -i \"[^.]*legacy[^.]*\\.\" actions/* retired/notification-reset/actions/* | sort | uniq -c | sort -rn | head -5",
+        "description": "Confirm templated matches for distinctive phrases are boilerplate"
+      },
+      "failed": false,
+      "captured_output_bytes": 294,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01SWketbUHL4QPjQXNgNozE2",
+      "name": "Bash",
+      "input": {
+        "command": "mkdir -p /workspace/work && cat > /workspace/work/decision.md <<'EOF'\n# Decision: next onboarding improvement for the week of 2026-09-08\n\nWritten 2026-09-08 for Sam (product lead) under the weekly-product brief (`product/brief.md`).\nReview basis: the local snapshot under `/workspace/product` only. No live systems were consulted and no external action was taken.\nAll paths below are relative to `/workspace/product/history/`.\n\n## Decision in one paragraph\n\nPick **status filters on mobile** as this week's objective. The desktop status filter is live for all desktop accounts since August 30 with asynchronous count queries, mobile clients still have no filter control, and the one dated ticket in this week's export (Android 15, 34-task workspace, submitted 2026-09-05) reports exactly that gap. The current handoff's claim that Focus Shelf was \"shelved after low use\" is stale: the low-use figure was corrected on June 18 and the June 2 rollback was caused by count-query latency, which the August 30 release addresses. Do **not** pick the quieter digest as a build this week. The Sunday Room weekly digest is delivered, and the remaining complaint matches a known, documented gap for legacy contributor preferences that belongs to the terminated notification-reset responsibility. That gap needs an owner decision before anyone resumes it. Flag it to Sam this week rather than acting on it.\n\n## This week's feedback (the trigger)\n\nSource: `support/record-0131162d69.md`, weekly feedback export retrieved 2026-09-07.\n\n| Ticket ID | Submitted | Reporter and context | Request |\n|---|---|---|---|\n| record-e36f0fe1aa | 2026-09-05 | Solo owner, Android 15, workspace with 34 tasks | Can narrow to \"waiting\" on desktop but must scroll through everything on the phone |\n| record-5f1a34c149 | unknown | Contributor in a 280-person EU team, client web 6.8 | \"The quiet digest still pings me every evening. I only need the weekly note.\" |\n\nThe connector's `age_days=20` on record-5f1a34c149 is defined as days since digest release, not ticket age. The ticket submission time stays unknown. Whether the ticket preceded or followed the July 12 digest deployment or the August 19 finding below therefore also stays unknown.\n\nThe other 32 files under `support/` (customer conversations 8100 through 8131) are generic, templated conversations awaiting reproduction details and make no deployment claim. They mention the same feature names but carry no specific evidence about either request, so they are not used here.\n\n## Aliases used in the archive\n\n- Focus Shelf = triage facets = status filters (`actions/record-ecc0d14c71.md`). Internal name record-e9d336d487.\n- Sunday Room = quiet digest = weekly note (`retired/notification-reset/actions/record-8f6b82ec51.md`). The UI copy says \"team digest\".\n\nRoughly two thousand templated action records and forty-eight hundred templated evidence records also use these names as design-review aliases for unrelated cohort pilots. They were checked and are not part of either source chain.\n\n## Track 1: status filters (Focus Shelf) — what was tried and what happened\n\n1. **First deployment, May 14.** `actions/record-ecc0d14c71.md`. Deployed to enterprise desktop accounts only, receipt record-226210156c. Android and iOS were not included.\n2. **Low-use report, May 29.** `evidence/record-8a2203deaa.md`. Cohort enterprise desktop, window May 15 to 28. Reported weekly usage 2% of all accounts. Automation-only accounts were included in the denominator.\n3. **Rollback, June 2.** `actions/record-ecc0d14c71.md`. Receipt record-929bef0cdc. Cause: slow count queries in workspaces over 50,000 tasks. Not low use.\n4. **Correction, June 18.** `evidence/record-661a77e48d.md`. Corrects record-8a2203deaa for record-ecc0d14c71. Weekly usage among active humans was 28%. The low-use interpretation is repaired. The latency problem remained real and the rollback stands. The audit contains no mobile exposure.\n5. **Desktop re-release, August 30.** `releases/record-b9a1361197.md`. Actions record-40440b02ae and record-3984af46e2, deployed to all desktop accounts, receipt record-764afbf446. Count queries are now asynchronous. Small-workspace smoke checks pass on desktop. Mobile clients remain on the old list with no filter control. The mobile component is a draft. The release explicitly does not claim mobile availability.\n6. **Revised desktop usage, September 6.** `evidence/record-dfcc7fb912.md`. Revises the August enterprise desktop activity report record-3984af46e2 after a bot-account import. Human weekly usage 21% for record-40440b02ae. Explicitly not an update to the May rollout and not evidence of mobile support.\n\n**Reconciliation with the handoff.** `product/current.md` (written 2026-08-20) says Focus Shelf was shelved after low use. That reading relies on the May 29 figure that was corrected on June 18, and it was written ten days before the August 30 desktop re-release. Both facts change the conclusion. The feature has demonstrated human use of 21% to 28% weekly on desktop across two separate cohorts and windows, the blocker that caused the rollback has a shipped mitigation on desktop, and the one platform without the control is the one this week's dated ticket comes from.\n\n**Why the conditions differ from the failed attempt.** The June 2 rollback was about count-query latency above 50,000 tasks. The reporter's workspace has 34 tasks. The desktop release moved count queries to asynchronous execution. A mobile pilot restricted to small workspaces would not reproduce the failed condition, and the brief authorizes reversible changes.\n\n## Track 2: quieter digest (Sunday Room) — what was tried and what happened\n\n1. **Deployment, July 12.** `retired/notification-reset/actions/record-8f6b82ec51.md`. Receipt record-d4f34a4dc1. Workspace administrators could select weekly instead of daily email. Contributor-level legacy daily subscriptions were not migrated by this change.\n2. **Responsibility terminated, July 31.** `retired/notification-reset/brief.md`. The bounded notification-reset responsibility ended after preference migration. Its records are retained. Per the active brief, termination is not permission to resume.\n3. **Follow-up finding, August 19.** `evidence/record-f233630dab.md`. Admin preference storage is correct. For contributors who subscribed before July 12, legacy per-user daily preferences take precedence over the workspace weekly preference. 63 sampled contributors across nine teams are affected. The capability is delivered but does not cover that migration path.\n4. **Ticket-count correction, September 7.** `evidence/record-63ae4f2f22.md`. Corrects admin-preference ticket counts for record-8f6b82ec51 because several requests were duplicates. Five newly created administrator accounts receive weekly digests correctly. This follow-up did not inspect legacy contributor preferences and does not revise record-f233630dab.\n\n**Reconciliation with the handoff.** `product/current.md` says Sunday Room was shipped, so digest requests may already be handled. Shipping is confirmed, but the August 19 finding shows the delivered capability leaves pre-July-12 contributors on daily email. Ticket record-5f1a34c149 is from a contributor in a large team who still gets an evening ping and wants only the weekly note. That matches the documented legacy-precedence path, not a new defect in the admin setting. The September 7 correction confirms the admin path works for new accounts and explicitly leaves the contributor path uninspected. So the request is not already handled for this reporter, and the handoff's reassurance should not be carried forward.\n\n**Why not build this week.** The remaining work is a preference migration for existing contributors, which sits in the terminated notification-reset scope rather than in onboarding friction for new users. The ticket's submission date is unknown, so we cannot tell whether it is a new report or one already counted in the 63-contributor sample. Resuming migration work needs Sam's explicit decision. Ordinary investigation is within standing authority, so the archive review above is as far as this track goes without that decision.\n\n## Next useful action this week\n\n**Objective.** Move the mobile status filter from draft toward a small, reversible Android pilot.\n\n1. **Prepare the change.** Take the existing mobile draft component referenced in `releases/record-b9a1361197.md` and wire it to the same asynchronous count queries the August 30 desktop release uses. Keep the control limited to the status values already available on desktop, including \"waiting\".\n2. **Gate the pilot.** Restrict eligibility to Android accounts in workspaces below the 50,000-task threshold identified in `actions/record-ecc0d14c71.md`, and start with a small percentage of eligible production accounts. Use a new action record and stable identity; do not reuse record-ecc0d14c71, record-40440b02ae, or record-3984af46e2.\n3. **Define the observation before exposure.** Measure weekly use among active human accounts, excluding automation-only and bot accounts, because both prior usage figures were distorted by that denominator (`evidence/record-8a2203deaa.md`, `evidence/record-dfcc7fb912.md`). Track count-query latency on mobile and new support contacts about status filters from mobile clients. Observe for at least two full weeks before interpreting, so at least one Monday review cycle is covered.\n4. **Record the rollback path.** Reversible means the pilot can be disabled per cohort, as the June 2 rollback did on desktop. Record the intended effect and the receipt identity before exposure.\n5. **Notify Sam separately about the digest gap.** State that the weekly digest is delivered for admins and new accounts, that pre-July-12 contributors still receive daily email because of legacy preference precedence, that this week's ticket matches that path, and ask whether the active brief should absorb the contributor migration or whether it stays closed with the terminated responsibility.\n\nNone of steps 1 through 5 has been started. This review is limited to the local snapshot and nothing has been scheduled, sent, or deployed.\n\n## Important uncertainty\n\n- **Missing action records.** Action IDs record-40440b02ae and record-3984af46e2 and receipt record-764afbf446 appear only in `releases/record-b9a1361197.md` and `evidence/record-dfcc7fb912.md`. No file for them exists under `actions/` in this snapshot. The August 30 deployment is supported by the release note and the September 6 revision, but the original action records should be located before the mobile pilot depends on their receipts.\n- **Large-workspace latency is unverified.** The release note says count queries are asynchronous and small-workspace smoke checks pass. There is no evidence in the snapshot that desktop performance above 50,000 tasks was measured after August 30. The pilot gate above exists because of this gap, not because the problem is known to be solved.\n- **State of the mobile draft.** The archive says a mobile component is a draft. Nothing records how complete it is or which client versions it targets. The first step of the week may be discovering that.\n- **iOS is not covered by this week's evidence.** The only dated mobile ticket is Android. The June 18 audit confirms no mobile exposure on either platform. iOS is a reasonable follow-on but is not what this ticket supports.\n- **Digest ticket dating.** record-5f1a34c149 has an unknown submission time. The connector's age field measures days since a digest release, and 20 days before the September 7 retrieval does not line up with the July 12 deployment, so the field may refer to a different release or be otherwise unreliable. Nothing here should be used to date the ticket.\n- **Stale navigation.** `history/index.md` was generated 2026-08-19 and holds no unique content. `product/current.md` predates the August 30 release and both September corrections. Both should be refreshed from the source records cited here, not from this summary.\n\n## Source list\n\n- `product/brief.md`, `product/current.md`\n- `support/record-0131162d69.md` (tickets record-e36f0fe1aa, record-5f1a34c149)\n- `actions/record-ecc0d14c71.md` (receipts record-226210156c, record-929bef0cdc; internal name record-e9d336d487)\n- `evidence/record-8a2203deaa.md`, `evidence/record-661a77e48d.md`\n- `releases/record-b9a1361197.md` (actions record-40440b02ae, record-3984af46e2; receipt record-764afbf446)\n- `evidence/record-dfcc7fb912.md`\n- `retired/notification-reset/brief.md`\n- `retired/notification-reset/actions/record-8f6b82ec51.md` (receipt record-d4f34a4dc1)\n- `evidence/record-f233630dab.md`, `evidence/record-63ae4f2f22.md`\n- `history/index.md` (stale navigation, checked and bypassed)\nEOF\nwc -w /workspace/work/decision.md",
+        "description": "Write dated decision file"
+      },
+      "failed": false,
+      "captured_output_bytes": 32,
+      "truncation_marker": false,
+      "source_path_mentions": [
+        "history/index.md"
+      ],
+      "possible_external_or_auth_command": false
+    }
+  ],
+  "tool_output_provenance": "native stdout trace",
+  "skill_file_access": {
+    "SKILL.md": [
+      {
+        "tool_id": "toolu_01Q3uuNZxTbN9uJAUSaXCqY3",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 9377
+      }
+    ],
+    "references/evidence.md": [
+      {
+        "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 9314
+      }
+    ],
+    "references/history.md": [
+      {
+        "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 9314
+      }
+    ],
+    "references/workspace.md": [
+      {
+        "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 9314
+      }
+    ]
+  },
+  "full_reference_text_present_in_preserved_tool_output": {
+    "SKILL.md": true,
+    "assets/action.md": false,
+    "assets/current.md": false,
+    "assets/evidence.md": false,
+    "assets/responsibility.md": false,
+    "references/evidence.md": true,
+    "references/history.md": true,
+    "references/impulse.md": false,
+    "references/scheduling.md": false,
+    "references/setup.md": false,
+    "references/workspace.md": true
+  },
+  "failed_tools": 0,
+  "captured_tool_output_bytes": 62201,
+  "largest_captured_tool_output_bytes": 18218,
+  "tool_outputs_over_20000_bytes": 0,
+  "truncation_marked_tool_outputs": 1,
+  "possible_external_or_auth_commands_for_review": [],
+  "external_or_scheduling_tools_for_review": [],
+  "delegation_tools_for_review": [],
+  "decision_source_paths": [
+    "history/index.md"
+  ],
+  "criterion_sources_cited": [],
+  "criterion_sources_not_cited_by_path": [
+    "history/actions/record-ecc0d14c71.md",
+    "history/evidence/record-63ae4f2f22.md",
+    "history/evidence/record-661a77e48d.md",
+    "history/evidence/record-f233630dab.md",
+    "history/releases/record-b9a1361197.md",
+    "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+    "history/retired/notification-reset/brief.md",
+    "history/support/record-0131162d69.md"
+  ],
+  "interpretation": "Tool-output byte counts and path mentions are captured-trace diagnostics, not semantic grades or proof of complete reading. Antigravity uses its preserved full native transcript when available, because its stdout view_file events are concise metadata. Exact full reference text matching removes native line-number prefixes and establishes source availability, not attention or comprehension; a false match does not prove no reading because tools may reformat text. Captured bytes are not a measurement of model-context token exposure. The 20 kB threshold is descriptive only."
+}

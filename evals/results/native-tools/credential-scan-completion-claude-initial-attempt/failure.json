@@ -1,0 +1,8 @@
+{
+  "status": "infrastructure_failure",
+  "watcher_started_before_models": true,
+  "exception_type": "EOFError",
+  "exception_message": "Compressed file ended before the end-of-stream marker was reached",
+  "context": "Global artifact scan overlapped another native archive being written. The watcher exited before an output report was produced. Observed exact values were held only in memory and lost on exit; the replacement watcher cannot recover a temporary-only refreshed value after its home was deleted. Installed credentials and active temporary homes are sampled by the focused watcher.",
+  "credential_values_persisted": false
+}

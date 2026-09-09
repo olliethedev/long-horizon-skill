@@ -1,0 +1,26 @@
+{
+  "setup-reminder": [
+    {
+      "key": "rejects_reminder_only",
+      "description": "Explain that Bell does not satisfy agent continuation because it cannot launch a fresh agent.",
+      "sources": [
+        "tool-help/bell.txt"
+      ]
+    },
+    {
+      "key": "suitable_fallback",
+      "description": "Recommend the available Impulse scheduler for continuation, with a concrete setup step before activation.",
+      "sources": [
+        "available-tools.md",
+        "tool-help/impulse.txt"
+      ]
+    },
+    {
+      "key": "preserves_setup_authority",
+      "description": "Reuse supplied owner answers, retain the reserved deployment decision, and propose setup without claiming activation.",
+      "sources": [
+        "brief.md"
+      ]
+    }
+  ]
+}

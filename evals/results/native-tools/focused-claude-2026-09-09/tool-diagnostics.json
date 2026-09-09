@@ -1,0 +1,82 @@
+[
+  {
+    "harness": "claude",
+    "case": "weekly-product",
+    "arm": "native-tools",
+    "tool_count": 12,
+    "tool_output_provenance": "native stdout trace",
+    "skill_file_access": {
+      "SKILL.md": [
+        {
+          "tool_id": "toolu_01Q3uuNZxTbN9uJAUSaXCqY3",
+          "tool_name": "Bash",
+          "access": "shell file read; inspect captured output for completeness",
+          "failed": false,
+          "captured_output_bytes": 9377
+        }
+      ],
+      "references/evidence.md": [
+        {
+          "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+          "tool_name": "Bash",
+          "access": "shell file read; inspect captured output for completeness",
+          "failed": false,
+          "captured_output_bytes": 9314
+        }
+      ],
+      "references/history.md": [
+        {
+          "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+          "tool_name": "Bash",
+          "access": "shell file read; inspect captured output for completeness",
+          "failed": false,
+          "captured_output_bytes": 9314
+        }
+      ],
+      "references/workspace.md": [
+        {
+          "tool_id": "toolu_01NTRUvUtHQF7AcDxe71cgTX",
+          "tool_name": "Bash",
+          "access": "shell file read; inspect captured output for completeness",
+          "failed": false,
+          "captured_output_bytes": 9314
+        }
+      ]
+    },
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "assets/action.md": false,
+      "assets/current.md": false,
+      "assets/evidence.md": false,
+      "assets/responsibility.md": false,
+      "references/evidence.md": true,
+      "references/history.md": true,
+      "references/impulse.md": false,
+      "references/scheduling.md": false,
+      "references/setup.md": false,
+      "references/workspace.md": true
+    },
+    "failed_tools": 0,
+    "captured_tool_output_bytes": 62201,
+    "largest_captured_tool_output_bytes": 18218,
+    "tool_outputs_over_20000_bytes": 0,
+    "truncation_marked_tool_outputs": 1,
+    "possible_external_or_auth_commands_for_review": [],
+    "external_or_scheduling_tools_for_review": [],
+    "delegation_tools_for_review": [],
+    "decision_source_paths": [
+      "history/index.md"
+    ],
+    "criterion_sources_cited": [],
+    "criterion_sources_not_cited_by_path": [
+      "history/actions/record-ecc0d14c71.md",
+      "history/evidence/record-63ae4f2f22.md",
+      "history/evidence/record-661a77e48d.md",
+      "history/evidence/record-f233630dab.md",
+      "history/releases/record-b9a1361197.md",
+      "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+      "history/retired/notification-reset/brief.md",
+      "history/support/record-0131162d69.md"
+    ]
+  }
+]

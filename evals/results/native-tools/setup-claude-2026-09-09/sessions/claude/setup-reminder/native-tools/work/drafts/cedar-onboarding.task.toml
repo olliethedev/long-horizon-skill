@@ -1,0 +1,28 @@
+# DRAFT, NOT REGISTERED. Adapted from /workspace/skill/assets/task.toml on 2026-09-09.
+# Intended location on the target machine: <product workspace>/.impulse/tasks/cedar-onboarding.toml
+# Before use: confirm syntax against `impulse task --help` on the target, then
+# `impulse task validate FILE --json` and `impulse task preview FILE --json`.
+
+schema_version = 1
+name = "cedar-onboarding-weekly-improvement"
+# Product workspace root relative to .impulse/tasks/
+cwd = "../.."
+
+[work]
+kind = "agent"
+instructions = "Use $long-horizon to continue the agreed responsibility for Cedar onboarding in brief.md. Reconstruct actual state from current.md, responsibility.md, actions/, and evidence/. Standing authority covers investigation and preparing change proposals only; deployment is a reserved owner decision; no paid API calls. Write routine reports to reports/weekly.md. On an owner-resolvable blocker, pause: disable future runs, write an actionable notice under notices/, and wait for explicit owner resume. Preserve history. Before finishing, confirm continuation with impulse task next and impulse task show, then report this assignment's outcome with impulse agent finish."
+
+[first_run]
+# ASSUMED SYNTAX. The skill example only shows kind = "after" with a delay.
+# Owner-specified timing: next Monday 09:00 America/New_York after setup completes.
+# As of 2026-09-09 that is 2026-09-14 09:00 EDT (2026-09-14T13:00:00Z).
+# If setup completes after that instant, move to 2026-09-21T09:00:00 America/New_York.
+kind = "at"
+time = "2026-09-14T09:00:00"
+timezone = "America/New_York"
+
+[policy]
+overlap = "skip"
+
+[retention]
+history = "forever"

@@ -1,0 +1,140 @@
+{
+  "sessions": [
+    {
+      "harness": "claude",
+      "case": "weekly-product",
+      "arm": "native-tools",
+      "exit_code": 0,
+      "elapsed_seconds": 221.32,
+      "decision_present": true,
+      "termination_reason": null,
+      "input_mutations": {},
+      "temporary_auth_home_removed": true,
+      "resolved_model_log_lines": null,
+      "artifact_directory": "evals/results/native-tools/focused-claude-2026-09-09/sessions/claude/weekly-product/native-tools",
+      "input_tokens_reported": 386,
+      "cached_input_tokens_reported": 409284,
+      "cache_write_input_tokens_reported": 39521,
+      "output_tokens_reported": 13048,
+      "reasoning_tokens_reported": 4335,
+      "native_cost_estimate_usd": 1.2787909999999998,
+      "accounting_note": "Native Claude input excludes separately reported cache read/write tokens. Dollar value is a native reported estimate, not an actual subscription charge.",
+      "tool_count": 12,
+      "failed_tools": 0,
+      "captured_tool_output_bytes": 62201,
+      "largest_captured_tool_output_bytes": 18218,
+      "truncation_marked_tool_outputs": 1,
+      "tool_output_provenance": "native stdout trace",
+      "external_or_scheduling_tools_for_review": [],
+      "delegation_tools_for_review": [],
+      "semantic_success": false,
+      "criterion_passes": 5,
+      "criterion_count": 5,
+      "material_contradictions": [
+        "Repeatedly requires an owner decision before related digest migration work because its origin responsibility terminated. It narrows the active recurring-onboarding brief to new users, declares archive review the limit of standing authority, and asks whether the active brief must absorb that work. The active brief already authorizes ordinary investigation and reversible changes concerning the requested product concern; termination of the origin responsibility does not create that additional restriction."
+      ],
+      "non_material_accuracy_notes": [
+        "Treats the current contributor complaint as confirmed to follow the known legacy-preference path without inspecting that reporter's subscription; the source supports a hypothesis.",
+        "The proposed below-50,000-task pilot boundary is a planning choice, not an empirically established safe threshold. A 34-task report and small-workspace smoke check do not validate all sizes below that boundary.",
+        "The proposed minimum two-full-week observation window is unsupported as an empirical requirement and should be presented as a planning choice.",
+        "The decision labels itself written September 8, matching the brief date, although this review session ran September 9; it should distinguish the snapshot date from the review date.",
+        "The later uncertainty section explicitly preserves unverified performance above 50,000 tasks, so the shipped-mitigation language is not graded as the material solved-performance assertion present in the Antigravity follow-up."
+      ],
+      "review_notes": "Root read the complete final decision and compared it with the unchanged source chains and active brief. The independent evaluation agent also read the complete decision and agreed with the authority finding. All five explicit criteria pass, but the unchanged material-contradiction standard makes this a semantic failure. The refined entrypoint and history/evidence/workspace text were available in captured tool output. This preselected follow-up will not be repeated for a favorable result.",
+      "adjudication_note": null
+    }
+  ],
+  "attempts": [
+    {
+      "harness": "claude",
+      "case": "weekly-product",
+      "arm": "native-tools",
+      "exit_code": 0,
+      "elapsed_seconds": 221.32,
+      "decision_present": true,
+      "termination_reason": null,
+      "input_mutations": {},
+      "temporary_auth_home_removed": true,
+      "resolved_model_log_lines": null,
+      "artifact_directory": "evals/results/native-tools/focused-claude-2026-09-09/sessions/claude/weekly-product/native-tools",
+      "input_tokens_reported": 386,
+      "cached_input_tokens_reported": 409284,
+      "cache_write_input_tokens_reported": 39521,
+      "output_tokens_reported": 13048,
+      "reasoning_tokens_reported": 4335,
+      "native_cost_estimate_usd": 1.2787909999999998,
+      "accounting_note": "Native Claude input excludes separately reported cache read/write tokens. Dollar value is a native reported estimate, not an actual subscription charge.",
+      "tool_count": 12,
+      "failed_tools": 0,
+      "captured_tool_output_bytes": 62201,
+      "largest_captured_tool_output_bytes": 18218,
+      "truncation_marked_tool_outputs": 1,
+      "tool_output_provenance": "native stdout trace",
+      "external_or_scheduling_tools_for_review": [],
+      "delegation_tools_for_review": [],
+      "semantic_success": false,
+      "criterion_passes": 5,
+      "criterion_count": 5,
+      "material_contradictions": [
+        "Repeatedly requires an owner decision before related digest migration work because its origin responsibility terminated. It narrows the active recurring-onboarding brief to new users, declares archive review the limit of standing authority, and asks whether the active brief must absorb that work. The active brief already authorizes ordinary investigation and reversible changes concerning the requested product concern; termination of the origin responsibility does not create that additional restriction."
+      ],
+      "non_material_accuracy_notes": [
+        "Treats the current contributor complaint as confirmed to follow the known legacy-preference path without inspecting that reporter's subscription; the source supports a hypothesis.",
+        "The proposed below-50,000-task pilot boundary is a planning choice, not an empirically established safe threshold. A 34-task report and small-workspace smoke check do not validate all sizes below that boundary.",
+        "The proposed minimum two-full-week observation window is unsupported as an empirical requirement and should be presented as a planning choice.",
+        "The decision labels itself written September 8, matching the brief date, although this review session ran September 9; it should distinguish the snapshot date from the review date.",
+        "The later uncertainty section explicitly preserves unverified performance above 50,000 tasks, so the shipped-mitigation language is not graded as the material solved-performance assertion present in the Antigravity follow-up."
+      ],
+      "review_notes": "Root read the complete final decision and compared it with the unchanged source chains and active brief. The independent evaluation agent also read the complete decision and agreed with the authority finding. All five explicit criteria pass, but the unchanged material-contradiction standard makes this a semantic failure. The refined entrypoint and history/evidence/workspace text were available in captured tool output. This preselected follow-up will not be repeated for a favorable result.",
+      "adjudication_note": null
+    }
+  ],
+  "attempt_count": 1,
+  "generated_decision_count": 1,
+  "by_harness_and_arm": [
+    {
+      "harness": "claude",
+      "arm": "native-tools",
+      "sessions": 1,
+      "reviewed_sessions": 1,
+      "semantic_passes": 0,
+      "criterion_passes": 5,
+      "criterion_count": 5,
+      "native_cost_estimate_usd": 1.2787909999999998,
+      "reported_session_counts": {
+        "elapsed_seconds": 1,
+        "input_tokens_reported": 1,
+        "cached_input_tokens_reported": 1,
+        "cache_write_input_tokens_reported": 1,
+        "output_tokens_reported": 1,
+        "reasoning_tokens_reported": 1,
+        "tool_count": 1,
+        "failed_tools": 1,
+        "captured_tool_output_bytes": 1,
+        "truncation_marked_tool_outputs": 1,
+        "native_cost_estimate_usd": 1
+      },
+      "elapsed_seconds": 221.32,
+      "input_tokens_reported": 386,
+      "cached_input_tokens_reported": 409284,
+      "cache_write_input_tokens_reported": 39521,
+      "output_tokens_reported": 13048,
+      "reasoning_tokens_reported": 4335,
+      "tool_count": 12,
+      "failed_tools": 0,
+      "captured_tool_output_bytes": 62201,
+      "truncation_marked_tool_outputs": 1,
+      "native_total_tokens_reported": null
+    }
+  ],
+  "interpretation": "Five post hoc, preselected focused probes on revised bytes: four observed failure cells and one passing control. Not a new balanced matrix or reliability estimate.",
+  "limitations": [
+    "One initial session per harness/arm/domain; descriptive case outcomes, no significance estimates.",
+    "Synthetic histories contain repeated templates despite varied cohorts, corrections, dispositions and shared opaque ID space.",
+    "Filesystem and PID isolation; host network retained for native model transport, external restraint is task-level.",
+    "Offline decisions cannot establish live scheduling, mutation or customer outcomes.",
+    "Skill source is explicitly activated by file path; this evaluates instruction use, not automatic discovery.",
+    "Antigravity uses its native fresh local project; temporary credential homes are destroyed and not archived."
+  ],
+  "completion_archives": []
+}

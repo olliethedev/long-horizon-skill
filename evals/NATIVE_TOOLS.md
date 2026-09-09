@@ -111,7 +111,12 @@ python3 evals/native_credentials_check.py \
 It waits for the matrix's completion marker, scans exact observed values in
 raw artifacts, decompressed gzip, and tar members, and then discards its in-memory
 values. A scan started only after cleanup cannot cover temporary refreshed
-values that are no longer available.
+values that are no longer available. If another batch is still writing archives,
+the scanner retains its observed values and samples active homes while retrying
+an incomplete scan. It permits at most 60 full scans and 59 one-second pauses
+(scan time is additional); persistent corruption exits 2 with
+`scan_complete = false`, never a clean result. Startup file paths and total
+credential-sampling calls are recorded without storing credential values.
 
 `native_replay.py` preserves infrastructure interruptions in separate archives.
 Completion mode selects only initial cells without a generated decision and

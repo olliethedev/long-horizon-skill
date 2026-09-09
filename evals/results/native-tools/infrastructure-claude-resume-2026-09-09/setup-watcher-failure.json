@@ -1,0 +1,11 @@
+{
+  "watcher_target": "setup-claude-2026-09-09",
+  "artifact_scope": "evals/results",
+  "source_commit": "cb88afd",
+  "source_sha256": "5e6b9e0e567bb010c9588eb33faf2fb76b8e858a0d07fd4898cf1bb435cf7faa",
+  "exit_code": 1,
+  "exception_type": "EOFError",
+  "exception_message": "Compressed file ended before the end-of-stream marker was reached",
+  "observation": "The original watcher scanned a gzip stream while a concurrent focused session was still writing it. It exited before producing a scan report. The setup model session itself completed normally.",
+  "coverage_limit": "In-memory credential values in this failed watcher were lost on exit. Later scans cover values still available in installed credentials or observed by another active watcher; they cannot recover earlier temporary-only values that were not observed elsewhere."
+}
