@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-09-09T15:27:04.847640+00:00",
+  "initial_candidate_tree_sha256": "d2fc4f19934888d2b59fae0cbac46eb87b1b43c00033593be2563d5ba22b9b7e",
+  "reason": "Completed initial decisions revealed invented authority restrictions, unsupported relative dates, and unproven causal explanations despite retrieved sources. Initial outcomes remain unchanged.",
+  "planned_instruction_changes": [
+    "Determine new work authority from the active brief; history from an ended responsibility does not create an additional approval requirement.",
+    "An unknown event/request time also leaves its relative order unknown unless independent evidence establishes it.",
+    "Separate observations from causal hypotheses and check explanatory claims before persisting a decision or learning."
+  ],
+  "fixed_followups": [
+    {
+      "harness": "claude",
+      "case": "weekly-product",
+      "arm": "native-tools",
+      "purpose": "Observed authority error"
+    },
+    {
+      "harness": "antigravity",
+      "case": "revenue",
+      "arm": "native-tools",
+      "purpose": "Observed inconclusive-result/causal error"
+    },
+    {
+      "harness": "antigravity",
+      "case": "weekly-product",
+      "arm": "native-tools",
+      "purpose": "Observed authority/causal error"
+    },
+    {
+      "harness": "antigravity",
+      "case": "large-export",
+      "arm": "native-tools",
+      "purpose": "Observed relative-date/causal error"
+    },
+    {
+      "harness": "codex",
+      "case": "large-export",
+      "arm": "native-tools",
+      "purpose": "Previously passing control"
+    }
+  ],
+  "bounds": "One fresh session per selected cell on the revised bytes; preserve failures, no retries for a favorable semantic score. Infrastructure failures before generation are recorded separately.",
+  "matching": "Reuse initial source snapshot, task prompt and installed defaults. New runtime bytes are the intentional change. Selection is adaptive to observed failures, not a new balanced comparison.",
+  "initial_matrix_status": "Original run interrupted after31 decisions and one pre-generation Claude OAuth failure;3 untouched Antigravity cells are completing against the frozen original bundle;2 Claude cells require renewed login."
+}

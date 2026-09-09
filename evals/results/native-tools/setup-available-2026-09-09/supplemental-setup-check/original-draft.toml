@@ -1,0 +1,17 @@
+schema_version = 1
+name = "cedar-onboarding-improvement"
+cwd = "/workspace/product"
+
+[work]
+kind = "agent"
+instructions = "Use $long-horizon at /workspace/skill/SKILL.md to continue the agreed Cedar onboarding responsibility in brief.md. Reconstruct actual state from current.md and linked evidence in actions/ and evidence/. Formulate hypotheses from analytics and feedback, prepare change proposals for owner approval, write routine progress to the local weekly report file, confirm next continuation with impulse task next, and finish the assignment with impulse agent finish."
+
+[first_run]
+kind = "at"
+time = "2026-09-14T09:00:00-04:00"
+
+[policy]
+overlap = "skip"
+
+[retention]
+history = "forever"

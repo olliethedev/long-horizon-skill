@@ -1,0 +1,4 @@
+{"name":"product", "isDir":true}
+{"name":"work", "isDir":true}
+
+Summary: This directory contains 2 subdirectories and 0 files.

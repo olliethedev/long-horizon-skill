@@ -1,0 +1,27 @@
+
+The command exited with code 0.
+Output:
+.
+./product
+./product/available-tools.md
+./product/project.toml
+./product/brief.md
+./product/current.md
+./skill
+./skill/SKILL.md
+./skill/references
+./skill/references/workspace.md
+./skill/references/impulse.md
+./skill/references/scheduling.md
+./skill/references/history.md
+./skill/references/setup.md
+./skill/references/evidence.md
+./skill/assets
+./skill/assets/responsibility.md
+./skill/assets/current.md
+./skill/assets/action.md
+./skill/assets/evidence.md
+./skill/assets/task.toml
+./work
+./work/antigravity.log
+

@@ -1,0 +1,21 @@
+
+The command exited with code 0.
+Output:
+Pattern \bQR7\b: 1 files
+  /workspace/product/history/retired/summer-offers/actions/record-b7ab79e22e.md
+Pattern \bH2\b: 1 files
+  /workspace/product/history/design/record-3c858d6a57.md
+Pattern \bpermission\b: 280 files
+  /workspace/product/brief.md
+  /workspace/product/history/evidence/record-5d99d4b7ff.md
+  /workspace/product/history/evidence/record-6b39e7d612.md
+  /workspace/product/history/evidence/record-542737b318.md
+  /workspace/product/history/evidence/record-9a7ad89f7c.md
+Pattern \billustration\b: 1 files
+  /workspace/product/history/design/record-3c858d6a57.md
+Pattern \brefund-adjusted\b: 2 files
+  /workspace/product/brief.md
+  /workspace/product/history/evidence/record-802325ed36.md
+Pattern \bdeduplicated\b: 1 files
+  /workspace/product/history/evidence/record-47eaba418e.md
+

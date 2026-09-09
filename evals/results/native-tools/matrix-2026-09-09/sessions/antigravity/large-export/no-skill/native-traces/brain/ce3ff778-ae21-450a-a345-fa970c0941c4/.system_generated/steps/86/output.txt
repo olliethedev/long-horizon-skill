@@ -1,0 +1,55 @@
+
+The command exited with code 0.
+Output:
+<truncated 2858 lines>
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fab66de3d3.md :: # record-fab66de3d3: workspace dump
+Alias used in the design review: Ledger Ferry. Local variant: record-3218bfc161.8.0.
+Originating responsibility: onboarding-cycle. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-04-03: people mistook the confirmation for an additional required action. The proposed change was to move the confirmation below the result.
+Implementation: record-0884c32b86. Deployment/exposure: 2026-04-06, receipt record-34f5f3a7f6; 10% of eligible production accounts. The original observation is history/evidence/record-e5cfcc8e77.md. Later review: history/evidence/record-f7f2b142f4.md.
+Disposition recorded after the first window: Rolled back 2026-04-18, receipt record-0cee0fc8a6, because the resumed-session check still failed.
+Coordination: the locale refresh was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fb9c1ce1ea.md :: # record-fb9c1ce1ea: full ledger export
+Alias used in the design review: workspace dump. Local variant: record-2d97151e45.12.2.
+Originating responsibility: retained-growth. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-06-24: the profile region and workspace region disagreed after migration. The proposed change was to use the account's current regional setting.
+Implementation: record-cbbfe5c0a6. Deployment/exposure: 2026-06-27, receipt record-a66d6ae456; 20% of eligible production accounts. The original observation is history/evidence/record-403a3663cd.md. Later review: history/evidence/record-8662761d75.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fcc3579596.md :: # record-fcc3579596: Ledger Ferry
+Alias used in the design review: Async Ledger. Local variant: record-3218bfc161.0.3.
+Originating responsibility: client-reliability. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-05-20: people mistook the confirmation for an additional required action. The proposed change was to move the confirmation below the result.
+Implementation: record-9b235fdbe0. Deployment/exposure: 2026-05-23, receipt record-39c1929b4a; 20% of eligible production accounts. The original observation is history/evidence/record-92460407ff.md. Later review: history/evidence/record-4635baef3e.md.
+Disposition recorded after the first window: Disabled 2026-06-03, receipt record-9eaf559460, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fe26ca4963.md :: # record-fe26ca4963: workspace dump
+Alias used in the design review: Ledger Ferry. Local variant: record-8a4527a255.12.3.
+Originating responsibility: client-reliability. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-03-21: people mistook the confirmation for an additional required action. The proposed change was to move the confirmation below the result.
+Implementation: record-e6427a60ff. Deployment/exposure: 2026-03-24, receipt record-2a428ab4b0; 20% of eligible production accounts. The original observation is history/evidence/record-822bf63467.md. Later review: history/evidence/record-1c9f1d0cad.md.
+Disposition recorded after the first window: Disabled 2026-04-08, receipt record-a730ef0a7c, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fecb66e5b2.md :: # record-fecb66e5b2: CSV download
+Alias used in the design review: NDJSON. Local variant: record-b3af2dc499.10.2.
+Originating responsibility: retained-growth. Cohort: new Android accounts in Canada. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-06-26: similar workspace names made successful activity look unrelated. The proposed change was to show the affected workspace in the activity row.
+Implementation: record-86ba2883f7. Deployment/exposure: 2026-06-29, receipt record-c3fb90edc2; 5% of eligible production accounts. The original observation is history/evidence/record-ac6263cb9d.md. Later review: history/evidence/record-77a85164a4.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-fefecb9656.md :: # record-fefecb9656: Ledger Ferry
+Alias used in the design review: Async Ledger. Local variant: record-8a4527a255.6.2.
+Originating responsibility: retained-growth. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-04-23: the migration counted an inherited preference as an explicit user choice. The proposed change was to split legacy and newly created preference records.
+Implementation: record-7179e5f950. Deployment/exposure: 2026-04-26, receipt record-2ff41218e7; 10% of eligible production accounts. The original observation is history/evidence/record-154ac8b8da.md. Later review: history/evidence/record-f39868cacd.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+/workspace/product/history/retired/data-portability/actions/record-ffbed205ca.md :: # record-ffbed205ca: large export
+Alias used in the design review: CSV download. Local variant: record-3218bfc161.7.1.
+Originating responsibility: regional-quality. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-02-24: switching panels detached the visible progress from the running operation. The proposed change was to keep the progress indicator attached to the operation.
+Implementation: record-fcc36409a4. Deployment/exposure: 2026-02-27, receipt record-332b4b21fa; 20% of eligible production accounts. The original observation is history/evidence/record-72e19303b6.md. Later review: history/evidence/record-ea4d40a6df.md.
+Disposition recorded after the first window: Retained for this cohort after the review on 2026-03-12; no claim is made about the other clients.
+Coordination: the workspace migration was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+

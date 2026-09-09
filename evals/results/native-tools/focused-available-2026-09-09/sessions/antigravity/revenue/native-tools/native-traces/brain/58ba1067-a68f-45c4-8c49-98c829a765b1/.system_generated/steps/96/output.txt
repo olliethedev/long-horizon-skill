@@ -1,0 +1,1 @@
+{"File":"/workspace/product/history/evidence/record-0f6fbbab4e.md","LineNumber":2,"LineContent":"Dated 2026-09-07. Harbor reporting on returning desktop accounts, record-d3b97d8b03, August 25–31. A billing retry inflated annual-plan counts; corrected revenue -3%. The product name overlaps record-dc92607ff3, but this is a different action and population."}

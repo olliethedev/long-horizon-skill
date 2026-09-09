@@ -1,0 +1,116 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+The session recording showed two people opening the panel and returning to their previous task. No revenue attribution was available. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting Quiet Offer as a broader change.
+
+## record-67804b4cf6: plan comparison
+Recorded: 2026-03-03. Cohort: internal QA accounts in staging.
+Reference: support/record-67804b4cf6; responsibility: routine-quality. Environment: staging.
+The session recording showed two people opening the panel and returning to their previous task. No revenue attribution was available. Owner: Owen.
+Follow-up: compare the next regional release manifest before interpreting plan comparison as a broader change.
+
+## record-d73a1c36c3: Quiet Return
+Recorded: 2026-03-04. Cohort: US enterprise administrators.
+Reference: support/record-d73a1c36c3; responsibility: routine-quality. Environment: production.
+The session recording showed two people opening the panel and returning to their previous task. No revenue attribution was available. Owner: Tariq.
+Follow-up: compare the next support export before interpreting Quiet Return as a broader change.
+
+## record-afa1dc1f0d: Harbor
+Recorded: 2026-03-05. Cohort: returning desktop teams in Germany.
+Reference: support/record-afa1dc1f0d; responsibility: routine-quality. Environment: production.
+Three interviewees preferred the shorter wording; two asked for the existing wording. The interviews did not establish behavior outside this cohort. Owner: Lea.
+Follow-up: compare the next weekly interview notes before interpreting Harbor as a broader change.
+
+## record-c3feb68b2a: annual card
+Recorded: 2026-03-06. Cohort: Brazilian free workspaces.
+Reference: support/record-c3feb68b2a; responsibility: routine-quality. Environment: production.
+The escalation was transferred to a different support shift. Its original submitted timestamp was missing from the import. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting annual card as a broader change.
+
+## record-ca777d2e96: returning mobile offer
+Recorded: 2026-03-07. Cohort: internal QA accounts in staging.
+Reference: support/record-ca777d2e96; responsibility: routine-quality. Environment: staging.
+The observed failures occurred after the account switched workspaces. A clean single-workspace test completed without the same symptoms. Owner: Owen.
+Follow-up: compare the next regional release manifest before interpreting returning mobile offer as a broader change.
+
+## record-a8135864dc: Anchor plan picker
+Recorded: 2026-03-02. Cohort: US enterprise administrators.
+Reference: support/record-a8135864dc; responsibility: routine-quality. Environment: production.
+The release was staged for the next train. The merge notification does not include a production rollout receipt. Owner: Tariq.
+Follow-up: compare the next support export before interpreting Anchor plan picker as a broader change.
+
+## record-53bd1798f6: renewal reminder
+Recorded: 2026-03-03. Cohort: internal QA accounts in staging.
+Reference: support/record-53bd1798f6; responsibility: routine-quality. Environment: staging.
+An event deduplication repair reduced the count by four. The repair changed this report's count, with no deployment or rollback attached. Owner: Lea.
+Follow-up: compare the next weekly interview notes before interpreting renewal reminder as a broader change.
+
+## record-6af77313ec: Quiet Offer
+Recorded: 2026-03-04. Cohort: internal QA accounts in staging.
+Reference: support/record-6af77313ec; responsibility: routine-quality. Environment: staging.
+The seven-day chart contains a migration backfill on Tuesday. The team retained the chart but did not treat that day as ordinary traffic. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting Quiet Offer as a broader change.
+
+==================================================
+/workspace/product/history/operations/record-f2af1c81c0.md
+# revenue: weekly operations, 2026-05-18
+
+Maintained by product operations. Individual entries retain their own scope.
+
+## record-2058a6608a: plan comparison
+Recorded: 2026-05-18. Cohort: internal QA accounts in staging.
+Reference: support/record-2058a6608a; responsibility: routine-quality. Environment: staging.
+Three interviewees preferred the shorter wording; two asked for the existing wording. The interviews did not establish behavior outside this cohort. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting plan comparison as a broader change.
+
+## record-37c647ce6c: Quiet Return
+Recorded: 2026-05-19. Cohort: returning desktop teams in Germany.
+Reference: support/record-37c647ce6c; responsibility: routine-quality. Environment: production.
+The release was staged for the next train. The merge notification does not include a production rollout receipt. Owner: Owen.
+Follow-up: compare the next regional release manifest before interpreting Quiet Return as a broader change.
+
+## record-23af7b787f: Harbor
+Recorded: 2026-05-20. Cohort: returning desktop teams in Germany.
+Reference: support/record-23af7b787f; responsibility: routine-quality. Environment: production.
+An event deduplication repair reduced the count by four. The repair changed this report's count, with no deployment or rollback attached. Owner: Tariq.
+Follow-up: compare the next support export before interpreting Harbor as a broader change.
+
+## record-09da8fad84: annual card
+Recorded: 2026-05-21. Cohort: returning desktop teams in Germany.
+Reference: support/record-09da8fad84; responsibility: routine-quality. Environment: production.
+The escalation was transferred to a different support shift. Its original submitted timestamp was missing from the import. Owner: Lea.
+Follow-up: compare the next weekly interview notes before interpreting annual card as a broader change.
+
+## record-b4c0e5317a: returning mobile offer
+Recorded: 2026-05-22. Cohort: US enterprise administrators.
+Reference: support/record-b4c0e5317a; responsibility: routine-quality. Environment: production.
+An event deduplication repair reduced the count by four. The repair changed this report's count, with no deployment or rollback attached. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting returning mobile offer as a broader change.
+
+## record-a8b82f5bee: Anchor plan picker
+Recorded: 2026-05-23. Cohort: US enterprise administrators.
+Reference: support/record-a8b82f5bee; responsibility: routine-quality. Environment: production.
+The session recording showed two people opening the panel and returning to their previous task. No revenue attribution was available. Owner: Owen.
+Follow-up: compare the next regional release manifest before interpreting Anchor plan picker as a broader change.
+
+## record-db09c14e16: renewal reminder
+Recorded: 2026-05-18. Cohort: new Android accounts in Canada.
+Reference: support/record-db09c14e16; responsibility: routine-quality. Environment: production.
+The seven-day chart contains a migration backfill on Tuesday. The team retained the chart but did not treat that day as ordinary traffic. Owner: Tariq.
+Follow-up: compare the next support export before interpreting renewal reminder as a broader change.
+
+## record-b79398a99c: Quiet Offer
+Recorded: 2026-05-19. Cohort: Brazilian free workspaces.
+Reference: support/record-b79398a99c; responsibility: routine-quality. Environment: production.
+Three interviewees preferred the shorter wording; two asked for the existing wording. The interviews did not establish behavior outside this cohort. Owner: Lea.
+Follow-up: compare the next weekly interview notes before interpreting Quiet Offer as a broader change.
+
+## record-cb8f98aa77: plan comparison
+Recorded: 2026-05-20. Cohort: internal QA accounts in staging.
+Reference: support/record-cb8f98aa77; responsibility: routine-quality. Environment: staging.
+An event deduplication repair reduced the count by four. The repair changed this report's count, with no deployment or rollback attached. Owner: Mina.
+Follow-up: compare the next five recordings before interpreting plan comparison as a broader change.
+
+

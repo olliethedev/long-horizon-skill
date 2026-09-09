@@ -1,0 +1,41 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+/workspace/product/history/evidence/record-647befeada.md:Recording notes: the second confirmation increased exits without additional validation. After the change, the label matched the operation receipt in the sampled sessions. Customer language: 'I use full ledger export when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-6e34487474.md:Action: record-3444865a7d. Alias: large export. Revision: record-8170dc1532.11.1.
+/workspace/product/history/evidence/record-175d4f5afb.md:# record-175d4f5afb: full ledger export observation
+/workspace/product/history/evidence/record-175d4f5afb.md:Recording notes: the profile region and workspace region disagreed after migration. After the change, two participants still expected the previous navigation order. Customer language: 'I use full ledger export when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-1b640d2f1e.md:# record-1b640d2f1e: full ledger export observation
+/workspace/product/history/evidence/record-1b640d2f1e.md:Recording notes: the migration counted an inherited preference as an explicit user choice. After the change, the participants could identify their workspace before continuing. Customer language: 'I use full ledger export when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-9f7793fb1f.md:# record-9f7793fb1f: NDJSON observation
+/workspace/product/history/evidence/record-9f7793fb1f.md:Action: record-1e5a9b2420. Alias: export progress. Revision: record-2d97151e45.12.3.
+/workspace/product/history/evidence/record-9f7793fb1f.md:Recording notes: the profile region and workspace region disagreed after migration. After the change, two participants still expected the previous navigation order. Customer language: 'I use ndjson when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-6a21df1f1b.md:# record-6a21df1f1b: export progress observation
+/workspace/product/history/evidence/record-6a21df1f1b.md:Action: record-2328b08267. Alias: full ledger export. Revision: record-8170dc1532.0.2.
+/workspace/product/history/evidence/record-6a21df1f1b.md:Recording notes: similar workspace names made successful activity look unrelated. After the change, the label matched the operation receipt in the sampled sessions. Customer language: 'I use export progress when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-e9dae523d2.md:Correction: The support export had treated follow-up replies as newly submitted requests. The estimate for unresolved failures changes from -2.3% to -3.6%. Its definition remains distinct operation identities without a successful terminal receipt. The correction only covers this record's enrollment and observation window.
+/workspace/product/history/evidence/record-116ded6ca6.md:Recorded 2026-07-07. Subject: export progress; alias: full ledger export. Action record-f01cf9aea7; revision record-3218bfc161.10.1; cohort UK solo contributors on iOS; observation 2026-06-18 through 2026-06-29.
+/workspace/product/history/evidence/record-67591f1052.md:# record-67591f1052: export progress observation
+/workspace/product/history/evidence/record-67591f1052.md:Action: record-c06fe76414. Alias: full ledger export. Revision: record-9e15273a6e.16.1.
+/workspace/product/history/evidence/record-67591f1052.md:Recording notes: a retry was recorded as a new event during a short disconnect. After the change, the participants could identify their workspace before continuing. Customer language: 'I use export progress when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-9cc392233d.md:# record-9cc392233d: CSV download observation
+/workspace/product/history/evidence/record-9cc392233d.md:Action: record-35466696ae. Alias: NDJSON. Revision: record-2d97151e45.10.0.
+/workspace/product/history/evidence/record-9cc392233d.md:Recording notes: people mistook the confirmation for an additional required action. After the change, the first attempt completed but a resumed attempt did not. Customer language: 'I use csv download when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-1c4582881f.md:Recorded 2026-03-22. Subject: CSV download; alias: NDJSON. Action record-fee73a51bd; revision record-2d97151e45.0.1; cohort US enterprise administrators; observation 2026-03-04 through 2026-03-11.
+/workspace/product/history/evidence/record-12c5a34196.md:# record-12c5a34196: large export observation
+/workspace/product/history/evidence/record-12c5a34196.md:Action: record-a6d0b5b6d1. Alias: CSV download. Revision: record-dc36d78d37.8.3.
+/workspace/product/history/evidence/record-12c5a34196.md:Recording notes: switching panels detached the visible progress from the running operation. After the change, two participants still expected the previous navigation order. Customer language: 'I use large export when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-d4e17a59e3.md:# record-d4e17a59e3: large export observation
+/workspace/product/history/evidence/record-d4e17a59e3.md:Action: record-0c667eb4cc. Alias: CSV download. Revision: record-9e15273a6e.5.3.
+/workspace/product/history/evidence/record-d4e17a59e3.md:Recording notes: switching panels detached the visible progress from the running operation. After the change, two participants still expected the previous navigation order. Customer language: 'I use large export when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-b9fe3bee6c.md:Recorded 2026-07-08. Subject: large export; alias: CSV download. Action record-0763141306; revision record-2d97151e45.11.1; cohort new Android accounts in Canada; observation 2026-06-20 through 2026-06-27.
+/workspace/product/history/evidence/record-d17aec11fe.md:# record-d17aec11fe: export progress observation
+/workspace/product/history/evidence/record-d17aec11fe.md:Action: record-91b29b23de. Alias: full ledger export. Revision: record-c480f58509.6.2.
+/workspace/product/history/evidence/record-d17aec11fe.md:Recording notes: a translated title was served from a previous locale's cached response. After the change, the label matched the operation receipt in the sampled sessions. Customer language: 'I use export progress when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-8577838f1e.md:Correction: The support export had treated follow-up replies as newly submitted requests. The estimate for repeat use changes from -0.3% to +1.5%. Its definition remains accounts returning to the same surface on a second distinct day. The correction only covers this record's enrollment and observation window.
+/workspace/product/history/evidence/record-41650a6fcb.md:# record-41650a6fcb: export progress observation
+/workspace/product/history/evidence/record-41650a6fcb.md:Action: record-f4cba91bf4. Alias: full ledger export. Revision: record-2d97151e45.0.3.
+/workspace/product/history/evidence/record-41650a6fcb.md:Recording notes: switching panels detached the visible progress from the running operation. After the change, two participants still expected the previous navigation order. Customer language: 'I use export progress when checking the team work; I need to know whether the last step finished before I try it again.'
+/workspace/product/history/evidence/record-dc8d25cae5.md:Recorded 2026-06-22. Subject: full ledger export; alias: workspace dump. Action record-0f9b9c3436; revision record-8170dc1532.7.0; cohort US enterprise administrators; observation 2026-06-12 through 2026-06-18.
+

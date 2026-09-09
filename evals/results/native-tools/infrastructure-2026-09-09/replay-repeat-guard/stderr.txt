@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/deck/Projects/long-horizon/evals/native_replay.py", line 187, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/deck/Projects/long-horizon/evals/native_replay.py", line 100, in main
+    raise ValueError('No eligible cells; generated or active replay decisions are never repeated')
+ValueError: No eligible cells; generated or active replay decisions are never repeated

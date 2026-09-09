@@ -1,0 +1,25 @@
+
+The command exited with code 0.
+Output:
+=== /workspace/product/history/evidence/record-756f023033.md ===
+# record-756f023033: Quiet Offer observation
+Action: record-bb013f1ccd. Alias: plan comparison. Revision: record-46e3551b59.15.3.
+Retrieved 2026-07-20. Exposure began 2026-07-09; observation window 2026-07-10 through 2026-07-19. Cohort: new Android accounts in Canada. Eligible accounts in this repor
+=== /workspace/product/history/evidence/record-f20379747c.md ===
+# record-f20379747c: Quiet Offer observation
+Action: record-292da22185. Alias: plan comparison. Revision: record-a67f317720.16.0.
+Retrieved 2026-04-20. Exposure began 2026-04-12; observation window 2026-04-13 through 2026-04-19. Cohort: US enterprise administrators. Eligible accounts in this report:
+=== /workspace/product/history/evidence/record-7c1b38e911.md ===
+# record-7c1b38e911: Harbor observation
+Action: record-e8e5419b56. Alias: annual card. Revision: record-7e9fe88066.15.0.
+Retrieved 2026-05-09. Exposure began 2026-04-27; observation window 2026-04-28 through 2026-05-08. Cohort: US enterprise administrators. Eligible accounts in this report: 108.
+Mea
+=== /workspace/product/history/evidence/record-5d99d4b7ff.md ===
+# record-5d99d4b7ff: returning mobile offer observation
+Action: record-0673dc2ec9. Alias: Anchor plan picker. Revision: record-60c1a32811.14.0.
+Retrieved 2026-04-12. Exposure began 2026-03-31; observation window 2026-04-01 through 2026-04-11. Cohort: new Android accounts in Canada. Eligible accounts
+=== /workspace/product/history/evidence/record-5f7d4b5117.md ===
+# record-5f7d4b5117: review of record-a184cd2351
+Recorded 2026-03-20. Subject: Quiet Return; alias: Harbor. Action record-7c8d54559c; revision record-60c1a32811.8.1; cohort new Android accounts in Canada; observation 2026-03-02 through 2026-03-09.
+Correction: A region migration had assigned older ac
+

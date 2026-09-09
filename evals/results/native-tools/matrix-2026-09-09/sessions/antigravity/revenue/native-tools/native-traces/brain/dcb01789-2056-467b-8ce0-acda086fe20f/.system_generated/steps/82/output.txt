@@ -1,0 +1,20 @@
+
+The command exited with code 0.
+Output:
+Cohorts in actions:
+  US enterprise administrators: 414
+  new Android accounts in Canada: 404
+  Brazilian free workspaces: 403
+  UK solo contributors on iOS: 403
+  returning desktop teams in Germany: 384
+  new US mobile accounts: 1
+Top subjects in actions:
+  Anchor plan picker: 290
+  Quiet Offer: 288
+  annual card: 288
+  Quiet Return: 275
+  plan comparison: 223
+  returning mobile offer: 220
+  Harbor: 214
+  renewal reminder: 211
+

@@ -1,0 +1,13 @@
+
+The command exited with code 0.
+Output:
+.: 2 files
+history: 1 files
+history/actions: 2007 files
+history/coordination: 1 files
+history/evidence: 4804 files
+history/operations: 28 files
+history/pull-requests: 1 files
+history/releases: 1 files
+history/support: 33 files
+

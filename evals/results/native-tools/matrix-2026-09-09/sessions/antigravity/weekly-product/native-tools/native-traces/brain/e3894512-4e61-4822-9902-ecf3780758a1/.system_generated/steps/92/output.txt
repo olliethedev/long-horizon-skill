@@ -1,0 +1,51 @@
+
+The command exited with code 0.
+Output:
+Count: 11
+========================================
+/workspace/product/history/index.md
+# Product history navigation
+Generated: 2026-08-19. This navigation is an old convenience copy.
+Original action records live under history/actions; support, evidence, releases, and retired responsibility folders hold their own source records. Later observations can refer to an action without changing its original file.
+========================================
+/workspace/product/history/evidence/record-dfcc7fb912.md
+# record-dfcc7fb912
+Dated September 6. Revises the August record-3984af46e2 enterprise desktop activity report after a bot-account import. Human weekly usage 21%; record-40440b02ae. This is not an update to the May record-e9d336d487 rollout or evidence of mobile support.
+========================================
+/workspace/product/history/evidence/record-8a2203deaa.md
+# record-8a2203deaa
+Dated May 29. Focus Shelf enterprise desktop cohort, May 15–28, record-e9d336d487. Reported weekly usage 2% of all accounts. Automation-only accounts were included in the denominator.
+========================================
+/workspace/product/history/evidence/record-f233630dab.md
+# record-f233630dab
+Dated August 19. record-8f6b82ec51 follow-up. Admin preference storage is correct. For contributors who subscribed before July 12, legacy per-user daily preferences take precedence over workspace weekly preferences. This affects 63 sampled contributors across nine teams; the capability is delivered but does not cover that migration path.
+========================================
+/workspace/product/history/evidence/record-661a77e48d.md
+# record-661a77e48d
+Dated June 18. Corrects record-8a2203deaa for record-ecc0d14c71: weekly usage among active humans was 28%. This repairs the low-use interpretation. Count-query latency at more than 50,000 tasks remained a problem; the June 2 rollback happened. The audit contains no mobile exposure.
+========================================
+/workspace/product/history/evidence/record-63ae4f2f22.md
+# record-63ae4f2f22
+Dated September 7. Corrects admin-preference ticket counts for record-8f6b82ec51 because several requests were duplicates. Five newly created administrator accounts now receive weekly digests correctly. This follow-up did not inspect legacy contributor preferences and does not revise record-f233630dab.
+========================================
+/workspace/product/history/releases/record-b9a1361197.md
+# Desktop status filter rollout
+Action record-40440b02ae, record-3984af46e2, deployed August 30 to all desktop accounts, receipt record-764afbf446. Count queries are asynchronous. Desktop small-workspace smoke checks pass. Mobile clients remain on the old list and have no filter control; the mobile component is a draft. This release does not claim mobile availability.
+========================================
+/workspace/product/history/actions/record-ecc0d14c71.md
+# record-ecc0d14c71: Focus Shelf
+Aliases: triage facets; status filters. Internal name record-e9d336d487. Deployed May 14 to enterprise desktop accounts only, receipt record-226210156c. Android and iOS were not included. Initial record-8a2203deaa reported 2% weekly use. Rolled back June 2, receipt record-929bef0cdc, after slow count queries in workspaces over 50,000 tasks.
+========================================
+/workspace/product/history/support/record-0131162d69.md
+# Weekly feedback export
+Retrieved 2026-09-07. Ticket record-e36f0fe1aa, submitted 2026-09-05: Solo owner on Android 15, workspace with 34 tasks: 'On desktop I can narrow to waiting, but on my phone I have to scroll through everything.'
+Ticket record-5f1a34c149, submitted unknown: contributor in a 280-person EU team, client web 6.8: 'The quiet digest still pings me every evening. I only need the weekly note.' The connector supplies age_days=20; its definition is days since digest release, not ticket age.
+========================================
+/workspace/product/history/retired/notification-reset/brief.md
+# notification-reset
+Bounded responsibility terminated July 31 after preference migration. Its action and preference audit records are retained for continuing product work.
+========================================
+/workspace/product/history/retired/notification-reset/actions/record-8f6b82ec51.md
+# record-8f6b82ec51: Sunday Room
+Aliases: quiet digest; weekly note. Deployed July 12, receipt record-d4f34a4dc1. Workspace administrators could select weekly instead of daily email. The UI copy said 'team digest'; contributor-level legacy daily subscriptions were not migrated by this change.
+

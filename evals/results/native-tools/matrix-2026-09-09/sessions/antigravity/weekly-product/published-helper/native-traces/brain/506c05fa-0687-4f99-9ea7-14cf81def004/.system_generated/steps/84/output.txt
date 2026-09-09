@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history: 7
+/workspace/product/history/evidence: 4805
+/workspace/product/history/releases: 1
+/workspace/product/history/actions: 2031
+/workspace/product/history/operations: 28
+/workspace/product/history/support: 33
+/workspace/product/history/retired: 1
+/workspace/product/history/retired/notification-reset: 2
+

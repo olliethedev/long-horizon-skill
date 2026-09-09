@@ -1,0 +1,30 @@
+{"File":"/workspace/product/brief.md","LineNumber":1,"LineContent":"# large-export responsibility"}
+{"File":"/workspace/product/history/operations/record-4b6f020bb1.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-03-02"}
+{"File":"/workspace/product/history/operations/record-801ebed396.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-05-18"}
+{"File":"/workspace/product/history/operations/record-4ec5f3e3e2.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-02-23"}
+{"File":"/workspace/product/history/operations/record-09f62c6c9a.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-07-06"}
+{"File":"/workspace/product/history/operations/record-206aaa7084.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-08-17"}
+{"File":"/workspace/product/history/operations/record-6608dfeb9c.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-05-04"}
+{"File":"/workspace/product/history/operations/record-07e00d55dc.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-04-06"}
+{"File":"/workspace/product/history/operations/record-772c8832ea.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-06-29"}
+{"File":"/workspace/product/history/operations/record-77cac70140.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-04-20"}
+{"File":"/workspace/product/history/operations/record-4f9b7134da.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-06-22"}
+{"File":"/workspace/product/history/operations/record-ba30f4011f.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-08-03"}
+{"File":"/workspace/product/history/operations/record-ec011a1b83.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-06-08"}
+{"File":"/workspace/product/history/operations/record-d45595cfcc.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-02-16"}
+{"File":"/workspace/product/history/operations/record-928ce81e3e.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-04-13"}
+{"File":"/workspace/product/history/operations/record-a09f21ad90.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-04-27"}
+{"File":"/workspace/product/history/operations/record-59dc7902d9.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-03-23"}
+{"File":"/workspace/product/history/operations/record-a5e8e71b08.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-05-11"}
+{"File":"/workspace/product/history/operations/record-4f43704603.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-03-16"}
+{"File":"/workspace/product/history/operations/record-8fee294f8b.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-07-13"}
+{"File":"/workspace/product/history/operations/record-5e5add8265.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-07-27"}
+{"File":"/workspace/product/history/operations/record-1ddc0b2c61.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-03-30"}
+{"File":"/workspace/product/history/operations/record-41b226fa14.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-06-01"}
+{"File":"/workspace/product/history/operations/record-33de6c4ed5.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-08-24"}
+{"File":"/workspace/product/history/operations/record-471f86edb8.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-03-09"}
+{"File":"/workspace/product/history/operations/record-853ffbdb7e.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-07-20"}
+{"File":"/workspace/product/history/operations/record-825b82be42.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-08-10"}
+{"File":"/workspace/product/history/operations/record-6cabc27c9a.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-05-25"}
+{"File":"/workspace/product/history/operations/record-5e3f4abb07.md","LineNumber":1,"LineContent":"# large-export: weekly operations, 2026-06-15"}
+{"File":"/workspace/product/history/evidence/record-1a7eb091b1.md","LineNumber":2,"LineContent":"Dated September 7. Corrects the broad description of record-e617de6a9e: it tested 10,000 CSV rows, no NDJSON, no 1M+ workspace. It does not demonstrate large-export reliability. The June streaming deployment remains real."}

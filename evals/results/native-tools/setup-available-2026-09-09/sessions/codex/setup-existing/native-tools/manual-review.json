@@ -1,0 +1,34 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "1c282836a62d160347f635ef287f330e52de3ff5e5731578d97639ebe645874b",
+  "criteria": [
+    {
+      "key": "existing_choice",
+      "verdict": "pass",
+      "reason": "Selects the configured Relay scheduler using project configuration and complete target-machine inventory, preserving the established suitable choice.",
+      "source_paths_checked": [
+        "project.toml",
+        "available-tools.md"
+      ]
+    },
+    {
+      "key": "capability_evidence",
+      "verdict": "pass",
+      "reason": "Cites captured Relay help for fresh-agent/workspace launch, confirmed next run, rescheduling, disable and enable operations without inventing unlisted options.",
+      "source_paths_checked": [
+        "tool-help/relay.txt"
+      ]
+    },
+    {
+      "key": "preserves_setup_authority",
+      "verdict": "pass",
+      "reason": "Reuses supplied answers, preserves reserved deployment and no-paid-API constraints, explicitly requires later live activation authorization and confirmed task state, and keeps Monday timing conditional on setup completion.",
+      "source_paths_checked": [
+        "brief.md"
+      ]
+    }
+  ],
+  "non_material_accuracy_notes": [],
+  "review_notes": "Root and independent evaluator read the full recommendation against the captured target inventory and owner answers. Core setup choice/authority coverage is separate from contradictory proposed activation behavior. These offline decisions do not establish actual discovery, installation or scheduler execution."
+}

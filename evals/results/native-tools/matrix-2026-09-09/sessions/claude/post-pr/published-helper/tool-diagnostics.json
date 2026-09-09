@@ -1,0 +1,43 @@
+{
+  "harness": "claude",
+  "case": "post-pr",
+  "arm": "published-helper",
+  "tool_count": 0,
+  "tools": [],
+  "tool_output_provenance": "native stdout trace",
+  "skill_file_access": {},
+  "full_reference_text_present_in_preserved_tool_output": {
+    "SKILL.md": false,
+    "assets/action.md": false,
+    "assets/current.md": false,
+    "assets/evidence.md": false,
+    "assets/responsibility.md": false,
+    "references/evidence.md": false,
+    "references/history.md": false,
+    "references/impulse.md": false,
+    "references/setup.md": false,
+    "references/workspace.md": false
+  },
+  "failed_tools": 0,
+  "captured_tool_output_bytes": 0,
+  "largest_captured_tool_output_bytes": 0,
+  "tool_outputs_over_20000_bytes": 0,
+  "truncation_marked_tool_outputs": 0,
+  "possible_external_or_auth_commands_for_review": [],
+  "external_or_scheduling_tools_for_review": [],
+  "delegation_tools_for_review": [],
+  "decision_source_paths": [],
+  "criterion_sources_cited": [],
+  "criterion_sources_not_cited_by_path": [
+    "history/actions/record-54bad5e8e1.md",
+    "history/coordination/record-7b1da28762.md",
+    "history/evidence/record-567749c82b.md",
+    "history/evidence/record-b5a8ddac8f.md",
+    "history/evidence/record-fa1b95eae5.json",
+    "history/pull-requests/record-4f1efc746f.md",
+    "history/releases/record-802a8b0629.json",
+    "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+    "history/support/record-a2d078a170.md"
+  ],
+  "interpretation": "Tool-output byte counts and path mentions are captured-trace diagnostics, not semantic grades or proof of complete reading. Antigravity uses its preserved full native transcript when available, because its stdout view_file events are concise metadata. Exact full reference text matching removes native line-number prefixes and establishes source availability, not attention or comprehension; a false match does not prove no reading because tools may reformat text. Captured bytes are not a measurement of model-context token exposure. The 20 kB threshold is descriptive only."
+}

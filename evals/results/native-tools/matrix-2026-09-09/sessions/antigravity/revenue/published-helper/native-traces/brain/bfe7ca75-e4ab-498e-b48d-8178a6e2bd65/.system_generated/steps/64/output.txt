@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"matches":[{"path":"history/evidence/record-3965c8ff16.md","line":2,"offset":31,"text":"Recorded 2026-09-06. Reference: Quiet Return name reused by record-cf96fad305. US returning desktop monthly subscribers, variant W3, August 20–27. The prior -1% net-revenue estimate becomes +4% after late invoices. This report does not cover record-b7ab79e22e, R7, returning iOS annual subscribers, or July exposures."}],"next_cursor":null,"version":"630dbdfd41ef12a0764a6b8ed8d00f0e52ca84ba34a30b7805defacdbe27bbc3","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
+

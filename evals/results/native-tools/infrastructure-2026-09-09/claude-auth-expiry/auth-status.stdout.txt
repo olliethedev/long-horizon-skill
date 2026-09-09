@@ -1,0 +1,8 @@
+{
+  "loggedIn": true,
+  "authMethod": "claude.ai",
+  "apiProvider": "firstParty",
+  "analyticsDisabled": true,
+  "projectsDirectory": "/eval-home/.claude/projects",
+  "subscriptionType": "team"
+}

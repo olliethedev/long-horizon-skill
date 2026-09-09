@@ -1,0 +1,59 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "179e31865c5ca93bcc95324b837eef747e92819b51026a713ab19ccd8d0ff006",
+  "criteria": [
+    {
+      "key": "delivered",
+      "verdict": "pass",
+      "reason": "Preserves streaming and async CSV/NDJSON delivery to paid US/EU workspaces, small benchmark limits, receipts and the separate spinner wording change.",
+      "source_paths_checked": [
+        "history/retired/data-portability/actions/record-c0268a81ef.md",
+        "history/actions/record-7c21733985.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Keeps the first submission time null/unknown and interprets age_days as rollout age. Its non-dismissal reasoning concerns observed post-rollout symptoms rather than supplying a request timestamp, although the compressed handoff should make that distinction explicit.",
+      "source_paths_checked": [
+        "history/support/record-b851997b7c.json"
+      ]
+    },
+    {
+      "key": "large_scale",
+      "verdict": "pass",
+      "reason": "Separates complete 1.8M CSV output with expired access from the 2.1M NDJSON 60,559-row shortfall and rejects small checks as sufficient. Individual job geography is not inferred, as clarified before execution.",
+      "source_paths_checked": [
+        "history/evidence/record-eb2ad86fcb.json",
+        "history/evidence/record-6a8741fe3b.json",
+        "history/evidence/record-1a7eb091b1.md"
+      ]
+    },
+    {
+      "key": "correction_scope",
+      "verdict": "pass",
+      "reason": "Restricts 100% parity to small US CSV selections and explicitly preserves the named NDJSON and expiry exclusions.",
+      "source_paths_checked": [
+        "history/evidence/record-d46f9580f1.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Keeps both reports open, proposes URL-lifecycle repair, NDJSON investigation/visible parity protection and representative large-format fixtures, then observation of affected conditions before closure; retained origin remains ended.",
+      "source_paths_checked": [
+        "history/retired/data-portability/brief.md",
+        "history/support/record-b851997b7c.json"
+      ]
+    }
+  ],
+  "non_material_accuracy_notes": [
+    "Invents 2026 years for historical sources that provide only month/day dates.",
+    "The proposed handoff compresses inferred ticket-to-observation correspondence into confirmed-defect wording and omits the first unknown submission time; the full analysis preserves it and says unknown timing is not grounds to dismiss a currently observed problem.",
+    "A row-parity guard should validate expected selected-record semantics rather than assume every expected/output mismatch represents omitted records; the source does not establish that contract.",
+    "Says NDJSON/expiry/1M+ have no snapshot coverage despite the two failing observations; the defensible claim is absence of successful representative validation or broad rate evidence.",
+    "Counts 31 Markdown support conversations; the snapshot has 32."
+  ],
+  "review_notes": "Root read the full decision and checked all criterion sources, benchmark, wording release and actual support inventory. Applied the pre-execution geography clarification. Causation is explicitly identified as inferred, the checkpoint path is investigated rather than asserted as proven boundary code, and tickets stay open until subsequent observation. Unlike the no-skill arm’s literal assertion that neither ticket predates rollout, this answer explicitly preserves unknown submission time while refusing to dismiss post-rollout symptoms. Caveats in the proposed handoff remain important."
+}

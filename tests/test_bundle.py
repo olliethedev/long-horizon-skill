@@ -1,9 +1,6 @@
-import json
 from pathlib import Path
 import re
 import shutil
-import subprocess
-import sys
 import tempfile
 import tomllib
 import unittest
@@ -12,7 +9,7 @@ BUNDLE = Path(__file__).resolve().parents[1] / 'skills/long-horizon'
 
 
 class InstalledBundle(unittest.TestCase):
-    def test_copied_skill_has_all_local_references_and_runs_without_the_repo(self):
+    def test_copied_skill_has_all_references_and_templates_without_runtime_code(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             installed = root / 'installed'
@@ -25,10 +22,5 @@ class InstalledBundle(unittest.TestCase):
             definition = tomllib.loads((installed / 'assets/task.toml').read_text())
             self.assertEqual(definition['work']['kind'], 'agent')
             self.assertEqual(definition['retention']['history'], 'forever')
-            product = root / 'product'
-            product.mkdir()
-            (product / 'record.md').write_text('Trial D-2: corrected outcome remains inconclusive.\n')
-            result = subprocess.run([sys.executable, str(installed / 'scripts/history.py'),
-                'search', str(product), 'D-2'], cwd=product, text=True, capture_output=True)
-            self.assertEqual(result.returncode, 0, result.stderr)
-            self.assertEqual(json.loads(result.stdout)['matches'][0]['path'], 'record.md')
+            self.assertEqual(list(installed.rglob('*.py')), [])
+            self.assertEqual(list(installed.rglob('*.sh')), [])

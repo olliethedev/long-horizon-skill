@@ -1,0 +1,52 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "81ea71a208679aac5e852c97b0fac3e7f05866f791fd2665c167d6104dc2ff55",
+  "criteria": [
+    {
+      "key": "delivered",
+      "verdict": "pass",
+      "reason": "Preserves deployed CSV streaming and later background CSV/NDJSON delivery to paid US/EU workspaces; credits spinner wording separately and does not rebuild the feature from scratch.",
+      "source_paths_checked": [
+        "history/retired/data-portability/actions/record-c0268a81ef.md",
+        "history/actions/record-7c21733985.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Keeps the first submission timestamp unknown, distinguishes import/retrieval times, and correctly interprets age_days as rollout age rather than ticket age.",
+      "source_paths_checked": [
+        "history/support/record-b851997b7c.json"
+      ]
+    },
+    {
+      "key": "large_scale",
+      "verdict": "pass",
+      "reason": "Separates the 1.8M CSV complete worker output with an expired URL from the 2.1M NDJSON 60,559-row shortfall; the 10k benchmark and 50k smoke check do not resolve either. Individual job regions are correctly left unknown under the pre-execution clarification.",
+      "source_paths_checked": [
+        "history/evidence/record-eb2ad86fcb.json",
+        "history/evidence/record-6a8741fe3b.json",
+        "history/evidence/record-1a7eb091b1.md"
+      ]
+    },
+    {
+      "key": "correction_scope",
+      "verdict": "pass",
+      "reason": "Limits the 100% parity correction to small US CSV selections and preserves its exclusions of NDJSON, the named NDJSON job, EU workspaces and expiry failures.",
+      "source_paths_checked": [
+        "history/evidence/record-d46f9580f1.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Keeps both tickets open, proposes long-job URL validation and snapshot/selection-matched NDJSON parity/resume investigation, and retains data-portability evidence without resuming that ended responsibility.",
+      "source_paths_checked": [
+        "history/retired/data-portability/brief.md",
+        "history/support/record-b851997b7c.json"
+      ]
+    }
+  ],
+  "review_notes": "Root read the full decision and all criterion sources plus the original 10k benchmark, spinner release, current handoff and active brief. Applied large-export-observability-clarification.json uniformly: geography of individual opaque workspace/job IDs is unobservable, while explicit delivered US/EU scope remains evidence. The answer independently identifies that gap, qualifies ticket/job correlation and HTTP403/TTL inference, treats checkpoint resumption as a lead rather than proven cause, and does not claim row-count equality alone proves record integrity. No material contradiction found."
+}

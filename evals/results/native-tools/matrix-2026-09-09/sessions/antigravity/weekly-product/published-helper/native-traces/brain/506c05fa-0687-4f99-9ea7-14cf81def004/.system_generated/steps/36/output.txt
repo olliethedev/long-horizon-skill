@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"path":"history/index.md","version":"da8d5a398ab32737722b21abe2abe08ba49b5a439b3a77dcbdc93775c60b7e21","offset":0,"text":"# Product history navigation\nGenerated: 2026-08-19. This navigation is an old convenience copy.\nOriginal action records live under history/actions; support, evidence, releases, and retired responsibility folders hold their own source records. Later observations can refer to an action without changing its original file.\n","next_offset":null}
+

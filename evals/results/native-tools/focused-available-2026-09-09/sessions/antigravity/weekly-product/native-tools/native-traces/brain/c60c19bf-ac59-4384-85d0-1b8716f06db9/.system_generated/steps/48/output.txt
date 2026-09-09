@@ -1,0 +1,44 @@
+
+The command exited with code 0.
+Output:
+==> /workspace/product/history/support/record-0131162d69.md <==
+# Weekly feedback export
+Retrieved 2026-09-07. Ticket record-e36f0fe1aa, submitted 2026-09-05: Solo owner on Android 15, workspace with 34 tasks: 'On desktop I can narrow to waiting, but on my phone I have to scroll through everything.'
+Ticket record-5f1a34c149, submitted unknown: contributor in a 280-person EU team, client web 6.8: 'The quiet digest still pings me every evening. I only need the weekly note.' The connector supplies age_days=20; its definition is days since digest release, not ticket age.
+
+==> /workspace/product/history/support/record-1040449938.md <==
+# Customer conversation 8105
+Subject: Focus Shelf
+Cohort: internal QA accounts in staging
+Submitted: unknown
+Imported: 2026-03-29
+Customer: We use focus shelf when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-217b64af23.md <==
+# Customer conversation 8130
+Subject: task drawer
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-08-01
+Customer: We use task drawer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-2baa46cb50.md <==
+# Customer conversation 8117
+Subject: weekly note
+Cohort: internal QA accounts in staging
+Submitted: 2026-05-26
+Imported: 2026-05-28
+Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-2c49860df2.md <==
+# Customer conversation 8108
+Subject: status filters
+Cohort: US enterprise administrators
+Submitted: 2026-04-11
+

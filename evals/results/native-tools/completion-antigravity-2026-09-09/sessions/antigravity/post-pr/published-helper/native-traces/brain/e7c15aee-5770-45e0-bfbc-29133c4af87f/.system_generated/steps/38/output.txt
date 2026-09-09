@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"matches":[{"path":"history/actions/record-54bad5e8e1.md","line":2,"offset":20,"text":"Intent recorded September 7 at 18:00 UTC: deploy 842cafe to the 5% EU queue-worker canary, request identity record-54bad5e8e1. Submission timed out with no completion body. Do not create a second release to infer the first failed. Service lookup at September 8 09:12 UTC: operation exists; status queued; target 842cafe; canary exposure has not started. No new request identity has been used."},{"path":"history/pull-requests/record-4f1efc746f.md","line":2,"offset":9,"text":"Merged September 3 at 16:30 UTC. Merge SHA 842cafe. Changes the retry deduplication key to include tenant and attempt sequence. Alias: Lantern retry fix; queue retry fix. Unit and integration CI passed. The PR record has no production deployment receipt."}],"next_cursor":null,"version":"d32506a01fc85d6cff637f55363f7c6bf40f4afbee43782462e0e98b62505004","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
+

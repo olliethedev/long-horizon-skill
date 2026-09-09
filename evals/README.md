@@ -1,6 +1,24 @@
 # Evaluations
 
-Ordinary CI runs the public helper/installation tests and strict mypy checks. It never runs model sessions, needs credentials, or starts a scheduler. Historical research fixtures and their preserved outputs remain under `prototypes/`.
+Ordinary CI runs bundle installation and exported-evidence checks, plus strict mypy. It never runs model sessions, needs credentials, or starts a scheduler. Historical research fixtures and their preserved outputs remain under `prototypes/`.
+
+## Native harness comparison
+
+The [native harness guide](NATIVE_TOOLS.md) describes the current 36-session comparison: Codex, Claude Code, and Antigravity; no skill, the frozen published helper bundle, and the revised native-tools bundle; four domains with over 7,200 files each. It includes opt-in commands, authentication requirements, isolation boundaries, preserved artifacts, and grading rules. The distributed skill contains no evaluation programs.
+
+Three separate setup smoke probes exercise an established suitable scheduler (Codex), a reminder-only tool (Claude), and a missing scheduler (Antigravity), using the revised skill:
+
+```sh
+# Prepare offline source snapshots and check isolation without model calls.
+python3 evals/setup_probes.py --output evals/results/native-tools/setup-dry-RUN
+
+# Run three fresh sessions, at most two concurrently.
+python3 evals/setup_probes.py --run --output evals/results/native-tools/setup-live-RUN
+# If one login is unavailable, run only the other assigned cases; complete it later in a new output.
+python3 evals/setup_probes.py --run --harness codex --harness antigravity --output evals/results/native-tools/setup-available-RUN
+```
+
+These probes supply captured tool inventories and help text. They test setup reasoning, preserve existing owner answers, and prohibit installation or registration. Each scenario is exercised by one harness; this is neither a matched harness comparison nor a test of live scheduler discovery. The same native harness requirements and artifact isolation apply. Use a new output path; the default per-session timeout is 600 seconds, adjustable with `--timeout 30..3600`.
 
 ## Real Impulse boundary
 
@@ -12,9 +30,9 @@ Requires the installed Impulse CLI. The command creates a separate `IMPULSE_HOME
 
 Supply a new output directory for each run. Public CLI responses, run identities, source, cleanup diagnostics, and results are preserved. Private scheduler context/database files are excluded from publication. Both the [initial v1 result](results/impulse-v1/result.json) and [final result](results/impulse-v1-final/result.json) passed. Each archive includes the exact executed source; the final run includes independent cleanup attempts and daemon-status verification.
 
-## Fresh-agent recall
+## Earlier Codex recall runner
 
-The maintained recall runner and independent case definitions compare matched no-skill and full-bundle arms in isolated workspaces. These opt-in sessions consume the installed model harness's allowance. Each domain has roughly 2.5 MB of seeded history, including related actions, observations, corrections, and competing cohorts. This is an offline decision review, not a continuous product rollout.
+The earlier recall runner and independent case definitions compare matched no-skill and current full-bundle arms in isolated Codex workspaces. These opt-in sessions consume the installed model harness's allowance. Each domain has roughly 2.5 MB of seeded history, including related actions, observations, corrections, and competing cohorts. This is an offline decision review, not a continuous product rollout. A new run loads the current bundle; the original helper comparison's exact loaded bytes remain in its result archive.
 
 ```sh
 # Materialize cases and check isolation without model calls.

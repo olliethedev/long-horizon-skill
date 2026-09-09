@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+total 20
+drwxr-xr-x 5 deck deck 4096 Sep  9 15:42 .
+drwxr-xr-x 3 deck deck 4096 Sep  9 15:42 ..
+drwxr-xr-x 4 deck deck 4096 Sep  9 15:42 .system_generated
+drwxr-xr-x 2 deck deck 4096 Sep  9 15:42 .user_uploaded
+drwxr-xr-x 2 deck deck 4096 Sep  9 15:42 scratch
+

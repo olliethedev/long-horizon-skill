@@ -1,0 +1,51 @@
+{"File":"/workspace/product/current.md","LineNumber":2,"LineContent":"Written 2026-08-20. Focus Shelf was shelved after low use. Sunday Room was shipped, so digest requests may already be handled. This week's feedback export is under history/support. Keep the next objective small."}
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":35,"LineContent":"## record-b0121ea788: quiet digest"}
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":39,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-7c6eabd5b3.md","LineNumber":11,"LineContent":"## record-9bd0b1ebee: quiet digest"}
+{"File":"/workspace/product/history/operations/record-7c6eabd5b3.md","LineNumber":15,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":5,"LineContent":"## record-357eb3a05a: quiet digest"}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":9,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":53,"LineContent":"## record-6ce8fb2a27: quiet digest"}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":57,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-c919b2d4bb.md","LineNumber":17,"LineContent":"## record-b1ba3052f8: quiet digest"}
+{"File":"/workspace/product/history/operations/record-c919b2d4bb.md","LineNumber":21,"LineContent":"Follow-up: compare the next support export before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-ceef75e12c.md","LineNumber":47,"LineContent":"## record-761533e064: quiet digest"}
+{"File":"/workspace/product/history/operations/record-ceef75e12c.md","LineNumber":51,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-632f6e3d95.md","LineNumber":41,"LineContent":"## record-69597daa41: quiet digest"}
+{"File":"/workspace/product/history/operations/record-632f6e3d95.md","LineNumber":45,"LineContent":"Follow-up: compare the next support export before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-217a0b20cc.md","LineNumber":11,"LineContent":"## record-8fb30670c2: quiet digest"}
+{"File":"/workspace/product/history/operations/record-217a0b20cc.md","LineNumber":15,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/support/record-d4a055964c.md","LineNumber":2,"LineContent":"Subject: quiet digest"}
+{"File":"/workspace/product/history/support/record-d4a055964c.md","LineNumber":6,"LineContent":"Customer: We use quiet digest when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-8d26a58dce.md","LineNumber":11,"LineContent":"## record-481784f39e: quiet digest"}
+{"File":"/workspace/product/history/operations/record-8d26a58dce.md","LineNumber":15,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-d655bb2607.md","LineNumber":23,"LineContent":"## record-f019d3c19a: quiet digest"}
+{"File":"/workspace/product/history/operations/record-d655bb2607.md","LineNumber":27,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":35,"LineContent":"## record-45a5b1add0: quiet digest"}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":39,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/support/record-8ea429e3df.md","LineNumber":2,"LineContent":"Subject: quiet digest"}
+{"File":"/workspace/product/history/support/record-8ea429e3df.md","LineNumber":6,"LineContent":"Customer: We use quiet digest when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-3aad5eb710.md","LineNumber":29,"LineContent":"## record-df5665939b: quiet digest"}
+{"File":"/workspace/product/history/operations/record-3aad5eb710.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-410755a905.md","LineNumber":29,"LineContent":"## record-2a6dc2c157: quiet digest"}
+{"File":"/workspace/product/history/operations/record-410755a905.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-4b824f985f.md","LineNumber":17,"LineContent":"## record-c541bb343e: quiet digest"}
+{"File":"/workspace/product/history/operations/record-4b824f985f.md","LineNumber":21,"LineContent":"Follow-up: compare the next support export before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-980245db74.md","LineNumber":47,"LineContent":"## record-229c70ad6e: quiet digest"}
+{"File":"/workspace/product/history/operations/record-980245db74.md","LineNumber":51,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":5,"LineContent":"## record-7240db3cf5: quiet digest"}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":9,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":53,"LineContent":"## record-78698e4578: quiet digest"}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":57,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-6f9544fb5b.md","LineNumber":17,"LineContent":"## record-5ef7e98385: quiet digest"}
+{"File":"/workspace/product/history/operations/record-6f9544fb5b.md","LineNumber":21,"LineContent":"Follow-up: compare the next support export before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-c0a7be3fa7.md","LineNumber":29,"LineContent":"## record-b37b4404e6: quiet digest"}
+{"File":"/workspace/product/history/operations/record-c0a7be3fa7.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-5c09e9d66e.md","LineNumber":2,"LineContent":"Alias used in the design review: quiet digest. Local variant: record-562146c9ea.3.0."}
+{"File":"/workspace/product/history/operations/record-8b05c494e1.md","LineNumber":47,"LineContent":"## record-4fa7ceba35: quiet digest"}
+{"File":"/workspace/product/history/operations/record-8b05c494e1.md","LineNumber":51,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-ab36f911e2.md","LineNumber":11,"LineContent":"## record-fe36cb2035: quiet digest"}
+{"File":"/workspace/product/history/operations/record-ab36f911e2.md","LineNumber":15,"LineContent":"Follow-up: compare the next regional release manifest before interpreting quiet digest as a broader change."}
+{"File":"/workspace/product/history/operations/record-ab30f06a85.md","LineNumber":17,"LineContent":"## record-f7f04107ff: quiet digest"}
+{"File":"/workspace/product/history/operations/record-ab30f06a85.md","LineNumber":21,"LineContent":"Follow-up: compare the next support export before interpreting quiet digest as a broader change."}
+(...2167 more results not shown)

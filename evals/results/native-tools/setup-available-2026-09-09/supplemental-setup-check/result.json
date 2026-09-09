@@ -1,0 +1,9 @@
+{
+  "purpose": "Supplemental reviewer syntax check with installed Impulse in a disposable IMPULSE_HOME. No task registration, agent launch or live scheduler state access.",
+  "initial_source_probe": "Bun was unavailable; no source parser executed. Used the installed compiled CLI instead.",
+  "draft_sha256": "b5aa785f633e269e2b5bf834a291402c5d7dab59d28953c413ef6e75d8df4a2c",
+  "binary_sha256": "baab1510f3af2bcbb4f794b7a69fd46d2fab4a608edbce3dc7209066ed99a2c3",
+  "exit_code": 2,
+  "stdout": "{\"schema_version\":1,\"ok\":false,\"error\":{\"code\":\"INVALID_CONFIG\",\"message\":\"Unknown field first_run.time\",\"retryable\":false}}\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+
+The command exited with code 0.
+Output:
+total 408
+drwxr-xr-x 8 deck deck   4096 Sep  9 15:33 .
+drwxr-xr-x 3 deck deck   4096 Sep  9 15:33 ..
+drwxr-xr-x 2 deck deck 114688 Sep  9 15:33 actions
+drwxr-xr-x 2 deck deck 270336 Sep  9 15:33 evidence
+-rw-r--r-- 1 deck deck    321 Sep  9 15:33 index.md
+drwxr-xr-x 2 deck deck   4096 Sep  9 15:33 operations
+drwxr-xr-x 2 deck deck   4096 Sep  9 15:33 releases
+drwxr-xr-x 3 deck deck   4096 Sep  9 15:33 retired
+drwxr-xr-x 2 deck deck   4096 Sep  9 15:33 support
+

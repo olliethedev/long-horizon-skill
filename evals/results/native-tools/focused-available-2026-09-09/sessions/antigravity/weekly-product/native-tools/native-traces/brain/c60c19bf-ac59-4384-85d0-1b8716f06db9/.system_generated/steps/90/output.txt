@@ -1,0 +1,14 @@
+
+The command exited with code 0.
+Output:
+record-dfcc7fb912.md 272 # record-dfcc7fb912
+Dated September 6. Revises the August record-3984af46e2 enterprise desktop activity report after a bot-account import. Human weekly usage 21%; record-40440b02ae. This is not an update to the May record-e9d336d487 rollout or evidence of mobile support.
+record-8a2203deaa.md 206 # record-8a2203deaa
+Dated May 29. Focus Shelf enterprise desktop cohort, May 15–28, record-e9d336d487. Reported weekly usage 2% of all accounts. Automation-only accounts were included in the denominator.
+record-f233630dab.md 360 # record-f233630dab
+Dated August 19. record-8f6b82ec51 follow-up. Admin preference storage is correct. For contributors who subscribed before July 12, legacy per-user daily preferences take precedence over workspace weekly preferences. This affects 63 sampled contributors across nine teams; the capability is delivered but does not cover that migration path.
+record-661a77e48d.md 303 # record-661a77e48d
+Dated June 18. Corrects record-8a2203deaa for record-ecc0d14c71: weekly usage among active humans was 28%. This repairs the low-use interpretation. Count-query latency at more than 50,000 tasks remained a problem; the June 2 rollback happened. The audit contains no mobile exposure.
+record-63ae4f2f22.md 324 # record-63ae4f2f22
+Dated September 7. Corrects admin-preference ticket counts for record-8f6b82ec51 because several requests were duplicates. Five newly created administrator accounts now receive weekly digests correctly. This follow-up did not inspect legacy contributor preferences and does not revise record-f233630dab.
+

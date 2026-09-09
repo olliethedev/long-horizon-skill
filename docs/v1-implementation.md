@@ -1,5 +1,7 @@
 # V1 implementation
 
+Historical report for the bundle published at `be8d590`. The [native-tools revision](native-tools-revision.md) subsequently removes its runtime helper and generalizes scheduler discovery; the evidence below continues to describe the exact earlier implementation.
+
 V1 implements the owner's authorization to build and publish the project. The review baseline is `62fec70`; accepted scope is [v1-spec.md](v1-spec.md).
 
 The runtime bundle now includes bounded read-only history search/pagination, content-versioned source pages, explicit evidence-time and correction guidance, editable responsibility/action/evidence/handoff templates, and an Impulse assignment definition. Source records remain authoritative; no database or mandatory index is introduced.

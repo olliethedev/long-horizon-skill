@@ -1,0 +1,98 @@
+[
+  {
+    "harness": "claude",
+    "case": "weekly-product",
+    "arm": "published-helper",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "claude",
+    "case": "weekly-product",
+    "arm": "native-tools",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "revenue",
+    "arm": "published-helper",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "revenue",
+    "arm": "native-tools",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "weekly-product",
+    "arm": "published-helper",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "weekly-product",
+    "arm": "native-tools",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "large-export",
+    "arm": "published-helper",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  },
+  {
+    "harness": "antigravity",
+    "case": "large-export",
+    "arm": "native-tools",
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "references/history.md": true,
+      "references/evidence.md": true,
+      "references/workspace.md": true
+    },
+    "interpretation": "Exact full source text occurs in captured tool output after removing native line prefixes. Availability does not establish attention or comprehension."
+  }
+]

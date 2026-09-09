@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/support/record-b851997b7c.json
+1:{"retrieved_at":"2026-09-08T09:00:00Z","age_days_definition":"days since async-export rollout","tickets":[{"id":"record-f10fee8e5d","subject":"full ledger export","submitted_at":null,"imported_at":"2026-09-07T18:00:00Z","age_days":14,"workspace":"record-e733dfbdc6","format":"csv","estimated_rows":1800000,"message":"The download spins for twenty minutes, then the link is expired. We need the full ledger, not the first part."},{"id":"record-339725ec76","subject":"workspace dump","submitted_at":"2026-09-06T14:31:00Z","workspace":"record-c81238c2b3","format":"ndjson","estimated_rows":2100000,"message":"The file completed but our import saw fewer records than the count on screen."}]}
+
+/workspace/product/history/actions/record-7c21733985.md
+2:Aliases: background full ledger export; async workspace dump. Deployed August 25 at 09:00 UTC, receipt record-b1caa17787. Exposure: all paid US and EU workspaces, CSV and NDJSON. Moves Ledger Ferry work into a background worker. Signed URLs currently expire 15 minutes after job creation. The delivery smoke fixture had 50,000 rows and passed. No 1M+ result attached to the deployment.
+

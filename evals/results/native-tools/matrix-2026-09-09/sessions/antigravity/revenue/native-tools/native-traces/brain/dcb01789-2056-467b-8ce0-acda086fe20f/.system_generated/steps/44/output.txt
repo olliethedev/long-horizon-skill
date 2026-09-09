@@ -1,0 +1,140 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+Submitted: 2026-08-04
+Imported: 2026-08-06
+Customer: We use returning mobile offer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-a26089983c.md <==
+# Customer conversation 8112
+Subject: Anchor plan picker
+Cohort: new Android accounts in Canada
+Submitted: 2026-05-01
+Imported: 2026-05-03
+Customer: We use anchor plan picker when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-a7bcd6c7b9.md <==
+# Customer conversation 8121
+Subject: Harbor
+Cohort: UK solo contributors on iOS
+Submitted: 2026-06-15
+Imported: 2026-06-17
+Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-b24d1f5a87.md <==
+# Customer conversation 8116
+Subject: Quiet Return
+Cohort: Brazilian free workspaces
+Submitted: 2026-05-21
+Imported: 2026-05-23
+Customer: We use quiet return when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-b76a3420b2.md <==
+# Customer conversation 8113
+Subject: Harbor
+Cohort: returning desktop teams in Germany
+Submitted: 2026-05-06
+Imported: 2026-05-08
+Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-bbc2fc529b.md <==
+# Customer conversation 8125
+Subject: renewal reminder
+Cohort: returning desktop teams in Germany
+Submitted: unknown
+Imported: 2026-07-07
+Customer: We use renewal reminder when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-d22f9f2b30.md <==
+# Customer conversation 8107
+Subject: returning mobile offer
+Cohort: returning desktop teams in Germany
+Submitted: 2026-04-06
+Imported: 2026-04-08
+Customer: We use returning mobile offer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-d7f385e9a1.md <==
+# Customer conversation 8111
+Subject: plan comparison
+Cohort: internal QA accounts in staging
+Submitted: 2026-04-26
+Imported: 2026-04-28
+Customer: We use plan comparison when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-d9c0890ec3.md <==
+# Customer conversation 8117
+Subject: renewal reminder
+Cohort: internal QA accounts in staging
+Submitted: 2026-05-26
+Imported: 2026-05-28
+Customer: We use renewal reminder when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-dba5ea7455.md <==
+# Customer conversation 8129
+Subject: Harbor
+Cohort: internal QA accounts in staging
+Submitted: 2026-07-25
+Imported: 2026-07-27
+Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-dc3fdad301.md <==
+# Customer conversation 8130
+Subject: Quiet Offer
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-08-01
+Customer: We use quiet offer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-f271ed5ba4.md <==
+# Customer conversation 8120
+Subject: Anchor plan picker
+Cohort: US enterprise administrators
+Submitted: unknown
+Imported: 2026-06-12
+Customer: We use anchor plan picker when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-f2e61989a6.md <==
+# Customer conversation 8118
+Subject: annual card
+Cohort: new Android accounts in Canada
+Submitted: 2026-05-31
+Imported: 2026-06-02
+Customer: We use annual card when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+==> /workspace/product/history/support/record-fc274826dd.md <==
+# Customer conversation 8119
+Subject: plan comparison
+Cohort: returning desktop teams in Germany
+Submitted: 2026-06-05
+Imported: 2026-06-07
+Customer: We use plan comparison when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+

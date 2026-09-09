@@ -1,0 +1,55 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "Requires an explicit owner decision to reopen or reassign digest work because it 'belongs to the terminated notification-reset responsibility', and says changing preferences under weekly-product would resume that old responsibility. The current owner request includes the quieter digest and the active brief authorizes ordinary objectives and reversible change preparation. Retained origin does not remove that current authority."
+  ],
+  "decision_sha256": "a9503a6880ff82fc9b0c0d5582f616b4cc2ffaca0dfdc69cd2ca8433630e5e5a",
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "pass",
+      "reason": "Preserves the desktop deployment/rollback, corrects the original usage to 28%, separates the later desktop release and 21% report, and leaves mobile unserved.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "pass",
+      "reason": "Retrieves administrator delivery, the 63 legacy contributors across nine teams and the later administrator-only audit, preserving the contributor gap.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Keeps the contributor submission date unknown and rejects the release-age field as a ticket date.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Uses retained notification-reset evidence without actually resuming that responsibility; its imported authority restriction is judged separately.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Selects a concrete Android draft/count-path/smoke-check/pilot preparation with later usage and latency measurement, plus a diagnostic sizing step for the digest.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "review_notes": "Root read the full decision against all criterion sources and original/later desktop usage evidence. All five explicit criteria are present, but semantic success fails on the same authority restriction applied to the helper/native Claude arms. It also initially treats the current contributor ticket as belonging to the legacy path before later qualifying the missing workspace preference; administrator/new-account success is sometimes generalized beyond the sampled administrator evidence. The small-workspace mobile gates are concrete and do not claim completed exposure."
+}

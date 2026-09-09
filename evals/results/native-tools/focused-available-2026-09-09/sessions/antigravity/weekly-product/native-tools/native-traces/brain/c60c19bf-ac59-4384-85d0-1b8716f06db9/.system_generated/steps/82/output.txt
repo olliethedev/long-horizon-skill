@@ -1,0 +1,57 @@
+
+The command exited with code 0.
+Output:
+<truncated 1499 lines>
+   Disposition recorded after the first window: Disabled 2026-08-23, receipt record-7e9e5ed0ad, when the partner migration changed the cohort definition.
+record-12328ed042.md # record-12328ed042: Sunday Room
+   Implementation: record-955757af5b. Deployment/exposure: 2026-06-24, receipt record-b50ca67ec4; 5% of eligible production accounts. The original observation is history/evidence/record-610c09cdf9.md. Later review: history/evidence/record-056196115b.md.
+   Disposition recorded after the first window: Disabled 2026-07-05, receipt record-d88889e116, when the partner migration changed the cohort definition.
+record-0ea6cc794f.md # record-0ea6cc794f: quiet digest
+   Implementation: record-34b5300c2f. Deployment/exposure: 2026-03-28, receipt record-6c6df11001; 15% of eligible production accounts. The original observation is history/evidence/record-570e3d45b2.md. Later review: history/evidence/record-1b9b7b731d.md.
+   Disposition recorded after the first window: Disabled 2026-04-08, receipt record-0d926524c3, when the partner migration changed the cohort definition.
+record-3aa5e1fabc.md # record-3aa5e1fabc: quiet digest
+   Implementation: record-8728a84ee8. Deployment/exposure: 2026-03-15, receipt record-88311c41bc; 25% of eligible production accounts. The original observation is history/evidence/record-2cde28402a.md. Later review: history/evidence/record-a3b7479220.md.
+   Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+record-0818625d95.md # record-0818625d95: quiet digest
+   Implementation: record-05d63c47ca. Deployment/exposure: 2026-06-21, receipt record-48ea809f71; 15% of eligible production accounts. The original observation is history/evidence/record-a703196cf3.md. Later review: history/evidence/record-f701adf4f2.md.
+   Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+record-cff0d5acf3.md # record-cff0d5acf3: quiet digest
+   Implementation: record-65899a5f82. Deployment/exposure: 2026-07-23, receipt record-4bac513f6b; 25% of eligible production accounts. The original observation is history/evidence/record-4d6d8db2a0.md. Later review: history/evidence/record-831c79462e.md.
+   Disposition recorded after the first window: Retained for this cohort after the review on 2026-08-01; no claim is made about the other clients.
+record-f4913c8af0.md # record-f4913c8af0: Sunday Room
+   Implementation: record-acce541111. Deployment/exposure: 2026-06-02, receipt record-2170d56de7; 20% of eligible production accounts. The original observation is history/evidence/record-e6db56ca94.md. Later review: history/evidence/record-96fd93ccdb.md.
+   Disposition recorded after the first window: Rolled back 2026-06-14, receipt record-eed6a24dfe, because the resumed-session check still failed.
+record-34383bfeb4.md # record-34383bfeb4: quiet digest
+   Implementation: record-3122781a0b. Deployment/exposure: 2026-06-04, receipt record-d6f46a4f2d; 5% of eligible production accounts. The original observation is history/evidence/record-02537125af.md. Later review: history/evidence/record-9499aec63e.md.
+   Disposition recorded after the first window: Retained for this cohort after the review on 2026-06-13; no claim is made about the other clients.
+record-fa48a687f1.md # record-fa48a687f1: quiet digest
+   Implementation: record-880f38c1f1. Deployment/exposure: 2026-07-23, receipt record-6d87aa954b; 25% of eligible production accounts. The original observation is history/evidence/record-19504d03e3.md. Later review: history/evidence/record-f16698833c.md.
+   Disposition recorded after the first window: Retained for this cohort after the review on 2026-08-05; no claim is made about the other clients.
+record-1a107eab96.md # record-1a107eab96: Sunday Room
+   Implementation: record-97e9baa9da. Deployment/exposure: 2026-03-18, receipt record-1c6894a85d; 15% of eligible production accounts. The original observation is history/evidence/record-1067f8da03.md. Later review: history/evidence/record-9eae2d4b74.md.
+   Disposition recorded after the first window: Disabled 2026-04-02, receipt record-92f7a186b9, when the partner migration changed the cohort definition.
+record-19df6e5b5e.md # record-19df6e5b5e: quiet digest
+   Implementation: record-03d223b679. Deployment/exposure: 2026-03-21, receipt record-95f14249c7; 5% of eligible production accounts. The original observation is history/evidence/record-e377c162df.md. Later review: history/evidence/record-bdb6e1a2f3.md.
+   Disposition recorded after the first window: Disabled 2026-04-05, receipt record-802c8df3d9, when the partner migration changed the cohort definition.
+record-0deaec86a3.md # record-0deaec86a3: quiet digest
+   Implementation: record-945c75deb5. Deployment/exposure: 2026-07-19, receipt record-983d965e76; 5% of eligible production accounts. The original observation is history/evidence/record-5bceb56d27.md. Later review: history/evidence/record-bf06ed53f3.md.
+   Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+record-ff2b817e05.md # record-ff2b817e05: Sunday Room
+   Implementation: record-b671685462. Deployment/exposure: 2026-03-09, receipt record-681c444f75; 20% of eligible production accounts. The original observation is history/evidence/record-9429d9d2b8.md. Later review: history/evidence/record-f5df460cc7.md.
+   Disposition recorded after the first window: Retained for this cohort after the review on 2026-03-18; no claim is made about the other clients.
+record-5093bddbae.md # record-5093bddbae: Sunday Room
+   Implementation: record-7486047a03. Deployment/exposure: 2026-05-05, receipt record-4b5c572314; 5% of eligible production accounts. The original observation is history/evidence/record-eb88a0b708.md. Later review: history/evidence/record-6e4968cdfc.md.
+   Disposition recorded after the first window: Rolled back 2026-05-17, receipt record-f8559eb379, because the resumed-session check still failed.
+record-06e6ae338a.md # record-06e6ae338a: quiet digest
+   Implementation: record-3d56c72b78. Deployment/exposure: 2026-04-17, receipt record-efce564fdc; 15% of eligible production accounts. The original observation is history/evidence/record-63d3dd4f79.md. Later review: history/evidence/record-c43d2b70bd.md.
+   Disposition recorded after the first window: Rolled back 2026-04-29, receipt record-34c9eb14ae, because the resumed-session check still failed.
+record-6c3de229c1.md # record-6c3de229c1: quiet digest
+   Implementation: record-a3571ccd5b. Deployment/exposure: 2026-06-28, receipt record-9bf8e9fe06; 25% of eligible production accounts. The original observation is history/evidence/record-2b48ffea47.md. Later review: history/evidence/record-c669e77a11.md.
+   Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+record-96e3340db3.md # record-96e3340db3: quiet digest
+   Implementation: record-f8c03085b3. Deployment/exposure: 2026-03-05, receipt record-68737bf326; 25% of eligible production accounts. The original observation is history/evidence/record-a8e942267c.md. Later review: history/evidence/record-e98e45dc51.md.
+   Disposition recorded after the first window: Retained for this cohort after the review on 2026-03-14; no claim is made about the other clients.
+record-931b5bb6ff.md # record-931b5bb6ff: Sunday Room
+   Implementation: record-b8a4e4096e. Deployment/exposure: 2026-03-11, receipt record-25e485c8dc; 5% of eligible production accounts. The original observation is history/evidence/record-7c6eec1287.md. Later review: history/evidence/record-571e1cc0ad.md.
+   Disposition recorded after the first window: Disabled 2026-03-22, receipt record-90f44d2b6c, when the partner migration changed the cohort definition.
+

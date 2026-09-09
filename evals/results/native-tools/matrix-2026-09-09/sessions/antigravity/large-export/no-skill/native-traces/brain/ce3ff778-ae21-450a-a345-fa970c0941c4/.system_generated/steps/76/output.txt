@@ -1,0 +1,11 @@
+
+The command exited with code 0.
+Output:
+JSON files in evidence: ['/workspace/product/history/evidence/record-eb2ad86fcb.json', '/workspace/product/history/evidence/record-6a8741fe3b.json']
+Total evidence files: 4805
+Relevant evidence files: 4
+/workspace/product/history/evidence/record-1a7eb091b1.md --> # record-1a7eb091b1 Dated September 7. Corrects the broad description of record-e617de6a9e: it tested 10,000 CSV rows, no NDJSON, no 1M+ workspace. It does not demonstrate large-export reliability. Th
+/workspace/product/history/evidence/record-eb2ad86fcb.json --> {"id":"record-eb2ad86fcb","action":"record-7c21733985","observed_at":"2026-08-31T15:00:00Z","workspace":"record-e733dfbdc6","format":"csv","expected_rows":1800000,"worker_complete_seconds":1184,"worke
+/workspace/product/history/evidence/record-6a8741fe3b.json --> {"id":"record-6a8741fe3b","action":"record-7c21733985","observed_at":"2026-09-06T14:10:00Z","workspace":"record-c81238c2b3","format":"ndjson","expected_rows":2100000,"worker_complete_seconds":844,"wor
+/workspace/product/history/evidence/record-d46f9580f1.md --> # record-d46f9580f1 Dated September 7. Corrects the record-7c21733985 missing-row dashboard for US CSV jobs under 100,000 rows: counts included archived records excluded by documented customer selecti
+

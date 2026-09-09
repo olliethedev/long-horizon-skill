@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-09-09T15:22:44.366413+00:00",
+  "attempts": [
+    {
+      "command": [
+        "auth",
+        "--help"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "auth",
+        "status",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "auth",
+        "login",
+        "--help"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "private_copy_expires_at_after_probe": 1788996094444,
+  "model_calls": 0,
+  "live_config_modified": false
+}

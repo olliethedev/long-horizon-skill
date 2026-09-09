@@ -1,0 +1,13 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/releases/record-58a6ae3a8b.md
+/workspace/product/history/support/record-b851997b7c.json
+/workspace/product/history/retired/data-portability/actions/record-c0268a81ef.md
+/workspace/product/history/actions/record-7c21733985.md
+/workspace/product/history/evidence/record-1a7eb091b1.md
+/workspace/product/history/evidence/record-eb2ad86fcb.json
+/workspace/product/history/evidence/record-6a8741fe3b.json
+/workspace/product/history/evidence/record-e617de6a9e.md
+/workspace/product/history/evidence/record-d46f9580f1.md
+

@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/actions/record-7c21733985.md # record-7c21733985: Async Ledger
+Aliases: background full ledger export; async workspace dump. Deployed August 25 at 09:00 UTC, receipt record-b1caa17787. Exposure: all paid US and EU workspaces, CSV and NDJSON. Moves Ledger Ferry work into a background worker. Signed URLs currently expire 15 minutes after job creation. The delivery smoke fixture had 50,000 rows and passed. No 1M+ result attached to the deployment.
+
+

@@ -1,0 +1,51 @@
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":5,"LineContent":"## record-24cb3b4ccf: weekly note"}
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":9,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":53,"LineContent":"## record-eccb43cd90: weekly note"}
+{"File":"/workspace/product/history/operations/record-39e3d6cbe0.md","LineNumber":57,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/support/record-2baa46cb50.md","LineNumber":2,"LineContent":"Subject: weekly note"}
+{"File":"/workspace/product/history/support/record-2baa46cb50.md","LineNumber":6,"LineContent":"Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-7c6eabd5b3.md","LineNumber":29,"LineContent":"## record-9f1bdb67bc: weekly note"}
+{"File":"/workspace/product/history/operations/record-7c6eabd5b3.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-d876243d96.md","LineNumber":2,"LineContent":"Alias used in the design review: weekly note. Local variant: record-431a358680.10.1."}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":23,"LineContent":"## record-59596169d7: weekly note"}
+{"File":"/workspace/product/history/operations/record-4ce8a26960.md","LineNumber":27,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/support/record-ccd03392fb.md","LineNumber":2,"LineContent":"Subject: weekly note"}
+{"File":"/workspace/product/history/support/record-ccd03392fb.md","LineNumber":6,"LineContent":"Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-c919b2d4bb.md","LineNumber":35,"LineContent":"## record-53f77f2783: weekly note"}
+{"File":"/workspace/product/history/operations/record-c919b2d4bb.md","LineNumber":39,"LineContent":"Follow-up: compare the next regional release manifest before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/support/record-e314fd8389.md","LineNumber":2,"LineContent":"Subject: weekly note"}
+{"File":"/workspace/product/history/support/record-e314fd8389.md","LineNumber":6,"LineContent":"Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-ceef75e12c.md","LineNumber":17,"LineContent":"## record-f77bdc91aa: weekly note"}
+{"File":"/workspace/product/history/operations/record-ceef75e12c.md","LineNumber":21,"LineContent":"Follow-up: compare the next support export before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-632f6e3d95.md","LineNumber":11,"LineContent":"## record-e5769f773f: weekly note"}
+{"File":"/workspace/product/history/operations/record-632f6e3d95.md","LineNumber":15,"LineContent":"Follow-up: compare the next regional release manifest before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-217a0b20cc.md","LineNumber":29,"LineContent":"## record-ba93d257e6: weekly note"}
+{"File":"/workspace/product/history/operations/record-217a0b20cc.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/support/record-86d0999475.md","LineNumber":2,"LineContent":"Subject: weekly note"}
+{"File":"/workspace/product/history/support/record-86d0999475.md","LineNumber":6,"LineContent":"Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/operations/record-8d26a58dce.md","LineNumber":29,"LineContent":"## record-1c5ab7b01f: weekly note"}
+{"File":"/workspace/product/history/operations/record-8d26a58dce.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-d655bb2607.md","LineNumber":41,"LineContent":"## record-adef9c8729: weekly note"}
+{"File":"/workspace/product/history/operations/record-d655bb2607.md","LineNumber":45,"LineContent":"Follow-up: compare the next support export before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/support/record-0131162d69.md","LineNumber":3,"LineContent":"Ticket record-5f1a34c149, submitted unknown: contributor in a 280-person EU team, client web 6.8: 'The quiet digest still pings me every evening. I only need the weekly note.' The connector supplies age_days=20; its definition is days since digest release, not ticket age."}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":5,"LineContent":"## record-9858ec5d28: weekly note"}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":9,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":53,"LineContent":"## record-5b5d00487a: weekly note"}
+{"File":"/workspace/product/history/operations/record-8d2e186470.md","LineNumber":57,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/operations/record-410755a905.md","LineNumber":47,"LineContent":"## record-4db50e1ea3: weekly note"}
+{"File":"/workspace/product/history/operations/record-410755a905.md","LineNumber":51,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-022a53c3bc.md","LineNumber":1,"LineContent":"# record-022a53c3bc: weekly note"}
+{"File":"/workspace/product/history/operations/record-4b824f985f.md","LineNumber":35,"LineContent":"## record-a26a819535: weekly note"}
+{"File":"/workspace/product/history/operations/record-4b824f985f.md","LineNumber":39,"LineContent":"Follow-up: compare the next regional release manifest before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-3d76900c72.md","LineNumber":2,"LineContent":"Alias used in the design review: weekly note. Local variant: record-ec0e0ab09e.1.0."}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":23,"LineContent":"## record-9de6f58334: weekly note"}
+{"File":"/workspace/product/history/operations/record-a239c330cb.md","LineNumber":27,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-ad90ba8cb7.md","LineNumber":1,"LineContent":"# record-ad90ba8cb7: weekly note"}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-af9c443cdc.md","LineNumber":1,"LineContent":"# record-af9c443cdc: weekly note"}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-cf025a9eee.md","LineNumber":1,"LineContent":"# record-cf025a9eee: weekly note"}
+{"File":"/workspace/product/history/operations/record-c0a7be3fa7.md","LineNumber":47,"LineContent":"## record-ee8ffe8066: weekly note"}
+{"File":"/workspace/product/history/operations/record-c0a7be3fa7.md","LineNumber":51,"LineContent":"Follow-up: compare the next weekly interview notes before interpreting weekly note as a broader change."}
+{"File":"/workspace/product/history/retired/notification-reset/actions/record-2729868c93.md","LineNumber":1,"LineContent":"# record-2729868c93: weekly note"}
+{"File":"/workspace/product/history/operations/record-ab36f911e2.md","LineNumber":29,"LineContent":"## record-01c84040b1: weekly note"}
+{"File":"/workspace/product/history/operations/record-ab36f911e2.md","LineNumber":33,"LineContent":"Follow-up: compare the next five recordings before interpreting weekly note as a broader change."}
+(...2079 more results not shown)

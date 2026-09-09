@@ -1,5 +1,5 @@
 [tool.mypy]
 python_version = "3.11"
 strict = true
-files = ["skills/long-horizon/scripts", "evals"]
+files = ["evals"]
 exclude = ["^evals/(results|runs)/"]

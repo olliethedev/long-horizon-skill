@@ -1,0 +1,117 @@
+
+The command exited with code 0.
+Output:
+<truncated 124 lines>
+
+/workspace/product/history/evidence/record-cc38844b77.md
+1:# record-cc38844b77: export progress observation
+
+/workspace/product/history/actions/record-e6265bb33b.md
+5:Implementation: record-00de8cd09b. Deployment/exposure: 2026-05-24, receipt record-6c6317259b; 25% of eligible production accounts. The original observation is history/evidence/record-c5198c95f3.md. Later review: history/evidence/record-16d68449a9.md.
+
+/workspace/product/history/actions/record-1ed8442ef1.md
+1:# record-1ed8442ef1: Ledger Ferry
+
+/workspace/product/history/actions/record-9a8977fc40.md
+5:Implementation: record-f844504b98. Deployment/exposure: 2026-03-04, receipt record-1960ecfb06; 20% of eligible production accounts. The original observation is history/evidence/record-913bf32236.md. Later review: history/evidence/record-b473b4c2dc.md.
+
+/workspace/product/history/actions/record-29ff79b9b6.md
+6:Disposition recorded after the first window: Rolled back 2026-06-29, receipt record-561b6a844e, because the resumed-session check still failed.
+
+/workspace/product/history/evidence/record-1844aeefda.md
+1:# record-1844aeefda: NDJSON observation
+
+/workspace/product/history/evidence/record-c8007ca4de.md
+2:Action: record-28642c7844. Alias: Async Ledger. Revision: record-9e15273a6e.16.0.
+7:Original recommendation: keep the pilot narrow and inspect resumed sessions. Source receipts are attached to record-28642c7844; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-125cb77dd6.md
+1:# record-125cb77dd6: review of record-cc38844b77
+
+/workspace/product/history/evidence/record-3e4a510f82.md
+2:Action: record-bf9844ea62. Alias: large export. Revision: record-2d97151e45.6.0.
+7:Original recommendation: keep the pilot narrow and inspect resumed sessions. Source receipts are attached to record-bf9844ea62; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-46a984424f.md
+1:# record-46a984424f: review of record-96d02dc5df
+
+/workspace/product/history/evidence/record-45e4fa741f.md
+2:Recorded 2026-06-21. Subject: Ledger Ferry; alias: Async Ledger. Action record-28642c7844; revision record-9e15273a6e.16.0; cohort returning desktop teams in Germany; observation 2026-06-06 through 2026-06-16.
+
+/workspace/product/history/evidence/record-eb2ad86fcb.json
+1:{"id":"record-eb2ad86fcb","action":"record-7c21733985","observed_at":"2026-08-31T15:00:00Z","workspace":"record-e733dfbdc6","format":"csv","expected_rows":1800000,"worker_complete_seconds":1184,"worker_output_rows":1800000,"download_status":403,"signed_url_age_seconds":1185,"url_ttl_seconds":900}
+
+/workspace/product/history/evidence/record-8d3240b68a.md
+2:Recorded 2026-07-06. Subject: Ledger Ferry; alias: Async Ledger. Action record-8844a9f856; revision record-dc36d78d37.9.1; cohort Brazilian free workspaces; observation 2026-06-19 through 2026-06-30.
+
+/workspace/product/history/evidence/record-ac8f118bac.md
+2:Recorded 2026-05-03. Subject: NDJSON; alias: export progress. Action record-27e9676844; revision record-b3af2dc499.1.2; cohort US enterprise administrators; observation 2026-04-18 through 2026-04-26.
+
+/workspace/product/history/evidence/record-dffaf51baf.md
+2:Recorded 2026-05-03. Subject: NDJSON; alias: export progress. Action record-768d84442f; revision record-b3af2dc499.15.0; cohort Brazilian free workspaces; observation 2026-04-20 through 2026-04-26.
+
+/workspace/product/history/evidence/record-3b2a69ee95.md
+1:# record-3b2a69ee95: review of record-ff06e8449e
+
+/workspace/product/history/evidence/record-788a97daa8.md
+2:Recorded 2026-03-09. Subject: Ledger Ferry; alias: Async Ledger. Action record-1ed8442ef1; revision record-dc36d78d37.15.1; cohort new Android accounts in Canada; observation 2026-02-20 through 2026-03-03.
+
+/workspace/product/history/evidence/record-9a4052c7a6.md
+2:Recorded 2026-07-11. Subject: Async Ledger; alias: large export. Action record-bf9844ea62; revision record-2d97151e45.6.0; cohort Brazilian free workspaces; observation 2026-06-24 through 2026-06-30.
+
+/workspace/product/history/evidence/record-4022aed451.md
+2:Action: record-1ed8442ef1. Alias: Async Ledger. Revision: record-dc36d78d37.15.1.
+7:Original recommendation: retain the current cohort while the outcome matures. Source receipts are attached to record-1ed8442ef1; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-844132deff.md
+1:# record-844132deff: CSV download observation
+
+/workspace/product/history/evidence/record-041655e366.md
+2:Action: record-27e9676844. Alias: export progress. Revision: record-b3af2dc499.1.2.
+7:Original recommendation: revert the visible behavior and investigate the recorded failure. Source receipts are attached to record-27e9676844; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-ae4dcf6844.md
+1:# record-ae4dcf6844: Ledger Ferry observation
+
+/workspace/product/history/evidence/record-6a8741fe3b.json
+1:{"id":"record-6a8741fe3b","action":"record-7c21733985","observed_at":"2026-09-06T14:10:00Z","workspace":"record-c81238c2b3","format":"ndjson","expected_rows":2100000,"worker_complete_seconds":844,"worker_output_rows":2039441,"download_status":200,"warning":"account relation scan resumed after cursor checkpoint"}
+
+/workspace/product/history/evidence/record-3ded3f50dd.md
+1:# record-3ded3f50dd: review of record-844591f0df
+
+/workspace/product/history/evidence/record-2deaa628a0.md
+2:Action: record-8844a9f856. Alias: Async Ledger. Revision: record-dc36d78d37.9.1.
+7:Original recommendation: retain the current cohort while the outcome matures. Source receipts are attached to record-8844a9f856; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-8448344e64.md
+1:# record-8448344e64: large export observation
+
+/workspace/product/history/evidence/record-301d57338a.md
+1:# record-301d57338a: review of record-844132deff
+
+/workspace/product/history/evidence/record-d0be013cd6.md
+3:Retrieved 2026-04-16. Exposure began 2026-04-04; observation window 2026-04-05 through 2026-04-15. Cohort: Brazilian free workspaces. Eligible accounts in this report: 2844.
+
+/workspace/product/history/evidence/record-ff06e8449e.md
+1:# record-ff06e8449e: full ledger export observation
+
+/workspace/product/history/evidence/record-8faec85ad7.md
+3:Retrieved 2026-06-30. Exposure began 2026-06-16; observation window 2026-06-17 through 2026-06-29. Cohort: US enterprise administrators. Eligible accounts in this report: 7844.
+
+/workspace/product/history/evidence/record-9ff64c80f1.md
+2:Action: record-44f84422a9. Alias: Async Ledger. Revision: record-8a4527a255.3.3.
+7:Original recommendation: reconcile delayed operation receipts before deciding. Source receipts are attached to record-44f84422a9; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-6329140070.md
+2:Recorded 2026-07-23. Subject: Ledger Ferry; alias: Async Ledger. Action record-44f84422a9; revision record-8a4527a255.3.3; cohort new Android accounts in Canada; observation 2026-07-05 through 2026-07-14.
+
+/workspace/product/history/evidence/record-844591f0df.md
+1:# record-844591f0df: full ledger export observation
+
+/workspace/product/history/evidence/record-6c75edfe25.md
+2:Action: record-768d84442f. Alias: export progress. Revision: record-b3af2dc499.15.0.
+7:Original recommendation: keep the pilot narrow and inspect resumed sessions. Source receipts are attached to record-768d84442f; any later interpretation must preserve the actual disposition recorded there.
+
+/workspace/product/history/evidence/record-4b844071ba.md
+1:# record-4b844071ba: review of record-2aa7512c5e
+

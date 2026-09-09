@@ -1,0 +1,1 @@
+Wrote the [dated recommendation](/workspace/work/decision.md): prioritize Harbor H2 for the next experiment, subject to measurement readiness, and defer Quiet Return. It includes prior actions, source citations, important uncertainties, and the next evidence needed.

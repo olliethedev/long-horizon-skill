@@ -1,0 +1,38 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/evidence/record-1a7eb091b1.md
+   Dated September 7. Corrects the broad description of record-e617de6a9e: it tested 10,000 CSV rows, no NDJSON, no 1M+ workspace. It does not demonstrate large-export reliability. The June streaming deployment remains real.
+/workspace/product/history/evidence/record-540a7042ac.md
+   Recorded 2026-09-04. Subject: export progress; alias: full ledger export. Action record-91cf17e273; revision record-2d97151e45.1.2; cohort UK solo contributors on iOS; observation 2026-08-12 through 2026-08-24.
+/workspace/product/history/evidence/record-487aef1f19.md
+   Recorded 2026-09-05. Subject: workspace dump; alias: Ledger Ferry. Action record-8a1448781f; revision record-2d97151e45.7.3; cohort UK solo contributors on iOS; observation 2026-08-12 through 2026-08-25.
+/workspace/product/history/evidence/record-73057753b1.md
+   Recorded 2026-09-01. Subject: export progress; alias: full ledger export. Action record-516dd4a200; revision record-3218bfc161.16.1; cohort Brazilian free workspaces; observation 2026-08-13 through 2026-08-24.
+/workspace/product/history/evidence/record-db5729027d.md
+   Recorded 2026-09-02. Subject: CSV download; alias: NDJSON. Action record-5a0380d9de; revision record-37bfea4d06.0.1; cohort UK solo contributors on iOS; observation 2026-08-12 through 2026-08-23.
+/workspace/product/history/evidence/record-7f5887bfe9.md
+   Recorded 2026-09-01. Subject: Async Ledger; alias: large export. Action record-80164b10e5; revision record-37bfea4d06.11.0; cohort UK solo contributors on iOS; observation 2026-08-12 through 2026-08-22.
+/workspace/product/history/evidence/record-c49d082d21.md
+   Recorded 2026-09-03. Subject: workspace dump; alias: Ledger Ferry. Action record-b0e8c3dad5; revision record-8a4527a255.0.2; cohort Brazilian free workspaces; observation 2026-08-13 through 2026-08-25.
+/workspace/product/history/evidence/record-5f51ee1dde.md
+   Recorded 2026-09-03. Subject: large export; alias: CSV download. Action record-1fa5441b86; revision record-2d97151e45.15.3; cohort returning desktop teams in Germany; observation 2026-08-10 through 2026-08-23.
+/workspace/product/history/evidence/record-cfbab97078.md
+   Recorded 2026-09-01. Subject: workspace dump; alias: Ledger Ferry. Action record-096fd3da18; revision record-2d97151e45.14.2; cohort Brazilian free workspaces; observation 2026-08-13 through 2026-08-21.
+/workspace/product/history/evidence/record-b237899238.md
+   Recorded 2026-09-01. Subject: workspace dump; alias: Ledger Ferry. Action record-9ecc72ca11; revision record-b3af2dc499.13.3; cohort UK solo contributors on iOS; observation 2026-08-12 through 2026-08-25.
+/workspace/product/history/evidence/record-5fac728f33.md
+   Recorded 2026-09-01. Subject: Ledger Ferry; alias: Async Ledger. Action record-0dd6e44194; revision record-37bfea4d06.14.2; cohort returning desktop teams in Germany; observation 2026-08-10 through 2026-08-22.
+/workspace/product/history/evidence/record-96716b0ccc.md
+   Recorded 2026-09-04. Subject: Async Ledger; alias: large export. Action record-72f2cc1155; revision record-8a4527a255.6.3; cohort Brazilian free workspaces; observation 2026-08-13 through 2026-08-26.
+/workspace/product/history/evidence/record-6a8741fe3b.json
+   {"id":"record-6a8741fe3b","action":"record-7c21733985","observed_at":"2026-09-06T14:10:00Z","workspace":"record-c81238c2b3","format":"ndjson","expected_rows":2100000,"worker_complete_seconds":844,"worker_output_rows":2039441,"download_status":200,"warning":"account relation scan resumed after cursor checkpoint"}
+/workspace/product/history/evidence/record-d46f9580f1.md
+   Dated September 7. Corrects the record-7c21733985 missing-row dashboard for US CSV jobs under 100,000 rows: counts included archived records excluded by documented customer selection. Corrected parity is 100%. The review excludes NDJSON, record-6a8741fe3b, EU workspaces, and URL-expiry failures.
+/workspace/product/history/evidence/record-94777a0b99.md
+   Recorded 2026-09-02. Subject: export progress; alias: full ledger export. Action record-bed2bbf6c3; revision record-8a4527a255.14.3; cohort US enterprise administrators; observation 2026-08-11 through 2026-08-24.
+/workspace/product/history/releases/record-58a6ae3a8b.md
+   Deployed September 5, receipt record-954a977f24. Adds 'Preparing your export' to the spinner. No worker, row-selection, checkpoint, or signed-URL changes. It overlaps record-7c21733985's observation period but cannot establish that the underlying jobs complete correctly.
+/workspace/product/history/support/record-b851997b7c.json
+   {"retrieved_at":"2026-09-08T09:00:00Z","age_days_definition":"days since async-export rollout","tickets":[{"id":"record-f10fee8e5d","subject":"full ledger export","submitted_at":null,"imported_at":"2026-09-07T18:00:00Z","age_days":14,"workspace":"record-e733dfbdc6","format":"csv","estimated_rows":1800000,"message":"The download spins for twenty minutes, then the link is expired. We need the full ledger, not the first part."},{"id":"record-339725ec76","subject":"workspace dump","submitted_at":"2026-09-06T14:31:00Z","workspace":"record-c81238c2b3","format":"ndjson","estimated_rows":2100000,"message":"The file completed but our import saw fewer records than the count on screen."}]}
+

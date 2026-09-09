@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/evidence/record-eb2ad86fcb.json
+1:{"id":"record-eb2ad86fcb","action":"record-7c21733985","observed_at":"2026-08-31T15:00:00Z","workspace":"record-e733dfbdc6","format":"csv","expected_rows":1800000,"worker_complete_seconds":1184,"worker_output_rows":1800000,"download_status":403,"signed_url_age_seconds":1185,"url_ttl_seconds":900}
+

@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/releases/record-802a8b0629.json:1:{"retrieved_at":"2026-09-08T09:10:00Z","environment":"production","running_sha":"840bead","deployed_at":"2026-09-07T11:00:00Z","contained_prs":[831,835,840],"not_contained_prs":[842],"cohorts":"all queue workers","receipt":"record-fdd6bbaac5"}
+/workspace/product/history/retired/queue-sentinel/actions/record-f09cf4270b.md:2:Deployed July 21, receipt record-1cbbfada58. Changed timeout backoff, without tenant-aware deduplication. Rolled back July 27, receipt record-c04c640916, following duplicate-job escalations. record-1555a62ab3 initially showed no dedupe collisions.
+

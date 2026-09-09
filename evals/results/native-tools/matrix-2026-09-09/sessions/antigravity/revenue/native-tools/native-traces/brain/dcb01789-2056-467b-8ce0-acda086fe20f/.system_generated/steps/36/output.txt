@@ -1,0 +1,1 @@
+{"File":"/workspace/product/current.md","LineNumber":2,"LineContent":"Written 2026-08-19. Quiet Return looked like a win before the summer cleanup. Harbor looked negative. Design has refreshed both. No experiment is currently collecting data. Check later source records before choosing."}

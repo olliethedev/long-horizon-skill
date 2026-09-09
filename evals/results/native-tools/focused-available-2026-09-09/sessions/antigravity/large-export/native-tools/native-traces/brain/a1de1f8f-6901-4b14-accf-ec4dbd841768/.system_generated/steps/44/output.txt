@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+# Customer conversation 8110
+Subject: Ledger Ferry
+Cohort: Brazilian free workspaces
+Submitted: unknown
+Imported: 2026-04-23
+Customer: We use ledger ferry when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+

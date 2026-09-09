@@ -1,0 +1,13 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/support/record-2940792c90.md ['# Customer conversation 8109', 'Subject: shared worker', 'Cohort: UK solo contributors on iOS', 'Submitted: 2026-04-16']
+/workspace/product/history/support/record-ba894d2083.md ['# Customer conversation 8125', 'Subject: shared worker', 'Cohort: returning desktop teams in Germany', 'Submitted: unknown']
+/workspace/product/history/support/record-0c328c059d.md ['# Customer conversation 8104', 'Subject: timeout report', 'Cohort: Brazilian free workspaces', 'Submitted: 2026-03-22']
+/workspace/product/history/support/record-5342a6c543.md ['# Customer conversation 8101', 'Subject: shared worker', 'Cohort: returning desktop teams in Germany', 'Submitted: 2026-03-07']
+/workspace/product/history/support/record-a229390026.md ['# Customer conversation 8112', 'Subject: timeout report', 'Cohort: new Android accounts in Canada', 'Submitted: 2026-05-01']
+/workspace/product/history/support/record-eedcbc03a0.md ['# Customer conversation 8117', 'Subject: shared worker', 'Cohort: internal QA accounts in staging', 'Submitted: 2026-05-26']
+/workspace/product/history/support/record-5c90f476c7.md ['# Customer conversation 8120', 'Subject: timeout report', 'Cohort: US enterprise administrators', 'Submitted: unknown']
+/workspace/product/history/support/record-9d759ac6a2.md ['# Customer conversation 8128', 'Subject: timeout report', 'Cohort: Brazilian free workspaces', 'Submitted: 2026-07-20']
+/workspace/product/history/support/record-a2d078a170.md ['# record-a2d078a170', "Retrieved September 8 09:00 UTC; submitted_at unknown; imported September 7 20:00 UTC. Customer: EU shared tenant, retries occasionally disappear after a timeout. The export's age_days=5 is days since PR 842 merged, not days since the customer sent this. Trace attachment record-fa1b95eae5 has its own event timestamp."]
+

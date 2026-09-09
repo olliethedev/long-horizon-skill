@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"path":"history/retired/notification-reset/brief.md","version":"5c92e4dd0480127046f9ea10a290596b0c9b231f641ebb791d6979b981c547d0","offset":0,"text":"# notification-reset\nBounded responsibility terminated July 31 after preference migration. Its action and preference audit records are retained for continuing product work.\n","next_offset":null}
+

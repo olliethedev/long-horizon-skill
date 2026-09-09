@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/retired/data-portability/actions/record-c0268a81ef.md
+2:Aliases: full ledger export; workspace dump; streaming export. CSV chunked response implemented and deployed June 24, receipt record-ad0b739a98. Served paid US and EU accounts. The implementation existed before the later asynchronous job work. Benchmark record-e617de6a9e reported complete exports at 10,000 rows.
+
+/workspace/product/history/evidence/record-1a7eb091b1.md
+2:Dated September 7. Corrects the broad description of record-e617de6a9e: it tested 10,000 CSV rows, no NDJSON, no 1M+ workspace. It does not demonstrate large-export reliability. The June streaming deployment remains real.
+

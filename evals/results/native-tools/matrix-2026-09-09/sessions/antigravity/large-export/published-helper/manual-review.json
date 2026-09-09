@@ -1,0 +1,60 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "States resumption logic skipped 60,559 records and that the telemetry demonstrates an active unpatched cursor-resumption bug. The supplied count discrepancy and warning do not prove that mechanism; the uncertainty section questions only its implementation subtype."
+  ],
+  "non_material_accuracy_notes": [
+    "Adds 2026 to historical dates whose sources omit the year.",
+    "Calls the excluded job record-6a8741fe3b a workspace in its summary.",
+    "Claims no 1M+ workloads were validated before deployment; the action only says none was attached.",
+    "Treats the matching ticket and observation as an exact confirmed join; their match is plausible but no job ID is provided in the ticket."
+  ],
+  "decision_sha256": "068d4a73613bc86b80f5d840e7f6c57fec00dc44b7c477066787b86448e5df9d",
+  "criteria": [
+    {
+      "key": "delivered",
+      "verdict": "fail",
+      "reason": "Acknowledges async delivery and its paid US/EU exposure but omits the earlier delivered streaming capability and its original action record-c0268a81ef entirely.",
+      "source_paths_checked": [
+        "history/retired/data-portability/actions/record-c0268a81ef.md",
+        "history/actions/record-7c21733985.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Preserves null submission time, distinguishes import time and rollout age, and declines premature closure without assigning a relative date to the unknown request.",
+      "source_paths_checked": [
+        "history/support/record-b851997b7c.json"
+      ]
+    },
+    {
+      "key": "large_scale",
+      "verdict": "fail",
+      "reason": "Correctly retrieves both large-job observations and explains the 50k smoke limitation, but omits the original benchmark and its 10k-fixture correction record-1a7eb091b1. The required prior validation chain is incomplete.",
+      "source_paths_checked": [
+        "history/evidence/record-eb2ad86fcb.json",
+        "history/evidence/record-6a8741fe3b.json",
+        "history/evidence/record-1a7eb091b1.md"
+      ]
+    },
+    {
+      "key": "correction_scope",
+      "verdict": "pass",
+      "reason": "Correctly restricts the newer correction to small US CSV jobs, explicitly excluding NDJSON, the named observation and expiry failures. No individual geography is inferred.",
+      "source_paths_checked": [
+        "history/evidence/record-d46f9580f1.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Keeps tickets open and proposes scale/format-specific and forced-resume verification, retaining the terminated origin. Unsupported causal claims are judged separately.",
+      "source_paths_checked": [
+        "history/retired/data-portability/brief.md",
+        "history/support/record-b851997b7c.json"
+      ]
+    }
+  ],
+  "review_notes": "Root read the complete decision and required source chains. Criterion coverage is separate from source-backed semantic success. The pre-execution geography clarification applies uniformly; individual job regions are unobservable. Missing benchmark retrieval is explicitly recorded rather than repaired by another arm."
+}

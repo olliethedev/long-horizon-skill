@@ -1,0 +1,48 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/operations:
+total 188
+drwxr-xr-x 2 deck deck 4096 Sep  9 15:33 .
+drwxr-xr-x 8 deck deck 4096 Sep  9 15:33 ..
+-rw-r--r-- 1 deck deck 4087 Sep  9 15:33 record-07e00d55dc.md
+-rw-r--r-- 1 deck deck 4097 Sep  9 15:33 record-09f62c6c9a.md
+-rw-r--r-- 1 deck deck 4116 Sep  9 15:33 record-1ddc0b2c61.md
+-rw-r--r-- 1 deck deck 4143 Sep  9 15:33 record-206aaa7084.md
+-rw-r--r-- 1 deck deck 4099 Sep  9 15:33 record-33de6c4ed5.md
+-rw-r--r-- 1 deck deck 4048 Sep  9 15:33 record-41b226fa14.md
+-rw-r--r-- 1 deck deck 4164 Sep  9 15:33 record-471f86edb8.md
+-rw-r--r-- 1 deck deck 4127 Sep  9 15:33 record-4b6f020bb1.md
+-rw-r--r-- 1 deck deck 4047 Sep  9 15:33 record-4ec5f3e3e2.md
+-rw-r--r-- 1 deck deck 4129 Sep  9 15:33 record-4f43704603.md
+-rw-r--r-- 1 deck deck 4110 Sep  9 15:33 record-4f9b7134da.md
+-rw-r--r-- 1 deck deck 4074 Sep  9 15:33 record-59dc7902d9.md
+-rw-r--r-- 1 deck deck 4108 Sep  9 15:33 record-5e3f4abb07.md
+-rw-r--r-- 1 deck deck 4108 Sep  9 15:33 record-5e5add8265.md
+-rw-r--r-- 1 deck deck 4156 Sep  9 15:33 record-6608dfeb9c.md
+-rw-r--r-- 1 deck deck 4109 Sep  9 15:33 record-6cabc27c9a.md
+-rw-r--r-- 1 deck deck 4066 Sep  9 15:33 record-772c8832ea.md
+-rw-r--r-- 1 deck deck 4149 Sep  9 15:33 record-77cac70140.md
+-rw-r--r-- 1 deck deck 4038 Sep  9 15:33 record-801ebed396.md
+-rw-r--r-- 1 deck deck 4119 Sep  9 15:33 record-825b82be42.md
+-rw-r--r-- 1 deck deck 4080 Sep  9 15:33 record-853ffbdb7e.md
+-rw-r--r-- 1 deck deck 4115 Sep  9 15:33 record-8fee294f8b.md
+-rw-r--r-- 1 deck deck 4079 Sep  9 15:33 record-928ce81e3e.md
+-rw-r--r-- 1 deck deck 4080 Sep  9 15:33 record-a09f21ad90.md
+-rw-r--r-- 1 deck deck 4086 Sep  9 15:33 record-a5e8e71b08.md
+-rw-r--r-- 1 deck deck 4103 Sep  9 15:33 record-ba30f4011f.md
+-rw-r--r-- 1 deck deck 4089 Sep  9 15:33 record-d45595cfcc.md
+-rw-r--r-- 1 deck deck 4101 Sep  9 15:33 record-ec011a1b83.md
+
+/workspace/product/history/releases:
+total 12
+drwxr-xr-x 2 deck deck 4096 Sep  9 15:33 .
+drwxr-xr-x 8 deck deck 4096 Sep  9 15:33 ..
+-rw-r--r-- 1 deck deck  309 Sep  9 15:33 record-58a6ae3a8b.md
+
+/workspace/product/history/retired:
+total 12
+drwxr-xr-x 3 deck deck 4096 Sep  9 15:33 .
+drwxr-xr-x 8 deck deck 4096 Sep  9 15:33 ..
+drwxr-xr-x 3 deck deck 4096 Sep  9 15:33 data-portability
+

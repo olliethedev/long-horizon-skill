@@ -1,0 +1,16 @@
+Found 15 results
+SKILL.md
+assets
+assets/action.md
+assets/current.md
+assets/evidence.md
+assets/responsibility.md
+assets/task.toml
+references
+references/evidence.md
+references/history.md
+references/impulse.md
+references/setup.md
+references/workspace.md
+scripts
+scripts/history.py

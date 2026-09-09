@@ -1,0 +1,232 @@
+
+The command exited with code 0.
+Output:
+==> /workspace/product/history/support/record-0131162d69.md <==
+# Weekly feedback export
+Retrieved 2026-09-07. Ticket record-e36f0fe1aa, submitted 2026-09-05: Solo owner on Android 15, workspace with 34 tasks: 'On desktop I can narrow to waiting, but on my phone I have to scroll through everything.'
+Ticket record-5f1a34c149, submitted unknown: contributor in a 280-person EU team, client web 6.8: 'The quiet digest still pings me every evening. I only need the weekly note.' The connector supplies age_days=20; its definition is days since digest release, not ticket age.
+
+==> /workspace/product/history/support/record-1040449938.md <==
+# Customer conversation 8105
+Subject: Focus Shelf
+Cohort: internal QA accounts in staging
+Submitted: unknown
+Imported: 2026-03-29
+
+==> /workspace/product/history/support/record-217b64af23.md <==
+# Customer conversation 8130
+Subject: task drawer
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-08-01
+
+==> /workspace/product/history/support/record-2baa46cb50.md <==
+# Customer conversation 8117
+Subject: weekly note
+Cohort: internal QA accounts in staging
+Submitted: 2026-05-26
+Imported: 2026-05-28
+
+==> /workspace/product/history/support/record-2c49860df2.md <==
+# Customer conversation 8108
+Subject: status filters
+Cohort: US enterprise administrators
+Submitted: 2026-04-11
+Imported: 2026-04-13
+
+==> /workspace/product/history/support/record-31d45e6442.md <==
+# Customer conversation 8129
+Subject: Focus Shelf
+Cohort: internal QA accounts in staging
+Submitted: 2026-07-25
+Imported: 2026-07-27
+
+==> /workspace/product/history/support/record-3ab12ce7f4.md <==
+# Customer conversation 8100
+Subject: status filters
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-03-04
+
+==> /workspace/product/history/support/record-449e75dc66.md <==
+# Customer conversation 8119
+Subject: team notifications
+Cohort: returning desktop teams in Germany
+Submitted: 2026-06-05
+Imported: 2026-06-07
+
+==> /workspace/product/history/support/record-4748451b84.md <==
+# Customer conversation 8115
+Subject: Sunday Room
+Cohort: UK solo contributors on iOS
+Submitted: unknown
+Imported: 2026-05-18
+
+==> /workspace/product/history/support/record-6a7d7a98f5.md <==
+# Customer conversation 8112
+Subject: triage facets
+Cohort: new Android accounts in Canada
+Submitted: 2026-05-01
+Imported: 2026-05-03
+
+==> /workspace/product/history/support/record-7cb2e25d16.md <==
+# Customer conversation 8113
+Subject: Focus Shelf
+Cohort: returning desktop teams in Germany
+Submitted: 2026-05-06
+Imported: 2026-05-08
+
+==> /workspace/product/history/support/record-8184feec89.md <==
+# Customer conversation 8118
+Subject: quiet digest
+Cohort: new Android accounts in Canada
+Submitted: 2026-05-31
+Imported: 2026-06-02
+
+==> /workspace/product/history/support/record-84e20b002f.md <==
+# Customer conversation 8110
+Subject: quiet digest
+Cohort: Brazilian free workspaces
+Submitted: unknown
+Imported: 2026-04-23
+
+==> /workspace/product/history/support/record-86d0999475.md <==
+# Customer conversation 8101
+Subject: weekly note
+Cohort: returning desktop teams in Germany
+Submitted: 2026-03-07
+Imported: 2026-03-09
+
+==> /workspace/product/history/support/record-8ea429e3df.md <==
+# Customer conversation 8126
+Subject: quiet digest
+Cohort: US enterprise administrators
+Submitted: 2026-07-10
+Imported: 2026-07-12
+
+==> /workspace/product/history/support/record-94464e7cd5.md <==
+# Customer conversation 8124
+Subject: status filters
+Cohort: new Android accounts in Canada
+Submitted: 2026-06-30
+Imported: 2026-07-02
+
+==> /workspace/product/history/support/record-9eace2c746.md <==
+# Customer conversation 8103
+Subject: team notifications
+Cohort: UK solo contributors on iOS
+Submitted: 2026-03-17
+Imported: 2026-03-19
+
+==> /workspace/product/history/support/record-a2d43e9c5d.md <==
+# Customer conversation 8131
+Subject: Sunday Room
+Cohort: returning desktop teams in Germany
+Submitted: 2026-08-04
+Imported: 2026-08-06
+
+==> /workspace/product/history/support/record-a4b55b1e53.md <==
+# Customer conversation 8128
+Subject: triage facets
+Cohort: Brazilian free workspaces
+Submitted: 2026-07-20
+Imported: 2026-07-22
+
+==> /workspace/product/history/support/record-a544bd41fe.md <==
+# Customer conversation 8106
+Subject: task drawer
+Cohort: new Android accounts in Canada
+Submitted: 2026-04-01
+Imported: 2026-04-03
+
+==> /workspace/product/history/support/record-a96fb7976d.md <==
+# Customer conversation 8120
+Subject: triage facets
+Cohort: US enterprise administrators
+Submitted: unknown
+Imported: 2026-06-12
+
+==> /workspace/product/history/support/record-ac2b4422a4.md <==
+# Customer conversation 8107
+Subject: Sunday Room
+Cohort: returning desktop teams in Germany
+Submitted: 2026-04-06
+Imported: 2026-04-08
+
+==> /workspace/product/history/support/record-bafd22c326.md <==
+# Customer conversation 8127
+Subject: team notifications
+Cohort: UK solo contributors on iOS
+Submitted: 2026-07-15
+Imported: 2026-07-17
+
+==> /workspace/product/history/support/record-be44ba8a3d.md <==
+# Customer conversation 8122
+Subject: task drawer
+Cohort: Brazilian free workspaces
+Submitted: 2026-06-20
+Imported: 2026-06-22
+
+==> /workspace/product/history/support/record-c543ed9ce2.md <==
+# Customer conversation 8111
+Subject: team notifications
+Cohort: internal QA accounts in staging
+Submitted: 2026-04-26
+Imported: 2026-04-28
+
+==> /workspace/product/history/support/record-c91515118e.md <==
+# Customer conversation 8123
+Subject: Sunday Room
+Cohort: internal QA accounts in staging
+Submitted: 2026-06-25
+Imported: 2026-06-27
+
+==> /workspace/product/history/support/record-ccd03392fb.md <==
+# Customer conversation 8109
+Subject: weekly note
+Cohort: UK solo contributors on iOS
+Submitted: 2026-04-16
+Imported: 2026-04-18
+
+==> /workspace/product/history/support/record-d4a055964c.md <==
+# Customer conversation 8102
+Subject: quiet digest
+Cohort: US enterprise administrators
+Submitted: 2026-03-12
+Imported: 2026-03-14
+
+==> /workspace/product/history/support/record-dbd6d6d600.md <==
+# Customer conversation 8114
+Subject: task drawer
+Cohort: US enterprise administrators
+Submitted: 2026-05-11
+Imported: 2026-05-13
+
+==> /workspace/product/history/support/record-e1fa35bd27.md <==
+# Customer conversation 8116
+Subject: status filters
+Cohort: Brazilian free workspaces
+Submitted: 2026-05-21
+Imported: 2026-05-23
+
+==> /workspace/product/history/support/record-e283c8187a.md <==
+# Customer conversation 8104
+Subject: triage facets
+Cohort: Brazilian free workspaces
+Submitted: 2026-03-22
+Imported: 2026-03-24
+
+==> /workspace/product/history/support/record-e314fd8389.md <==
+# Customer conversation 8125
+Subject: weekly note
+Cohort: returning desktop teams in Germany
+Submitted: unknown
+Imported: 2026-07-07
+
+==> /workspace/product/history/support/record-eb124697c0.md <==
+# Customer conversation 8121
+Subject: Focus Shelf
+Cohort: UK solo contributors on iOS
+Submitted: 2026-06-15
+Imported: 2026-06-17
+

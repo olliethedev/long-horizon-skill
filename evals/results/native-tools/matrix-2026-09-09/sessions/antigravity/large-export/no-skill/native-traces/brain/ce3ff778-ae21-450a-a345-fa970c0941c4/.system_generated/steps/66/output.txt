@@ -1,0 +1,69 @@
+
+The command exited with code 0.
+Output:
+<truncated 118 lines>
+----------------------------------------
+FILE: /workspace/product/history/actions/record-01733bd830.md
+# record-01733bd830: Async Ledger
+Alias used in the design review: large export. Local variant: record-c480f58509.6.0.
+Originating responsibility: onboarding-cycle. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-07-04: a retry was recorded as a new event during a short disconnect. The proposed change was to retain the original event identity through retries.
+Implementation: record-5f3e7072e0. Deployment/exposure: 2026-07-07, receipt record-b285557e3f; 20% of eligible production accounts. The original observation is history/evidence/record-97c2b9e6c2.md. Later review: history/evidence/record-637aa5dc5c.md.
+Disposition recorded after the first window: Rolled back 2026-07-19, receipt record-4d53f3a688, because the resumed-session check still failed.
+Coordination: the locale refresh was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-01b23c7227.md
+# record-01b23c7227: NDJSON
+Alias used in the design review: export progress. Local variant: record-8a4527a255.15.0.
+Originating responsibility: onboarding-cycle. Cohort: US enterprise administrators. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-05-14: cached eligibility outlived the permission that originally supplied it. The proposed change was to recalculate eligibility on session resume.
+Implementation: record-4acad7b55e. Deployment/exposure: 2026-05-17, receipt record-e85031a2eb; 15% of eligible production accounts. The original observation is history/evidence/record-6b66fae99a.md. Later review: history/evidence/record-b76e54c094.md.
+Disposition recorded after the first window: Rolled back 2026-05-25, receipt record-3982a2493a, because the resumed-session check still failed.
+Coordination: the locale refresh was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-01b8675c59.md
+# record-01b8675c59: NDJSON
+Alias used in the design review: export progress. Local variant: record-c480f58509.10.2.
+Originating responsibility: retained-growth. Cohort: new Android accounts in Canada. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-05-12: recordings showed repeated selection of an already active option. The proposed change was to increase contrast on the selected option.
+Implementation: record-01e6ffdc4d. Deployment/exposure: 2026-05-15, receipt record-54f42653a4; 5% of eligible production accounts. The original observation is history/evidence/record-cd8cad78e6.md. Later review: history/evidence/record-194340ba17.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-01cf390435.md
+# record-01cf390435: Ledger Ferry
+Alias used in the design review: Async Ledger. Local variant: record-2d97151e45.6.3.
+Originating responsibility: client-reliability. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-03-04: the migration counted an inherited preference as an explicit user choice. The proposed change was to split legacy and newly created preference records.
+Implementation: record-295c7130f3. Deployment/exposure: 2026-03-07, receipt record-b7426c5fe1; 10% of eligible production accounts. The original observation is history/evidence/record-0a3d12a22c.md. Later review: history/evidence/record-93011c381a.md.
+Disposition recorded after the first window: Disabled 2026-03-22, receipt record-d46876c441, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-02129b810e.md
+# record-02129b810e: full ledger export
+Alias used in the design review: workspace dump. Local variant: record-3218bfc161.1.0.
+Originating responsibility: onboarding-cycle. Cohort: US enterprise administrators. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-06-08: the profile region and workspace region disagreed after migration. The proposed change was to use the account's current regional setting.
+Implementation: record-fa7b78f46b. Deployment/exposure: 2026-06-11, receipt record-29a993b4de; 15% of eligible production accounts. The original observation is history/evidence/record-7eccf7aadd.md. Later review: history/evidence/record-22adb2308a.md.
+Disposition recorded after the first window: Rolled back 2026-06-19, receipt record-e6501a8ef0, because the resumed-session check still failed.
+Coordination: the locale refresh was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-0220c47db0.md
+# record-0220c47db0: NDJSON
+Alias used in the design review: export progress. Local variant: record-9e15273a6e.15.2.
+Originating responsibility: retained-growth. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-02-17: the initial query waited for the archived-workspace count. The proposed change was to defer the status count until interaction.
+Implementation: record-a5fe7562fb. Deployment/exposure: 2026-02-20, receipt record-6847b68f36; 10% of eligible production accounts. The original observation is history/evidence/record-ab4eb6f55f.md. Later review: history/evidence/record-1bb6f8edf3.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+FILE: /workspace/product/history/actions/record-0249df5722.md
+# record-0249df5722: export progress
+Alias used in the design review: full ledger export. Local variant: record-dc36d78d37.11.1.
+Originating responsibility: regional-quality. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-05-10: recordings showed repeated selection of an already active option. The proposed change was to increase contrast on the selected option.
+Implementation: record-1b2198975f. Deployment/exposure: 2026-05-13, receipt record-dd36b760c0; 20% of eligible production accounts. The original observation is history/evidence/record-a92987d636.md. Later review: history/evidence/record-c6827b9ddd.md.
+Disposition recorded after the first window: Retained for this cohort after the review on 2026-05-26; no claim is made about the other clients.
+Coordination: the workspace migration was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+

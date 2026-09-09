@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history/actions/record-54bad5e8e1.md
+# record-54bad5e8e1
+Intent recorded September 7 at 18:00 UTC: deploy 842cafe to the 5% EU queue-worker canary, request identity record-54bad5e8e1. Submission timed out with no completion body. Do not create a second release to infer the first failed. Service lookup at September 8 09:12 UTC: operation exists; status queued; target 842cafe; canary exposure has not started. No new request identity has been used.
+
+

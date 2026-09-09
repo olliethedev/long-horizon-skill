@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+Total files: 371
+record-8f6b82ec51.md 294 # record-8f6b82ec51: Sunday Room
+Aliases: quiet digest; weekly note. Deployed July 12, receipt record-d4f34a4dc1. Workspace administrators could select weekly instead of daily email. The UI copy said 'team digest'; contributor-level legacy daily subscriptions were not migrated by this change.
+

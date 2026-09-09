@@ -1,0 +1,24 @@
+
+The command exited with code 0.
+Output:
+ERROR: logging before google.Init: I0909 15:33:20.394983      20 server.go:1530] Starting language server process with pid 2
+ERROR: logging before google.Init: I0909 15:33:20.395727      20 server.go:1583] Language server version: 1.1.27
+ERROR: logging before google.Init: I0909 15:33:20.395738      20 server.go:591] Language server will attempt to listen on host localhost
+ERROR: logging before google.Init: I0909 15:33:20.396347      20 server.go:606] Language server listening on random port at 42551 for HTTPS (gRPC)
+ERROR: logging before google.Init: I0909 15:33:20.396392      20 server.go:614] Language server listening on random port at 32973 for HTTP
+ERROR: logging before google.Init: E0909 15:33:20.536539      74 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: W0909 15:33:20.536580      20 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536602      20 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: I0909 15:33:20.536584      74 model_configs.go:65] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+ERROR: logging before google.Init: W0909 15:33:20.536662      20 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536672      20 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: W0909 15:33:20.536731      20 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536741      20 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: W0909 15:33:20.536775      20 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536782      20 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: W0909 15:33:20.536813      20 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536821      20 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: W0909 15:33:20.536846      20 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: E0909 15:33:20.536855      20 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+ERROR: logging before google.Init: I0909 15:33:20.537121      20 server.go:1859] Generated and saved persistent installation UUID: 06a1e72e-f162-4b52-9804-1235869fb9cf
+

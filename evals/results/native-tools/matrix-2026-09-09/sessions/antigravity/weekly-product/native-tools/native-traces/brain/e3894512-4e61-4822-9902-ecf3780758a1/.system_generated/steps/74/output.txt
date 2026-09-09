@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+actions: 2031 files
+evidence: 4805 files
+operations: 28 files
+releases: 1 files
+retired: 372 files
+support: 33 files
+

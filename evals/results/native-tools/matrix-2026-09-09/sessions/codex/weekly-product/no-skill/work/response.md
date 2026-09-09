@@ -1,0 +1,1 @@
+Wrote the [dated recommendation](/workspace/work/decision.md). It prioritizes the legacy contributor digest repair, with prior actions, evidence corrections, source citations, verification criteria, and uncertainties. Mobile filters remain the next scoped candidate.

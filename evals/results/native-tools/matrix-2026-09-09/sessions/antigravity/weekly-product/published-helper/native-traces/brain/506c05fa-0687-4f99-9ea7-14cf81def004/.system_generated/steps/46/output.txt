@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"path":"history/support/record-2c49860df2.md","version":"176fd761b22768687d437127f9e8041f1a6ee2bbced8d127e8923aea6a794303","offset":0,"text":"# Customer conversation 8108\nSubject: status filters\nCohort: US enterprise administrators\nSubmitted: 2026-04-11\nImported: 2026-04-13\nCustomer: We use status filters when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.\nSupport: Could you share the workspace size and the client version?\nResolution: awaiting the customer's reproduction details; no deployment claim.\n","next_offset":null}
+

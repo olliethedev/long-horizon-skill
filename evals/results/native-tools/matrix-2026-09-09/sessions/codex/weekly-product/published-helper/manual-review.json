@@ -1,0 +1,53 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "2c14da76a6da7865e1ebd2e1badac04c770c2b3b9116de11aeb584cec0feb2c5",
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "pass",
+      "reason": "Retains enterprise-desktop May 14 deployment and June 2 rollback, the corrected 28% human usage, and later desktop-only asynchronous rollout. Explicitly keeps the Android availability gap and large-workspace performance uncertainty separate.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "pass",
+      "reason": "Distinguishes delivered administrator controls from unmigrated legacy contributors; the five-new-administrator September audit does not supersede the 63-contributor evidence.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Preserves the contributor submission date as unknown and explicitly defines age_days=20 as release age rather than complaint age.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Uses the retired notification-reset action/audit while explicitly leaving that responsibility terminated.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Chooses a small Android filter improvement after actual-build reproduction, proposes meaningful task/performance verification and subsequent exposed-user observation, and retains targeted contributor-preference investigation without repeating desktop/admin work.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "review_notes": "Root manually read the full decision and all criterion sources, plus original usage source record-8a2203deaa, later desktop correction record-dfcc7fb912, and current.md. No material contradiction found. Proposed scope/timing is labeled as a plan, unknown years remain unknown, and the choice is not presented as a measured impact ranking."
+}

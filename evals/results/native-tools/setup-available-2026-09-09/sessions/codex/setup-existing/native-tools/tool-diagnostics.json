@@ -1,0 +1,277 @@
+{
+  "harness": "codex",
+  "case": "setup-existing",
+  "arm": "native-tools",
+  "tool_count": 16,
+  "tools": [
+    {
+      "id": "item_1",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/SKILL.md'",
+      "failed": false,
+      "captured_output_bytes": 7412,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_2",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/product/current.md'",
+      "failed": false,
+      "captured_output_bytes": 91,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_3",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/product/brief.md'",
+      "failed": false,
+      "captured_output_bytes": 681,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_4",
+      "name": "command_execution",
+      "input": "/bin/bash -lc \"rg --files -g 'AGENTS.md' -g '*available*' -g '*help*' /workspace\"",
+      "failed": false,
+      "captured_output_bytes": 38,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_5",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'rg --files /workspace/product /workspace/skill /workspace/work'",
+      "failed": false,
+      "captured_output_bytes": 653,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_6",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/workspace.md'",
+      "failed": false,
+      "captured_output_bytes": 2147,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_7",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/history.md'",
+      "failed": false,
+      "captured_output_bytes": 2147,
+      "truncation_marker": true,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_8",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/setup.md'",
+      "failed": false,
+      "captured_output_bytes": 1991,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_9",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/evidence.md'",
+      "failed": false,
+      "captured_output_bytes": 2076,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_10",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/scheduling.md'",
+      "failed": false,
+      "captured_output_bytes": 2011,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_12",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/skill/references/impulse.md /workspace/skill/assets/task.toml /workspace/skill/assets/responsibility.md /workspace/skill/assets/current.md'",
+      "failed": false,
+      "captured_output_bytes": 5111,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_13",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/product/project.toml /workspace/product/available-tools.md /workspace/product/tool-help/relay.txt /workspace/product/tool-help/impulse.txt'",
+      "failed": false,
+      "captured_output_bytes": 942,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_14",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'ls -la /workspace /workspace/product /workspace/work'",
+      "failed": false,
+      "captured_output_bytes": 752,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_15",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'rg --files --hidden /workspace'",
+      "failed": false,
+      "captured_output_bytes": 653,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_19",
+      "name": "command_execution",
+      "input": "/bin/bash -lc \"python - <<'PY'\nfrom pathlib import Path\nfrom datetime import datetime, timezone\nfrom zoneinfo import ZoneInfo\nimport re\np = Path('/workspace/work/decision.md')\nt = p.read_text()\nlinks = re.findall(r'\\\\]\\\\((/[\"'^)]+)'\"\\\\)', t)\nmissing = [link for link in links if not Path(re.sub(r':\\\\d+\"'$'\"', '', link)).is_file()]\nassert not missing, missing\nfirst = datetime(2026, 9, 14, 9, tzinfo=ZoneInfo('America/New_York'))\nassert first.strftime('%A') == 'Monday'\nassert first.astimezone(timezone.utc).hour == 13\nfor f in sorted(Path('/workspace/work').iterdir()):\n    print(f'{f}: {len(f.read_text().split())} words')\nprint(f'Checked {len(links)} local source/artifact links; all resolve.')\nprint(f'Candidate first run: {first.isoformat()} / {first.astimezone(timezone.utc).isoformat()}')\nPY\"",
+      "failed": false,
+      "captured_output_bytes": 228,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "item_20",
+      "name": "command_execution",
+      "input": "/bin/bash -lc 'cat /workspace/work/decision.md'",
+      "failed": false,
+      "captured_output_bytes": 9218,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    }
+  ],
+  "tool_output_provenance": "native stdout trace",
+  "skill_file_access": {
+    "SKILL.md": [
+      {
+        "tool_id": "item_1",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 7412
+      }
+    ],
+    "references/workspace.md": [
+      {
+        "tool_id": "item_6",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 2147
+      }
+    ],
+    "references/history.md": [
+      {
+        "tool_id": "item_7",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 2147
+      }
+    ],
+    "references/setup.md": [
+      {
+        "tool_id": "item_8",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 1991
+      }
+    ],
+    "references/evidence.md": [
+      {
+        "tool_id": "item_9",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 2076
+      }
+    ],
+    "references/scheduling.md": [
+      {
+        "tool_id": "item_10",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 2011
+      }
+    ],
+    "assets/current.md": [
+      {
+        "tool_id": "item_12",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 5111
+      }
+    ],
+    "assets/responsibility.md": [
+      {
+        "tool_id": "item_12",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 5111
+      }
+    ],
+    "references/impulse.md": [
+      {
+        "tool_id": "item_12",
+        "tool_name": "command_execution",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 5111
+      }
+    ]
+  },
+  "full_reference_text_present_in_preserved_tool_output": {
+    "SKILL.md": true,
+    "assets/action.md": false,
+    "assets/current.md": true,
+    "assets/evidence.md": false,
+    "assets/responsibility.md": true,
+    "references/evidence.md": true,
+    "references/history.md": true,
+    "references/impulse.md": true,
+    "references/scheduling.md": true,
+    "references/setup.md": true,
+    "references/workspace.md": true
+  },
+  "failed_tools": 0,
+  "captured_tool_output_bytes": 36151,
+  "largest_captured_tool_output_bytes": 9218,
+  "tool_outputs_over_20000_bytes": 0,
+  "truncation_marked_tool_outputs": 1,
+  "possible_external_or_auth_commands_for_review": [],
+  "external_or_scheduling_tools_for_review": [],
+  "delegation_tools_for_review": [],
+  "decision_source_paths": [],
+  "criterion_sources_cited": [],
+  "criterion_sources_not_cited_by_path": [],
+  "interpretation": "Tool-output byte counts and path mentions are captured-trace diagnostics, not semantic grades or proof of complete reading. Antigravity uses its preserved full native transcript when available, because its stdout view_file events are concise metadata. Exact full reference text matching removes native line-number prefixes and establishes source availability, not attention or comprehension; a false match does not prove no reading because tools may reformat text. Captured bytes are not a measurement of model-context token exposure. The 20 kB threshold is descriptive only."
+}

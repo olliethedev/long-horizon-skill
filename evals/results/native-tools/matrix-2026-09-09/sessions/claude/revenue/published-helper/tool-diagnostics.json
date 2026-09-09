@@ -1,0 +1,284 @@
+{
+  "harness": "claude",
+  "case": "revenue",
+  "arm": "published-helper",
+  "tool_count": 12,
+  "tools": [
+    {
+      "id": "toolu_01BRSG7DVphcfkWVoZmQHfsq",
+      "name": "Bash",
+      "input": {
+        "command": "cat /workspace/skill/SKILL.md; echo ----; ls -R /workspace | head -100",
+        "description": "Read skill file and list workspace"
+      },
+      "failed": false,
+      "captured_output_bytes": 9046,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01JWwPWUFUQoycrU87grp7GX",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace; cat skill/references/history.md; echo ----; cat skill/references/evidence.md; echo ----; cat skill/references/workspace.md; echo ----; ls skill/scripts skill/references; echo ----; cat product/brief.md; echo ----; cat product/current.md; echo ----; for d in product/history/*/; do echo \"$d $(ls $d | wc -l)\"; done; ls work",
+        "description": "Read skill references, brief, current handoff, and count history"
+      },
+      "failed": false,
+      "captured_output_bytes": 7960,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01AFpHvzNvj6btUyapkaho6F",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; head -c 4000 index.md; echo; echo ----DESIGN; cat design/*; echo ----RETIRED; cat retired/*; echo ----OPS; ls operations support",
+        "description": "Read index head, design, retired, and list operations/support"
+      },
+      "failed": false,
+      "captured_output_bytes": 2102,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01UCiS37imJNFa3x7qviFeXJ",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; ls -R retired; echo ----; for f in retired/summer-offers/*; do echo \"== $f\"; cat \"$f\" | head -c 3000; echo; done 2>/dev/null | head -200; echo ----SEARCH; cd /workspace; python3 skill/scripts/history.py search product/history 'Quiet Return' --limit 20",
+        "description": "Read retired folder and search Quiet Return"
+      },
+      "failed": false,
+      "captured_output_bytes": 11767,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01Ee552kmkUpC9unvAjdZkcv",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; for f in actions/record-0044ba59ec.md actions/record-00aca79359.md actions/record-0090629307.md; do echo \"== $f\"; cat $f; echo; done; echo ----; ls evidence | head -20; ls evidence | sed 's/.*\\.//' | sort | uniq -c; echo ----; cat operations/record-2989195afb.md; echo; cat support/record-01364485d3.md",
+        "description": "Sample action, evidence, operations, and support records"
+      },
+      "failed": false,
+      "captured_output_bytes": 8174,
+      "truncation_marker": false,
+      "source_path_mentions": [
+        "history/evidence/record-23722e21a6.md",
+        "history/evidence/record-33cbf65b3f.md",
+        "history/evidence/record-4577434929.md",
+        "history/evidence/record-47d010877f.md",
+        "history/evidence/record-a6f82ec639.md",
+        "history/evidence/record-f4c845751a.md"
+      ],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01EvuvUoGKYRrtG7tco863F2",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace; S=\"python3 skill/scripts/history.py search product/history\"; echo \"== retired Quiet Return\"; $S/retired 'Quiet Return' --limit 20 | python3 -c \"import sys,json; d=json.load(sys.stdin); [print(m['path'],m['line'],m['text'][:160]) for m in d['matches']]; print('cursor', bool(d.get('next_cursor')))\"; echo \"== retired Harbor\"; $S/retired 'Harbor' --limit 20 | python3 -c \"import sys,json; d=json.load(sys.stdin); [print(m['path'],m['line'],m['text'][:160]) for m in d['matches']]; print('cursor', bool(d.get('next_cursor')))\"",
+        "description": "Search retired summer-offers folder for both offer names"
+      },
+      "failed": false,
+      "captured_output_bytes": 4082,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01XFbnvivu2dMSuPhCNzvwLt",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; for t in 'returning mobile subscribers' 'new mobile accounts' 'R7' 'H1' 'H2' 'summer cleanup' 'cleanup' 'refund' 'record-0d1c74ca54' 'revenue responsibility' 'Originating responsibility: summer-offers' 'Originating responsibility: revenue'; do echo \"== $t: $(grep -rli -- \"$t\" . | wc -l) files\"; grep -rli -- \"$t\" . | head -8; done",
+        "description": "Count files matching the key conditions for both offers"
+      },
+      "failed": false,
+      "captured_output_bytes": 1199,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01XQM5cTQWSW8wisa8QM4FAZ",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; for f in retired/summer-offers/actions/record-b7ab79e22e.md actions/record-dc92607ff3.md evidence/record-da3a9e962e.md evidence/record-3965c8ff16.md evidence/record-802325ed36.md evidence/record-783bf16383.md evidence/record-47eaba418e.md; do echo \"=================== $f\"; cat \"$f\"; echo; done; echo \"== refs to b7ab79e22e\"; grep -rl 'b7ab79e22e' . ; echo \"== refs to dc92607ff3\"; grep -rl 'dc92607ff3' .",
+        "description": "Read the R7 and H1 action and evidence records and find later references"
+      },
+      "failed": false,
+      "captured_output_bytes": 3234,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_016Zz9yYGrkpBzX4qbZRFauw",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"=== evidence/record-0f6fbbab4e.md\"; cat evidence/record-0f6fbbab4e.md; echo; echo \"=== cf96fad305 refs\"; grep -rl 'cf96fad305' .; for f in $(grep -rl 'cf96fad305' . | grep -v 3965c8ff16); do echo \"--- $f\"; cat \"$f\"; echo; done; echo \"=== receipt/evidence ID refs\"; for id in e4142b048e e0da7df86e eb44fddf46 4cd3618639 802325ed36 47eaba418e da3a9e962e 783bf16383 3965c8ff16 0f6fbbab4e QR7 'Harbor H1' 'variant W3' 'W3'; do echo \"-- $id: $(grep -rl -- \"$id\" . | tr '\\n' ' ')\"; done; echo \"=== September-dated lines\"; grep -rn '2026-09-\\|September' . | grep -v '^./index.md' | head -40; echo \"=== refund escalation / permission dialog in support+evidence\"; grep -rli 'refund escalation' . | head; echo --; grep -rli 'permission dialog' . | head -20",
+        "description": "Follow later references, receipts, name reuse, and September-dated records"
+      },
+      "failed": false,
+      "captured_output_bytes": 5438,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01Vckv5T6fzgChUTwdUz6vKs",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"=== support refund/iOS annual\"; grep -li 'refund' support/* | head; grep -l 'iOS' support/* | xargs grep -li 'annual\\|refund\\|offer' | head; echo \"=== ops mentions of R7/H1/rollback/refund\"; grep -n 'R7\\|H1\\|H2\\|rollback\\|rolled back\\|refund' operations/* | head -20; echo \"=== ops file dates\"; grep -h '^# ' operations/* | sort | tail -8; echo \"=== deployments/exposure in Sept or still active\"; grep -rn 'Deployed 2026-09\\|Deployed September\\|exposure: 2026-09\\|collecting\\|currently exposed\\|still exposed' . | grep -v index.md | head; echo \"=== files existing for referenced IDs\"; for id in 0d1c74ca54 cf96fad305 d3b97d8b03 e4142b048e e0da7df86e eb44fddf46 4cd3618639; do echo \"$id: $(find . -name \"*$id*\" | tr '\\n' ' ')\"; done; echo \"=== support records mentioning Quiet Return or Harbor\"; grep -l 'Quiet Return\\|Harbor' support/* | head; grep -h 'Submitted\\|Subject\\|Cohort' $(grep -l 'Quiet Return\\|Harbor' support/*) | paste - - - | head -12",
+        "description": "Check support, operations, active exposure, and existence of referenced record files"
+      },
+      "failed": false,
+      "captured_output_bytes": 5256,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_013pjjZyRzn9jYpqRbXhiTu1",
+      "name": "Bash",
+      "input": {
+        "command": "cd /workspace/product/history; echo \"=== support/record-55a0fb5300.md\"; cat support/record-55a0fb5300.md; echo; echo \"=== support/record-b24d1f5a87.md (Harbor UK iOS)\"; cat support/record-b24d1f5a87.md; echo; echo \"=== ops entries titled Quiet Return/Harbor in July-Aug files\"; for f in operations/*; do d=$(head -1 $f | grep -o '2026-0[78]-[0-9]*'); [ -n \"$d\" ] && grep -A3 '^## .*: \\(Quiet Return\\|Harbor\\|Quiet Offer\\|returning mobile offer\\|annual card\\)' $f | grep -v '^--' | sed \"s|^|$d |\" ; done | grep -i 'iOS\\|mobile\\|US ' | head -30",
+        "description": "Read refund support record and July-August operations entries for the relevant cohorts"
+      },
+      "failed": false,
+      "captured_output_bytes": 3713,
+      "truncation_marker": false,
+      "source_path_mentions": [],
+      "possible_external_or_auth_command": false
+    },
+    {
+      "id": "toolu_01Vqnru2kMTBCW9EKgQXkGjS",
+      "name": "Bash",
+      "input": {
+        "command": "mkdir -p /workspace/work && cat > /workspace/work/decision.md <<'EOF'\n# Revenue responsibility: next-experiment decision\n\nDecision date: 2026-09-09 (brief lists current date 2026-09-08; this review ran 2026-09-09).\nOwner: Sam, product lead. Reviewer: autonomous agent, handoff review only.\nScope of this review: the local read-only snapshot under /workspace/product. No live systems were queried and no live action was taken or is authorized by this document.\n\n## Recommendation\n\n**Run Harbor H2 (new US mobile accounts) as the next experiment. Do not re-run Quiet Return R7 as proposed.**\n\n- Harbor's earlier \"negative\" result was corrected to inconclusive, and the defect that confounded it has been fixed in H2. The conditions have materially changed, so the revenue hypothesis is worth one clean test.\n- Quiet Return R7's earlier \"win\" was corrected to a refund-adjusted net-revenue loss with a complete ledger. The September proposal changes only illustration colors, so the failed conditions are unchanged. Re-running it would repeat a known loss on the metric the brief prioritizes.\n\nThe current handoff (product/current.md, written 2026-08-19) says \"Quiet Return looked like a win\" and \"Harbor looked negative\". Both statements are superseded by later source records cited below. The handoff was already stale when written: the Quiet Return correction is dated 2026-08-04.\n\n## Relevant prior actions and their corrections\n\n### Quiet Return, variant R7 (retired summer-offers responsibility)\n\n| Item | Source | What it says |\n| --- | --- | --- |\n| Action | product/history/retired/summer-offers/actions/record-b7ab79e22e.md | R7 = 20% annual renewal discount. Cohort: US returning iOS annual subscribers. Deployed 2026-07-12 (rollout record-e4142b048e, 50% exposure). Observed July 13–19. Rolled back 2026-07-21 (receipt record-e0da7df86e); refund escalations unresolved at rollback. Aliases: QR7, returning mobile offer, Quiet Offer. |\n| Initial report | product/history/evidence/record-da3a9e962e.md | Recorded 2026-07-20. Trial starts +11%. Retained net revenue not yet mature. Explicitly an early funnel metric. |\n| Correction | product/history/evidence/record-802325ed36.md | Recorded 2026-08-04. Same action, cohort, and exposure window, with refunds through August 2. Refund-adjusted net revenue 6.2% below control. Trial-start count unchanged. Matched ledger complete for this cohort. \"No price or eligibility changes justify repeating R7 in this cohort.\" Rollback remains an actual event. |\n| Not applicable | product/history/evidence/record-3965c8ff16.md | Recorded 2026-09-06. A different action (record-cf96fad305, variant W3, US returning desktop monthly, August 20–27) that reused the Quiet Return name moved from -1% to +4% after late invoices. The record states it does not cover R7, iOS annual subscribers, or July exposures. It must not be read as rehabilitating R7. |\n| Proposal | product/history/design/record-3c858d6a57.md | Dated 2026-09-02. Quiet Return proposal keeps the R7 price, eligibility, and mobile checkout; only illustration colors changed. |\n\nResponsibility status: summer-offers was terminated 2026-07-30 (product/history/retired/summer-offers/brief.md). Its records are retained as evidence for the revenue responsibility. Termination is not a reason to resume its experiments, and this recommendation does not rely on resuming anything from it.\n\n### Harbor, variant H1 (revenue responsibility)\n\n| Item | Source | What it says |\n| --- | --- | --- |\n| Action | product/history/actions/record-dc92607ff3.md | Cohort: new US mobile accounts. Deployed August 10 (rollout record-eb44fddf46). Rolled back August 18 (receipt record-4cd3618639). Year not stated in this record; the linked evidence dates it to 2026. Aliases: Anchor plan picker, annual card, Harbor H1. |\n| Initial report | product/history/evidence/record-783bf16383.md | Recorded August 18 (year not stated). Exposure August 11–17. Revenue per new account -9%, no confidence claim. Some resumed sessions counted as new accounts twice. 7 of 12 reviewed permission-dialog sessions reset the chosen annual plan. |\n| Correction | product/history/evidence/record-47eaba418e.md | Recorded 2026-08-24. Same cohort and window. Deduplicated revenue per new account +1.8% with a wide interval spanning harm and benefit; inconclusive. Reset behavior is real. Rollback record-4cd3618639 occurred. \"Do not label Harbor a demonstrated loss or win.\" |\n| Not applicable | product/history/evidence/record-0f6fbbab4e.md | Dated 2026-09-07. Harbor name on a different action (record-d3b97d8b03) and population (returning desktop accounts, August 25–31), corrected revenue -3% after a billing retry inflated annual counts. Different action and population; not evidence about H1 or H2. |\n| Proposal | product/history/design/record-3c858d6a57.md | Dated 2026-09-02. H2 persists the annual selection before the OS permission dialog and restores it on resume. QA record-0d1c74ca54 reproduced H1's reset and found it absent in H2 across 18 supported-device runs. H2 is not exposed to customers. Revenue hypothesis untested. |\n\n### Name collisions to ignore\n\nThe names Quiet Return, Harbor, Quiet Offer, returning mobile offer, annual card, and Anchor plan picker are reused as aliases across roughly two thousand unrelated action records in product/history/actions and product/history/retired/summer-offers/actions (other responsibilities such as client-reliability and regional-quality, other cohorts such as Brazilian free workspaces, UK solo contributors on iOS, German desktop teams). Support conversations and weekly operations entries carrying these names (for example product/history/support/record-b24d1f5a87.md, product/history/operations/record-2989195afb.md) belong to those other cohorts and contain no revenue observation for R7 or H1. Only the records tabled above match the cohorts and variants under decision. Searches used: literal phrases \"Quiet Return\", \"Harbor\", \"R7\", \"H1\", \"H2\", and the action and evidence IDs above, across the whole snapshot.\n\n## What the evidence supports now\n\n1. **Quiet Return R7 is a demonstrated refund-adjusted loss in the target cohort.** The only mature revenue measurement (record-802325ed36) is -6.2% with a complete ledger. The favorable number (+11% trial starts) is an early funnel metric the brief explicitly ranks below refund-adjusted revenue. The refreshed proposal changes nothing that the correction identified as decisive. A historical failure is worth revisiting only when conditions or evidence change; here neither has.\n2. **Harbor H1 is inconclusive, not negative.** The corrected point estimate is slightly positive with a wide interval. The measurement was contaminated by a counting error (duplicate new accounts) and a product defect (annual choice reset after the permission dialog) that plausibly suppressed annual purchases.\n3. **H2 changes the condition that confounded H1.** The design record reports QA reproduction of the H1 defect and its absence in H2 across 18 device runs. That is an implementation check only. It is not exposure evidence and not revenue evidence.\n4. **No experiment is currently collecting data** according to product/current.md and the absence of any September deployment or exposure record in the snapshot. The one-experiment-at-a-time limit therefore has capacity for one test. This must be re-verified against live state before launch, since the snapshot cannot show current production.\n\n## Next useful action\n\nPrepare Harbor H2 for a controlled test on new US mobile accounts. Preparation within standing authority (no live action in this review):\n\n1. **Confirm state before exposure.** Verify H1 rollback receipt record-4cd3618639 reflects zero current exposure, and confirm no other revenue experiment is active. Locate QA record-0d1c74ca54, which is referenced by the design record but is not present in this snapshot.\n2. **Fix the measurement before the experiment.** Define \"new account\" so resumed sessions are not double-counted (the error behind record-783bf16383). Pre-register the primary metric as refund-adjusted revenue per new account, with control, exposure share, and an interval or equivalent decision rule agreed before launch.\n3. **Set the observation window to cover refunds.** R7 needed refunds through roughly two weeks after the exposure window before the ledger was complete (record-802325ed36). Plan an exposure window of at least one week plus a refund maturity window of about two weeks before any adoption decision. Interim trial-start or early revenue reads must be labelled immature.\n4. **Verify the defect fix under real exposure.** Sample production session recordings of the permission dialog during the test and confirm the annual selection persists, since QA runs on 18 devices do not establish behavior at production scale.\n5. **Do not launch Quiet Return.** If design wants to revisit it, the next step is a proposal that changes price, eligibility, or refund exposure, not illustration, and a hypothesis for why the refund pattern would differ.\n\n## The next evidence we need\n\n- For Harbor H2: deduplicated, refund-adjusted revenue per new US mobile account under H2 versus control, over a pre-registered window with refund maturity, plus production confirmation that the annual selection no longer resets. That result would decide adoption or rollback.\n- For Quiet Return: a changed proposal (price, eligibility, or refund terms) and an explanation of the July refund escalations before any re-test is justified.\n\n## Important uncertainty\n\n- **Referenced records missing from the snapshot.** Rollout and rollback receipts (record-e4142b048e, record-e0da7df86e, record-eb44fddf46, record-4cd3618639), QA record-0d1c74ca54, the W3 action record-cf96fad305, and the desktop Harbor action record-d3b97d8b03 are cited by the retained records but have no file here. Their existence and content are taken from the citing records only.\n- **Unknown dates.** Harbor H1's action record and initial report give \"August 10\", \"August 18\", and \"August 11–17\" without a year. The correction (2026-08-24) fixes the year by context, but the original records leave it unstated. R7's refund escalations were \"unresolved\" at the 2026-07-21 rollback; their later resolution date is unknown.\n- **H1's corrected interval is not quantified** in record-47eaba418e beyond \"wide, spanning harm and benefit\". The +1.8% should not be treated as a directional signal.\n- **QA evidence for H2 is implementation-only.** 18 supported-device runs do not establish production behavior across OS versions, or that persistence changes purchasing.\n- **Live state is unverified.** The snapshot cannot show whether anything is currently exposed or whether the one-experiment allowance has been consumed since 2026-08-19.\n- **Handoff staleness.** product/current.md contradicts records dated 2026-08-04 and 2026-08-24. It was not modified in this review because the workspace was supplied as a read-only snapshot. Proposed replacement text:\n\n  > Written 2026-09-09. Quiet Return R7 was corrected to -6.2% refund-adjusted net revenue (record-802325ed36); the September proposal is unchanged in price and eligibility and is not recommended. Harbor H1 was corrected to inconclusive (+1.8%, wide interval, record-47eaba418e) after dedup; H2 fixes the permission-dialog reset (design record-3c858d6a57). Recommended next experiment: Harbor H2 with deduplicated new-account counting and a refund-maturity window. No experiment currently collecting data as of this snapshot; verify live state before launch. See work/decision.md.\nEOF\nwc -w /workspace/work/decision.md",
+        "description": "Write the dated decision file"
+      },
+      "failed": false,
+      "captured_output_bytes": 32,
+      "truncation_marker": false,
+      "source_path_mentions": [
+        "history/actions/record-dc92607ff3.md",
+        "history/design/record-3c858d6a57.md",
+        "history/evidence/record-0f6fbbab4e.md",
+        "history/evidence/record-3965c8ff16.md",
+        "history/evidence/record-47eaba418e.md",
+        "history/evidence/record-783bf16383.md",
+        "history/evidence/record-802325ed36.md",
+        "history/evidence/record-da3a9e962e.md",
+        "history/operations/record-2989195afb.md",
+        "history/retired/summer-offers/actions/record-b7ab79e22e.md",
+        "history/retired/summer-offers/brief.md",
+        "history/support/record-b24d1f5a87.md"
+      ],
+      "possible_external_or_auth_command": false
+    }
+  ],
+  "tool_output_provenance": "native stdout trace",
+  "skill_file_access": {
+    "SKILL.md": [
+      {
+        "tool_id": "toolu_01BRSG7DVphcfkWVoZmQHfsq",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 9046
+      }
+    ],
+    "references/evidence.md": [
+      {
+        "tool_id": "toolu_01JWwPWUFUQoycrU87grp7GX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 7960
+      }
+    ],
+    "references/history.md": [
+      {
+        "tool_id": "toolu_01JWwPWUFUQoycrU87grp7GX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 7960
+      }
+    ],
+    "references/workspace.md": [
+      {
+        "tool_id": "toolu_01JWwPWUFUQoycrU87grp7GX",
+        "tool_name": "Bash",
+        "access": "shell file read; inspect captured output for completeness",
+        "failed": false,
+        "captured_output_bytes": 7960
+      }
+    ],
+    "scripts/history.py": [
+      {
+        "tool_id": "toolu_01UCiS37imJNFa3x7qviFeXJ",
+        "tool_name": "Bash",
+        "access": "executed helper or referenced its path; not a reference read",
+        "failed": false,
+        "captured_output_bytes": 11767
+      },
+      {
+        "tool_id": "toolu_01EvuvUoGKYRrtG7tco863F2",
+        "tool_name": "Bash",
+        "access": "executed helper or referenced its path; not a reference read",
+        "failed": false,
+        "captured_output_bytes": 4082
+      }
+    ]
+  },
+  "full_reference_text_present_in_preserved_tool_output": {
+    "SKILL.md": true,
+    "assets/action.md": false,
+    "assets/current.md": false,
+    "assets/evidence.md": false,
+    "assets/responsibility.md": false,
+    "references/evidence.md": true,
+    "references/history.md": true,
+    "references/impulse.md": false,
+    "references/setup.md": false,
+    "references/workspace.md": true
+  },
+  "failed_tools": 0,
+  "captured_tool_output_bytes": 62003,
+  "largest_captured_tool_output_bytes": 11767,
+  "tool_outputs_over_20000_bytes": 0,
+  "truncation_marked_tool_outputs": 0,
+  "possible_external_or_auth_commands_for_review": [],
+  "external_or_scheduling_tools_for_review": [],
+  "delegation_tools_for_review": [],
+  "decision_source_paths": [
+    "history/actions/record-dc92607ff3.md",
+    "history/design/record-3c858d6a57.md",
+    "history/evidence/record-0f6fbbab4e.md",
+    "history/evidence/record-3965c8ff16.md",
+    "history/evidence/record-47eaba418e.md",
+    "history/evidence/record-783bf16383.md",
+    "history/evidence/record-802325ed36.md",
+    "history/evidence/record-da3a9e962e.md",
+    "history/operations/record-2989195afb.md",
+    "history/retired/summer-offers/actions/record-b7ab79e22e.md",
+    "history/retired/summer-offers/brief.md",
+    "history/support/record-b24d1f5a87.md"
+  ],
+  "criterion_sources_cited": [
+    "history/actions/record-dc92607ff3.md",
+    "history/design/record-3c858d6a57.md",
+    "history/evidence/record-3965c8ff16.md",
+    "history/evidence/record-47eaba418e.md",
+    "history/evidence/record-802325ed36.md",
+    "history/retired/summer-offers/actions/record-b7ab79e22e.md",
+    "history/retired/summer-offers/brief.md"
+  ],
+  "criterion_sources_not_cited_by_path": [],
+  "interpretation": "Tool-output byte counts and path mentions are captured-trace diagnostics, not semantic grades or proof of complete reading. Antigravity uses its preserved full native transcript when available, because its stdout view_file events are concise metadata. Exact full reference text matching removes native line-number prefixes and establishes source availability, not attention or comprehension; a false match does not prove no reading because tools may reformat text. Captured bytes are not a measurement of model-context token exposure. The 20 kB threshold is descriptive only."
+}

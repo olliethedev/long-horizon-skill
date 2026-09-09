@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/current.md
+   Written 2026-08-20. Focus Shelf was shelved after low use. Sunday Room was shipped, so digest requests may already be handled. This week's feedback export is under history/support. Keep the next objective small.
+

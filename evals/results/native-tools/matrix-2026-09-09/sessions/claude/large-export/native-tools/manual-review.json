@@ -1,0 +1,58 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "17a46e3fb28ba3c95dde582285f14ef89222e99aa162686c165d876a056426ac",
+  "criteria": [
+    {
+      "key": "delivered",
+      "verdict": "pass",
+      "reason": "Acknowledges deployed streaming and async CSV/NDJSON capabilities in the paid US/EU scope; the original 10k benchmark, 50k smoke check and later wording release do not prove large-case outcomes.",
+      "source_paths_checked": [
+        "history/retired/data-portability/actions/record-c0268a81ef.md",
+        "history/actions/record-7c21733985.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Preserves the first ticket’s null submission date and correctly separates import/retrieval times, rollout age and observed job timing.",
+      "source_paths_checked": [
+        "history/support/record-b851997b7c.json"
+      ]
+    },
+    {
+      "key": "large_scale",
+      "verdict": "pass",
+      "reason": "Identifies complete 1.8M CSV worker output with expired access and the separate 2.1M NDJSON 60,559-row deficit. Individual regions remain unknown under the pre-execution clarification.",
+      "source_paths_checked": [
+        "history/evidence/record-eb2ad86fcb.json",
+        "history/evidence/record-6a8741fe3b.json",
+        "history/evidence/record-1a7eb091b1.md"
+      ]
+    },
+    {
+      "key": "correction_scope",
+      "verdict": "pass",
+      "reason": "Keeps the small-US-CSV archived-selection correction restricted and explicitly excludes NDJSON, the named observation and expiry failure.",
+      "source_paths_checked": [
+        "history/evidence/record-d46f9580f1.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Keeps both tickets open, proposes URL-lifecycle verification and large NDJSON reproduction before choosing its fix, and uses retained data-portability evidence without reopening that responsibility.",
+      "source_paths_checked": [
+        "history/retired/data-portability/brief.md",
+        "history/support/record-b851997b7c.json"
+      ]
+    }
+  ],
+  "non_material_accuracy_notes": [
+    "Incorrectly says the August 19 index predates every cited record; the cited June deployment and July benchmark precede it.",
+    "Saying a 50k fixture cannot detect either failure overstates the actual evidence, which only shows the existing small fixture passed.",
+    "The draft support response and replacement handoff state ticket/job correspondence and file completeness categorically, losing the main analysis’s explicit caveat that these are workspace/format/size matches without job IDs. That uncertainty should survive the handoff. The body requests job identifiers and keeps both reports open.",
+    "Counts 33 Markdown support conversations; the snapshot has 32 Markdown conversations plus one JSON support export."
+  ],
+  "review_notes": "Root read the entire decision against all criterion sources, benchmark, wording release, brief/handoff and actual support-file inventory. Applied the pre-execution geography clarification. The evaluator independently read this decision and agreed on pass with the listed caveats: no categorical NDJSON cause, no closure or live-action claim, and ticket-link uncertainty explicitly retained in the full analysis. The compressed draft should preserve that uncertainty too; passing the decision rubric does not make it flawless."
+}

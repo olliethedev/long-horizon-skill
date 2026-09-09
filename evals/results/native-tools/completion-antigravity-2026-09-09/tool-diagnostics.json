@@ -1,0 +1,319 @@
+[
+  {
+    "harness": "antigravity",
+    "case": "post-pr",
+    "arm": "native-tools",
+    "tool_count": 60,
+    "tool_output_provenance": "native full transcript, matched to streamed tool step IDs",
+    "skill_file_access": {
+      "SKILL.md": [
+        {
+          "tool_id": "2",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 7953
+        }
+      ],
+      "references/evidence.md": [
+        {
+          "tool_id": "8",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 2150
+        }
+      ],
+      "references/history.md": [
+        {
+          "tool_id": "10",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 2694
+        }
+      ],
+      "references/workspace.md": [
+        {
+          "tool_id": "12",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 2736
+        }
+      ]
+    },
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "assets/action.md": false,
+      "assets/current.md": false,
+      "assets/evidence.md": false,
+      "assets/responsibility.md": false,
+      "references/evidence.md": true,
+      "references/history.md": true,
+      "references/impulse.md": false,
+      "references/scheduling.md": false,
+      "references/setup.md": false,
+      "references/workspace.md": true
+    },
+    "failed_tools": 2,
+    "captured_tool_output_bytes": 192614,
+    "largest_captured_tool_output_bytes": 46147,
+    "tool_outputs_over_20000_bytes": 2,
+    "truncation_marked_tool_outputs": 2,
+    "possible_external_or_auth_commands_for_review": [],
+    "external_or_scheduling_tools_for_review": [],
+    "delegation_tools_for_review": [],
+    "decision_source_paths": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-1555a62ab3.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_cited": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_not_cited_by_path": []
+  },
+  {
+    "harness": "antigravity",
+    "case": "post-pr",
+    "arm": "no-skill",
+    "tool_count": 53,
+    "tool_output_provenance": "native full transcript, matched to streamed tool step IDs",
+    "skill_file_access": {},
+    "full_reference_text_present_in_preserved_tool_output": {},
+    "failed_tools": 0,
+    "captured_tool_output_bytes": 114006,
+    "largest_captured_tool_output_bytes": 17913,
+    "tool_outputs_over_20000_bytes": 0,
+    "truncation_marked_tool_outputs": 3,
+    "possible_external_or_auth_commands_for_review": [],
+    "external_or_scheduling_tools_for_review": [],
+    "delegation_tools_for_review": [],
+    "decision_source_paths": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-1555a62ab3.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/retired/queue-sentinel/brief.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_cited": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_not_cited_by_path": []
+  },
+  {
+    "harness": "antigravity",
+    "case": "post-pr",
+    "arm": "published-helper",
+    "tool_count": 69,
+    "tool_output_provenance": "native full transcript, matched to streamed tool step IDs",
+    "skill_file_access": {
+      "SKILL.md": [
+        {
+          "tool_id": "2",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 7830
+        }
+      ],
+      "references/evidence.md": [
+        {
+          "tool_id": "8",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 2150
+        }
+      ],
+      "references/history.md": [
+        {
+          "tool_id": "10",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 3429
+        }
+      ],
+      "references/workspace.md": [
+        {
+          "tool_id": "12",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 2736
+        }
+      ],
+      "scripts/history.py": [
+        {
+          "tool_id": "24",
+          "tool_name": "view_file",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 10181
+        },
+        {
+          "tool_id": "26",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 2168
+        },
+        {
+          "tool_id": "32",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 1457
+        },
+        {
+          "tool_id": "38",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 1228
+        },
+        {
+          "tool_id": "42",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 1724
+        },
+        {
+          "tool_id": "48",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 959
+        },
+        {
+          "tool_id": "52",
+          "tool_name": "run_command",
+          "access": "executed helper or referenced its path; not a reference read",
+          "failed": false,
+          "captured_output_bytes": 1072
+        }
+      ],
+      "assets/action.md": [
+        {
+          "tool_id": "116",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 1307
+        }
+      ],
+      "assets/evidence.md": [
+        {
+          "tool_id": "118",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 1055
+        }
+      ],
+      "assets/current.md": [
+        {
+          "tool_id": "120",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 1141
+        }
+      ],
+      "assets/responsibility.md": [
+        {
+          "tool_id": "122",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 1804
+        }
+      ],
+      "references/impulse.md": [
+        {
+          "tool_id": "124",
+          "tool_name": "view_file",
+          "access": "native file read",
+          "failed": false,
+          "captured_output_bytes": 3351
+        }
+      ]
+    },
+    "full_reference_text_present_in_preserved_tool_output": {
+      "SKILL.md": true,
+      "assets/action.md": true,
+      "assets/current.md": true,
+      "assets/evidence.md": true,
+      "assets/responsibility.md": true,
+      "references/evidence.md": true,
+      "references/history.md": true,
+      "references/impulse.md": true,
+      "references/setup.md": false,
+      "references/workspace.md": true
+    },
+    "failed_tools": 1,
+    "captured_tool_output_bytes": 178591,
+    "largest_captured_tool_output_bytes": 46147,
+    "tool_outputs_over_20000_bytes": 2,
+    "truncation_marked_tool_outputs": 2,
+    "possible_external_or_auth_commands_for_review": [],
+    "external_or_scheduling_tools_for_review": [],
+    "delegation_tools_for_review": [],
+    "decision_source_paths": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-1555a62ab3.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_cited": [
+      "history/actions/record-54bad5e8e1.md",
+      "history/coordination/record-7b1da28762.md",
+      "history/evidence/record-567749c82b.md",
+      "history/evidence/record-b5a8ddac8f.md",
+      "history/evidence/record-fa1b95eae5.json",
+      "history/pull-requests/record-4f1efc746f.md",
+      "history/releases/record-802a8b0629.json",
+      "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+      "history/support/record-a2d078a170.md"
+    ],
+    "criterion_sources_not_cited_by_path": []
+  }
+]

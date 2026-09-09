@@ -1,5 +1,7 @@
 # V1 implementation scope
 
+This is the original published v1 scope. The subsequently accepted [native-tools revision](native-tools-revision.md) changes runtime packaging and scheduler selection while retaining the underlying responsibility and evidence requirements.
+
 The owner authorized implementation and publication to `olliethedev/long-horizon-skill` after the design interview and 55-session prototype evaluation. The accepted ADRs and CONTEXT.md remain the product requirements. This document makes the implementation and its review boundary concrete.
 
 Deliver an installable `skills/long-horizon/` bundle with the complete setup/continuation workflow, copyable responsibility/action/evidence/handoff templates, and a small bounded file-reading helper. Impulse owns scheduling. The helper supports existing Markdown and text records, requires no database/index, and never changes source history. An optional derived index carries no unique knowledge.

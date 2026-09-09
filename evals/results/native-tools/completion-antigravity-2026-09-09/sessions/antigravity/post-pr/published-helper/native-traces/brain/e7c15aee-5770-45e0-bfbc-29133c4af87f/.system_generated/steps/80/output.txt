@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+actions min size: 413 max size: 1106 set of sizes: 114
+operations min size: 4066 max size: 4196 set of sizes: 23
+support min size: 339 max size: 532 set of sizes: 16
+

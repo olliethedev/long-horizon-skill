@@ -1,0 +1,18 @@
+
+The command exited with code 0.
+Output:
+total 8
+drwxr-xr-x  10 deck   deck    260 Sep  9 15:41 .
+drwxr-xr-x  10 deck   deck    260 Sep  9 15:41 ..
+lrwxrwxrwx   1 deck   deck      7 Sep  9 15:41 bin -> usr/bin
+drwxr-xr-x   4 deck   deck    320 Sep  9 15:41 dev
+drwxr-xr-x   4 deck   deck    180 Sep  9 15:41 etc
+drwx------   4 deck   deck   4096 Sep  9 15:41 eval-home
+lrwxrwxrwx   1 deck   deck      7 Sep  9 15:41 lib -> usr/lib
+lrwxrwxrwx   1 deck   deck      7 Sep  9 15:41 lib64 -> usr/lib
+drwx------   2 deck   deck     60 Sep  9 15:42 opt
+dr-xr-xr-x 592 nobody nobody    0 Sep  9 15:41 proc
+drwxr-xr-x   2 deck   deck     60 Sep  9 15:41 tmp
+drwxr-xr-x   1 nobody nobody   80 Jul 23 18:49 usr
+drwxr-xr-x   5 deck   deck   4096 Sep  9 15:41 workspace
+

@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"path":"history/actions/record-ecc0d14c71.md","version":"778ace0038e7f5f83b4f1a9cfc72a1dc7d9b094c1b3f4cdef9d09dbf8f1edf03","offset":0,"text":"# record-ecc0d14c71: Focus Shelf\nAliases: triage facets; status filters. Internal name record-e9d336d487. Deployed May 14 to enterprise desktop accounts only, receipt record-226210156c. Android and iOS were not included. Initial record-8a2203deaa reported 2% weekly use. Rolled back June 2, receipt record-929bef0cdc, after slow count queries in workspaces over 50,000 tasks.\n","next_offset":null}
+

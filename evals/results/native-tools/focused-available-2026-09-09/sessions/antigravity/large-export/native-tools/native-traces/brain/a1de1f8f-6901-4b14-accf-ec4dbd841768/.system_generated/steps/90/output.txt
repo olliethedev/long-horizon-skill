@@ -1,0 +1,138 @@
+
+The command exited with code 0.
+Output:
+<truncated 187 lines>
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-ab358350e0.md
+# Customer conversation 8109
+Subject: CSV download
+Cohort: UK solo contributors on iOS
+Submitted: 2026-04-16
+Imported: 2026-04-18
+Customer: We use csv download when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-ae56a5e641.md
+# Customer conversation 8116
+Subject: full ledger export
+Cohort: Brazilian free workspaces
+Submitted: 2026-05-21
+Imported: 2026-05-23
+Customer: We use full ledger export when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-b059c7b385.md
+# Customer conversation 8113
+Subject: workspace dump
+Cohort: returning desktop teams in Germany
+Submitted: 2026-05-06
+Imported: 2026-05-08
+Customer: We use workspace dump when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-b7ffc387b3.md
+# Customer conversation 8108
+Subject: full ledger export
+Cohort: US enterprise administrators
+Submitted: 2026-04-11
+Imported: 2026-04-13
+Customer: We use full ledger export when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-ba64d057a0.md
+# Customer conversation 8120
+Subject: large export
+Cohort: US enterprise administrators
+Submitted: unknown
+Imported: 2026-06-12
+Customer: We use large export when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-bb57afb4f0.md
+# Customer conversation 8119
+Subject: export progress
+Cohort: returning desktop teams in Germany
+Submitted: 2026-06-05
+Imported: 2026-06-07
+Customer: We use export progress when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-e6b3997b0a.md
+# Customer conversation 8104
+Subject: large export
+Cohort: Brazilian free workspaces
+Submitted: 2026-03-22
+Imported: 2026-03-24
+Customer: We use large export when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-eda70ccb4d.md
+# Customer conversation 8117
+Subject: CSV download
+Cohort: internal QA accounts in staging
+Submitted: 2026-05-26
+Imported: 2026-05-28
+Customer: We use csv download when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-f2d6f808a9.md
+# Customer conversation 8100
+Subject: full ledger export
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-03-04
+Customer: We use full ledger export when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-f68bcec839.md
+# Customer conversation 8121
+Subject: workspace dump
+Cohort: UK solo contributors on iOS
+Submitted: 2026-06-15
+Imported: 2026-06-17
+Customer: We use workspace dump when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-f875562643.md
+# Customer conversation 8111
+Subject: export progress
+Cohort: internal QA accounts in staging
+Submitted: 2026-04-26
+Imported: 2026-04-28
+Customer: We use export progress when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-f89f5c0a43.md
+# Customer conversation 8130
+Subject: NDJSON
+Cohort: new Android accounts in Canada
+Submitted: unknown
+Imported: 2026-08-01
+Customer: We use ndjson when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+FILE: record-f962439f15.md
+# Customer conversation 8114
+Subject: NDJSON
+Cohort: US enterprise administrators
+Submitted: 2026-05-11
+Imported: 2026-05-13
+Customer: We use ndjson when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+--------------------------------------------------
+

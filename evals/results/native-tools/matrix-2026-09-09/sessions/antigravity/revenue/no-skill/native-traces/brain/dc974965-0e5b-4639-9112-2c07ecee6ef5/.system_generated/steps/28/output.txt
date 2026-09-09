@@ -1,0 +1,13 @@
+
+The command exited with code 0.
+Output:
+/workspace/product/history 1
+/workspace/product/history/evidence 4806
+/workspace/product/history/design 1
+/workspace/product/history/actions 2009
+/workspace/product/history/operations 28
+/workspace/product/history/support 32
+/workspace/product/history/retired 0
+/workspace/product/history/retired/summer-offers 1
+/workspace/product/history/retired/summer-offers/actions 393
+

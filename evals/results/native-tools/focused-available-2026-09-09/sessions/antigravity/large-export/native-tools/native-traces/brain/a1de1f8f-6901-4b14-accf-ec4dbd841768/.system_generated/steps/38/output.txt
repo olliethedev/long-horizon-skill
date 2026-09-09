@@ -1,0 +1,165 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+
+/workspace/product/history/evidence/record-229dafe8e8.md
+5:Next observation: the next settled-outcome ledger for this enrollment. The neighboring regional rollout uses a different source ID and is not superseded by this correction.
+
+/workspace/product/history/actions/record-acdac86ddd.md
+2:Alias used in the design review: full ledger export. Local variant: record-9e15273a6e.12.3.
+
+/workspace/product/history/actions/record-23e20ec89b.md
+1:# record-23e20ec89b: Async Ledger
+
+/workspace/product/history/actions/record-5e8ebca291.md
+1:# record-5e8ebca291: full ledger export
+
+/workspace/product/history/actions/record-8ba75a0285.md
+1:# record-8ba75a0285: full ledger export
+
+/workspace/product/history/actions/record-f5db6429a3.md
+1:# record-f5db6429a3: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-2d97151e45.11.3.
+
+/workspace/product/history/actions/record-28e51d4c8b.md
+1:# record-28e51d4c8b: full ledger export
+
+/workspace/product/history/actions/record-c500e4a18e.md
+2:Alias used in the design review: full ledger export. Local variant: record-8170dc1532.2.1.
+
+/workspace/product/history/actions/record-9b09fc576a.md
+2:Alias used in the design review: full ledger export. Local variant: record-c480f58509.10.2.
+
+/workspace/product/history/actions/record-7b0113c367.md
+1:# record-7b0113c367: Async Ledger
+
+/workspace/product/history/actions/record-90fedb725a.md
+2:Alias used in the design review: Ledger Ferry. Local variant: record-8a4527a255.4.3.
+
+/workspace/product/history/evidence/record-6d1a4e79b3.md
+2:Recorded 2026-03-23. Subject: full ledger export; alias: workspace dump. Action record-a1c219f0e1; revision record-2d97151e45.3.0; cohort Brazilian free workspaces; observation 2026-03-06 through 2026-03-12.
+
+/workspace/product/history/actions/record-1b4c525b38.md
+1:# record-1b4c525b38: full ledger export
+
+/workspace/product/history/actions/record-653c345442.md
+1:# record-653c345442: full ledger export
+
+/workspace/product/history/actions/record-51c31ca441.md
+2:Alias used in the design review: full ledger export. Local variant: record-3218bfc161.12.3.
+
+/workspace/product/history/evidence/record-14e8c3dd0b.md
+2:Action: record-d60daff51b. Alias: full ledger export. Revision: record-c480f58509.10.3.
+
+/workspace/product/history/actions/record-9d0644ca58.md
+2:Alias used in the design review: full ledger export. Local variant: record-dc36d78d37.15.3.
+
+/workspace/product/history/evidence/record-6171050980.md
+2:Recorded 2026-03-17. Subject: Ledger Ferry; alias: Async Ledger. Action record-0e38b87eb8; revision record-37bfea4d06.13.2; cohort UK solo contributors on iOS; observation 2026-02-23 through 2026-03-07.
+
+/workspace/product/history/evidence/record-c660b66949.md
+2:Recorded 2026-04-23. Subject: Ledger Ferry; alias: Async Ledger. Action record-61a10cbb56; revision record-8a4527a255.2.2; cohort new Android accounts in Canada; observation 2026-04-06 through 2026-04-14.
+
+/workspace/product/history/evidence/record-9116a62c2b.md
+1:# record-9116a62c2b: full ledger export observation
+5:Recording notes: the second confirmation increased exits without additional validation. After the change, two participants still expected the previous navigation order. Customer language: 'I use full ledger export when checking the team work; I need to know whether the last step finished before I try it again.'
+
+/workspace/product/history/evidence/record-5abd2584d6.md
+1:# record-5abd2584d6: full ledger export observation
+5:Recording notes: selection was retained for one workspace but reset when the account changed. After the change, the label matched the operation receipt in the sampled sessions. Customer language: 'I use full ledger export when checking the team work; I need to know whether the last step finished before I try it again.'
+
+/workspace/product/history/actions/record-b0525ad1e2.md
+1:# record-b0525ad1e2: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-8170dc1532.14.3.
+
+/workspace/product/history/actions/record-b989ce2bb7.md
+2:Alias used in the design review: full ledger export. Local variant: record-8a4527a255.7.2.
+
+/workspace/product/history/actions/record-246c5ce220.md
+1:# record-246c5ce220: Async Ledger
+
+/workspace/product/history/actions/record-016410e906.md
+2:Alias used in the design review: full ledger export. Local variant: record-c480f58509.9.1.
+
+/workspace/product/history/actions/record-cb12acf6a1.md
+2:Alias used in the design review: Ledger Ferry. Local variant: record-9e15273a6e.0.0.
+
+/workspace/product/history/actions/record-b7c14a01a6.md
+1:# record-b7c14a01a6: Async Ledger
+
+/workspace/product/history/actions/record-b6298d6ebc.md
+1:# record-b6298d6ebc: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-8a4527a255.11.3.
+
+/workspace/product/history/actions/record-0dd6e44194.md
+1:# record-0dd6e44194: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-37bfea4d06.14.2.
+
+/workspace/product/history/actions/record-db786000fb.md
+2:Alias used in the design review: full ledger export. Local variant: record-2d97151e45.10.2.
+
+/workspace/product/history/actions/record-3704435ac9.md
+1:# record-3704435ac9: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-9e15273a6e.2.3.
+
+/workspace/product/history/evidence/record-18d720e77f.md
+1:# record-18d720e77f: Ledger Ferry observation
+2:Action: record-40b6401d86. Alias: Async Ledger. Revision: record-3218bfc161.1.3.
+5:Recording notes: the profile region and workspace region disagreed after migration. After the change, two participants still expected the previous navigation order. Customer language: 'I use ledger ferry when checking the team work; I need to know whether the last step finished before I try it again.'
+
+/workspace/product/history/actions/record-63099154a9.md
+2:Alias used in the design review: Ledger Ferry. Local variant: record-dc36d78d37.6.0.
+
+/workspace/product/history/actions/record-bb0593c8fd.md
+1:# record-bb0593c8fd: Async Ledger
+
+/workspace/product/history/actions/record-8b0dcf95c0.md
+2:Alias used in the design review: Ledger Ferry. Local variant: record-9e15273a6e.5.3.
+
+/workspace/product/history/actions/record-b60aa53a85.md
+2:Alias used in the design review: Ledger Ferry. Local variant: record-2d97151e45.0.2.
+
+/workspace/product/history/actions/record-3c9f6532c2.md
+1:# record-3c9f6532c2: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-b3af2dc499.12.3.
+
+/workspace/product/history/actions/record-5a3cf48514.md
+1:# record-5a3cf48514: Async Ledger
+
+/workspace/product/history/actions/record-ffa0bea446.md
+1:# record-ffa0bea446: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-3218bfc161.2.1.
+
+/workspace/product/history/actions/record-6b598322c6.md
+1:# record-6b598322c6: Async Ledger
+
+/workspace/product/history/actions/record-d5b62edcc1.md
+1:# record-d5b62edcc1: full ledger export
+
+/workspace/product/history/actions/record-8ebcd207c2.md
+2:Alias used in the design review: full ledger export. Local variant: record-8170dc1532.16.3.
+
+/workspace/product/history/actions/record-caa91f2ca1.md
+1:# record-caa91f2ca1: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-37bfea4d06.4.0.
+
+/workspace/product/history/actions/record-f0b3b064a7.md
+2:Alias used in the design review: full ledger export. Local variant: record-9e15273a6e.7.3.
+
+/workspace/product/history/actions/record-a602d781f7.md
+1:# record-a602d781f7: Ledger Ferry
+2:Alias used in the design review: Async Ledger. Local variant: record-b3af2dc499.6.1.
+
+/workspace/product/history/actions/record-04b1cad2a4.md
+1:# record-04b1cad2a4: full ledger export
+
+/workspace/product/history/actions/record-95933d0edc.md
+1:# record-95933d0edc: full ledger export
+
+/workspace/product/history/actions/record-85921618a7.md
+1:# record-85921618a7: Async Ledger
+
+/workspace/product/history/actions/record-081864abc1.md
+1:# record-081864abc1: full ledger export
+

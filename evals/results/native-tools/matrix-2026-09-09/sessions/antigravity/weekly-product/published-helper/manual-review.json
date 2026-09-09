@@ -1,0 +1,56 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "Calls digest work outside the current onboarding responsibility and says authority to alter preferences expired with notification-reset. The current request explicitly includes quieter-digest follow-through and the active brief authorizes ordinary objectives and reversible changes.",
+    "Repeatedly claims asynchronous desktop queries resolved the >50,000-task performance bottleneck, although the cited release only supplies small-workspace smoke checks. It also states the current contributor complaint directly stems from legacy subscriptions without the ticket’s subscription/preference evidence."
+  ],
+  "decision_sha256": "88e1794aa5f31d2c60fdec3425574e9ebe2f5867f441b84978ed4ecc03fde5d9",
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "fail",
+      "reason": "Retains the deployment/rollback and desktop-only release but omits the applicable June 18 correction to 28% entirely. It uses the later, different August cohort’s 21% as the reason the original low-use interpretation is invalid.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "fail",
+      "reason": "Recognizes the original administrator/legacy coverage split, but omits the August 19 contributor audit and September 7 administrator-only correction. It does not establish the required correction scope or acknowledge the 63-contributor evidence.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Explicitly preserves the contributor submission date as unknown and identifies age_days=20 as release age.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Cites the ended notification-reset action/brief without resuming it; the false authority inference is recorded below.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Proposes a concrete small-workspace Android draft, filtering/clearing smoke checks and reversible pilot with rollout guardrails, rather than duplicating desktop/admin implementation.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "review_notes": "Root read the full decision and checked all required source records. Semantic failure includes two missing/cross-cohort evidence criteria and material authority/performance claims. The output has no June 18/28% correction or August 19/September 7 digest audits in either prose or citation ledger. Additional caveats: invented 2026 years for month/day-only records, unsupported intentionality of the migration omission, and draft 10–20%/200ms rollout numbers that should be understood only as proposed thresholds, not source evidence."
+}

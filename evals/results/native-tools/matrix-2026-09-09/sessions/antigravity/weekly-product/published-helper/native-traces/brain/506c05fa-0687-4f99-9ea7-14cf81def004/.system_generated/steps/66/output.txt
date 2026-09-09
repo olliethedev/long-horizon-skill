@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"matches":[{"path":"history/evidence/record-dfcc7fb912.md","line":2,"offset":20,"text":"Dated September 6. Revises the August record-3984af46e2 enterprise desktop activity report after a bot-account import. Human weekly usage 21%; record-40440b02ae. This is not an update to the May record-e9d336d487 rollout or evidence of mobile support."},{"path":"history/releases/record-b9a1361197.md","line":2,"offset":32,"text":"Action record-40440b02ae, record-3984af46e2, deployed August 30 to all desktop accounts, receipt record-764afbf446. Count queries are asynchronous. Desktop small-workspace smoke checks pass. Mobile clients remain on the old list and have no filter control; the mobile component is a draft. This release does not claim mobile availability."}],"next_cursor":null,"version":"5589953d447a0dfa38d1c20ab9d44f9e86625ce400a4871355fd3f5090487151","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
+

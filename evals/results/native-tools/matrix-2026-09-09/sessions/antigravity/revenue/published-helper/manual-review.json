@@ -1,0 +1,76 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    {
+      "claim": "Post-trial cancellations and refund escalations erased all initial gains.",
+      "problem": "No post-trial cancellation data or causal decomposition appears in the cited source. Trial starts remain+11%, and the separate mature net-revenue measure is\u22126.2%; the invented causal account materially supports the rejection.",
+      "sources": [
+        "history/evidence/record-802325ed36.md",
+        "history/retired/summer-offers/actions/record-b7ab79e22e.md"
+      ]
+    },
+    {
+      "claim": "The plan reset severely compromised annual plan conversions.",
+      "problem": "Seven of twelve sampled sessions reset selection, but the evidence does not measure the effect on annual conversions. The corrected revenue interval spans harm and benefit.",
+      "sources": [
+        "history/evidence/record-783bf16383.md",
+        "history/evidence/record-47eaba418e.md"
+      ]
+    }
+  ],
+  "decision_sha256": "3dded5d474fd462524421b4f2062b0f32b76bed02e3a9a7406f24ce583a57507",
+  "criteria": [
+    {
+      "key": "quiet_return",
+      "verdict": "pass",
+      "reason": "Rejects the unchanged R7 refresh using\u22126.2% refund-adjusted revenue and explicitly excludes the W3 desktop+4% correction.",
+      "source_paths_checked": [
+        "history/evidence/record-802325ed36.md",
+        "history/evidence/record-3965c8ff16.md"
+      ]
+    },
+    {
+      "key": "harbor",
+      "verdict": "pass",
+      "reason": "Calls mobile H1 inconclusive after+1.8% with a wide interval; proposes H2 only as a bounded test of repaired reset, with no demonstrated revenue win.",
+      "source_paths_checked": [
+        "history/evidence/record-47eaba418e.md",
+        "history/design/record-3c858d6a57.md"
+      ]
+    },
+    {
+      "key": "actual_actions",
+      "verdict": "pass",
+      "reason": "Records both R7 July21 and H1 August18 rollbacks with source identities despite revised interpretations.",
+      "source_paths_checked": [
+        "history/retired/summer-offers/actions/record-b7ab79e22e.md",
+        "history/actions/record-dc92607ff3.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Cites the retained summer-offers action and states the terminated responsibility is not reopened.",
+      "source_paths_checked": [
+        "history/retired/summer-offers/brief.md",
+        "history/retired/summer-offers/actions/record-b7ab79e22e.md"
+      ]
+    },
+    {
+      "key": "next_evidence",
+      "verdict": "pass",
+      "reason": "Selects at most one H2 test, verifies deduplication first, and requires fresh randomized refund-adjusted evidence/guardrails before advancement.",
+      "source_paths_checked": [
+        "brief.md",
+        "history/design/record-3c858d6a57.md"
+      ]
+    }
+  ],
+  "review_notes": "All five explicit core criteria receive credit, including the inconclusive H1 classification. Overall semantic success nevertheless fails the predeclared material/source-backed reasoning condition because the decision invents consequential cancellation and conversion effects. Same standard as the native-tools arm; correct recommendation alone is insufficient.",
+  "non_material_accuracy_notes": [
+    "The proposed minimum7\u201314-day exposure plus14\u201321-day maturity windows are not established by H2 traffic, variability, or refund-lag data.",
+    "The evidence supports design-reported18 QA runs, not an unconfounded or universally bug-free production implementation; the later uncertainty section correctly says production edge cases and revenue benefit remain unknown.",
+    "The decision does not discuss the later negative Harbor desktop correction. Its recommendation still uses the matched mobile correction correctly; this omission does not violate a predeclared criterion."
+  ],
+  "adjudication_note": "Initial review credited5/5 explicit criteria and listed causal fabrications as caveats. A second source review applied the already-declared no-material-contradiction/source-backed condition: those fabricated effects are material reasoning, so overall semantic success is false. No criterion, task, input or candidate changed."
+}

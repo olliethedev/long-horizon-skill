@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+      4 Subject: Anchor plan picker
+      4 Subject: Harbor
+      4 Subject: Quiet Offer
+      4 Subject: Quiet Return
+      4 Subject: annual card
+      4 Subject: plan comparison
+      4 Subject: renewal reminder
+      4 Subject: returning mobile offer
+

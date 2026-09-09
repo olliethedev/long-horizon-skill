@@ -1,0 +1,22 @@
+
+The command exited with code 0.
+Output:
+record-ecc0d14c71: ['history/evidence/record-661a77e48d.md', 'history/actions/record-ecc0d14c71.md']
+record-8f6b82ec51: ['history/evidence/record-f233630dab.md', 'history/evidence/record-63ae4f2f22.md', 'history/retired/notification-reset/actions/record-8f6b82ec51.md']
+record-e9d336d487: ['history/evidence/record-dfcc7fb912.md', 'history/evidence/record-8a2203deaa.md', 'history/actions/record-ecc0d14c71.md']
+record-226210156c: ['history/actions/record-ecc0d14c71.md']
+record-929bef0cdc: ['history/actions/record-ecc0d14c71.md']
+record-d4f34a4dc1: ['history/retired/notification-reset/actions/record-8f6b82ec51.md']
+record-63ae4f2f22: ['history/evidence/record-63ae4f2f22.md']
+record-f233630dab: ['history/evidence/record-f233630dab.md', 'history/evidence/record-63ae4f2f22.md']
+record-661a77e48d: ['history/evidence/record-661a77e48d.md']
+record-8a2203deaa: ['history/evidence/record-8a2203deaa.md', 'history/evidence/record-661a77e48d.md', 'history/actions/record-ecc0d14c71.md']
+record-dfcc7fb912: ['history/evidence/record-dfcc7fb912.md']
+record-b9a1361197: []
+record-40440b02ae: ['history/evidence/record-dfcc7fb912.md', 'history/releases/record-b9a1361197.md']
+record-3984af46e2: ['history/evidence/record-dfcc7fb912.md', 'history/releases/record-b9a1361197.md']
+record-764afbf446: ['history/releases/record-b9a1361197.md']
+record-e36f0fe1aa: ['history/support/record-0131162d69.md']
+record-5f1a34c149: ['history/support/record-0131162d69.md']
+record-0131162d69: []
+

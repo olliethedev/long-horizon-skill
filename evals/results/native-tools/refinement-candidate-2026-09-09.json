@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-09-09T15:32:29.896669+00:00",
+  "tree_sha256": "af8084aa46624ee25271c94ef14e1593f7adb6d325da156348132a8620ac4d26",
+  "files": {
+    "SKILL.md": "a503dc2285a7cc2f6abc96387d80a9747bd79a1429d044a797744fad2dc45b81",
+    "assets/action.md": "485704570f198d960175cd58d701baa763d6db1141d3d11036838e3c42f7e467",
+    "assets/current.md": "6a6b9e5f964133163e246e6faf34d7a5e5c8c2166309e8ed56b696c456e9e26d",
+    "assets/evidence.md": "6b430b5db3307ca07055094b3b36b9bdf6b753e7abcb406867ac9ee25a085628",
+    "assets/responsibility.md": "ad2f8763e8f62f380997dc9d33b830dc08eedb81876dc5de6b9665b0e1a86d38",
+    "assets/task.toml": "c7532e7d0203f5cf13bfa74b39b8f568448e985f2ae178784716b26fb4f33a5a",
+    "references/evidence.md": "a4956501c3086a9c909dd8cb64f565396d7e8355ba260b90b4ee849337507230",
+    "references/history.md": "ab063d69c35c33f7f8e5fc96db52a0caedc6d3c5da2a742ea05a4a3a8016d4c6",
+    "references/impulse.md": "f329b3825547d8e9f35423e642d9a7ed90365fd9930034d9d584d79350b1625c",
+    "references/scheduling.md": "6a22b48e4f0af92f6966b68efff25732d26b32268b9c4010483c4dd166840ae6",
+    "references/setup.md": "a1d781d3db81a77e6bcabce853b5c3cf404ed99c9749388a805adca55b5e3869",
+    "references/workspace.md": "d18a48e5ef63cbdd78dfa62d5a855a0442d22a00858e5430d500c492958880e9"
+  },
+  "plan": "refinement-plan-2026-09-09.json",
+  "initial_candidate_preserved": "matrix-2026-09-09/bundles/native-tools",
+  "changes": [
+    "Active-brief authority for related work despite ended origin.",
+    "Unknown relative request ordering unless independently established.",
+    "Check explanatory claims and preserve hypotheses/inconclusive outcomes."
+  ]
+}

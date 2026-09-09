@@ -1,5 +1,7 @@
 # Skill repository and evaluation layout
 
+Historical research proposal and v1 implementation notes. The [native-tools revision](native-tools-revision.md) removes runtime helpers and adds a comparison across three native harnesses; the distributed bundle now contains instructions and templates only.
+
 Research-informed proposal, September 8, 2026. The user supplied [Ponytail](https://github.com/DietrichGebert/ponytail) as a reference. Inspected revision: `356918eba965ee1eac64bd3a7f0dd02108350de5`. Framework and runtime remain open; [ADR 0013](adr/0013-use-readable-files-for-durable-history.md) selects readable files for durable history, with exact formats still to be prototyped.
 
 The [source review](research/ponytail-evaluation-patterns.md) checks what the runner and graders actually measure. It identifies gaps in treatment-version pinning, judge input selection, and open-feature completion checks; those limitations accompany the useful patterns below.

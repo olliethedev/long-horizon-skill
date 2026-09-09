@@ -1,0 +1,32 @@
+
+The command exited with code 0.
+Output:
+# large-export: weekly operations, 2026-02-16
+# large-export: weekly operations, 2026-02-23
+# large-export: weekly operations, 2026-03-02
+# large-export: weekly operations, 2026-03-09
+# large-export: weekly operations, 2026-03-16
+# large-export: weekly operations, 2026-03-23
+# large-export: weekly operations, 2026-03-30
+# large-export: weekly operations, 2026-04-06
+# large-export: weekly operations, 2026-04-13
+# large-export: weekly operations, 2026-04-20
+# large-export: weekly operations, 2026-04-27
+# large-export: weekly operations, 2026-05-04
+# large-export: weekly operations, 2026-05-11
+# large-export: weekly operations, 2026-05-18
+# large-export: weekly operations, 2026-05-25
+# large-export: weekly operations, 2026-06-01
+# large-export: weekly operations, 2026-06-08
+# large-export: weekly operations, 2026-06-15
+# large-export: weekly operations, 2026-06-22
+# large-export: weekly operations, 2026-06-29
+# large-export: weekly operations, 2026-07-06
+# large-export: weekly operations, 2026-07-13
+# large-export: weekly operations, 2026-07-20
+# large-export: weekly operations, 2026-07-27
+# large-export: weekly operations, 2026-08-03
+# large-export: weekly operations, 2026-08-10
+# large-export: weekly operations, 2026-08-17
+# large-export: weekly operations, 2026-08-24
+

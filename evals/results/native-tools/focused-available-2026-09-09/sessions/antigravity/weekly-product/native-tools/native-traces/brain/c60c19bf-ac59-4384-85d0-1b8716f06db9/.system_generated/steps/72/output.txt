@@ -1,0 +1,69 @@
+
+The command exited with code 0.
+Output:
+<truncated 11064 lines>
+----------------------------------------
+/workspace/product/history/actions/record-444d780cb3.md :
+# record-444d780cb3: team notifications
+Alias used in the design review: status filters. Local variant: record-cd29ee5f7a.0.3.
+Originating responsibility: client-reliability. Cohort: US enterprise administrators. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-08-07: selection was retained for one workspace but reset when the account changed. The proposed change was to restore selection after account switch.
+Implementation: record-d7f575d387. Deployment/exposure: 2026-08-10, receipt record-da377fe1e4; 15% of eligible production accounts. The original observation is history/evidence/record-df6abe7000.md. Later review: history/evidence/record-2763e4ebb1.md.
+Disposition recorded after the first window: Disabled 2026-08-21, receipt record-5177943478, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-b577d65b70.md :
+# record-b577d65b70: team notifications
+Alias used in the design review: status filters. Local variant: record-8ff9b086a1.0.3.
+Originating responsibility: client-reliability. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-02-27: a refresh replaced a pending selection while its confirmation was open. The proposed change was to delay background refresh until the dialog closes.
+Implementation: record-39e749d907. Deployment/exposure: 2026-03-02, receipt record-1529b6eea5; 10% of eligible production accounts. The original observation is history/evidence/record-8bcf47bae3.md. Later review: history/evidence/record-9306b18708.md.
+Disposition recorded after the first window: Disabled 2026-03-17, receipt record-551fdafc10, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-96e3340db3.md :
+# record-96e3340db3: quiet digest
+Alias used in the design review: Sunday Room. Local variant: record-cd29ee5f7a.15.1.
+Originating responsibility: regional-quality. Cohort: Brazilian free workspaces. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-03-02: the migration counted an inherited preference as an explicit user choice. The proposed change was to split legacy and newly created preference records.
+Implementation: record-f8c03085b3. Deployment/exposure: 2026-03-05, receipt record-68737bf326; 25% of eligible production accounts. The original observation is history/evidence/record-a8e942267c.md. Later review: history/evidence/record-e98e45dc51.md.
+Disposition recorded after the first window: Retained for this cohort after the review on 2026-03-14; no claim is made about the other clients.
+Coordination: the workspace migration was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-3021258055.md :
+# record-3021258055: team notifications
+Alias used in the design review: status filters. Local variant: record-431a358680.11.2.
+Originating responsibility: retained-growth. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-08-01: pending work appeared in the same counter as confirmed completed work. The proposed change was to show separate states for pending and complete.
+Implementation: record-bb5caf0fb1. Deployment/exposure: 2026-08-04, receipt record-a7b86b4e27; 10% of eligible production accounts. The original observation is history/evidence/record-8cc2e77b49.md. Later review: history/evidence/record-e6ced7781b.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-931b5bb6ff.md :
+# record-931b5bb6ff: Sunday Room
+Alias used in the design review: triage facets. Local variant: record-647d99546c.5.3.
+Originating responsibility: client-reliability. Cohort: new Android accounts in Canada. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-03-08: the second confirmation increased exits without additional validation. The proposed change was to remove a redundant intermediate confirmation.
+Implementation: record-b8a4e4096e. Deployment/exposure: 2026-03-11, receipt record-25e485c8dc; 5% of eligible production accounts. The original observation is history/evidence/record-7c6eec1287.md. Later review: history/evidence/record-571e1cc0ad.md.
+Disposition recorded after the first window: Disabled 2026-03-22, receipt record-90f44d2b6c, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-86377bbab8.md :
+# record-86377bbab8: status filters
+Alias used in the design review: Focus Shelf. Local variant: record-b88d0e3215.1.3.
+Originating responsibility: client-reliability. Cohort: returning desktop teams in Germany. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-06-02: the second confirmation increased exits without additional validation. The proposed change was to remove a redundant intermediate confirmation.
+Implementation: record-c2bc611d9b. Deployment/exposure: 2026-06-05, receipt record-61ed1d6b55; 10% of eligible production accounts. The original observation is history/evidence/record-482a79ca4d.md. Later review: history/evidence/record-76d3743f84.md.
+Disposition recorded after the first window: Disabled 2026-06-20, receipt record-45c49b4a50, when the partner migration changed the cohort definition.
+Coordination: the navigation update was excluded from the enrollment list. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+/workspace/product/history/actions/record-1b11eb67f9.md :
+# record-1b11eb67f9: status filters
+Alias used in the design review: Focus Shelf. Local variant: record-562146c9ea.9.2.
+Originating responsibility: retained-growth. Cohort: UK solo contributors on iOS. This action's eligibility is restricted to that population and revision.
+Problem recorded 2026-06-24: a retry was recorded as a new event during a short disconnect. The proposed change was to retain the original event identity through retries.
+Implementation: record-e06ce9ebc4. Deployment/exposure: 2026-06-27, receipt record-edbeded057; 20% of eligible production accounts. The original observation is history/evidence/record-e6dd16bd24.md. Later review: history/evidence/record-92af56de6c.md.
+Disposition recorded after the first window: The comparison remains inconclusive. The implementation stays exposed only in its existing pilot while additional recordings are reviewed.
+Coordination: the payment retry cleanup was active for part of the same week; the analyst retained that limitation. A similarly named change for a different revision requires its own source chain.
+----------------------------------------
+

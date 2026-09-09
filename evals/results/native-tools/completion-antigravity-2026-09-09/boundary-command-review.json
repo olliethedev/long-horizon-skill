@@ -1,0 +1,6 @@
+{
+  "reviewed_native_traces": 3,
+  "flagged_commands": [],
+  "external_scheduling_or_delegation_tools_observed": false,
+  "method": "Reviewed normalized command inputs and preserved outputs. Exact credential scan is a separate artifact."
+}

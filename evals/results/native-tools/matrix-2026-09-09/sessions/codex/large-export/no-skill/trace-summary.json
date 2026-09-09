@@ -1,0 +1,25 @@
+{
+  "harness": "codex",
+  "event_types": [
+    "item.completed",
+    "item.started",
+    "thread.started",
+    "turn.completed",
+    "turn.started"
+  ],
+  "usage_events": [
+    {
+      "type": "turn.completed",
+      "usage": {
+        "input_tokens": 323147,
+        "cached_input_tokens": 266240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4560,
+        "reasoning_output_tokens": 630
+      }
+    }
+  ],
+  "event_count": 45,
+  "errors": [],
+  "initialization": []
+}

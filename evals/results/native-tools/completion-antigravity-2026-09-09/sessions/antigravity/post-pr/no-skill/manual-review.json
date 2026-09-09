@@ -1,0 +1,59 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "3e2f112d757dd157812e6c3cad34041957bc145fedbfc25b1849e6516c7d496d",
+  "criteria": [
+    {
+      "key": "exposure",
+      "verdict": "pass",
+      "reason": "Keeps monitoring open: recorded production 840bead excludes PR 842, and the intended 842cafe canary is queued without exposure. Explicitly leaves production efficacy unverified.",
+      "source_paths_checked": [
+        "history/pull-requests/record-4f1efc746f.md",
+        "history/releases/record-802a8b0629.json",
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "reconcile",
+      "verdict": "pass",
+      "reason": "Uses the same request identity record-54bad5e8e1, forbids duplicate submission, and calls for monitoring its queued-to-deployed transition and real exposure receipt.",
+      "source_paths_checked": [
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "past_evidence",
+      "verdict": "pass",
+      "reason": "Retrieves original PR 781 deployment/rollback, dedicated-worker clean chart and August 12 correction with 31 shared-worker collisions, and distinguishes the dedicated-US PR 831 zero-count correction.",
+      "source_paths_checked": [
+        "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+        "history/evidence/record-567749c82b.md",
+        "history/evidence/record-b5a8ddac8f.md"
+      ]
+    },
+    {
+      "key": "time",
+      "verdict": "pass",
+      "reason": "Keeps ticket submitted_at unknown, identifies age_days=5 as merge age, separately lists ticket import/retrieval and known September 7 old-SHA trace event.",
+      "source_paths_checked": [
+        "history/support/record-a2d078a170.md",
+        "history/evidence/record-fa1b95eae5.json"
+      ]
+    },
+    {
+      "key": "coordination",
+      "verdict": "pass",
+      "reason": "Identifies routing record-f44834cc2c and planned overlapping EU shared canary; requires actual exposure reconciliation and appropriate shared-EU metrics only after deployment.",
+      "source_paths_checked": [
+        "history/coordination/record-7b1da28762.md",
+        "history/evidence/record-567749c82b.md"
+      ]
+    }
+  ],
+  "review_notes": "Independent evaluator read the full decision against all original criterion sources and the original chart/retained brief. This completion cell uses exact initial snapshot and candidate bytes. It makes no PR 842 efficacy claim, retains unknown ticket time, respects current authority, and coordinates actual shared-EU exposure. No distinct post-PR failure found.",
+  "non_material_accuracy_notes": [
+    "The uncertainty paragraph attaches the ticket import timestamp to the trace being imported into support systems; only ticket import is supplied. The earlier detailed field listing correctly separates them.",
+    "Adds 2026 to some month/day-only source records; those years are inferred from context.",
+    "The decision date uses the product brief date September 8, while the actual native session occurred September 9. Its stated release observation is correctly bounded to September 8 09:12."
+  ]
+}

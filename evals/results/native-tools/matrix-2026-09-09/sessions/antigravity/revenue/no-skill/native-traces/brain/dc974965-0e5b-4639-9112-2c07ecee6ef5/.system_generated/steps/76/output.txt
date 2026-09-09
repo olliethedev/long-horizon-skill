@@ -1,0 +1,8 @@
+{"File":"/workspace/product/history/support/record-b76a3420b2.md","LineNumber":2,"LineContent":"Subject: Harbor"}
+{"File":"/workspace/product/history/support/record-b76a3420b2.md","LineNumber":6,"LineContent":"Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/support/record-a7bcd6c7b9.md","LineNumber":2,"LineContent":"Subject: Harbor"}
+{"File":"/workspace/product/history/support/record-a7bcd6c7b9.md","LineNumber":6,"LineContent":"Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/support/record-3434c3a314.md","LineNumber":2,"LineContent":"Subject: Harbor"}
+{"File":"/workspace/product/history/support/record-3434c3a314.md","LineNumber":6,"LineContent":"Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}
+{"File":"/workspace/product/history/support/record-dba5ea7455.md","LineNumber":2,"LineContent":"Subject: Harbor"}
+{"File":"/workspace/product/history/support/record-dba5ea7455.md","LineNumber":6,"LineContent":"Customer: We use harbor when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page."}

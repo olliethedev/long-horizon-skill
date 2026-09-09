@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+No originating responsibility: /workspace/product/history/actions/record-7c21733985.md
+# record-7c21733985: Async Ledger
+Aliases: background full ledger export; async workspace dump. Deployed August 25 at 09:00 UTC, receipt record-b1caa17787. Exposure: all paid US and EU workspaces, CSV and NDJSON. Moves Ledger Ferry work into a background worker. Signed URLs currently expire 15 minutes after job creation. The delivery smoke fixture had 50,000 rows and passed. No 1M+ result attached to the deployment.
+---
+No originating responsibility: /workspace/product/history/retired/data-portability/actions/record-c0268a81ef.md
+# record-c0268a81ef: Ledger Ferry
+Aliases: full ledger export; workspace dump; streaming export. CSV chunked response implemented and deployed June 24, receipt record-ad0b739a98. Served paid US and EU accounts. The implementation existed before the later asynchronous job work. Benchmark record-e617de6a9e reported complete exports at 10,000 rows.
+---
+

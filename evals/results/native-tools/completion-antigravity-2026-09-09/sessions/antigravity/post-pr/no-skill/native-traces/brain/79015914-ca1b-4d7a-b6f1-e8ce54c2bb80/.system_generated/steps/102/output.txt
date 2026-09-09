@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+total 52
+drwxr-xr-x 2 deck deck  4096 Sep  9 15:25 .
+drwxr-xr-x 4 deck deck  4096 Sep  9 15:25 ..
+-rw-r--r-- 1 deck deck 43949 Sep  9 15:27 antigravity.log
+

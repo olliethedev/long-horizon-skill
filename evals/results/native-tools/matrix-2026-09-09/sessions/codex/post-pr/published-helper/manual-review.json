@@ -1,0 +1,55 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "0a61d5c8f40cc623dfcd4d291be52a382f726d84e18dc5d030225a1b0f2e2850",
+  "criteria": [
+    {
+      "key": "exposure",
+      "verdict": "pass",
+      "reason": "Keeps the monitor open and separates merged 842cafe/CI from production 840bead excluding PR 842 and the queued canary without exposure; refuses any effectiveness conclusion.",
+      "source_paths_checked": [
+        "history/pull-requests/record-4f1efc746f.md",
+        "history/releases/record-802a8b0629.json",
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "reconcile",
+      "verdict": "pass",
+      "reason": "Reconciles the existing request record-54bad5e8e1 before retry, rejects timeout as failure, and requires supported same-identity/same-input semantics and actual operation state.",
+      "source_paths_checked": [
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "past_evidence",
+      "verdict": "pass",
+      "reason": "Retrieves PR 781 deployment and July 27 rollback, original dedicated-worker chart and corrected 31 shared-worker collisions; separates the later PR 831 dedicated-US zero-count correction.",
+      "source_paths_checked": [
+        "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+        "history/evidence/record-567749c82b.md",
+        "history/evidence/record-b5a8ddac8f.md"
+      ]
+    },
+    {
+      "key": "time",
+      "verdict": "pass",
+      "reason": "Preserves submitted_at as unknown, separately records import/retrieval and exact trace event, and explains age_days=5 measures merge age. The old-SHA collision neither dates the ticket nor judges PR 842.",
+      "source_paths_checked": [
+        "history/support/record-a2d078a170.md",
+        "history/evidence/record-fa1b95eae5.json"
+      ]
+    },
+    {
+      "key": "coordination",
+      "verdict": "pass",
+      "reason": "Identifies routing action record-f44834cc2c and its planned, unconfirmed overlapping EU shared canary; calls for real exposure, membership, routing strata and meaningful shared-EU post-deployment monitoring.",
+      "source_paths_checked": [
+        "history/coordination/record-7b1da28762.md",
+        "history/evidence/record-567749c82b.md"
+      ]
+    }
+  ],
+  "review_notes": "Independent evaluator read the entire decision and all criterion sources, plus the original PR 781 chart and retained/active briefs and handoff. It preserves missing source years, confines current-state claims to the supplied lookup, asks to verify shared-tenant canary coverage, and records incomplete broad search coverage without overstating it. No invented authority restriction, outcome threshold, causal proof, or material contradiction found.",
+  "non_material_accuracy_notes": []
+}

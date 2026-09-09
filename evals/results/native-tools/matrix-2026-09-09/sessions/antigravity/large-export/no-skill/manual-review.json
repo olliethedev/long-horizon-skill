@@ -1,0 +1,60 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "Repeatedly states both tickets postdate deployment even though the first submitted_at is null; its import date and a plausibly related later job do not establish request time.",
+    "Claims cursor offset handling on checkpoint resume drops rows and directs an inclusive-boundary/composite-key fix. The evidence records a shortfall and resume warning but does not establish that causal mechanism."
+  ],
+  "non_material_accuracy_notes": [
+    "Adds 2026 to historical dates whose sources omit the year.",
+    "Invents that the 50k smoke jobs finish well below 900 seconds and rarely checkpoint; those measurements are not supplied.",
+    "Says the URL change resolves HTTP403 regardless of worker duration; this is too broad for other possible authorization failures."
+  ],
+  "decision_sha256": "cc36658ded48e0cd391ab4d87b84128f722c909fc93a7c5ddbeb408a314efd3e",
+  "criteria": [
+    {
+      "key": "delivered",
+      "verdict": "pass",
+      "reason": "Recovers both streaming and async deliveries with paid US/EU exposure, original 10k benchmark correction and later 50k smoke limits, preserving the delivered capability.",
+      "source_paths_checked": [
+        "history/retired/data-portability/actions/record-c0268a81ef.md",
+        "history/actions/record-7c21733985.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "fail",
+      "reason": "Explicitly preserves null in one section but also states The tickets postdate the August 25 rollout and Both tickets postdate the deployment. Those relative date claims are unsupported.",
+      "source_paths_checked": [
+        "history/support/record-b851997b7c.json"
+      ]
+    },
+    {
+      "key": "large_scale",
+      "verdict": "pass",
+      "reason": "Correctly distinguishes the 1.8M CSV expired-link job with complete output from the 2.1M NDJSON 60,559-row discrepancy; neither small-fixture check resolves those observations.",
+      "source_paths_checked": [
+        "history/evidence/record-eb2ad86fcb.json",
+        "history/evidence/record-6a8741fe3b.json",
+        "history/evidence/record-1a7eb091b1.md"
+      ]
+    },
+    {
+      "key": "correction_scope",
+      "verdict": "pass",
+      "reason": "Limits the parity correction to small US CSV jobs and preserves its explicit exclusions; does not infer individual job regions.",
+      "source_paths_checked": [
+        "history/evidence/record-d46f9580f1.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Keeps both tickets open and proposes large CSV/NDJSON and forced-checkpoint verification while retaining the terminated responsibility history. Unsupported diagnosis is judged separately.",
+      "source_paths_checked": [
+        "history/retired/data-portability/brief.md",
+        "history/support/record-b851997b7c.json"
+      ]
+    }
+  ],
+  "review_notes": "Root read the complete decision and required source chains. Criterion coverage is separate from source-backed semantic success. The pre-execution geography clarification applies uniformly; individual job regions are unobservable. Missing benchmark retrieval is explicitly recorded rather than repaired by another arm."
+}

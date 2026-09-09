@@ -1,0 +1,107 @@
+
+The command exited with code 0.
+Output:
+<truncated 470 lines>
+
+/workspace/product/history/actions/record-26ed5c3c63.md
+4:Problem recorded 2026-04-13: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-0570d7821c.md
+4:Problem recorded 2026-06-06: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-2c7c023318.md
+4:Problem recorded 2026-06-24: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-7ab2f7fdd3.md
+4:Problem recorded 2026-03-09: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-9d7ba717b4.md
+4:Problem recorded 2026-06-22: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-4b2e475e5d.md
+4:Problem recorded 2026-04-23: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-3bbaa07fac.md
+4:Problem recorded 2026-05-19: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-f95f466c7a.md
+4:Problem recorded 2026-07-29: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-60c1540d21.md
+4:Problem recorded 2026-06-04: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-833c0c328f.md
+4:Problem recorded 2026-04-07: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-91e3338e0f.md
+4:Problem recorded 2026-04-13: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-ab60e62827.md
+4:Problem recorded 2026-05-06: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-b0c57c14eb.md
+4:Problem recorded 2026-03-15: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-3fc15dad8c.md
+4:Problem recorded 2026-07-08: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-9d2e88ca88.md
+4:Problem recorded 2026-08-03: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-9b3bf4b2be.md
+4:Problem recorded 2026-03-30: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-9819578db1.md
+4:Problem recorded 2026-06-06: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-2f056ef7e8.md
+4:Problem recorded 2026-04-15: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-430560499c.md
+4:Problem recorded 2026-06-12: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/evidence/record-6a8741fe3b.json
+1:{"id":"record-6a8741fe3b","action":"record-7c21733985","observed_at":"2026-09-06T14:10:00Z","workspace":"record-c81238c2b3","format":"ndjson","expected_rows":2100000,"worker_complete_seconds":844,"worker_output_rows":2039441,"download_status":200,"warning":"account relation scan resumed after cursor checkpoint"}
+
+/workspace/product/history/actions/record-d045a09b22.md
+4:Problem recorded 2026-05-01: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-0a87d5c3a9.md
+4:Problem recorded 2026-07-29: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-0e9ef18264.md
+4:Problem recorded 2026-05-27: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-4190e1a79f.md
+4:Problem recorded 2026-07-05: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-c7a73cd639.md
+4:Problem recorded 2026-05-19: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-8211a1933b.md
+4:Problem recorded 2026-07-18: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-9502b78541.md
+4:Problem recorded 2026-04-21: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-c7ca9ffd90.md
+4:Problem recorded 2026-03-10: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-47a5bb0767.md
+4:Problem recorded 2026-06-27: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-b0c168d195.md
+4:Problem recorded 2026-03-02: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/evidence/record-d46f9580f1.md
+2:Dated September 7. Corrects the record-7c21733985 missing-row dashboard for US CSV jobs under 100,000 rows: counts included archived records excluded by documented customer selection. Corrected parity is 100%. The review excludes NDJSON, record-6a8741fe3b, EU workspaces, and URL-expiry failures.
+
+/workspace/product/history/evidence/record-e617de6a9e.md
+2:Observed July 2, CSV, 10,000-row fixture, record-c0268a81ef. Completed in 7.8 seconds with exact row parity. Original team summary called this 'large export passed'; the fixture itself was 10,000 rows.
+
+/workspace/product/history/actions/record-2915790a29.md
+4:Problem recorded 2026-02-22: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+
+/workspace/product/history/actions/record-ba8f19768c.md
+4:Problem recorded 2026-04-28: resuming after an interrupted connection repeated the previous page. The proposed change was to preserve the last completed checkpoint.
+

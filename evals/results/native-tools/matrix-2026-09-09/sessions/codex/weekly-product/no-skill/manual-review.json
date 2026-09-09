@@ -1,0 +1,53 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "53278432f2bb0319caa5d8b92d62fc2a60795dc486222a987272fc6bf8b462f1",
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "pass",
+      "reason": "Retains the enterprise-desktop rollout and rollback, corrects usage to 28%, distinguishes the later asynchronous desktop release and 21% cohort, and explicitly preserves the unserved Android need.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "pass",
+      "reason": "Explains administrator delivery versus the unmigrated legacy contributor path; the newer administrator sample does not revise the contributor audit.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Labels the contributor request date unknown and rejects using age_days=20 as ticket age or proof of post-fix timing.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Cites the retained notification-reset brief and keeps it terminated while using its evidence in the continuing product responsibility.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Chooses targeted contributor-preference reproduction and reversible repair with explicit-choice safeguards, simulated cadence checks and a later real delivery window; keeps Android as an unserved future candidate rather than repeating desktop or administrator implementation.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "review_notes": "Root read the full decision and checked all criterion sources plus original/later desktop usage evidence and the handoff. No material contradiction found. It does not equate 63 sampled contributors with prevalence or fresh tickets, qualifies the current complaint’s cause/channel, preserves unknown historical years, and labels proposed acceptance criteria and checkpoints as future work."
+}

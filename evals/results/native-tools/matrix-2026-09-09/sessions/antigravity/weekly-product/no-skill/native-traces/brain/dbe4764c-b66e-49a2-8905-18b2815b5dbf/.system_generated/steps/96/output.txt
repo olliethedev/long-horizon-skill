@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+history/evidence/record-dfcc7fb912.md
+history/evidence/record-f233630dab.md
+history/releases/record-b9a1361197.md
+

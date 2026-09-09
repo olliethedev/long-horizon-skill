@@ -1,0 +1,40 @@
+
+The command exited with code 0.
+Output:
+total 140
+drwxr-xr-x 2 deck deck 4096 Sep  9 14:25 .
+drwxr-xr-x 8 deck deck 4096 Sep  9 14:25 ..
+-rw-r--r-- 1 deck deck  510 Sep  9 14:25 record-039e1c2c29.md
+-rw-r--r-- 1 deck deck  513 Sep  9 14:25 record-049ff894ee.md
+-rw-r--r-- 1 deck deck  512 Sep  9 14:25 record-063e593f7b.md
+-rw-r--r-- 1 deck deck  518 Sep  9 14:25 record-09e6d3e3c7.md
+-rw-r--r-- 1 deck deck  506 Sep  9 14:25 record-0b14b53324.md
+-rw-r--r-- 1 deck deck  521 Sep  9 14:25 record-1269a74dad.md
+-rw-r--r-- 1 deck deck  521 Sep  9 14:25 record-18b5d7e755.md
+-rw-r--r-- 1 deck deck  516 Sep  9 14:25 record-2948eeb225.md
+-rw-r--r-- 1 deck deck  523 Sep  9 14:25 record-30f28af922.md
+-rw-r--r-- 1 deck deck  501 Sep  9 14:25 record-324df68a24.md
+-rw-r--r-- 1 deck deck  519 Sep  9 14:25 record-33c56e29ef.md
+-rw-r--r-- 1 deck deck  530 Sep  9 14:25 record-477b82f835.md
+-rw-r--r-- 1 deck deck  522 Sep  9 14:25 record-491922524e.md
+-rw-r--r-- 1 deck deck  518 Sep  9 14:25 record-54305e9ca6.md
+-rw-r--r-- 1 deck deck  519 Sep  9 14:25 record-5abca4e478.md
+-rw-r--r-- 1 deck deck  522 Sep  9 14:25 record-66e980ad49.md
+-rw-r--r-- 1 deck deck  520 Sep  9 14:25 record-681240b4ce.md
+-rw-r--r-- 1 deck deck  516 Sep  9 14:25 record-6d64b42cc1.md
+-rw-r--r-- 1 deck deck  522 Sep  9 14:25 record-9563bef1a1.md
+-rw-r--r-- 1 deck deck  515 Sep  9 14:25 record-ab358350e0.md
+-rw-r--r-- 1 deck deck  525 Sep  9 14:25 record-ae56a5e641.md
+-rw-r--r-- 1 deck deck  526 Sep  9 14:25 record-b059c7b385.md
+-rw-r--r-- 1 deck deck  528 Sep  9 14:25 record-b7ffc387b3.md
+-rw-r--r-- 1 deck deck  688 Sep  9 14:25 record-b851997b7c.json
+-rw-r--r-- 1 deck deck  513 Sep  9 14:25 record-ba64d057a0.md
+-rw-r--r-- 1 deck deck  528 Sep  9 14:25 record-bb57afb4f0.md
+-rw-r--r-- 1 deck deck  513 Sep  9 14:25 record-e6b3997b0a.md
+-rw-r--r-- 1 deck deck  519 Sep  9 14:25 record-eda70ccb4d.md
+-rw-r--r-- 1 deck deck  527 Sep  9 14:25 record-f2d6f808a9.md
+-rw-r--r-- 1 deck deck  519 Sep  9 14:25 record-f68bcec839.md
+-rw-r--r-- 1 deck deck  525 Sep  9 14:25 record-f875562643.md
+-rw-r--r-- 1 deck deck  503 Sep  9 14:25 record-f89f5c0a43.md
+-rw-r--r-- 1 deck deck  504 Sep  9 14:25 record-f962439f15.md
+

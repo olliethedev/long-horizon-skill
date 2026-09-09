@@ -1,0 +1,1 @@
+Read /workspace/product/note.txt using a local tool, then use a local tool to write its exact single line to /workspace/work/decision.md. Finish by stating the file path. Use only these local files; do not contact external services or inspect credentials.

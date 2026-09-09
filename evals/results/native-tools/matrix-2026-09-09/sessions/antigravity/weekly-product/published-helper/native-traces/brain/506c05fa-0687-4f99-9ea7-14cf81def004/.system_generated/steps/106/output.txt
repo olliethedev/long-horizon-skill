@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+{"matches":[{"path":"history/retired/notification-reset/actions/record-8f6b82ec51.md","line":2,"offset":33,"text":"eployed July 12, receipt record-d4f34a4dc1. Workspace administrators could select weekly instead of daily email. The UI copy said 'team digest'; contributor-level legacy daily subscriptions were not migrated by this change."}],"next_cursor":null,"version":"5589953d447a0dfa38d1c20ab9d44f9e86625ce400a4871355fd3f5090487151","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
+

@@ -1,0 +1,37 @@
+
+The command exited with code 0.
+Output:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            31G     0   31G   0% /
+/dev/nvme0n1p5  5.0G  4.0G  382M  92% /usr
+tmpfs            31G     0   31G   0% /dev
+dev              31G     0   31G   0% /dev/tty
+tmpfs            31G  456K   31G   1% /tmp
+run              31G  2.6M   31G   1% /etc/resolv.conf
+overlay         230M   61M  153M  29% /etc/ssl
+/dev/nvme0n1p8  1.9T 1004G  844G  55% /opt/harness
+tmpfs on / type tmpfs (rw,nosuid,nodev,relatime,uid=1000,gid=1000,inode64)
+/dev/nvme0n1p5 on /usr type btrfs (ro,nosuid,nodev,relatime,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/)
+tmpfs on /dev type tmpfs (rw,nosuid,nodev,relatime,mode=755,uid=1000,gid=1000,inode64)
+dev on /dev/null type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+dev on /dev/zero type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+dev on /dev/full type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+dev on /dev/random type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+dev on /dev/urandom type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+dev on /dev/tty type devtmpfs (rw,nosuid,relatime,size=31664732k,nr_inodes=7916183,mode=755,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,mode=620,ptmxmode=666)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,relatime,mode=755,uid=1000,gid=1000,inode64)
+run on /etc/resolv.conf type tmpfs (ro,nosuid,nodev,relatime,mode=755,inode64)
+overlay on /etc/hosts type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+overlay on /etc/nsswitch.conf type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+overlay on /etc/passwd type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+overlay on /etc/group type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+overlay on /etc/ssl type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+overlay on /etc/ca-certificates type overlay (ro,nosuid,nodev,relatime,lowerdir=/new_root/etc,upperdir=/new_root/var/lib/overlays/etc/upper,workdir=/new_root/var/lib/overlays/etc/work)
+/dev/nvme0n1p8 on /opt/harness type ext4 (ro,nosuid,nodev,relatime)
+/dev/nvme0n1p8 on /eval-home type ext4 (rw,nosuid,nodev,relatime)
+/dev/nvme0n1p8 on /workspace type ext4 (rw,nosuid,nodev,relatime)
+/dev/nvme0n1p8 on /workspace/product type ext4 (ro,nosuid,nodev,relatime)
+/dev/nvme0n1p8 on /workspace/skill type ext4 (ro,nosuid,nodev,relatime)
+

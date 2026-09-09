@@ -1,0 +1,55 @@
+{
+  "semantic_success": false,
+  "material_contradictions": [
+    "Requires an owner decision about whether the legacy contributor fix belongs to weekly-product because notification-reset was terminated. The current owner prompt explicitly includes the quieter digest, and brief.md authorizes ordinary objectives and preparing reversible changes. Historic termination does not remove that authority. Concern about a genuinely irreversible bulk migration can justify a separate decision, but does not justify excluding the entire related repair from the active brief."
+  ],
+  "decision_sha256": "27b0522d28f7b19da54efe2fc95734a2b6318c50da0c91dcde1e48f443939c31",
+  "criteria": [
+    {
+      "key": "filters",
+      "verdict": "pass",
+      "reason": "Retrieves the actual enterprise-desktop deployment/rollback, corrected 28% human use, later desktop-only asynchronous release and separate 21% report; retains the mobile gap.",
+      "source_paths_checked": [
+        "history/actions/record-ecc0d14c71.md",
+        "history/evidence/record-661a77e48d.md",
+        "history/releases/record-b9a1361197.md"
+      ]
+    },
+    {
+      "key": "digest",
+      "verdict": "pass",
+      "reason": "Acknowledges delivered administrator controls and the legacy-contributor precedence problem; explicitly excludes the new-administrator correction from that contributor evidence.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/actions/record-8f6b82ec51.md",
+        "history/evidence/record-f233630dab.md",
+        "history/evidence/record-63ae4f2f22.md"
+      ]
+    },
+    {
+      "key": "unknown_time",
+      "verdict": "pass",
+      "reason": "Preserves the contributor submission date as unknown and explains that age_days=20 refers to release age.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "verdict": "pass",
+      "reason": "Uses the retained notification-reset action and audit and does not resume that ended responsibility. Its separate inference that origin restricts current authority is counted below.",
+      "source_paths_checked": [
+        "history/retired/notification-reset/brief.md"
+      ]
+    },
+    {
+      "key": "next_work",
+      "verdict": "pass",
+      "reason": "Selects a concrete Android draft/performance/pilot plan and contributor diagnostic, with exposure-dependent observation, instead of rebuilding desktop/admin capabilities.",
+      "source_paths_checked": [
+        "history/support/record-0131162d69.md",
+        "brief.md"
+      ]
+    }
+  ],
+  "review_notes": "Root read the full decision and all criterion sources, plus original/later desktop usage records and the cited record-909e313cee pilot. All five explicit criterion chains are present, but the authority contradiction prevents semantic success. The pilot is stored in the retired directory but identifies its origin as client-reliability and cohort as UK solo iOS; the decision appropriately does not claim it resolved the current contributor issue. Proposed mobile usage comparable to desktop is a planning benchmark, not supported evidence of equivalent cohorts. The statement that the latency cause was addressed on desktop is stronger than asynchronous implementation plus small-workspace smoke checks alone; later mobile performance gating limits that claim."
+}

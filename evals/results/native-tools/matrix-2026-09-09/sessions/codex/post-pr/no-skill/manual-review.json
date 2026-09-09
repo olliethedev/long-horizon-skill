@@ -1,0 +1,55 @@
+{
+  "semantic_success": true,
+  "material_contradictions": [],
+  "decision_sha256": "bec2201d15243dca5823973bae911adf7a478343a764a57a6537111ecf315ae4",
+  "criteria": [
+    {
+      "key": "exposure",
+      "verdict": "pass",
+      "reason": "Keeps PR 842 monitor active: merged/CI passed is distinct from production 840bead excluding 842 and queued 5% EU canary with no exposure. Makes no effectiveness claim.",
+      "source_paths_checked": [
+        "history/pull-requests/record-4f1efc746f.md",
+        "history/releases/record-802a8b0629.json",
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "reconcile",
+      "verdict": "pass",
+      "reason": "Makes reconciliation of existing request record-54bad5e8e1 the next action, explicitly forbids duplicate release due to timeout, and requires partial-effect reconciliation before any later retry.",
+      "source_paths_checked": [
+        "history/actions/record-54bad5e8e1.md"
+      ]
+    },
+    {
+      "key": "past_evidence",
+      "verdict": "pass",
+      "reason": "Retrieves original PR 781 deployment and July 27 rollback, original dedicated-worker chart, August 12 shared-worker 31-collision correction, and September 7 dedicated-US PR 831 zero-count correction; keeps mechanisms/cohorts separate.",
+      "source_paths_checked": [
+        "history/retired/queue-sentinel/actions/record-f09cf4270b.md",
+        "history/evidence/record-567749c82b.md",
+        "history/evidence/record-b5a8ddac8f.md"
+      ]
+    },
+    {
+      "key": "time",
+      "verdict": "pass",
+      "reason": "Preserves ticket submission as unknown, separately gives import/retrieval times and exact September 7 trace event, and states age_days 5 means time since PR 842 merge.",
+      "source_paths_checked": [
+        "history/support/record-a2d078a170.md",
+        "history/evidence/record-fa1b95eae5.json"
+      ]
+    },
+    {
+      "key": "coordination",
+      "verdict": "pass",
+      "reason": "Identifies routing action record-f44834cc2c, overlap with EU shared workers and planned September 8 noon without assuming execution; calls for actual exposure/membership coordination and shared-EU monitoring only after deployment.",
+      "source_paths_checked": [
+        "history/coordination/record-7b1da28762.md",
+        "history/evidence/record-567749c82b.md"
+      ]
+    }
+  ],
+  "review_notes": "Independent evaluator read the entire decision and all criterion sources, plus the original PR 781 clean chart, retained responsibility brief, active brief and current handoff. The decision distinguishes submission timeout from customer retry timeout, preserves missing source years, limits one trace to one observed old-revision collision, and leaves observation thresholds unresolved. No material contradiction found.",
+  "non_material_accuracy_notes": []
+}

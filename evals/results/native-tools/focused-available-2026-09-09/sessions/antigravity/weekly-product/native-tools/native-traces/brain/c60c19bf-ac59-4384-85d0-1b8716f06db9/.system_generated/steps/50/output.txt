@@ -1,0 +1,142 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+Cohort: new Android accounts in Canada
+Submitted: 2026-04-01
+Imported: 2026-04-03
+Customer: We use task drawer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-a96fb7976d.md ===
+# Customer conversation 8120
+Subject: triage facets
+Cohort: US enterprise administrators
+Submitted: unknown
+Imported: 2026-06-12
+Customer: We use triage facets when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-ac2b4422a4.md ===
+# Customer conversation 8107
+Subject: Sunday Room
+Cohort: returning desktop teams in Germany
+Submitted: 2026-04-06
+Imported: 2026-04-08
+Customer: We use sunday room when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-bafd22c326.md ===
+# Customer conversation 8127
+Subject: team notifications
+Cohort: UK solo contributors on iOS
+Submitted: 2026-07-15
+Imported: 2026-07-17
+Customer: We use team notifications when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-be44ba8a3d.md ===
+# Customer conversation 8122
+Subject: task drawer
+Cohort: Brazilian free workspaces
+Submitted: 2026-06-20
+Imported: 2026-06-22
+Customer: We use task drawer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-c543ed9ce2.md ===
+# Customer conversation 8111
+Subject: team notifications
+Cohort: internal QA accounts in staging
+Submitted: 2026-04-26
+Imported: 2026-04-28
+Customer: We use team notifications when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-c91515118e.md ===
+# Customer conversation 8123
+Subject: Sunday Room
+Cohort: internal QA accounts in staging
+Submitted: 2026-06-25
+Imported: 2026-06-27
+Customer: We use sunday room when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-ccd03392fb.md ===
+# Customer conversation 8109
+Subject: weekly note
+Cohort: UK solo contributors on iOS
+Submitted: 2026-04-16
+Imported: 2026-04-18
+Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-d4a055964c.md ===
+# Customer conversation 8102
+Subject: quiet digest
+Cohort: US enterprise administrators
+Submitted: 2026-03-12
+Imported: 2026-03-14
+Customer: We use quiet digest when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-dbd6d6d600.md ===
+# Customer conversation 8114
+Subject: task drawer
+Cohort: US enterprise administrators
+Submitted: 2026-05-11
+Imported: 2026-05-13
+Customer: We use task drawer when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-e1fa35bd27.md ===
+# Customer conversation 8116
+Subject: status filters
+Cohort: Brazilian free workspaces
+Submitted: 2026-05-21
+Imported: 2026-05-23
+Customer: We use status filters when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-e283c8187a.md ===
+# Customer conversation 8104
+Subject: triage facets
+Cohort: Brazilian free workspaces
+Submitted: 2026-03-22
+Imported: 2026-03-24
+Customer: We use triage facets when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-e314fd8389.md ===
+# Customer conversation 8125
+Subject: weekly note
+Cohort: returning desktop teams in Germany
+Submitted: unknown
+Imported: 2026-07-07
+Customer: We use weekly note when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+=== /workspace/product/history/support/record-eb124697c0.md ===
+# Customer conversation 8121
+Subject: Focus Shelf
+Cohort: UK solo contributors on iOS
+Submitted: 2026-06-15
+Imported: 2026-06-17
+Customer: We use focus shelf when reviewing our team's Monday work. The wording and order are less predictable after switching workspaces. We can finish the task, but we would like the state to remain visible when returning to the page.
+Support: Could you share the workspace size and the client version?
+Resolution: awaiting the customer's reproduction details; no deployment claim.
+
+

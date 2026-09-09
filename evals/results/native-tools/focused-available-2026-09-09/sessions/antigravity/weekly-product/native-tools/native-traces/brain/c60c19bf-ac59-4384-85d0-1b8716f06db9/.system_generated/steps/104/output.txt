@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+Root dirs: ['product', 'skill', 'work'] files: []
+Product dirs: ['history'] files: ['brief.md', 'current.md']
+Work files: ['antigravity.log']
+

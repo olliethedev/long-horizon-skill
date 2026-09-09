@@ -1,0 +1,1 @@
+Wrote the [dated recommendation](/workspace/work/decision.md): choose Harbor H2 for the next experiment; decline Quiet Return’s cosmetic refresh. It includes prior actions, applicable corrections, source citations, next evidence needed, and preserved unknown dates.
