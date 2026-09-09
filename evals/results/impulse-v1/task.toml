@@ -1,0 +1,12 @@
+schema_version = 1
+name = "long-horizon-integration"
+cwd = "."
+[work]
+kind = "script"
+command = ["/usr/bin/python3", "/home/deck/Projects/long-horizon/evals/impulse_integration.py", "--worker", "/tmp/long-horizon-impulse-sd_qjrgy", "--impulse", "/home/deck/.local/bin/impulse"]
+[first_run]
+kind = "now"
+[notifications]
+on_success = false
+on_failure = false
+on_interruption = false

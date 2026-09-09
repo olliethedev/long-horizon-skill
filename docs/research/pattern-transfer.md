@@ -1,6 +1,6 @@
 # Patterns to transfer from existing Impulse tasks
 
-Source inspection: September 8, 2026. The user explicitly requested using the Google indexing and Biomogging report tasks as prototype references. Sources were read; existing tasks, their ledgers, and publications were not changed. Prototype inputs are synthetic.
+Source inspection: September 8, 2026. The user explicitly requested using the Google indexing and Biomogging report tasks as prototype references. Sources were read; existing tasks, their ledgers, and publications were not changed. Prototype inputs are synthetic. The local source links below identify inspected sibling projects; those operational projects and their data are not included in this repository.
 
 ## Observed patterns and candidate trials
 

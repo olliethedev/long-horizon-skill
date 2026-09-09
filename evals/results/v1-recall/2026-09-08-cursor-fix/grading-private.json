@@ -1,0 +1,44 @@
+{
+  "revenue": [
+    {
+      "key": "quiet_return",
+      "description": "Reject unchanged R7 repeat using finance-742's net-revenue harm; finance-819 is another cohort/action.",
+      "sources": [
+        "history/evidence/finance-742.md",
+        "history/evidence/finance-819.md"
+      ]
+    },
+    {
+      "key": "harbor",
+      "description": "Treat H1 as inconclusive after audit-790 and H2 as a defensible new test due to the repaired reset, without claiming proven benefit.",
+      "sources": [
+        "history/evidence/audit-790.md",
+        "history/design/offer-candidates.md"
+      ]
+    },
+    {
+      "key": "actual_actions",
+      "description": "Preserve both actual rollbacks despite corrected interpretations.",
+      "sources": [
+        "history/retired/summer-offers/actions/rev-208.md",
+        "history/actions/rev-219.md"
+      ]
+    },
+    {
+      "key": "retained_origin",
+      "description": "Use summer-offers evidence while leaving its terminated responsibility ended.",
+      "sources": [
+        "history/retired/summer-offers/brief.md",
+        "history/retired/summer-offers/actions/rev-208.md"
+      ]
+    },
+    {
+      "key": "next_evidence",
+      "description": "Choose at most one next experiment and obtain fresh refund-adjusted evidence before adoption.",
+      "sources": [
+        "brief.md",
+        "history/design/offer-candidates.md"
+      ]
+    }
+  ]
+}

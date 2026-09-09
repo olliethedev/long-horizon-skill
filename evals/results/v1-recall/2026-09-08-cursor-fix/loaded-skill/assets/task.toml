@@ -1,0 +1,13 @@
+schema_version = 1
+name = "long-horizon-responsibility"
+cwd = "../.."
+[work]
+kind = "agent"
+instructions = "Use $long-horizon to continue the agreed responsibility in responsibility/brief.md. Reconstruct actual state from responsibility/current.md and linked evidence. Perform authorized work, preserve history, confirm continuation or disable future work as appropriate, and report this assignment's outcome with impulse agent finish."
+[first_run]
+kind = "after"
+delay = "1h"
+[policy]
+overlap = "skip"
+[retention]
+history = "forever"

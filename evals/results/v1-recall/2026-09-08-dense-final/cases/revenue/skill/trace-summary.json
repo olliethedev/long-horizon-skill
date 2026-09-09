@@ -1,0 +1,21 @@
+{
+  "usage_events": [
+    {
+      "input_tokens": 30502,
+      "cached_input_tokens": 27904,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 565,
+      "reasoning_output_tokens": 355
+    }
+  ],
+  "command_count": 0,
+  "commands": [],
+  "failed_commands": [],
+  "possible_boundary_attempts_for_manual_review": [],
+  "cli_output_truncation_markers": 0,
+  "errors": [],
+  "agent_messages": [
+    "I’ll read the handoff and the long-horizon skill, then trace the local evidence for both offers and write a dated recommendation with source citations.\n",
+    "The workspace tool fails with `failed to spawn code-mode host /opt/codex-code-mode-host`, so I couldn’t read the skill or retained evidence, or create `/workspace/work/decision.md`.\n\nPlease restore workspace tool access so I can complete the review. No files were changed."
+  ]
+}

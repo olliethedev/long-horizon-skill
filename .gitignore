@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 PROTOTYPE-WIPE-ME/
+.venv/
+.mypy_cache/
+evals/runs/
+dist/

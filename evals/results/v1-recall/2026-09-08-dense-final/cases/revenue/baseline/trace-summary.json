@@ -1,0 +1,21 @@
+{
+  "usage_events": [
+    {
+      "input_tokens": 30398,
+      "cached_input_tokens": 22784,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 434,
+      "reasoning_output_tokens": 247
+    }
+  ],
+  "command_count": 0,
+  "commands": [],
+  "failed_commands": [],
+  "possible_boundary_attempts_for_manual_review": [],
+  "cli_output_truncation_markers": 0,
+  "errors": [],
+  "agent_messages": [
+    "I’ll start with brief.md and current.md, then trace the retained evidence for both offers and write a dated recommendation.\n",
+    "I couldn’t read the local snapshot or write `/workspace/work/decision.md`: the execution tool failed twice because `/opt/codex-code-mode-host` is missing.\n\nPlease restore local tool access so I can review the evidence and write the recommendation. No files were changed."
+  ]
+}

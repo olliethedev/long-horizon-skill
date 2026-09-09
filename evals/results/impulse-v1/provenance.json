@@ -1,0 +1,6 @@
+{
+  "source_sha256": "af176bc5001fb4795e2ba106d33e2c1c2485975ec6af710a984399ee0ac2aaed",
+  "temporary_root": "/tmp/long-horizon-impulse-sd_qjrgy",
+  "isolation": "IMPULSE_HOME; inherited IMPULSE_CONTEXT removed",
+  "private_state_not_archived": true
+}

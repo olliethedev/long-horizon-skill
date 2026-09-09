@@ -1,45 +1,58 @@
 # Long Horizon
 
-Working name for agents that pursue outcomes over days or months, learning from earlier attempts. The reviewable [skill candidate](skills/long-horizon/SKILL.md) includes setup, durable-workspace guidance, and Impulse continuation instructions. Impulse owns scheduling. Durable history lives in readable local files, with any index rebuildable from those records. Small local helpers belong in the bundle only where prototype results justify them.
+A skill for agents that pursue responsibilities over days or months: improve a product from analytics, follow through on user feedback, evaluate revenue experiments, or monitor deployed changes. Agents choose useful objectives within the owner's standing brief, retain evidence from prior attempts, and use Impulse for future runs.
 
-Version one targets one machine running Impulse, with multiple coordinated responsibilities. Cross-machine coordination is outside this version.
+V1 runs on one machine. The distribution is a [skill bundle](skills/long-horizon/SKILL.md), editable workspace templates, and a small read-only file helper. There is no database or separate workflow server. The helper needs Python 3.11+ on a POSIX system; Linux is verified. The agent also needs an installed, configured Impulse CLI and the project's own tools/access.
 
-Examples include improving website content through experiments, implementing features and checking subsequent feedback, and investigating errors after deployment. A/B testing is one demanding example, not the project's whole scope.
+## Install and start
 
-The design covers ongoing responsibilities without a single fixed success metric. Agents choose objectives within their responsibility; ongoing work continues across individual improvements while useful work remains. Bounded assignments can terminate when reached or impossible, and owner-resolvable blockers pause until manual resumption. Strong recall of relevant actions across many months is a required prototype outcome.
+Clone this repository and copy the whole `skills/long-horizon/` directory into your harness's skill directory. For a new installation using the skill directory on this machine:
 
-Agents may revise their own plans and learnings within scope. Changes to the shared skill require evaluations and owner review before adoption.
+```sh
+git clone https://github.com/olliethedev/long-horizon-skill.git
+cd long-horizon-skill
+mkdir -p ~/.agents/skills
+cp -R skills/long-horizon ~/.agents/skills/
+```
 
-History remains searchable after a responsibility terminates, so future responsibilities on the product can use it. Records and decision evidence are retained until the owner explicitly deletes them. Shared history is scoped to each product in v1; cross-product learning is deferred.
+Keep the scripts, references, and assets with SKILL.md. Review existing local modifications before updating an installed copy. Invoke `$long-horizon` with a responsibility, for example:
 
-Owners may specify optional responsibility limits, including domain constraints such as testing at most five articles simultaneously. Project cost instructions and usage sources come from the user and may require custom setup. The working agent follows those instructions across runs; Impulse owns scheduling. Accounting and supporting helpers remain to be prototyped.
+> Look after this product's onboarding. Investigate abandonment using our analytics and feedback, implement useful improvements within the permissions we agree, and check their effects after rollout.
 
-The skill will conduct a thorough setup interview before autonomous operation, exploring the task details and preserving the agreed brief. A separate `grill-me` invocation is optional; prior answers carry forward.
+The skill conducts a thorough setup interview one question at a time. It preserves prior answers and establishes the product/workspace, authority, evidence and access, coordination, optional limits and cost instructions, reporting, and continuation policy. A separate grill-me invocation is optional. The owner need not choose every future objective or supply a numeric KPI.
 
-Setup also establishes a reporting cadence and destination. Routine runs preserve their work in the history; scheduled digests report progress, with immediate notices for pauses, termination, or decisions needing the owner.
+After agreement, adapt the [responsibility template](skills/long-horizon/assets/responsibility.md) and [Impulse definition](skills/long-horizon/assets/task.toml). Validate and preview the definition before registration. First-run timing is explicit. The example lets the agent schedule each next useful observation; other timing policies can be chosen at setup.
 
-This project contains research, interview notes, disposable state-model explorations, and fresh-session behavioral evaluations. The latest [complete-cycle evaluation](prototypes/full-cycle/README.md) compares actual configuration changes, observations, recovery, reporting, and continuation with and without the skill. Earlier [dense-history comparisons](prototypes/recall-comparison/NOTES.md) and [agent-maintained handoffs](prototypes/agent-handoffs/NOTES.md) remain preserved. The skill is a local review candidate; it has not been installed or used on a live product.
+## How continuity works
 
-The latest evaluation completed 55 fresh sessions: 48 paired domain sessions, five focused setup/lifecycle probes, and two corrected-fixture rechecks. Both arms performed useful work and recovered saved history; the skill did not demonstrate a quality or efficiency advantage. Oversized retrieval, request-age interpretation errors, and instructed directory-boundary violations remain documented in the [findings](prototypes/full-cycle/NOTES.md). These are selected simulated checkpoints, not proof of continuous operation for 18 months.
+Each fresh session reconstructs actual state from the brief, a concise current handoff, original actions, and decision evidence. The [history helper](skills/long-horizon/references/history.md) returns bounded source excerpts and paged reads, with source identities and explicit coverage limits. It searches ordinary files and writes nothing. An optional index is derived navigation, with no unique knowledge.
 
-- [Interview and open decisions](docs/design-session.md)
-- [Task setup interview](docs/setup-interview.md)
-- [Repository and evaluation layout proposal](docs/repository-layout.md)
-- [Domain glossary](CONTEXT.md)
-- [Readable files and rebuildable indexes](docs/adr/0013-use-readable-files-for-durable-history.md)
-- [Existing Impulse patterns](docs/research/existing-impulse-patterns.md)
-- [Patterns to transfer from indexing and reporting](docs/research/pattern-transfer.md)
-- [External research](docs/research/long-running-agent-patterns.md)
-- [Ponytail repository and evaluation research](docs/research/ponytail-evaluation-patterns.md)
-- [Prototype](prototypes/continuity/README.md)
-- [Lifecycle prototype across four domains](prototypes/lifecycle/README.md)
-- [Candidate evaluation scenarios](docs/evaluation-plan.md)
-- [Recall evaluation across many months](docs/recall-evaluation.md)
-- [History-view prototype](prototypes/history-views/README.md)
-- [Independent agent recall prototype](prototypes/agent-recall/README.md)
-- [Dense recall comparison with a no-skill baseline](prototypes/recall-comparison/README.md)
-- [Agent-maintained history across fresh sessions](prototypes/agent-handoffs/README.md)
-- [Complete-cycle evaluation and commands](prototypes/full-cycle/README.md)
-- [Full-cycle findings](prototypes/full-cycle/NOTES.md)
+```sh
+python3 skills/long-horizon/scripts/history.py search /path/to/product/history 'checkout offer' --limit 8
+python3 skills/long-horizon/scripts/history.py read /path/to/product/history evidence/audit.json --bytes 6000
+```
 
-Created September 8, 2026. Existing scheduled tasks are sources of evidence for this exploration.
+Agents follow aliases and action IDs through later corrections. [Evidence guidance](skills/long-horizon/references/evidence.md) separates request dates, deployment/exposure dates, observation windows, and retrieval time. Missing timestamps stay unknown. Source history informs decisions without transferring authority, and corrections preserve actual historical actions.
+
+Consequential effects retain intent, stable request identity, and receipts. An uncertain response is reconciled before a repeat. Compatible development continues; material overlap changes the coordination or evaluation plan. Optional active-work limits include sleeping observation periods. Shared project budgets use the owner's usage source and accounting/reservation rules; Impulse is not a billing controller.
+
+A planned observation waits with a confirmed schedule. An owner-resolvable blocker pauses, sends an actionable notice, and requires explicit owner resumption. A bounded responsibility can terminate when reached or impossible within its constraints. Completing one objective does not end an ongoing responsibility. History survives termination until explicit owner deletion. Routine reporting follows the agreed cadence; pause, termination, and owner decisions require immediate notices.
+
+## Verification and limits
+
+The [v1 implementation report](docs/v1-implementation.md) records current tests, independent review, and evaluation outcomes. [Evaluation commands](evals/README.md) separate ordinary checks from opt-in model sessions and the isolated real-clock Impulse exercise.
+
+The preserved [55-session prototype study](prototypes/full-cycle/NOTES.md) found useful continuity and recovery in both skill and baseline arms, without demonstrating a skill advantage. It also exposed oversized retrieval, timestamp misinterpretation, and workspace-boundary violations. V1 addresses those mechanisms with a bounded helper, explicit evidence guidance, and more isolated evaluations. Historical records remain frozen; later findings are reported separately.
+
+Selected simulated checkpoints do not establish reliable continuous work over months. A real product pilot still needs its own setup, access, authority, and outcome observation. The local Impulse exercise verifies scheduler behavior with real elapsed time and scripts; it is not a production customer experiment.
+
+## Development
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-dev.txt
+.venv/bin/python -m mypy
+python3 -m unittest discover -s tests
+```
+
+CI runs typechecking and deterministic tests without model credentials or a live scheduler. See [CONTRIBUTING.md](CONTRIBUTING.md), the [v1 scope](docs/v1-spec.md), [domain terminology](CONTEXT.md), and [accepted decisions](docs/adr/). Research on [existing Impulse tasks](docs/research/pattern-transfer.md) and [Ponytail evaluation practices](docs/research/ponytail-evaluation-patterns.md) remains available alongside the [earlier project exploration](docs/design-session.md).

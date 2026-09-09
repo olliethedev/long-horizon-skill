@@ -1,0 +1,61 @@
+{
+  "score": 5,
+  "out_of": 5,
+  "method": "Independent evaluator read the complete focused decision, inspected its cited original revenue sources (identical source hashes to the main case), and checked the additional support sources below. This is a semantic judgment, not a schema/output-limit test.",
+  "criteria": [
+    {
+      "key": "quiet_return",
+      "description": "Reject unchanged R7 repeat using finance-742's net-revenue harm; finance-819 is another cohort/action.",
+      "sources": [
+        "history/evidence/finance-742.md",
+        "history/evidence/finance-819.md"
+      ],
+      "passed": true,
+      "inspection_note": "Both decisions reject unchanged R7 using finance-742 net revenue -6.2%, and isolate finance-819 to desktop rev-312/W3."
+    },
+    {
+      "key": "harbor",
+      "description": "Treat H1 as inconclusive after audit-790 and H2 as a defensible new test due to the repaired reset, without claiming proven benefit.",
+      "sources": [
+        "history/evidence/audit-790.md",
+        "history/design/offer-candidates.md"
+      ],
+      "passed": true,
+      "inspection_note": "Both preserve audit-790 as inconclusive +1.8% and use the repaired permission-dialog reset to justify an H2 test, without claiming revenue success."
+    },
+    {
+      "key": "actual_actions",
+      "description": "Preserve both actual rollbacks despite corrected interpretations.",
+      "sources": [
+        "history/retired/summer-offers/actions/rev-208.md",
+        "history/actions/rev-219.md"
+      ],
+      "passed": true,
+      "inspection_note": "Both retain rev-208 rollback rb-122 on July 21 and rev-219 rollback rb-141 on August 18 despite corrected interpretations."
+    },
+    {
+      "key": "retained_origin",
+      "description": "Use summer-offers evidence while leaving its terminated responsibility ended.",
+      "sources": [
+        "history/retired/summer-offers/brief.md",
+        "history/retired/summer-offers/actions/rev-208.md"
+      ],
+      "passed": true,
+      "inspection_note": "Both cite the summer-offers termination and use its evidence without restarting its campaign."
+    },
+    {
+      "key": "next_evidence",
+      "description": "Choose at most one next experiment and obtain fresh refund-adjusted evidence before adoption.",
+      "sources": [
+        "brief.md",
+        "history/design/offer-candidates.md"
+      ],
+      "passed": true,
+      "inspection_note": "Both propose exactly one next H2 experiment and fresh, mature refund-adjusted revenue evidence; rollout readiness is explicitly unverified."
+    }
+  ],
+  "runtime_tree_sha256": "f2bd37c0fb8da35e2998f4baa6e04c7079852e13b677f92130121d863671da12",
+  "scope": "Fresh normal retrieval/decision regression after cursor-integrity correction. The separate public helper regression tests mutable-source cursor rejection.",
+  "decision": "cases/revenue/skill/work/decision.md",
+  "new_finalization_date": "2026-09-09 UTC, explicitly distinguished from the 2026-09-08 source snapshot."
+}

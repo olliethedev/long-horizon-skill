@@ -2,7 +2,7 @@
 
 September 8, 2026. The complete skill candidate supported useful work across all four simulated domains, but this comparison does **not** demonstrate an advantage over the no-skill baseline. Both arms recovered interruptions, acted on changed evidence, and preserved continuation. Retrieval was frequently too broad, and the skill arm used more recorded tokens and commands.
 
-The [reviewable candidate](../../skills/long-horizon/SKILL.md) is byte-identical to the frozen [tested candidate](skill/long-horizon/SKILL.md), including its references. It has not been installed or used on a live product. The candidate is the transferable workflow; the Python service is evaluation infrastructure, not a proposed production workflow engine.
+At completion of this study, the packaged candidate was byte-identical to the frozen [tested candidate](skill/long-horizon/SKILL.md), including its references. That original state is retained in commit `62fec70`. The [current runtime skill](../../skills/long-horizon/SKILL.md) has since evolved in the separately reported [v1 implementation](../../docs/v1-implementation.md). The candidate is the transferable workflow; the Python service is evaluation infrastructure, not a proposed production workflow engine. This study did not install the skill or use a live product.
 
 **55 fresh sessions completed:** 48 in the paired matrix, five candidate-only setup/lifecycle sessions, and two corrected-weekly final-session rechecks. All processes exited zero; that does not mean every interpretation was correct. Semantic errors and instructed directory-boundary violations are retained below.
 

@@ -1,6 +1,6 @@
 # Full-cycle prototype completed
 
-The owner authorized the complete candidate and executed-cycle evaluations with “work on that.” The [reviewable candidate](../skills/long-horizon/SKILL.md) is byte-identical to the evaluated skill. No global skill installation, real Impulse task, live product, or external messaging was changed.
+The owner authorized the complete candidate and executed-cycle evaluations with “work on that.” The candidate packaged at commit `62fec70` is retained as the [frozen evaluated skill](../prototypes/full-cycle/skill/long-horizon/SKILL.md). The [current runtime](../skills/long-horizon/SKILL.md) evolves separately under the later [v1 implementation](v1-implementation.md) authorization. This earlier study changed no global skill installation, real Impulse task, live product, or external messaging.
 
 **55 fresh sessions completed:** 48 in the paired four-domain matrix, five candidate-only setup/lifecycle sessions, and two final-session rechecks after a weekly fixture correction. All processes exited zero. [Findings](../prototypes/full-cycle/NOTES.md) preserve the behavioral successes, interpretation errors, scope violations, usage, and limits; process completion is not a universal correctness score.
 

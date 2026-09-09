@@ -1,0 +1,10 @@
+{
+  "usage_events": [],
+  "command_count": 0,
+  "commands": [],
+  "failed_commands": [],
+  "possible_boundary_attempts_for_manual_review": [],
+  "cli_output_truncation_markers": 0,
+  "errors": [],
+  "agent_messages": []
+}

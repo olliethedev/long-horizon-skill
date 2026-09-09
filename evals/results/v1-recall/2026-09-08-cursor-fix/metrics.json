@@ -1,0 +1,20 @@
+{
+  "case": "revenue",
+  "arm": "skill",
+  "manual_score": 5,
+  "commands": 42,
+  "captured_command_output_bytes": 66971,
+  "max_captured_command_output_bytes": 9812,
+  "commands_over_20000_bytes": 0,
+  "usage": {
+    "input_tokens": 386905,
+    "cached_input_tokens": 346624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6694,
+    "reasoning_output_tokens": 1311
+  },
+  "elapsed_seconds": 260.742,
+  "input_mutations": {},
+  "termination_reason": null,
+  "same_prompt_and_input_hashes_as_main": true
+}
