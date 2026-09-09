@@ -20,6 +20,9 @@ class WorkflowEvidence(unittest.TestCase):
         for failure in ('fifo', 'parsing', 'partial-gzip'):
             with self.subTest(failure=failure), tempfile.TemporaryDirectory() as temporary:
                 root = Path(temporary)
+                (root / 'evals/runs').mkdir(parents=True)
+                for name in ('workflow_api.md', 'workflow_client.py'):
+                    shutil.copyfile(ROOT / 'evals' / name, root / 'evals' / name)
                 product = root / 'product'
                 product.mkdir()
                 output = root / 'session'
@@ -38,6 +41,7 @@ class WorkflowEvidence(unittest.TestCase):
 
                 STOP_BETWEEN_CASES.clear()
                 with patch('workflow_runner.setup_home', side_effect=lambda harness, home: home.mkdir()), \
+                     patch('workflow_runner.ROOT', root), \
                      patch('sys.stdout', new_callable=io.StringIO), \
                      patch('workflow_runner.sandbox', side_effect=lambda workspace, *args: ['/synthetic', str(workspace)]), \
                      patch('workflow_runner.probe', return_value={}), \
