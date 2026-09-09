@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "streams": 1936,
+  "matches": [],
+  "values_persisted": false,
+  "scope": "Current observed owned auth values checked against compressed archives and members; each original session additionally retains its own sampled-value scan. Exact-value coverage is not general proof of absence of secrets."
+}

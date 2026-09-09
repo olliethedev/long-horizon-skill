@@ -2,6 +2,20 @@
 
 Ordinary CI runs bundle installation and exported-evidence checks, plus strict mypy. It never runs model sessions, needs credentials, or starts a scheduler. Historical research fixtures and their preserved outputs remain under `prototypes/`.
 
+## Complete-workflow value study
+
+The [study protocol](../docs/workflow-value-study.md) declares a comparison beginning with an ordinary owner request, empty agent-authored memory, actual service effects and confirmed scheduling across fresh native sessions. The runtime skill remains unchanged; the new comparison has no model results yet. Both the earlier full-cycle prototype and native-tools comparison remain separate evidence with no demonstrated overall advantage.
+
+```sh
+# Mechanical fixture calibration only; no models, credentials or live services.
+python3 evals/workflow_calibrate.py
+
+# Isolated preparation for 24 trajectories; reads native authentication for setup but launches no models.
+python3 evals/workflow_runner.py --output evals/runs/workflow-preflight-NEW
+```
+
+After choosing the evaluation-session allowance and freezing the protocol, add `--run` for the model comparison. The full scope is four domains, three harnesses and two treatments, with at most eight fresh launches per trajectory (192 total). Add `--harness codex` for eight trajectories (64 total). At most two native processes run concurrently. Use a new output directory; preserve failures and do not repeat completed decisions for a better score. Read the protocol and `workflow_rubric.json` before reviewing results: deterministic calibration establishes fixture reachability, not agent performance or semantic success.
+
 ## Native harness comparison
 
 The [native harness guide](NATIVE_TOOLS.md) describes the current 36-session comparison: Codex, Claude Code, and Antigravity; no skill, the frozen published helper bundle, and the revised native-tools bundle; four domains with over 7,200 files each. It includes opt-in commands, authentication requirements, isolation boundaries, preserved artifacts, and grading rules. The distributed skill contains no evaluation programs.

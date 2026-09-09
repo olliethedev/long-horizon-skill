@@ -21,15 +21,22 @@ class ArchivedCredentials(unittest.TestCase):
             self.assertEqual(scan(root, {token})[1], [])
             (root / 'trace.json').write_bytes(b'{"token":"' + token + b'"}')
             (root / 'trace.json.gz').write_bytes(gzip.compress(token))
+            (root / 'link').symlink_to('/nonexistent/' + token.decode())
             with tarfile.open(root / 'inputs.tar.gz', 'w:gz') as archive:
                 member = tarfile.TarInfo('retained/note.md')
                 member.size = len(token)
                 archive.addfile(member, io.BytesIO(token))
+                link = tarfile.TarInfo('retained/link')
+                link.type = tarfile.SYMTYPE
+                link.linkname = '/nonexistent/' + token.decode()
+                archive.addfile(link)
             _, hits = scan(root, {token})
             paths = {hit['artifact'] for hit in hits}
             self.assertIn('trace.json', paths)
             self.assertIn('trace.json.gz:decompressed', paths)
             self.assertIn('inputs.tar.gz:retained/note.md', paths)
+            self.assertIn('link:link-target', paths)
+            self.assertIn('inputs.tar.gz:link-target', paths)
             self.assertNotIn('decision.md', paths)
             self.assertNotIn(token.decode(), json.dumps(hits))
 

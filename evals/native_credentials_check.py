@@ -11,6 +11,7 @@ import argparse
 import gzip
 import hashlib
 import json
+import os
 from pathlib import Path
 import tarfile
 import time
@@ -65,14 +66,20 @@ def scan(root: Path, secrets: set[bytes]) -> tuple[int, list[dict[str, str]]]:
             if secret in content:
                 hits.append({'artifact': label, 'credential_sha256': hashlib.sha256(secret).hexdigest()})
     for path in sorted(root.rglob('*')):
-        if not path.is_file() or path.is_symlink():
-            continue
         label = str(path.relative_to(root))
+        if path.is_symlink():
+            check(label + ':link-target', os.readlink(path).encode())
+            continue
+        if not path.is_file():
+            continue
         content = path.read_bytes()
         check(label, content)
         if path.name.endswith(('.tar.gz', '.tgz', '.tar')):
             with tarfile.open(path) as archive:
                 for member in archive:
+                    check(label + ':member-name', member.name.encode())
+                    if member.issym() or member.islnk():
+                        check(label + ':link-target', member.linkname.encode())
                     if member.isfile():
                         stream = archive.extractfile(member)
                         assert stream is not None

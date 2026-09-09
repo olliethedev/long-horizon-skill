@@ -1,0 +1,18 @@
+{
+  "kind": "synthetic_rubric_calibration_not_agent_results",
+  "expected_supported": {
+    "revenue-stale-claim": false,
+    "revenue-revised-claim": true,
+    "weekly-retention": false,
+    "feedback-expanded-subject": false,
+    "post-pr-observation": false,
+    "unscheduled-handoff": false,
+    "standing-authority": false,
+    "cap-censoring": true
+  },
+  "review": {
+    "reviewer": "native_runtime_spec",
+    "agreement": "8/8 component classifications agree with the key declared before review",
+    "scope": "Read-only source/rubric review; no evaluated native harness session. Vignettes cover contradictions and classification, not full-trajectory semantic grading."
+  }
+}

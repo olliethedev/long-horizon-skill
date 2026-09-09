@@ -1,0 +1,49 @@
+{
+  "kind": "no_model_preparation_evidence",
+  "preflights": [
+    {
+      "name": "workflow-preflight-2026-09-09-a",
+      "archive": "workflow-preflight-2026-09-09-a.tar.gz",
+      "sha256": "f6e1f85a19c8b66f2b36af2ada000129e30d48ca7a3f550db61d486519dbdfb4",
+      "prepared_sessions": 2,
+      "model_launches": 0,
+      "no_model_basis": "Matrix live=false; original old manifests may predate the per-session launch flag.",
+      "isolation_passes": 0,
+      "source_identity_verified": true,
+      "temporary_homes_removed": true
+    },
+    {
+      "name": "workflow-preflight-2026-09-09-b",
+      "archive": "workflow-preflight-2026-09-09-b.tar.gz",
+      "sha256": "1918765693edafe126c522e73e21ccf3ebae16caf70e0ed53550a5b57777d48c",
+      "prepared_sessions": 24,
+      "model_launches": 0,
+      "no_model_basis": "Matrix live=false; original old manifests may predate the per-session launch flag.",
+      "isolation_passes": 24,
+      "source_identity_verified": true,
+      "temporary_homes_removed": true
+    },
+    {
+      "name": "workflow-preflight-2026-09-09-c",
+      "archive": "workflow-preflight-2026-09-09-c.tar.gz",
+      "sha256": "b159e55cb7ebcef6f6aad5c4689f4c1bbbf0d6a78cab2f3980a376bb642b14d1",
+      "prepared_sessions": 24,
+      "model_launches": 0,
+      "no_model_basis": "Matrix live=false; original old manifests may predate the per-session launch flag.",
+      "isolation_passes": 24,
+      "source_identity_verified": true,
+      "temporary_homes_removed": true
+    },
+    {
+      "name": "workflow-preflight-2026-09-09-d",
+      "archive": "workflow-preflight-2026-09-09-d.tar.gz",
+      "sha256": "f476628c755ebd31402f865bb5e68cd0370f849094952275b82648d1f965f796",
+      "prepared_sessions": 24,
+      "model_launches": 0,
+      "no_model_basis": "Matrix live=false; original old manifests may predate the per-session launch flag.",
+      "isolation_passes": 24,
+      "source_identity_verified": true,
+      "temporary_homes_removed": true
+    }
+  ]
+}
