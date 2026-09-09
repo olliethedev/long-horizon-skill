@@ -1,49 +1,130 @@
 # Long Horizon
 
-A skill for agents that pursue responsibilities over days or months: improve a product from analytics, follow through on user feedback, evaluate revenue experiments, or monitor deployed changes. Agents choose useful objectives within the owner's standing brief, retain evidence from prior attempts, and arrange future runs with the project's scheduling tools.
+**Give an AI agent a responsibility that lasts beyond one conversation.**
 
-V1 runs on one machine. The distribution contains [skill instructions](skills/long-horizon/SKILL.md), supporting references, and editable workspace templates. Agents use their harness and available system tools to find and read files. There is no bundled retrieval program, database, or separate workflow server. The agent needs the project's tools/access and a suitable scheduler; setup recommends Impulse when none is configured.
+Some useful work takes longer than an agent session. Publishing an article is immediate; learning whether it attracts the right readers takes time. Shipping a fix is one step; checking whether it solves the customer's problem is another. Each follow-up needs the context of what was tried, what happened, and what changed since then.
 
-## Install and start
+Long Horizon is an agent skill for that cycle: agree on a responsibility, act, retain evidence, arrange a follow-up, and use the results to choose the next useful action. It works with fresh sessions in harnesses such as Codex, Claude Code and Antigravity. The agent can choose objectives within the scope and permissions you establish.
 
-Clone this repository and copy the whole `skills/long-horizon/` directory into your harness's skill directory. For a new installation using the skill directory on this machine:
+The installed bundle is a `SKILL.md`, supporting instructions and editable templates. History lives in ordinary project files, which the agent searches with its existing tools. V1 operates on one machine.
+
+## Install
+
+Use the [Skills CLI](https://www.skills.sh/docs/cli) from your project directory. It runs through npm's `npx` command:
 
 ```sh
-git clone https://github.com/olliethedev/long-horizon-skill.git
-cd long-horizon-skill
-mkdir -p ~/.agents/skills
-cp -R skills/long-horizon ~/.agents/skills/
+npx skills add https://github.com/olliethedev/long-horizon-skill --skill long-horizon
 ```
 
-Keep the references and assets with SKILL.md. When updating, preserve any local modifications and replace the installed bundle with the new one; copying over an older installation can leave removed files such as the former history helper. Invoke `$long-horizon` with a responsibility, for example:
+Select the harnesses you want to use. The default installation is scoped to the project. To make the skill available across your projects, add `--global`:
 
-> Look after this product's onboarding. Investigate abandonment using our analytics and feedback, implement useful improvements within the permissions we agree, and check their effects after rollout.
+```sh
+npx skills add https://github.com/olliethedev/long-horizon-skill --skill long-horizon --global
+```
 
-The skill conducts a thorough setup interview one question at a time. It preserves prior answers and establishes the product/workspace, authority, evidence and access, coordination, optional limits and cost instructions, reporting, and continuation policy. A separate grill-me invocation is optional. The owner need not choose every future objective or supply a numeric KPI.
+The CLI also supports explicit agent selection and installed-skill management; see its [options and supported agents](https://github.com/vercel-labs/skills#options). Load a fresh harness session after installation. For a manual installation, copy the entire [`skills/long-horizon/`](skills/long-horizon/) directory into your harness's documented skill location, keeping its references and assets together.
 
-Setup [discovers available scheduling tools](skills/long-horizon/references/scheduling.md) and reuses the project's established scheduler when suitable. It must launch a fresh agent with the saved workspace and instructions, expose the next scheduled run, and allow rescheduling or disabling future runs. Tool help and documentation establish those capabilities.
+## Start with a responsibility
 
-After agreement, adapt the [responsibility template](skills/long-horizon/assets/responsibility.md). If Impulse is selected, the [example definition](skills/long-horizon/assets/task.toml) can be validated and previewed before registration. First-run timing is explicit. Other schedulers use their own interfaces, with continuation instructions saved in the workspace.
+Open your agent inside the product repository. In Codex, invoke `$long-horizon`; in harnesses with slash-command skills, select `/long-horizon` from the skill picker. Give it an outcome and any constraints you already know:
 
-## How continuity works
+```text
+$long-horizon Take responsibility for growing organic traffic to our developer documentation site. Create useful new content and improve existing pages, with daily actions. Inspect the project and available analytics, ask me for missing details, and set up ongoing work using Impulse. Keep a record of what you tried and learned so future runs build on it.
+```
 
-Each fresh session reconstructs actual state from the brief, a concise current handoff, original actions, and decision evidence. [Retrieval guidance](skills/long-horizon/references/history.md) explains how to follow subjects, aliases, source IDs, and dated corrections using native file tools. Agents choose search scope and read sizes appropriate to the archive, account for truncated or incomplete results, and recheck evidence that changes during investigation. An optional index is derived navigation, with no unique knowledge.
+The skill conducts its own setup conversation, one consequential question at a time. It inspects the project and reuses existing instructions and answers. Together you establish:
 
-Agents follow aliases and action IDs through later corrections. [Evidence guidance](skills/long-horizon/references/evidence.md) separates request dates, deployment/exposure dates, observation windows, and retrieval time. Missing timestamps stay unknown. Source history informs decisions without transferring authority, and corrections preserve actual historical actions.
+- The responsibility, audience, success measures and conditions for ending it.
+- What the agent may change, publish, deploy or communicate without asking again.
+- Which analytics, feedback, logs and other tools provide evidence.
+- How to coordinate with developers and other active responsibilities.
+- Any limits, paid-service budgets and authoritative usage sources you supply.
+- When to work, where to report, and what requires your intervention.
 
-Consequential effects retain intent, stable request identity, and receipts. An uncertain response is reconciled before a repeat. Compatible development continues; material overlap changes the coordination or evaluation plan. Optional active-work limits include sleeping observation periods. Shared project budgets use the owner's usage source and accounting/reservation rules; Impulse is not a billing controller.
+You can start with a broad request. A separate interview skill, numerical target or monetary budget is optional. Before autonomous operation, the agent makes the brief and first scheduled assignment concrete for review. Standing permission then carries across ordinary follow-ups.
 
-A planned observation waits with a confirmed schedule. An owner-resolvable blocker pauses, sends an actionable notice, and requires explicit owner resumption. A bounded responsibility can terminate when reached or impossible within its constraints. Completing one objective does not end an ongoing responsibility. History survives termination until explicit owner deletion. Routine reporting follows the agreed cadence; pause, termination, and owner decisions require immediate notices.
+## Why a scheduler is needed—and where Impulse fits
 
-## Verification and limits
+A skill file cannot start a new agent tomorrow. After the current session ends, something must launch the next session with the right project and instructions.
 
-The [native-tools revision](docs/native-tools-revision.md) records the current scope, and the [native harness report](evals/results/native-tools/REPORT.md) preserves the comparison, reasoning failures, usage, and focused verification. The [original v1 implementation report](docs/v1-implementation.md) records the previously published helper-based bundle. [Evaluation commands](evals/README.md) separate ordinary checks from opt-in model sessions and the isolated real-clock Impulse exercise.
+| Piece | Responsibility |
+| --- | --- |
+| Your agent harness | Reads files, reasons, edits code and uses your connected tools. |
+| Long Horizon | Guides setup, evidence gathering, retained history, coordination and decisions across runs. |
+| A scheduler | Starts future sessions and lets the agent confirm, move or disable its next run. |
 
-The preserved [55-session prototype study](prototypes/full-cycle/NOTES.md) found useful continuity and recovery in both skill and baseline arms, without demonstrating a skill advantage. The [subsequent helper comparison](evals/results/v1-recall/REPORT.md) reduced captured retrieval output but showed no decision-quality improvement and used more total input tokens and time. The owner chose native tools for the revised skill; the published helper bundle remains a frozen evaluation arm. Historical records remain unchanged. The new comparison uses Codex, Claude Code, and Antigravity with more than 7,000 files per case. Its [report](evals/results/native-tools/REPORT.md) separates source retrieval from supported decisions and marks incomplete coverage explicitly; it does not demonstrate a consistent helper advantage.
+[Impulse](https://github.com/olliethedev/impulse) provides durable local scheduling for scripts and agent assignments. It can launch your configured harness, retain task/run identities, expose execution logs and let a running agent schedule its next observation or disable future work. Long Horizon includes [Impulse guidance](skills/long-horizon/references/impulse.md) and a [task-definition template](skills/long-horizon/assets/task.toml).
 
-Selected simulated checkpoints do not establish reliable continuous work over months. A real product pilot still needs its own setup, access, authority, and outcome observation. The local Impulse exercise verifies scheduler behavior with real elapsed time and scripts; it is not a production customer experiment.
+To use it, follow [Impulse's installation and setup guide](https://github.com/olliethedev/impulse#build-and-install), configure your harness and terminal, and check the installation with `impulse doctor`. The machine, logged-in environment and configured harness must be available for scheduled execution. Installing Long Horizon alone does not install or configure Impulse.
+
+During setup, the agent [discovers the project's scheduling tools](skills/long-horizon/references/scheduling.md). It reuses an existing suitable scheduler and recommends Impulse when none is configured. An alternative must launch fresh agent sessions with saved context, expose the next run, and support rescheduling and disabling work. Project-specific API budgets remain part of the agent's brief and accounting setup.
+
+## Example responsibilities
+
+Adapt these prompts to your product and available tools. Each begins a setup conversation; the agent resolves missing access, authority and operating details before setting up autonomous work.
+
+### Improve content over time
+
+```text
+$long-horizon Grow qualified organic traffic to our API documentation and tutorials. Work daily on useful new articles and improvements to existing pages. Use our search and website analytics, coordinate with documentation changes, and send a weekly digest of actions and evidence. Open PRs for content changes; I will review and publish them.
+```
+
+Daily work can include research, writing and technical fixes. Traffic outcomes may need weeks of observation; the agent should choose measurement windows appropriate to the evidence.
+
+### Run revenue experiments
+
+```text
+$long-horizon Improve net revenue from our subscription landing pages over the next six weeks. Run at most five page experiments at once, preserve checkout reliability, and account for refunds and cancellations. Ask me which analytics and experiment tools to use and what rollout authority you have. Retain failed and inconclusive attempts as well as wins.
+```
+
+### Improve a product from weekly analytics
+
+```text
+$long-horizon Take responsibility for reducing friction in our team's project-management app. Each week, review onboarding analytics and customer feedback, choose a useful improvement, implement it within our agreed permissions, and check its effect after rollout. Keep learning across iterations and send a fortnightly progress report.
+```
+
+### Follow customer feedback through to resolution
+
+```text
+$long-horizon Resolve the recurring incomplete-export complaints from our enterprise customers. Investigate their actual data sizes and failure conditions, implement and verify a fix, then follow up on deployed behavior and customer outcomes. End the assignment when the affected cases are resolved, and preserve the investigation for future regressions.
+```
+
+### Monitor a release for bugs
+
+```text
+$long-horizon Monitor our new billing release after it reaches production. Review errors and customer reports daily, investigate regressions, and open fixes as PRs. Coordinate with other deployments so we attribute problems to the right change. Finish after fourteen days of verified healthy production behavior, with a final report of fixes and remaining uncertainties.
+```
+
+## What carries between runs
+
+Each run reads the agreed brief, current handoff, relevant action history and original evidence, then checks the product's actual state. The agent records what it intended, what actually happened, why it made a decision, and what needs checking next. Later corrections remain connected to the observations and conclusions they change.
+
+```mermaid
+flowchart LR
+    A[Read history and current state] --> B[Choose and do useful work]
+    B --> C[Verify effects and retain evidence]
+    C --> D[Confirm the next scheduled run]
+    D --> E[Fresh session after time passes]
+    E --> A
+```
+
+History is retained through termination until you explicitly request deletion. Native file tools handle retrieval; an optional index provides navigation and can be rebuilt from the underlying records. See the [workspace structure](skills/long-horizon/references/workspace.md), [history guidance](skills/long-horizon/references/history.md) and [evidence guidance](skills/long-horizon/references/evidence.md).
+
+The agent confirms uncertain external actions before repeating them and coordinates changes that affect other work. A written plan to return later becomes continuation only when the scheduler confirms it.
+
+- **Wait:** useful work or an observation is due later; confirm the next run.
+- **Pause:** you need to restore a prerequisite, such as analytics access; disable future work and notify you. Explicitly resume the task after restoring access.
+- **Terminate:** a bounded responsibility is fulfilled, impossible within its constraints, or has no useful work left in scope; disable future work and retain the findings. Finishing one feature can still leave an ongoing product-improvement responsibility active.
+
+## Evidence and current limits
+
+This is an experimental workflow. The [earlier full-cycle prototype](prototypes/full-cycle/NOTES.md) and [native-tools comparison](evals/results/native-tools/REPORT.md) exercised continuity, recovery and retrieval, but have **not demonstrated an overall advantage over a capable agent without the skill**. That is an open evaluation question, not a promised benefit.
+
+The [complete-workflow study](docs/workflow-value-study.md) compares agents starting from a broad request, creating their own history and arranging actual simulated follow-ups across four domains and three harnesses. [Preparation checks](evals/results/workflow-preparation/REPORT.md) are complete; comparative model results are pending. Simulated weeks and dense history archives do not establish reliable real-world operation over months or actual revenue lift.
 
 ## Development
+
+The distributed skill contains no evaluation programs. Python 3.11+ is needed only for repository development and evaluations:
 
 ```sh
 python3 -m venv .venv
@@ -52,4 +133,4 @@ python3 -m venv .venv
 python3 -m unittest discover -s tests
 ```
 
-Python 3.11+ is needed for development and evaluations, not to install the skill. CI runs typechecking and deterministic tests without model credentials or a live scheduler. See [CONTRIBUTING.md](CONTRIBUTING.md), the [current revision scope](docs/native-tools-revision.md), [domain terminology](CONTEXT.md), and [accepted decisions](docs/adr/). Research on [existing Impulse tasks](docs/research/pattern-transfer.md) and [Ponytail evaluation practices](docs/research/ponytail-evaluation-patterns.md) remains available alongside the [earlier project exploration](docs/design-session.md).
+CI runs deterministic tests and type checking without model credentials or a live scheduler. See [CONTRIBUTING.md](CONTRIBUTING.md), [evaluation commands](evals/README.md), [domain terminology](CONTEXT.md) and [design decisions](docs/adr/) for deeper implementation and research context.

@@ -1,6 +1,6 @@
 # Complete-workflow value study
 
-Status: experiment prepared, model-session allowance pending, September 9, 2026. No new model trial has run. The owner asked to establish whether the complete workflow adds value over a capable agent without the skill. A positive finding is not presumed.
+Status: experiment prepared and full three-harness scope authorized, September 9, 2026. No new model trial has run. The owner asked to establish whether the complete workflow adds value over a capable agent without the skill. A positive finding is not presumed.
 
 ## Existing evidence and the gap
 
@@ -59,7 +59,7 @@ The current published bundle is now installed for all three harnesses, with matc
 
 ## Preparation status
 
-The evaluation clock, private product service, native-session runner, source-backed semantic rubric and no-model calibration are implemented under `evals/workflow_*`. The runtime skill has not changed. The owner session-limit choice remains pending; no new model evaluation has run.
+The evaluation clock, private product service, native-session runner, source-backed semantic rubric and no-model calibration are implemented under `evals/workflow_*`. The runtime skill has not changed. The owner authorized the full three-harness comparison after the README improvement is pushed: up to 192 native launch attempts, with at most two native model processes concurrently. No new model evaluation has run yet.
 
 Scripted calibration reaches justified endings in seven revenue, seven weekly-product, five feedback and four post-PR sessions. These are private executable controls, not agent results. Negative controls cover premature termination, resumption without a current owner instruction, shared budget/pending-consumption overruns, duplicate effects, unauthorized reactivation and rollback after an owner stop. The rubric additionally requires source-based review of complete trajectories; mechanical state checks cannot establish faithful reasoning or useful persisted learning.
 
