@@ -1,1 +1,0 @@
-Wrote the [dated recommendation](/workspace/work/decision.md): prioritize Harbor H2 for the next experiment; decline the current Quiet Return refresh. The decision cites prior actions and corrections, preserves unknown dates, and specifies the next evidence needed.

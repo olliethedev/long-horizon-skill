@@ -1,1 +1,0 @@
-{"File":"/workspace/product/history/retired/summer-offers/actions/record-b7ab79e22e.md","LineNumber":3,"LineContent":"Deployed 2026-07-12, rollout record-e4142b048e, 50% exposure. Observed July 13–19. Initial trial-start report record-da3a9e962e said +11%. The feature was rolled back 2026-07-21, receipt record-e0da7df86e; refund escalations were unresolved."}

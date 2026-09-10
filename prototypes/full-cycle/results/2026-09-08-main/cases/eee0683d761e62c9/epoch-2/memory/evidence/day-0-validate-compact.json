@@ -1,9 +1,0 @@
-{
-  "ok": true,
-  "charged": 1,
-  "checks": {
-    "wallet_orders_included": true,
-    "allowed_offer": true,
-    "checkout_smoke_pass": true
-  }
-}

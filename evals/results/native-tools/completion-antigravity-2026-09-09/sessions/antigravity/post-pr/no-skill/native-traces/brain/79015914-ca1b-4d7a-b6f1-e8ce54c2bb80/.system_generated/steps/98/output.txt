@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-/workspace/product/history/retired/queue-sentinel/actions/record-f09cf4270b.md
-# PR 781, Candle retry patch
-Deployed July 21, receipt record-1cbbfada58. Changed timeout backoff, without tenant-aware deduplication. Rolled back July 27, receipt record-c04c640916, following duplicate-job escalations. record-1555a62ab3 initially showed no dedupe collisions.
-
-

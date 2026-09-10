@@ -1,3 +1,0 @@
-{"name":"antigravity.log", "sizeBytes":"35702"}
-
-Summary: This directory contains 0 subdirectories and 1 files.

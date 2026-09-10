@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-brief.md
-history/evidence/record-dfcc7fb912.md
-history/evidence/record-661a77e48d.md
-history/releases/record-b9a1361197.md
-

@@ -9,10 +9,10 @@ APIs directly. The original `recall.py` evaluation remains usable unchanged;
 From the repository root:
 
 ```sh
-python3 evals/native_preflight.py --output evals/results/native-tools/preflight-dry-RUN
-python3 evals/native_preflight.py --run --output evals/results/native-tools/preflight-live-RUN
-python3 evals/native_matrix.py --output evals/results/native-tools/matrix-dry-RUN
-python3 evals/native_matrix.py --run --output evals/results/native-tools/matrix-live-RUN
+python3 evals/native_preflight.py --output evals/runs/native-tools/preflight-dry-RUN
+python3 evals/native_preflight.py --run --output evals/runs/native-tools/preflight-live-RUN
+python3 evals/native_matrix.py --output evals/runs/native-tools/matrix-dry-RUN
+python3 evals/native_matrix.py --run --output evals/runs/native-tools/matrix-live-RUN
 ```
 
 Every output path must be new. `--run` explicitly enables authenticated model
@@ -79,9 +79,9 @@ After source review, the following local commands regenerate diagnostics,
 reviewed outcomes, and provenance checks without model calls:
 
 ```sh
-python3 evals/native_diagnostics.py evals/results/native-tools/matrix-live-RUN
-python3 evals/native_report.py evals/results/native-tools/matrix-live-RUN
-python3 evals/native_audit.py evals/results/native-tools/matrix-live-RUN
+python3 evals/native_diagnostics.py evals/runs/native-tools/matrix-live-RUN
+python3 evals/native_report.py evals/runs/native-tools/matrix-live-RUN
+python3 evals/native_audit.py evals/runs/native-tools/matrix-live-RUN
 ```
 
 Store each independent review in the session's `manual-review.json`, with the
@@ -103,9 +103,9 @@ can observe short-lived refreshed credential copies without archiving values:
 
 ```sh
 python3 evals/native_credentials_check.py \
-  --matrix evals/results/native-tools/matrix-live-RUN \
-  --artifacts evals/results/native-tools \
-  --output evals/results/native-tools/credential-scan-RUN.json
+  --matrix evals/runs/native-tools/matrix-live-RUN \
+  --artifacts evals/runs/native-tools \
+  --output evals/runs/native-tools/credential-scan-RUN.json
 ```
 
 It waits for the matrix's completion marker, scans exact observed values in
@@ -124,10 +124,10 @@ reuses the initial archived skill bundles, even if the working runtime changed:
 
 ```sh
 python3 evals/native_replay.py --run --mode complete --harness antigravity \
-  --source-matrix evals/results/native-tools/matrix-live-RUN \
-  --output evals/results/native-tools/completion-RUN
-python3 evals/native_report.py evals/results/native-tools/matrix-live-RUN \
-  --completion evals/results/native-tools/completion-RUN
+  --source-matrix evals/runs/native-tools/matrix-live-RUN \
+  --output evals/runs/native-tools/completion-RUN
+python3 evals/native_report.py evals/runs/native-tools/matrix-live-RUN \
+  --completion evals/runs/native-tools/completion-RUN
 ```
 
 The original failure and skipped-cell manifest remain unchanged. The aggregate

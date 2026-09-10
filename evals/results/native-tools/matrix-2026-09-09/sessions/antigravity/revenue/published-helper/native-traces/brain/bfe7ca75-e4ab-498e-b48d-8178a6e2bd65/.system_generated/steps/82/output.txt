@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-{"matches":[{"path":"history/design/record-3c858d6a57.md","line":2,"offset":28,"text":"uiet Return proposal: same R7 price, eligibility, and mobile checkout; illustration colors changed. Harbor H2 proposal: persist the annual selection before the permission dialog, restoring it on resume. QA record-0d1c74ca54 reproduced H1's reset and found it absent in H2 across 18 supported-device runs. H2 is not exposed to customers. The revenue hypothesis remains untested."}],"next_cursor":null,"version":"630dbdfd41ef12a0764a6b8ed8d00f0e52ca84ba34a30b7805defacdbe27bbc3","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
-

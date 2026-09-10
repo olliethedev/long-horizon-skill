@@ -1,6 +1,0 @@
-{
-  "observed_at": "2025-10-28",
-  "receipt": "export-pagination",
-  "change": "Paginate exports in background jobs",
-  "endpoint": "/data/export"
-}

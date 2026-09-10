@@ -8,9 +8,9 @@ Both main arms performed useful fixture work, recovered lost deployment/scheduli
 
 All fixture servers and model runners started for this work have stopped. Temporary workspaces remain as working evidence; the repository contains verified readable snapshots and compressed raw evidence:
 
-- [Main matrix](../prototypes/full-cycle/results/2026-09-08-main/)
-- [Focused probes](../prototypes/full-cycle/results/2026-09-08-focused/)
-- [Corrected-weekly rechecks](../prototypes/full-cycle/results/2026-09-08-weekly-recheck/)
+- [Main matrix](https://github.com/olliethedev/long-horizon-skill/tree/be91b6929b4910042e71ddf704c0801b4d611d39/prototypes/full-cycle/results/2026-09-08-main)
+- [Focused probes](https://github.com/olliethedev/long-horizon-skill/tree/be91b6929b4910042e71ddf704c0801b4d611d39/prototypes/full-cycle/results/2026-09-08-focused)
+- [Corrected-weekly rechecks](https://github.com/olliethedev/long-horizon-skill/tree/be91b6929b4910042e71ddf704c0801b4d611d39/prototypes/full-cycle/results/2026-09-08-weekly-recheck)
 
 The main service's original weekly endpoint repeated a superseded measurement at the final checkpoint. The issue was recorded before those results, the original service remained unchanged, and separate corrected-endpoint rechecks used the same prior memories. Executed controller and server versions are preserved in raw archives; code/ contains the tooling at archival time. Historical generation hashes are not a claim that every later reporting helper ran in that original version.
 

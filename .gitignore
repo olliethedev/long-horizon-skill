@@ -4,4 +4,8 @@ PROTOTYPE-WIPE-ME/
 .venv/
 .mypy_cache/
 evals/runs/
+evals/results/**
+!evals/results/*/
+!evals/results/*/REPORT.md
+prototypes/**/results/
 dist/

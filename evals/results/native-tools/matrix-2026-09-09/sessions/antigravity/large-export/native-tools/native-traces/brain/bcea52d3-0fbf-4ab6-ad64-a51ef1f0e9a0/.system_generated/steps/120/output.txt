@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-/workspace/product/history/retired/data-portability/actions/record-c0268a81ef.md
-

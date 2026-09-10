@@ -1,8 +1,0 @@
-
-The command exited with code 1.
-Output:
-  File "<string>", line 13
-    print(f"{os.path.basename(f)} | {title} | {subj[0] if subj else \"\"} | {cohort[0] if cohort else \"\"} | {subm[0] if subm else \"\"} | {imp[0] if imp else \"\"}")
-                                                                     ^
-SyntaxError: unexpected character after line continuation character
-

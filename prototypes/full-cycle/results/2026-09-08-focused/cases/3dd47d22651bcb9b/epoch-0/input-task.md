@@ -1,3 +1,0 @@
-# First setup turn
-
-Handle the new request in brief.md using the supplied skill. This is the first turn of a setup conversation. Inspect the supplied project facts and ask the next consequential question, one question at a time. Write that question and any short recommendation to outbox/summary.md and your final response. There is no owner reply yet; do not invent answers or activate work. You may save a draft under memory/. Read/write only this trial and do not use external services or subagents. The fixture API is available if inspection is useful; it does not grant authority to deploy, spend, schedule, or send messages.

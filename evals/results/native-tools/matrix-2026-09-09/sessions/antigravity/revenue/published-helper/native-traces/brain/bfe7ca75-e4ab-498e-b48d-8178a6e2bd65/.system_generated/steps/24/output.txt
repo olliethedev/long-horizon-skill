@@ -1,7 +1,0 @@
-{"name":"action.md", "sizeBytes":"726"}
-{"name":"current.md", "sizeBytes":"591"}
-{"name":"evidence.md", "sizeBytes":"500"}
-{"name":"responsibility.md", "sizeBytes":"1162"}
-{"name":"task.toml", "sizeBytes":"535"}
-
-Summary: This directory contains 0 subdirectories and 5 files.

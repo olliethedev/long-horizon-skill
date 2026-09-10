@@ -1,3 +1,0 @@
-Continue from this responsibility, current signals, and saved workspace. Use SKILL.md if present. Decide the next useful objective and action, and explain what prior work affects the decision. Read only this trial directory within the responsibility's stated product scope. Use no network, external services, other trial directories, or delegation. Write only outputs/.
-
-Write outputs/decision.json with status, selected_objective, next_action, prior_actions (id, actual_status, outcome, applicability), evidence (path, claim), corrections_to_memory, and limitations. Write outputs/decision.md concisely. Record files read, commands used, and any truncation in outputs/retrieval.json. This access record is self-reported evaluation telemetry.

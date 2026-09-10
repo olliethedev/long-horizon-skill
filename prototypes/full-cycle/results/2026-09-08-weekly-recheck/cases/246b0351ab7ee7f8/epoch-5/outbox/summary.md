@@ -1,9 +1,0 @@
-# Session complete — fixture day 540 (2028-06-27)
-
-Verified that Resume workspace creation / Save-and-return setup is already delivered: current revision 2 has save_setup=true and explicit_template=true, corroborating deployment effect-3. The support request is 540 days old and does not establish a new regression or missing feature. Reconciled the stale handoff and retained current service evidence in memory/evidence/day540-*.json, with the decision in memory/day540-review.md and continuation in memory/handoff.md.
-
-Measurement-12 supplies no new eligible-cohort comparison or retained-use result. The latest corrected comparison remains day-240 measurement-9: activation 42%/43%, reported difference 95% CI [-2,+4] percentage points; retained use 31%/32%, CI [-1,+3] points. Both remain inconclusive. The earlier activation-benefit conclusion is superseded; delivery does not establish benefit. Measurement availability, assignment/sample/window details, retained-use horizon and guardrails remain unresolved.
-
-Kept the current experiment pending the next measurement/customer review after reassessing its occupied slot. No product change, duplicate evaluation, settlement, lifecycle change or billed validation occurred. Capacity remains 5/5; shared budget remains 9/10 credits consumed, 1 remaining, no reset. No owner-only blocker is established.
-
-**Confirmed continuation:** day 554 (2028-07-11), schedule effect-13, independently verified enabled/active in final status. The due monthly digest was delivered only to fixture:owner, receipt effect-14, message 2; final report_due=false. No mutation is unresolved. The next review will inspect measurement availability, current customer evidence and evaluation-slot usefulness. Ending now because further useful observation requires a later session; fixture time remains day 540.

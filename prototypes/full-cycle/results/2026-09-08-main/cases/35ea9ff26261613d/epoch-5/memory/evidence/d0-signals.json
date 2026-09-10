@@ -1,6 +1,0 @@
-{
-  "ok": true,
-  "date": "2027-01-04",
-  "signal": "Elm and Ash cannot finish organization exports of 85,000 and 92,000 rows. Investigate actual routing and completeness before changing their export behavior.",
-  "observation_age_days": null
-}

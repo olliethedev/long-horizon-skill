@@ -1,7 +1,0 @@
-
-The command exited with code 0.
-Output:
-record-40440b02ae: ['/workspace/product/history/evidence/record-dfcc7fb912.md', '/workspace/product/history/releases/record-b9a1361197.md']
-record-3984af46e2: ['/workspace/product/history/evidence/record-dfcc7fb912.md', '/workspace/product/history/releases/record-b9a1361197.md']
-record-764afbf446: ['/workspace/product/history/releases/record-b9a1361197.md']
-

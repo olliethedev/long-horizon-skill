@@ -1,6 +1,6 @@
 # V1 implementation review
 
-Two independent reviewers inspected the staged implementation against baseline `62fec7085a63ab0749fa9c8d7b701dff9006138f` using `git diff --cached 62fec70`. The baseline was the only commit; implementation commits follow review. Standards sources were CONTRIBUTING.md, CONTEXT.md, and accepted ADRs. The specification was docs/v1-spec.md plus those domain decisions. The original helper reviewed is retained in the [main evaluation's loaded bundle](../evals/results/v1-recall/2026-09-08-dense-matrix/loaded-skill/scripts/history.py).
+Two independent reviewers inspected the staged implementation against baseline `62fec7085a63ab0749fa9c8d7b701dff9006138f` using `git diff --cached 62fec70`. The baseline was the only commit; implementation commits follow review. Standards sources were CONTRIBUTING.md, CONTEXT.md, and accepted ADRs. The specification was docs/v1-spec.md plus those domain decisions. The original helper reviewed is retained in the [main evaluation's loaded bundle](https://github.com/olliethedev/long-horizon-skill/blob/be91b6929b4910042e71ddf704c0801b4d611d39/evals/results/v1-recall/2026-09-08-dense-matrix/loaded-skill/scripts/history.py).
 
 ## Standards
 

@@ -1,1 +1,0 @@
-Wrote the dated review to [decision.md](/workspace/work/decision.md). It recommends a small Android status-filter improvement this week, keeps the digest investigation open, and documents prior actions, corrected evidence, source citations, and unknown dates.

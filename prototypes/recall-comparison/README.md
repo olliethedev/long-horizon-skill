@@ -16,4 +16,4 @@ Preparation review found one additional fixture limitation: only one record has 
 
 Generated archives are temporary. Preserve a reproducibility manifest, outputs, and the evidence needed for reviewed findings, while keeping the earlier evaluation artifacts unchanged.
 
-The [first comparison findings](NOTES.md) and [preserved manifest](results/first-comparison/manifest.json) are available. All three arms made a supported decision; the baseline matched the skill arms. The bounded-retrieval revision avoided reported history-output truncation in its single trial, while all arms exposed the same startup discovery weakness.
+The [first comparison findings](NOTES.md) and [preserved manifest](https://github.com/olliethedev/long-horizon-skill/blob/be91b6929b4910042e71ddf704c0801b4d611d39/prototypes/recall-comparison/results/first-comparison/manifest.json) are available. All three arms made a supported decision; the baseline matched the skill arms. The bounded-retrieval revision avoided reported history-output truncation in its single trial, while all arms exposed the same startup discovery weakness.

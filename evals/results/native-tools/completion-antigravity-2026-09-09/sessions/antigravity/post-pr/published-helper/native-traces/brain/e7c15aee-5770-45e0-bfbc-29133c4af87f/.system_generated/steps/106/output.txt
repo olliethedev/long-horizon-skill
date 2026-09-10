@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-/workspace/product/history/coordination/record-7b1da28762.md:2:Action record-f44834cc2c, owner routing-quality, active. A September 8 12:00 UTC production canary is planned to move EU shared tenants between worker pools. Not yet deployed. Its proposed cohort overlaps record-54bad5e8e1. Coordinate actual deployment/exposure before treating before/after retry counts as one clean comparison.
-

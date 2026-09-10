@@ -1,5 +1,0 @@
-
-The command exited with code 1.
-Output:
-touch: cannot touch '/workspace/product/test': Read-only file system
-

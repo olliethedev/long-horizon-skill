@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-{"path":"history/evidence/record-8a2203deaa.md","version":"0cbd4dabe22a9352a9672283cb85d9c2f52c55a143c0563257e7485b5a11966a","offset":0,"text":"# record-8a2203deaa\nDated May 29. Focus Shelf enterprise desktop cohort, May 15–28, record-e9d336d487. Reported weekly usage 2% of all accounts. Automation-only accounts were included in the denominator.\n","next_offset":null}
-

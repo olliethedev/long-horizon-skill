@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-/workspace/product/history/evidence/record-b5a8ddac8f.md
-/workspace/product/history/evidence/record-567749c82b.md
-/workspace/product/history/evidence/record-1555a62ab3.md
-/workspace/product/history/evidence/record-fa1b95eae5.json
-

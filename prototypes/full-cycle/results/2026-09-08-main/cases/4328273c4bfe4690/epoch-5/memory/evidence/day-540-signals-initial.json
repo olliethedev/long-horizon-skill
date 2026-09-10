@@ -1,6 +1,0 @@
-{
-  "ok": true,
-  "date": "2028-06-27",
-  "signal": "Another retry-jitter PR is merged but is still absent from production. Review current 429s and actual exposure before proposing a revert or code rollout.",
-  "observation_age_days": 540
-}

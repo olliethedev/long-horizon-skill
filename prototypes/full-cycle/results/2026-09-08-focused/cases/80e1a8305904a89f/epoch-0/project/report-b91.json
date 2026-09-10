@@ -1,5 +1,0 @@
-{
-  "key": "b91-owner-conclusion-v1",
-  "destination": "fixture:owner",
-  "body": "B-91 exact record IDs were not recovered. Recovery is impossible within the authorized primary store and existing backups: source audit storage-retention-audit-91 verifies working access to both, permanent primary-data purge after retention expiry, no matching backups, completed purge and cryptographic key destruction, and exhaustion of permitted sources. This is permanent retention loss, not a temporary access issue. The bounded assignment has been terminated and future scheduling disabled. The audit and action/service evidence are retained in memory/. No further observation is useful within this scope."
-}

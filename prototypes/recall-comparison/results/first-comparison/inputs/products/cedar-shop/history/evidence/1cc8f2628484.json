@@ -1,9 +1,0 @@
-{
-  "product": "cedar-shop",
-  "observed_at": "2025-07-08",
-  "experiment": "spruce-47",
-  "cohort": "mobile returning",
-  "change": "Remove explanatory offer text",
-  "deployment_receipt": "deploy-spruce47",
-  "live_variant": "compact_offer"
-}

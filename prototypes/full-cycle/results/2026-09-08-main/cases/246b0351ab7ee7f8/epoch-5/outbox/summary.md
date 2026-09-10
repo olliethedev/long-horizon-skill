@@ -1,9 +1,0 @@
-# Day-540 session complete — 2028-06-27
-
-Verified that “Resume workspace creation” is the resumable setup already deployed by this trial: revision 2, save_setup=true, explicit_template=true, original experiment active and exposure verified. The 540-day-old request does not establish a new implementation need. Reconciled feature history and refreshed the stale handoff.
-
-Preserved a measurement conflict: day-240 audit **measurement-9** corrected eligible-user activation to 42%/43% (difference CI -2 to +4 percentage points); today's **measurement-12** reports 42%/49% (+4 to +10) without cohort/window or audit reconciliation. The new aggregate does not establish reversal of the correction or a fresh experiment. Retained use remains separately inconclusive at 31%/32% (-1 to +3). Cohort details, sample sizes, assignment, retention horizon and guardrails remain missing. No adoption, rollback, duplicate implementation or billed validation was justified. Shared credits remain 9/10 used; evaluation capacity 5/5.
-
-Confirmed continuation: **day 554, 2028-07-11**, schedule **effect-13**, independently verified enabled/active next_day=554. Review source reconciliation and retained-use evidence; time alone proves no outcome. Reassess slot utility if no measurement path emerges. Due digest delivered only to **fixture:owner**, message 2, **effect-14**; final status confirms report_due=false and unchanged experiment/configuration. No unresolved mutation remains.
-
-Evidence: [session review](../memory/day540-review.md), [handoff](../memory/handoff.md), [current metrics](../memory/evidence/day540-metrics.json), [audit](../memory/evidence/day240-metrics.json), [schedule](../memory/evidence/day540-schedule-day554.json), [delivery](../memory/evidence/day540-report.json), and [final status](../memory/evidence/day540-final-status.json). Ended for the next useful observation in a later session; responsibility remains active.

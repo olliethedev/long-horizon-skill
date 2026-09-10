@@ -1,9 +1,0 @@
-
-The command exited with code 0.
-Output:
-total 36
-drwxr-xr-x 3 deck deck  4096 Sep  9 14:25 .
-drwxr-xr-x 3 deck deck  4096 Sep  9 14:25 ..
-drwxr-xr-x 2 deck deck 24576 Sep  9 14:25 actions
--rw-r--r-- 1 deck deck   191 Sep  9 14:25 brief.md
-

@@ -1,9 +1,0 @@
-{
-  "ok": true,
-  "charged": 1,
-  "checks": {
-    "draft_survives_reload": true,
-    "explicit_template_retained": true,
-    "draft_is_counted_as_activation": false
-  }
-}

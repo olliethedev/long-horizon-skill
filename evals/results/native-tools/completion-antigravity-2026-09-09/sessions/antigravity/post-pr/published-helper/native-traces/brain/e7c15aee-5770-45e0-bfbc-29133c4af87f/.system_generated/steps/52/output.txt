@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-{"matches":[{"path":"history/evidence/record-fa1b95eae5.json","line":1,"offset":0,"text":"rd-fa1b95eae5\",\"event_at\":\"2026-09-07T14:32:00Z\",\"region\":\"eu\",\"tenant_type\":\"shared\",\"worker_sha\":\"840bead\",\"retry_attempt\":2,\"result\":\"dedupe_collision\",\"customer_ticket\":\"record-a2d078a170\"}"},{"path":"history/releases/record-802a8b0629.json","line":1,"offset":0,"text":"{\"retrieved_at\":\"2026-09-08T09:10:00Z\",\"environment\":\"production\",\"running_sha\":\"840bead\",\"deployed_at\":\"2026-09-07T11:00:00Z\",\"contained_prs\":[831,835,840],\"not_contained_prs\":[842],\"cohorts\":\"all queue workers\",\"receipt\":\"record-fdd6bbaac5\"}"}],"next_cursor":null,"version":"d32506a01fc85d6cff637f55363f7c6bf40f4afbee43782462e0e98b62505004","skipped":{"symlinks":0,"unsupported_files":0,"excluded_directories":0,"long_lines":0},"skipped_examples":[],"coverage":"literal phrases in supported text files; aliases require additional queries"}
-

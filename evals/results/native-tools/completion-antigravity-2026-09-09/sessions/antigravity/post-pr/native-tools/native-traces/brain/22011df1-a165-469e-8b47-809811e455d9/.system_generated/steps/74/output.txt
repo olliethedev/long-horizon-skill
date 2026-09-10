@@ -1,2 +1,0 @@
-{"File":"/workspace/product/history/support/record-a2d078a170.md","LineNumber":1,"LineContent":"# record-a2d078a170"}
-{"File":"/workspace/product/history/evidence/record-fa1b95eae5.json","LineNumber":1,"LineContent":"{\"id\":\"record-fa1b95eae5\",\"event_at\":\"2026-09-07T14:32:00Z\",\"region\":\"eu\",\"tenant_type\":\"shared\",\"worker_sha\":\"840bead\",\"retry_attempt\":2,\"result\":\"dedupe_collision\",\"customer_ticket\":\"record-a2d078a170\"}"}

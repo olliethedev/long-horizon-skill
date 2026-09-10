@@ -1,5 +1,0 @@
-{"name":"brief.md", "sizeBytes":"835"}
-{"name":"current.md", "sizeBytes":"235"}
-{"name":"history", "isDir":true}
-
-Summary: This directory contains 1 subdirectories and 2 files.

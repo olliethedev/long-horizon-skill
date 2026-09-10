@@ -1,6 +1,0 @@
-{
-  "ok": true,
-  "date": "2027-01-18",
-  "signal": "A 429 alert accompanies a merged retry-jitter PR 208. Production r27 does not contain it. Dependency logs report quota rejections at 300 requests/minute. Current authentication checks pass.",
-  "observation_age_days": 14
-}

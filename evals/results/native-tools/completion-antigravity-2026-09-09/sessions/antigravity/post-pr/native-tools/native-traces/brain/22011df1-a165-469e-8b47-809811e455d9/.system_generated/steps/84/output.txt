@@ -1,1 +1,0 @@
-{"File":"/workspace/product/current.md","LineNumber":2,"LineContent":"Written September 7 at 18:10 UTC. PR 842 has been merged since September 3. The earlier retry patch had a clean dashboard, and the release request was submitted today. If things still look quiet tomorrow, we might close the watch. Unresolved release request: record-54bad5e8e1."}

@@ -1,5 +1,0 @@
-{
-  "sha256": "943965dd6b50f7e16228772e3985490717083dc5eec45d790e3c824ea931d276",
-  "port": 33787,
-  "notes": "Original service was started before the weekly epoch-5 correction; no weekly cases use this service."
-}

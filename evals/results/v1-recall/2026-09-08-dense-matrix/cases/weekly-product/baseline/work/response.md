@@ -1,1 +1,0 @@
-Wrote the [dated recommendation](/workspace/work/decision.md): prioritize a narrow Android status-filter slice this week and retain the legacy-contributor digest gap for targeted follow-up. It includes prior actions, scoped evidence, source citations, and preserved unknown dates.

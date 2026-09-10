@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-Total files in support: 33
-record-0131162d69.md # Weekly feedback export
-Retrieved 2026-09-07. Ticket record-e36f0fe1aa, submitted 2026-09-05: Solo owner on Android 15, workspace with 34 tasks: 'On desktop I can narrow to waiting, but on my phone I have to scroll through everything.'
-Ticket record-5f1a34c149, submitted unknown: contributor in a 280-person EU team, client web 6.8: 'The quiet digest still pings me every evening. I only need the weekly note.' The connector supplies age_days=20; its definition is days since digest release, not ticket age.
-

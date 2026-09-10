@@ -1,5 +1,0 @@
-{"name":"product", "isDir":true}
-{"name":"skill", "isDir":true}
-{"name":"work", "isDir":true}
-
-Summary: This directory contains 3 subdirectories and 0 files.

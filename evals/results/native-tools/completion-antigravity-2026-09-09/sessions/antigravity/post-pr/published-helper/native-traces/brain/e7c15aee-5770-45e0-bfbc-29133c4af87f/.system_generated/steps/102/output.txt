@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-/workspace/product/history/evidence/record-567749c82b.md:1:# record-567749c82b
-

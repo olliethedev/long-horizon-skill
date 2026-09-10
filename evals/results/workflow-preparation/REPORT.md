@@ -1,28 +1,17 @@
 # Workflow study preparation — September 9, 2026
 
-No new model comparison has run. The full study would compare 24 trajectories (12 pairs) across Codex, Claude Code and Antigravity, using up to eight fresh sessions each. The owner's choice of a model-session allowance remains pending. The runtime skill remains the published native-tools bundle; neither this preparation nor installation establishes an advantage over no skill.
-
-## Executed checks
+These checks validated the test environment before model evaluation; they are not evidence of a skill advantage.
 
 | Check | Result |
 | --- | --- |
-| Deterministic repository suite | 16 tests pass |
-| Strict mypy | 20 maintained modules pass |
-| Scripted successful controls | Revenue 7 sessions; weekly product 7; feedback 5; post-PR 4 |
-| Mechanical failure controls | Nine expected violations detected |
-| Component rubric vignettes | Independent reviewer agreed with all eight predeclared classifications |
-| Final isolated preflight | All 24 preparations pass; zero model launches; temporary authentication homes removed |
+| Deterministic suite at preparation | 16 tests passed |
+| Strict mypy at preparation | 20 modules passed |
+| Final isolated preparation | 24/24 cases passed; no model launches |
+| Scripted successful scenarios | Revenue: 7 sessions; weekly product: 7; feedback: 5; post-PR: 4 |
+| Rubric calibration | All eight supplied review vignettes matched the declared classification |
 
-Scripted controls establish fixture reachability. Component vignettes calibrate review interpretation on supplied observations; they are not complete-trajectory or agent results. The original 48-session full-cycle prototype and completed native-tools evaluation retain their null overall-advantage findings.
+An initial preparation failed before any model launched. Later preparations fixed socket setup, incomplete source capture, cleanup, and correction records that lost their original observation windows. The original failed and successful preparations remain in the local evidence backup.
 
-## Preserved attempts and review
+Filesystem probes checked writable agent memory, read-only tools, the correct service socket and inaccessible sibling state. Model transport retained network access; this was not a general network sandbox. These preparations establish reachability and isolation checks, not autonomous correctness.
 
-The four compressed archives contain original preparation sources, protocol snapshots, prompts, service snapshots and per-session manifests. `index.json` records archive hashes and preparation counts. Preflight A failed with `CalledProcessError` before a model launch; only two preparations were attempted and the remaining assigned cases were retained without launching. Its original probe did not preserve stderr, so the archive cannot prove the precise cause. After adding the socket placeholder and explicit probe diagnostics, B passed all 24 preparations. C and D passed all 24 after further reviewed evaluator corrections. The final D source set includes dependency freezing and explicit incomplete credential-scan reporting.
-
-Independent reviews identified and resolved: hidden preference for a post-PR setting; stale resume authorization; invisible pending spending; rejected actions misclassified as effects; incomplete source freezing; lost artifacts after parser/filesystem failures; missing incomplete-scan metadata; and correction data that substituted the current configuration for an original observation window. Narrowed objective-selection claims are explicit. Both reviewers reported no remaining findings after the final corrections.
-
-The [first CI run](https://github.com/olliethedev/long-horizon-skill/actions/runs/34387125388) then exposed a test-fixture assumption hidden by the local scratch directory: the direct session regression skipped the runner's normal directory initialization. The test now supplies its own complete temporary root and passes in a fresh checkout without `evals/runs`. This correction changes test setup only; the preflight sources and runtime skill remain unchanged.
-
-The isolation probes verify writable product memory, read-only tools, own-service access, and inaccessible sibling socket/state. The client accepts no trajectory identifier or state path. Native model transport still requires host networking; filesystem isolation is not a network allowlist. Credentials remain in temporary authentication homes outside the archives. Original sampled-value scan records and a subsequent publication scan are preserved; exact observed-value scans do not prove absence of every possible secret.
-
-The installed skill's 12 files match the repository bundle for all three local harnesses: tree SHA256 `af8084aa46624ee25271c94ef14e1593f7adb6d325da156348132a8620ac4d26`. See [installation and usage](../../../docs/local-installation.md) and [the study protocol](../../../docs/workflow-value-study.md).
+See the [workflow results](../workflow-value/REPORT.md) for actual agent outcomes.

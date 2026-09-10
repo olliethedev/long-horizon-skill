@@ -1,1 +1,0 @@
-{"File":"/workspace/product/history/releases/record-58a6ae3a8b.md","LineNumber":2,"LineContent":"Deployed September 5, receipt record-954a977f24. Adds 'Preparing your export' to the spinner. No worker, row-selection, checkpoint, or signed-URL changes. It overlaps record-7c21733985's observation period but cannot establish that the underlying jobs complete correctly."}

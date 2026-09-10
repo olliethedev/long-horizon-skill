@@ -1,9 +1,0 @@
-# Session result — fixture day 0 recovery
-
-Recovered the interrupted deployment: operations receipt **effect-3** confirms revision **2**, resumable setup enabled and explicit template choice preserved. Actual status confirms an active experiment starting day 0; **measurement-4** verifies exposure. Reviewed signals, related work and authoritative shared usage. No repeat deployment, reservation or billed validation was needed. Credits remain **8/10 consumed**; active evaluations **5/5**.
-
-Activation and retained-use observations are both immature and inconclusive. Minimum review window is 14 fixture days after exposure; no adoption or rollback is supported yet. The signal's unsaved-draft wording conflicts with actual deployed state and is retained as a problem statement, not proof that deployment failed. Later cohort/measurement audit and outcome adequacy remain to be checked.
-
-Submitted a day-14 review schedule with stable key **weekly-resumable-setup-review-day14-v1**. The service returned **transport_lost** and explicitly interrupted the session. Scheduling may have committed; **no future run is confirmed**. Last inspected scheduler state was active/enabled with next_day=null. No further service calls followed interruption. API.md specifies a controller-provided fresh recovery session; recover the schedule through operations and verify status then. No fixture time was advanced.
-
-Evidence: memory/evidence/day0-recovery-deployment.json, day0-recovery-status.json, day0-recovery-metrics.json, day0-recovery-work.json, day0-recovery-signals.json, day0-recovery-usage.json, and day0-recovery-schedule-day14.json. Durable instructions and historical uncertainties are in memory/handoff.md; exact recovery request is project/recover-resumable-setup-schedule.json. No report was due, no owner decision was needed, and no owner notice or lifecycle change was made. Ending for the required service-interruption recovery session.

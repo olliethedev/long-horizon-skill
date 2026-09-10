@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-{"path":"history/retired/notification-reset/actions/record-8f6b82ec51.md","version":"570baf81279126132916ef1cb79063fa5362ca1f31d8764114bd49342c44b43e","offset":0,"text":"# record-8f6b82ec51: Sunday Room\nAliases: quiet digest; weekly note. Deployed July 12, receipt record-d4f34a4dc1. Workspace administrators could select weekly instead of daily email. The UI copy said 'team digest'; contributor-level legacy daily subscriptions were not migrated by this change.\n","next_offset":null}
-

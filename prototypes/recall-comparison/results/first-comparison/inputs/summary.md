@@ -1,1 +1,0 @@
-The old Spruce experiment lost substantial revenue and was rolled back. Removing explanatory copy is a failed approach; do not revisit it. The current responsibility should prioritize a different intervention.

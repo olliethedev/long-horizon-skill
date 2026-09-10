@@ -1,8 +1,0 @@
-{"name":"evidence.md", "sizeBytes":"1590"}
-{"name":"history.md", "sizeBytes":"2147"}
-{"name":"impulse.md", "sizeBytes":"2788"}
-{"name":"scheduling.md", "sizeBytes":"2011"}
-{"name":"setup.md", "sizeBytes":"1991"}
-{"name":"workspace.md", "sizeBytes":"2147"}
-
-Summary: This directory contains 0 subdirectories and 6 files.

@@ -1,1 +1,0 @@
-Wrote the [dated recommendation](/workspace/work/decision.md), selecting Relay and documenting prior setup, source citations, uncertainties, and activation prerequisites. Draft run instructions are linked inside. No live actions were taken.

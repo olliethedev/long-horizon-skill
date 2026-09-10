@@ -1,5 +1,0 @@
-{"name":"SKILL.md", "sizeBytes":"7412"}
-{"name":"assets", "isDir":true}
-{"name":"references", "isDir":true}
-
-Summary: This directory contains 2 subdirectories and 1 files.

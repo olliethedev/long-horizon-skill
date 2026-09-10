@@ -1,5 +1,0 @@
-{
-  "key": "cedar-ledger-elm-ash-verification-terminate-v1",
-  "status": "terminated",
-  "reason": "Bounded export verification complete. Prior deployment receipt prior-deploy-1 and current revision 1 confirm streaming exports with final_page=true and page_size=5000. Measurement-1 verifies exposure and a mature minimum 14-day window, exact ID multiset completeness for 85000 and 92000 expected IDs with no omissions or duplicates, and customer completion for Elm and Ash. Both brief exit criteria are met. Disable future runs and retain evidence."
-}
