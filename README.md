@@ -36,12 +36,15 @@ The skill conducts its own setup conversation, one consequential question at a t
 
 - The responsibility, audience, success measures and conditions for ending it.
 - What the agent may change, publish, deploy or communicate without asking again.
-- Which analytics, feedback, logs and other tools provide evidence.
+- Which installed tools, skills and existing workflows can do the work, with essential access verified and the proposed toolset reviewed with you.
 - How to coordinate with developers and other active responsibilities.
-- Any limits, paid-service budgets and authoritative usage sources you supply.
-- When to work, where to report, and what requires your intervention.
+- Optional limits for autonomous runs, paid-service budgets and authoritative usage sources you supply.
+- When to work and report, where requests for your help reach you, and how you reply and resume affected work.
+- Which artifacts belong in Git, when the agent may commit or push them, and where other retained evidence is stored and backed up.
 
-You can start with a broad request. A separate interview skill, numerical target or monetary budget is optional. Before autonomous operation, the agent makes the brief and first scheduled assignment concrete for review. Standing permission then carries across ordinary follow-ups.
+You can start with a broad request. A separate interview skill, numerical target or monetary budget is optional. Setup investigation can proceed before settling limits for autonomous runs. Essential gaps must be resolved, with any adequate fallbacks explicitly agreed.
+
+The agent prepares and validates the files, then shows the responsibility, first assignment and operating settings together. It asks **“Activate this responsibility with these settings?”** before enabling autonomous runs and verifies the resulting schedule. Standing permission then carries across ordinary follow-ups; an existing responsibility does not need onboarding again after a skill update.
 
 ## Why a scheduler is needed—and where Impulse fits
 
@@ -110,10 +113,12 @@ flowchart LR
 
 History is retained through termination until you explicitly request deletion. Native file tools handle retrieval; an optional index provides navigation and can be rebuilt from the underlying records. See the [workspace structure](skills/long-horizon/references/workspace.md), [history guidance](skills/long-horizon/references/history.md) and [evidence guidance](skills/long-horizon/references/evidence.md).
 
+Growing history need not mean growing context on every run: keep the current handoff short, retrieve relevant records, and link to shared evidence instead of repeatedly copying it. The recommended artifact policy commits concise durable records and portable task definitions, while bulky or sensitive evidence stays in ignored, backed-up storage. You can choose fuller versioning of non-sensitive evidence. Git tracking and retention are separate choices; task definitions alone do not back up the scheduler's runtime state.
+
 The agent confirms uncertain external actions before repeating them and coordinates changes that affect other work. A written plan to return later becomes continuation only when the scheduler confirms it.
 
 - **Wait:** useful work or an observation is due later; confirm the next run.
-- **Pause:** you need to restore a prerequisite, such as analytics access; disable future work and notify you. Explicitly resume the task after restoring access.
+- **Owner input / pause:** record an actionable request and notify you through the agreed channel. Hold affected work and continue independent useful work; disable future runs if none remains. Follow the agreed reply route and explicitly resume owner-paused work after restoring its prerequisite. A desktop notification does not automatically carry your reply back to the agent. See the [owner-input procedure](skills/long-horizon/references/owner-input.md).
 - **Terminate:** a bounded responsibility is fulfilled, impossible within its constraints, or has no useful work left in scope; disable future work and retain the findings. Finishing one feature can still leave an ongoing product-improvement responsibility active.
 
 ## Evidence and current limits
@@ -121,6 +126,8 @@ The agent confirms uncertain external actions before repeating them and coordina
 This is an experimental workflow. The [earlier full-cycle prototype](prototypes/full-cycle/NOTES.md) and [native-tools comparison](evals/results/native-tools/REPORT.md) exercised continuity, recovery and retrieval, but have **not demonstrated an overall advantage over a capable agent without the skill**. That is an open evaluation question, not a promised benefit.
 
 The [prepared-workflow evaluation](evals/results/workflow-value/REPORT.md) compares fresh sessions with retained files and confirmed simulated follow-ups. Completed revenue pairs across all three harnesses show no outcome advantage, with higher native effort in the skill arms. Both arms received a setup-topic checklist, detailed owner answers and connected scheduling, deployment and reporting tools. This leaves the value of an adaptive setup conversation and real project integration unresolved. The report records executed coverage, interruptions and effort. Simulated weeks and dense history archives do not establish reliable real-world operation over months or actual revenue lift.
+
+The subsequent onboarding revision adds tool review, artifact policy, owner-input handling and final activation confirmation. It has local checks and scenario review, but no new native-model evaluation; the earlier comparison results describe the earlier skill version.
 
 ## Development
 

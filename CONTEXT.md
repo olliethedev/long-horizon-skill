@@ -41,7 +41,7 @@ How responsibilities agree on overlapping work so compatible changes can proceed
 _Avoid_: Blanket development freeze, assuming every overlap is a conflict
 
 **Pause**:
-A suspension of the task's work while a resolvable prerequisite is missing, with its context and pending work preserved until the owner explicitly resumes it.
+A suspension of affected work while an owner-resolvable prerequisite is missing, with context and pending work preserved until explicit owner resumption. Independent useful work may continue; pause the whole responsibility when none remains.
 _Avoid_: Impossible objective, termination
 
 **Wait**:

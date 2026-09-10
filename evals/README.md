@@ -22,6 +22,8 @@ python3 evals/workflow_calibrate.py
 
 ## Workflow comparison
 
+The native matrix, setup probes and workflow runner remain pinned to the earlier evaluated skill hash. They intentionally reject the current onboarding revision. Reproduce that study from commit `61eaefa`, or explicitly design and freeze a new candidate before a new study; do not relabel historical results. The current [onboarding review cases](../docs/setup-interview.md) have local review only, with no new native-model results.
+
 Read [the method](../docs/workflow-value-study.md) and `workflow_rubric.json` before running or grading. The service models revenue, weekly product improvement, customer feedback and post-PR monitoring. Each session starts fresh; retained files and confirmed schedules provide continuity.
 
 ```sh
