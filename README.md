@@ -4,9 +4,9 @@
 
 Some useful work takes longer than an agent session. Publishing an article is immediate; learning whether it attracts the right readers takes time. Shipping a fix is one step; checking whether it solves the customer's problem is another. Each follow-up needs the context of what was tried, what happened, and what changed since then.
 
-Long Horizon is an agent skill for that cycle: agree on a responsibility, act, retain evidence, arrange a follow-up, and use the results to choose the next useful action. It works with fresh sessions in harnesses such as Codex, Claude Code and Antigravity. The agent can choose objectives within the scope and permissions you establish.
+Long Horizon is an agent skill for that cycle: agree on a responsibility, act, retain useful knowledge, arrange a follow-up, and use the results to choose the next useful action. It works with fresh sessions in harnesses such as Codex, Claude Code and Antigravity. The agent can choose objectives within the scope and permissions you establish.
 
-The installed bundle is a `SKILL.md`, supporting instructions and editable templates. History lives in ordinary project files, which the agent searches with its existing tools. V1 operates on one machine.
+The installed bundle is three Markdown files: the skill, setup guidance and scheduler guidance. The harness chooses how to investigate, implement and verify work. Useful knowledge lives in ordinary project files; retrievable facts stay in their source systems. V1 operates on one machine.
 
 ## Install
 
@@ -22,14 +22,14 @@ Select the harnesses you want to use. The default installation is scoped to the 
 npx skills add https://github.com/olliethedev/long-horizon-skill --skill long-horizon --global
 ```
 
-The CLI also supports explicit agent selection and installed-skill management; see its [options and supported agents](https://github.com/vercel-labs/skills#options). Load a fresh harness session after installation. For a manual installation, copy the entire [`skills/long-horizon/`](skills/long-horizon/) directory into your harness's documented skill location, keeping its references and assets together.
+The CLI also supports explicit agent selection and installed-skill management; see its [options and supported agents](https://github.com/vercel-labs/skills#options). Load a fresh harness session after installation. For a manual installation, copy the entire [`skills/long-horizon/`](skills/long-horizon/) directory into your harness's documented skill location, keeping its references together.
 
 ## Start with a responsibility
 
 Open your agent inside the product repository. In Codex, invoke `$long-horizon`; in harnesses with slash-command skills, select `/long-horizon` from the skill picker. Give it an outcome and any constraints you already know:
 
 ```text
-$long-horizon Take responsibility for growing organic traffic to our developer documentation site. Create useful new content and improve existing pages, with daily actions. Inspect the project and available analytics, ask me for missing details, and set up ongoing work using Impulse. Keep a record of what you tried and learned so future runs build on it.
+$long-horizon Grow qualified organic traffic to our developer documentation site, with daily actions.
 ```
 
 The skill conducts its own setup conversation, one consequential question at a time. It inspects the project and reuses existing instructions and answers. Together you establish:
@@ -40,7 +40,7 @@ The skill conducts its own setup conversation, one consequential question at a t
 - How to coordinate with developers and other active responsibilities.
 - Optional limits for autonomous runs, paid-service budgets and authoritative usage sources you supply.
 - When to work and report, where requests for your help reach you, and how you reply and resume affected work.
-- Which artifacts belong in Git, when the agent may commit or push them, and where other retained evidence is stored and backed up.
+- Where useful notes belong and how they are retained or committed.
 
 You can start with a broad request. A separate interview skill, numerical target or monetary budget is optional. Setup investigation can proceed before settling limits for autonomous runs. Essential gaps must be resolved, with any adequate fallbacks explicitly agreed.
 
@@ -53,10 +53,10 @@ A skill file cannot start a new agent tomorrow. After the current session ends, 
 | Piece | Responsibility |
 | --- | --- |
 | Your agent harness | Reads files, reasons, edits code and uses your connected tools. |
-| Long Horizon | Guides setup, evidence gathering, retained history, coordination and decisions across runs. |
+| Long Horizon | Establishes the responsibility, preserves useful knowledge and guides continuation across runs. |
 | A scheduler | Starts future sessions and lets the agent confirm, move or disable its next run. |
 
-[Impulse](https://github.com/olliethedev/impulse) provides durable local scheduling for scripts and agent assignments. It can launch your configured harness, retain task/run identities, expose execution logs and let a running agent schedule its next observation or disable future work. Long Horizon includes [Impulse guidance](skills/long-horizon/references/impulse.md) and a [task-definition template](skills/long-horizon/assets/task.toml).
+[Impulse](https://github.com/olliethedev/impulse) provides durable local scheduling for scripts and agent assignments. It can launch your configured harness, retain task/run identities, expose execution logs and let a running agent schedule its next observation or disable future work. Long Horizon includes [scheduler guidance](skills/long-horizon/references/scheduling.md); the agent uses the installed scheduler's tools and documentation.
 
 To use it, follow [Impulse's installation and setup guide](https://github.com/olliethedev/impulse#build-and-install), configure your harness and terminal, and check the installation with `impulse doctor`. The machine, logged-in environment and configured harness must be available for scheduled execution. Installing Long Horizon alone does not install or configure Impulse.
 
@@ -100,26 +100,20 @@ $long-horizon Monitor our new billing release after it reaches production. Revie
 
 ## What carries between runs
 
-Each run reads the agreed brief, current handoff, relevant action history and original evidence, then checks the product's actual state. The agent records what it intended, what actually happened, why it made a decision, and what needs checking next. Later corrections remain connected to the observations and conclusions they change.
+The core rule is **persist knowledge that tools cannot readily reconstruct**. Keep the agreed responsibility and concise, searchable findings. Use Git, analytics, the CMS and scheduler for information they already retain.
 
-```mermaid
-flowchart LR
-    A[Read history and current state] --> B[Choose and do useful work]
-    B --> C[Verify effects and retain evidence]
-    C --> D[Confirm the next scheduled run]
-    D --> E[Fresh session after time passes]
-    E --> A
-```
+| Information | Usual source |
+| --- | --- |
+| Code changes and their dates | Git history and relevant commit references |
+| Historical traffic or revenue measurements | Analytics queries with the relevant periods and filters |
+| What an experiment taught us, why it failed, or where its result applies | A concise learning note |
+| A CMS change without revision history, or an experiment awaiting an outcome | Enough saved context to continue or evaluate it |
 
-History is retained through termination until you explicitly request deletion. Native file tools handle retrieval; an optional index provides navigation and can be rebuilt from the underlying records. See the [workspace structure](skills/long-horizon/references/workspace.md), [history guidance](skills/long-horizon/references/history.md) and [evidence guidance](skills/long-horizon/references/evidence.md).
+For example, a useful note might explain that a more practical article voice improved engagement among experienced developers over a particular observation window, while its effect on purchases remains unclear. It can point to the article, change and analytics query without copying the entire export. Later evidence can correct the finding. A pending experiment can become the eventual learning in the same note.
 
-Growing history need not mean growing context on every run: keep the current handoff short, retrieve relevant records, and link to shared evidence instead of repeatedly copying it. The recommended artifact policy commits concise durable records and portable task definitions, while bulky or sensitive evidence stays in ignored, backed-up storage. You can choose fuller versioning of non-sensitive evidence. Git tracking and retention are separate choices; task definitions alone do not back up the scheduler's runtime state.
+The agent chooses the layout and any task-specific recovery material. The skill does not require per-run narratives, raw exports, tool transcripts, receipt files, backup archives or record templates. A run with no new knowledge or pending context need not create an artifact. Useful learnings remain available after the responsibility ends.
 
-The agent confirms uncertain external actions before repeating them and coordinates changes that affect other work. A written plan to return later becomes continuation only when the scheduler confirms it.
-
-- **Wait:** useful work or an observation is due later; confirm the next run.
-- **Owner input / pause:** record an actionable request and notify you through the agreed channel. Hold affected work and continue independent useful work; disable future runs if none remains. Follow the agreed reply route and explicitly resume owner-paused work after restoring its prerequisite. A desktop notification does not automatically carry your reply back to the agent. See the [owner-input procedure](skills/long-horizon/references/owner-input.md).
-- **Terminate:** a bounded responsibility is fulfilled, impossible within its constraints, or has no useful work left in scope; disable future work and retain the findings. Finishing one feature can still leave an ongoing product-improvement responsibility active.
+The agent arranges and verifies the next useful follow-up. When owner input is needed, dependent work waits while independent useful work can continue. A fully paused responsibility requires explicit owner resumption. A bounded responsibility ends when achieved, impossible within its constraints, or no longer able to make useful progress; completing one objective can leave ongoing work active.
 
 ## Evidence and current limits
 
@@ -127,7 +121,7 @@ This is an experimental workflow. The [earlier full-cycle prototype](prototypes/
 
 The [prepared-workflow evaluation](evals/results/workflow-value/REPORT.md) compares fresh sessions with retained files and confirmed simulated follow-ups. Completed revenue pairs across all three harnesses show no outcome advantage, with higher native effort in the skill arms. Both arms received a setup-topic checklist, detailed owner answers and connected scheduling, deployment and reporting tools. This leaves the value of an adaptive setup conversation and real project integration unresolved. The report records executed coverage, interruptions and effort. Simulated weeks and dense history archives do not establish reliable real-world operation over months or actual revenue lift.
 
-The subsequent onboarding revision adds tool review, artifact policy, owner-input handling and final activation confirmation. It has local checks and scenario review, but no new native-model evaluation; the earlier comparison results describe the earlier skill version.
+The current revision removes mandatory record templates and routine evidence retention. A [small Codex comparison](evals/results/lean/REPORT.md) used one short request and five fresh sessions per arm, including onboarding. The skill arm retained three project files versus 149 and used less measured follow-up effort; both reached the same final content choices. Both stopped at the final checkpoint, leaving ongoing continuation unresolved. Runner defects and differences in elicited owner answers limit the comparison. The resulting continuation clarification has not had another model evaluation. Earlier studies describe their original skill versions.
 
 ## Development
 

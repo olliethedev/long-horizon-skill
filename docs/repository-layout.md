@@ -1,6 +1,6 @@
 # Repository layout
 
-The installable skill has one maintained source in `skills/long-horizon/`. It contains instructions, references and templates; runtime retrieval uses the harness's existing file tools.
+The installable skill has one maintained source in `skills/long-horizon/`. It contains instructions and supporting references; runtime retrieval uses the harness's existing file tools.
 
 | Path | Purpose |
 | --- | --- |

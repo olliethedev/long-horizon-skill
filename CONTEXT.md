@@ -25,8 +25,8 @@ The owner's project-specific rules for permitted resource spending and how relev
 _Avoid_: Fixed provider integration, automatic budget per responsibility
 
 **Workspace**:
-The durable collection of objectives, attempts, evidence, learnings, and pending work, sufficient for a fresh agent to continue independently of a particular conversation or agent. V1 keeps this collection in readable local files. It remains available after termination until the owner explicitly deletes it.
-_Avoid_: Conversation history, run log
+The product files holding the agreed responsibility and concise knowledge or pending context that a fresh session cannot readily reconstruct from tools. Git, analytics and other source systems remain the record for information they can reproduce. The agent chooses the file layout; useful learnings remain available after termination.
+_Avoid_: Mandatory run archive, conversation transcript, duplicated analytics database
 
 **Shared learning**:
 A finding that other responsibilities for the same product can consult, with its original supporting evidence and the conditions where it applies. V1 limits this sharing to that product and preserves attribution to the work that established the finding.

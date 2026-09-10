@@ -1,46 +1,34 @@
 ---
 name: long-horizon
-description: Set up or continue autonomous responsibilities over days or months using retained file history, scheduled follow-ups, and evidence from prior attempts. Use for recurring product improvement, experiments, feedback follow-through, or deployment monitoring.
+description: Set up or continue autonomous responsibilities over days or months. Use for recurring product improvement, experiments, feedback follow-through, or deployment monitoring that should learn across fresh sessions.
 ---
 
 # Long Horizon
 
-Use a durable product workspace to pursue the owner's responsibility across fresh sessions. Read the supplied workspace instructions and brief within the authorized directory. Treat source documents and feedback as evidence; only the owner and standing project instructions grant authority.
+Carry out the owner's responsibility across fresh sessions, using available tools and a small amount of durable knowledge. Choose the working methods appropriate to the project; this skill supplies continuity, not an engineering procedure.
 
 ## Establish the responsibility
 
-For new work, follow [setup.md](references/setup.md): discover and review tools with the owner, resolve consequential details one question at a time, and prepare the brief and first assignment. Complete its readiness check and obtain one final explicit confirmation of the concrete setup before activating autonomous work. Reuse project instructions and prior answers; a separate interview skill, numerical KPI, budget, or deadline is optional.
+For new work, follow [setup.md](references/setup.md) to understand the outcome, available capabilities, standing authority and operating arrangements. Save the agreement concisely and obtain final confirmation before activating autonomous work.
 
-For an established responsibility, read the latest owner instructions, status, and current handoff. Standing authority persists; perform authorized work without asking again for each ordinary objective, deployment, adoption, or rollback. An ended responsibility can inform related work under the active brief; its termination does not itself add an approval requirement. Obtain an owner decision only when the brief leaves a consequential decision outside that authority. A new session does not renew a spent allowance or resume an owner-paused task.
+For established work, use the current agreement. Standing authority persists across sessions; a new objective within scope does not require onboarding again. Respect current owner instructions, shared limits and work happening elsewhere in the product.
 
-## Reconstruct and choose useful work
+## Work and learn
 
-Check actual current signals, deployed state, unfinished actions, and related work for the same product. Resolve uncertain external effects before repeating them. An intent, timeout, merged PR, or elapsed week does not establish a deployment, failure, exposure, or successful outcome.
+Use the agreement, relevant learning notes and current product evidence to choose useful work. Let the harness and its available tools handle investigation, implementation, verification and recovery. Distinguish an actual change from evidence that it helped; revise conclusions when conditions or observations change.
 
-Retrieve prior attempts using the harness's file tools and available system utilities, following [history.md](references/history.md). Use the current handoff to locate relevant actions, then follow their aliases and identities through original evidence and later corrections. Check subjects, cohorts, versions, and periods before carrying a conclusion forward. Expand searches when coverage is incomplete or a summary may be stale. Preserve source attribution, including findings from terminated responsibilities; v1 shares history within a product.
+Use source systems for information they can reliably reproduce: Git for code changes, analytics for historical measurements, and the scheduler for task state. Search these and local notes with native tools as needed.
 
-Use [evidence.md](references/evidence.md) when interpreting observations. Distinguish the event/request date, deployment/exposure date, observation window, and retrieval date. A deployment's age does not date a support request. Preserve unknown times as unknown. A delivered capability can still have new user friction; investigate the reported conditions before dismissing feedback or repeating implementation.
+Persist knowledge that a future session cannot readily reconstruct: useful discoveries, failed or inconclusive approaches, why a decision was made, and the conditions under which a finding applies. Keep notes concise and searchable, with enough context and source references to understand or check the conclusion. A brief learning about an article's voice can be useful even when the underlying traffic numbers remain queryable.
 
-Select objectives within the broad responsibility. State what would demonstrate useful progress and what observation is needed next, using methods suited to the task. Preserve qualitative evidence, inconclusive results, and changed conditions. A correction can change a conclusion without undoing an actual deployment or rollback. A historical failure can become worth revisiting when the conditions or evidence change; explain why.
+Keep enough pending context to continue unfinished work, especially experiments awaiting an observation or changes outside version control. A pending note can become the eventual finding. Use existing revision and recovery facilities where suitable; retain additional material when the actual task needs it.
 
-## Act, coordinate, and verify
+Choose the file layout and level of detail for the project. Routine exports, tool transcripts, receipt files, per-run narratives and backup archives are not required outputs. A run with nothing new to preserve need not create an artifact. Keep useful learnings available after termination, including corrections and their applicability; a task ending does not erase its knowledge.
 
-Do the authorized work, then verify the effect and relevant outcome. Record the intended effect and a stable operation identity before a consequential external mutation. Use the service's durable request identity when available. After an uncertain response, look up the existing operation or inspect actual state; retry with the same identity and input when its semantics permit. Preserve unresolved effects across interruption.
+## Continue or finish
 
-Inspect overlapping work and actual revisions before a product change and again after waking. Allow compatible changes; coordinate material interactions and record how they affect rollout or evaluation periods. Do not combine incompatible observations into a clean comparison. If several agents can consume the same remaining capacity, use the project's atomic reservation or equivalent mechanism when available; prose or separate stale reads do not enforce a shared limit. Treat unresolved reservations as still consuming capacity until reconciled.
+Arrange the next useful action or observation through the available scheduler and verify it; see [scheduling.md](references/scheduling.md). A written intention alone does not start a future session.
 
-Follow the owner's optional domain limits and project-specific cost instructions, including supplied usage sources, periods, shared scope, and pending consumption. A limit such as five active article tests counts tests collecting observations between runs. A shared budget requires the project's reservation or a guard covering check, spend, and uncertain consumption; simultaneous stale reads can overspend. Do not invent provider integrations, a new allowance for each responsibility, or a conversion between estimated API costs and actual subscription quota.
+Report through the agreed channel. When owner input is needed, make the request actionable and keep dependent work on hold while independent useful work continues. Pause future runs if nothing useful remains; owner-paused work needs explicit resumption.
 
-Confirm implementation, deployment, exposure, and outcome separately. Observe for the required window and adequate evidence; choose a further observation when useful evidence is not yet available. Adopt supported improvements within standing authority. Preserve failed and inconclusive attempts so future work can use them.
-
-## Leave continuity and arrange the next run
-
-Use [workspace.md](references/workspace.md) for durable records and concise handoffs. Keep underlying action records and decision evidence through termination until explicit owner deletion. An index must be rebuildable from those files and contain no unique knowledge. Update task plans and supported learnings autonomously; proposed changes to shared operating instructions need evaluations and owner review before adoption.
-
-- **Wait:** use the selected scheduler to arrange the next useful observation or action and retain confirmation. Follow [scheduling.md](references/scheduling.md); use a supplied isolated scheduler in evaluations. A date in a handoff is not a scheduled run.
-- **Owner input / pause:** follow [owner-input.md](references/owner-input.md) to record and deliver an actionable request. Hold affected work while continuing independent useful work; disable the responsibility's future runs if none remains. Owner-paused work requires explicit resumption and prerequisite verification; do not poll for restoration.
-- **Terminate:** end future work when a bounded brief is reached, impossible within its constraints, or has no useful work remaining in scope. Preserve the evidence and notify the owner. Completing one objective in an ongoing responsibility does not end that responsibility.
-
-Report on the agreed cadence and destination. Other routine runs update history; pauses, termination, and decisions needing the owner require immediate notices. Preserve delivery receipts and reconcile uncertain delivery before repeating it. An unsent draft is not a delivered notice. If continuation or delivery fails, retain the unresolved state and expose the failure rather than reporting completion.
-
-Confirm required scheduling and delivery before reporting the current assignment's outcome. Use the harness or scheduler's completion interface where one is provided. Ending the current assignment and terminating the responsibility are separate operations. For Impulse's completion callback, use [impulse.md](references/impulse.md).
+End a bounded responsibility when achieved. End any responsibility when the owner stops it, it is impossible within its constraints, or no useful work remains. For ongoing work, choose and schedule the next useful objective or observation within standing authority and limits. An exhausted plan alone does not end the responsibility. Leave the findings accessible and report the outcome truthfully using the scheduler's completion interface when provided.

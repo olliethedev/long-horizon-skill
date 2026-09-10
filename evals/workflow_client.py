@@ -10,8 +10,8 @@ import socket
 
 
 class LocalConnection(http.client.HTTPConnection):
-    def __init__(self, path: Path):
-        super().__init__('localhost', timeout=15)
+    def __init__(self, path: Path, timeout: float = 15):
+        super().__init__('localhost', timeout=timeout)
         self.path = path
 
     def connect(self) -> None:
@@ -25,11 +25,14 @@ def main() -> int:
     parser.add_argument('operation')
     parser.add_argument('arguments', nargs='?', default='{}', help='JSON object')
     parser.add_argument('--socket', type=Path, default=Path('/workspace/tools/service.sock'))
+    parser.add_argument('--timeout', type=float, default=15)
     args = parser.parse_args()
     arguments = json.loads(args.arguments)
     if not isinstance(arguments, dict):
         parser.error('arguments must be a JSON object')
-    connection = LocalConnection(args.socket)
+    if not 0 < args.timeout <= 600:
+        parser.error('timeout must be in (0, 600] seconds')
+    connection = LocalConnection(args.socket, args.timeout)
     try:
         connection.request('POST', '/', json.dumps({'operation': args.operation, 'arguments': arguments}),
                            {'Content-Type': 'application/json'})

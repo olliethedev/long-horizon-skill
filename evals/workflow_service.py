@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from http.server import BaseHTTPRequestHandler
+from collections.abc import Callable
 import json
 from pathlib import Path
 import socketserver
@@ -12,7 +13,8 @@ from workflow_world import call
 
 
 class ProductService:
-    def __init__(self, socket_path: Path, state: dict[str, Any], journal_path: Path):
+    def __init__(self, socket_path: Path, state: dict[str, Any], journal_path: Path,
+                 dispatch: Callable[[dict[str, Any], str, dict[str, Any]], dict[str, Any]] = call):
         self.state = state
         self.journal_path = journal_path
         self.lock = threading.Lock()
@@ -31,7 +33,7 @@ class ProductService:
                             or not isinstance(request['operation'], str) or not isinstance(request['arguments'], dict)):
                         raise ValueError('Expected operation and arguments only')
                     with service.lock:
-                        response = call(service.state, request['operation'], request['arguments'])
+                        response = dispatch(service.state, request['operation'], request['arguments'])
                         service.journal_path.write_text(json.dumps(service.state, indent=2) + '\n')
                     status = 200
                 except (ValueError, KeyError, TypeError) as error:
