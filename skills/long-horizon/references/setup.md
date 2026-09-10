@@ -1,16 +1,16 @@
 # Set up a responsibility
 
-Understand the request before scheduling autonomous work. Inspect project instructions, relevant existing work, installed skills and CLI tools, and connected services. Reuse what is already available and verify essential access. Review the proposed tools and workflows with the owner, including anything you may have missed.
+Inspect project instructions, relevant work, installed skills and CLI tools, and connected services. Verify essential access and reuse available capabilities. Keep initial investigation proportionate so consequential questions arise before substantial setup work.
 
-Resolve consequential gaps through conversation, one question at a time with a recommendation when useful. Reuse prior answers. Cover what matters for this responsibility:
+Resolve these topics with the owner, one question at a time, reusing current answers. Recommend sensible choices and wait for answers before finalizing dependent settings. Historical agreements can inform questions; after a reset, reconfirm operating decisions.
 
-- The desired outcome, audience, scope, and how useful progress can be assessed. The agent may choose objectives within that scope.
-- Evidence and tools for doing the work and checking outcomes, including accepted limitations or fallbacks.
-- Standing authority, reserved owner decisions, and coordination with related work.
-- Timing, reporting, and how requests for owner input reach them, receive an answer, and permit resumption. A notification alone may not provide a reply channel.
-- Where the agreement and useful notes live and how they are committed or otherwise retained, respecting the project's audience and privacy.
-- Any optional limits for autonomous runs and the owner's project-specific way of measuring costs or shared allowances. No particular provider, numerical target, budget or deadline is mandatory; limits need not precede ordinary setup investigation unless the owner says otherwise.
+- Outcome: establish the audience, scope and how useful progress can be assessed. The agent may choose objectives within that scope.
+- Tools and evidence: review discovered capabilities, ask about additional tools or access, and recommend additions when they materially help. Resolve essential access gaps or agree on an adequate fallback with the owner.
+- Authority: agree what the agent may change, publish, deploy or communicate autonomously, what requires owner review, and how to coordinate with related work.
+- Limits: ask whether autonomous runs need spending, usage or workload limits. If so, agree on their scope and the project's way of measuring them. The owner may choose no additional limits; no provider, numeric budget, target or deadline is mandatory.
+- Timing and communication: agree when to work and report, how requests for owner input reach them, and how they reply and resume affected work. A notification alone may not provide a reply channel.
+- Knowledge: agree where the agreement and useful notes belong and how they are committed or otherwise retained, respecting the project's audience and privacy.
 
-Use judgment about which details need discussion. The agreement should enable independent work without prescribing every future case or duplicating facts that tools already expose. Essential gaps need resolution or an adequate owner-accepted fallback.
+Complete setup when consequential operating decisions have owner answers or explicit acceptance of recommendations, and essential access is verified or an adequate fallback is accepted. Final activation confirmation reviews an agreed setup; it does not replace this conversation. Leave working methods to the agent within the agreement.
 
-Prepare the concise agreement and proposed first assignment, including scheduler configuration where applicable. Show the concrete scope, authority, tools, timing and other agreed settings, then ask one final confirmation to activate. After confirmation, enable the work and verify the actual schedule. Carry the agreed authority forward without repeated approval of ordinary authorized actions.
+Then prepare the concise agreement, first assignment and scheduler configuration. Show the agreed settings and ask one final confirmation to activate. After confirmation, enable the work and verify the actual schedule. Carry the agreed authority forward without repeated approval of ordinary authorized actions.

@@ -9,7 +9,7 @@ Carry out the owner's responsibility across fresh sessions, using available tool
 
 ## Establish the responsibility
 
-For new work, follow [setup.md](references/setup.md) to understand the outcome, available capabilities, standing authority and operating arrangements. Save the agreement concisely and obtain final confirmation before activating autonomous work.
+For new work, use [setup.md](references/setup.md) to discover the project and interview the owner about unresolved operating decisions. Finalize the agreement and first assignment after that conversation, then obtain confirmation before activating autonomous work.
 
 For established work, use the current agreement. Standing authority persists across sessions; a new objective within scope does not require onboarding again. Respect current owner instructions, shared limits and work happening elsewhere in the product.
 
